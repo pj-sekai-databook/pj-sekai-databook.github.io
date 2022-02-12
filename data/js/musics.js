@@ -2968,7 +2968,8 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "mafuyu", "ena"])
+            Vocal("sekai", ["miku", "mafuyu", "ena"]),
+            Vocal("3DMV", ["miku_night", "ena", "mafuyu"])
         ],
         mDate(2015, 3, 6),
         mDate(2022, 2, 7),
