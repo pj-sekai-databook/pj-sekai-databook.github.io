@@ -1,0 +1,17 @@
+img.imgYouTube{ /* 16:9 */
+    width: 240px;
+    height: 134px;
+    object-fit: cover;
+}
+.th_detail{
+    width: 30%;
+}
+.table_vocal tr:last-child th, .table_vocal tr:last-child td{
+    border-bottom-style: none;
+}
+.th_vocal_icon{
+    width: 30px;
+}
+.elm_future{
+    display: none;
+}

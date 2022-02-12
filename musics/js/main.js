@@ -1,0 +1,3 @@
+initAllCards();
+initFilter();
+applyOption();

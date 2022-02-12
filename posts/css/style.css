@@ -1,0 +1,112 @@
+table#table_filter_characters th {
+    text-align: left;
+}
+div#div_toc, div#content{
+    max-width: calc(100% - 20px);
+}
+
+h3{
+    padding-top: 25px;
+}
+
+h2{
+    padding-top: 15px;
+}
+
+.thumbBlock {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 5px 15px 5px 1px;
+}
+
+.showRemainBlock {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 5px 15px;
+    padding: 5px 15px;
+    background-color: lightblue;
+}
+
+.thumbList {
+    margin: 0 auto;
+}
+
+.card_inner{
+    padding: 5px;
+}
+
+.row_posts{
+    padding: 5px;
+}
+.card_remain{
+    background-color: lightgray;
+    min-height: 200px;
+}
+
+.card_thumb.youtube{
+    width: 310px;
+}
+.card_thumb.youtube img.img_thumb {
+    width: 288px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card_thumb.twitter{
+    width: 310px;
+}
+.card_thumb.twitter img.img_thumb {
+    /*320,180 = 16,9*/
+    width: 288px;
+    height: 162px;
+    object-fit: cover;
+}
+
+.card_thumb.four_frame{
+    width: 270px;
+}
+.card_thumb.four_frame img.img_thumb{
+    width: 250px;
+    height: 185px;
+    object-position: 0 3.5%;
+    object-fit: cover;
+}
+
+.card_thumb.leo_everyday{
+    width: 220px;
+}
+.card_thumb.leo_everyday img.img_thumb {
+    width: 200px;
+    height: 200px;
+    object-position: 0 16%;
+    object-fit: cover;
+}
+
+.card_thumb.twitter_a3{
+    width: 290px;
+}
+.card_thumb.twitter_a3 img.img_thumb {
+    width: 267.3px;
+    height: 189px;
+    object-fit: cover;
+}
+
+.card_thumb.cd{
+    width: 240px;
+}
+
+.card_thumb.cd img.img_thumb{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card_thumb.cupnoodle_intro{
+    width: 240px;
+}
+
+.card_thumb.cupnoodle_intro img.img_thumb{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}

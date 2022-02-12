@@ -1,0 +1,45 @@
+.slider{
+    margin: 0 auto;
+}
+.slider-head{
+    text-align:center;
+    background-color: white;
+}
+img.youtube {
+    object-fit: cover;    
+    margin: 0 auto;
+}
+img.twitter4Frame {
+    width: 250px;
+    height: 185px;
+    object-position: 0 3.5%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.slick-next{
+    right:0;
+}
+.slick-prev{
+    left:0;
+}
+.slick-arrow{
+    width: initial;
+    height: initial;
+    z-index:2;
+}
+.slick-arrow:before{
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+}
+.slick-slide.slick-center{
+    cursor: pointer;
+}
+.slick-slide:not(.slick-center){
+    opacity: 0.5;
+}
+.slick-caption{
+    margin: 0 auto;
+    text-align: center;
+    overflow-wrap:normal;
+}
