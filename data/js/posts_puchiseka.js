@@ -1,4 +1,7 @@
 const puchiseka_list = [
+    Thumbnail(mURL("#5 25時やめない？", "https://www.youtube.com/watch?v=zWX62wtKofk", mDate(2022, 2, 10)),
+        ["kanade", "mafuyu", "ena", "mizuki"]
+    ),
     Thumbnail(mURL("#4 こはね寿鳥糸ＤＥＢＵＴ！", "https://www.youtube.com/watch?v=Nt7J3Ok9yCA", mDate(2022, 2, 3)),
         ["kohane", "an", "akito", "toya", "miku_vivid", "len", "meiko"]
     ),

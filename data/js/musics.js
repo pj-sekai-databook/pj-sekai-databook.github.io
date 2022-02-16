@@ -1642,12 +1642,14 @@ const musics = [
             Vocal("sekai", ["luka", "minori", "haruka", "airi", "shizuku"]),
             Vocal("another", ["haruka"]),
             Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"])
+            Vocal("another", ["shizuku"]),
+            Vocal("2DMV", ["luka", "minori", "haruka", "airi", "shizuku"])
         ],
         mDate(2014, 2, 28),
         mDate(2021, 4, 12),
         [
-            mURL("原曲", "https://www.youtube.com/watch?v=WdHRGH1Qv70")
+            mURL("原曲", "https://www.youtube.com/watch?v=WdHRGH1Qv70"),
+            mURL("2DMV", "https://www.youtube.com/watch?v=ZVnD_K972P8", mDate(2022, 2, 14))
         ],
         Diff(6, 13, 17, 23, 27)
     ),
@@ -3092,16 +3094,17 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(170, "カップヌードルタイアップ曲(Mitchie M)",
+    Music(170, "徳川カップヌードル禁止令",
         [
             Creator("Mitchie M", "fff")
         ],
         [
             Vocal("sekai", ["nene", "nenerobo", "mikudayo", "len", "kaito"])
         ],
-        null,
+        mDate(2022, 2, 16),
         null,
         [
+            mURL("セカイver.", "https://www.youtube.com/watch?v=jPXAgWkqbo4")
         ],
         Diff(),
         "cupNoodle"
