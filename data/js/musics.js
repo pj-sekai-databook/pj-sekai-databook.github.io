@@ -1129,7 +1129,7 @@ const musics = [
         mDate(2020, 12, 28),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm32076378"),
-            mURL("セルフカバー", "https://www.youtube.com/watch?v=jJzw1h5CR-I")
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=jJzw1h5CR-I")
         ],
         Diff(7, 12, 17, 25, 28)
     ),
@@ -3026,7 +3026,87 @@ const future_musics = [
         Diff(),
         "newlyWritten_leo"
     ),
-    Music(166, "アイデンティティ",
+    Music(166, "ONESELF",
+        [
+            Creator("Twinfield", "fff")
+        ],
+        [
+            Vocal("virtual", ["miku"])
+        ],
+        mDate(2022, 1, 31),
+        null,
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=0ahJ3_4hcL0"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm39972552")
+        ],
+        Diff(),
+        "contest"
+    ),
+    Music(167, "書き下ろし楽曲(emon(Tes.))",
+        [
+            Creator("emon(Tes.)", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_more"
+    ),
+    Music(168, "ナンセンス文学",
+        [
+            Creator("Eve", "ttf"),
+            Creator("Numa", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["len", "tsukasa", "rui"])
+        ],
+        mDate(2017, 5, 19),
+        null,
+        [
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm31241401"),
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8")
+        ],
+        Diff()
+    ),
+    Music(169, "心予報",
+        [
+            Creator("Eve", "ttf"),
+            Creator("TAKU INOUE", "fft"),
+            Creator("Numa", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
+        ],
+        mDate(2020, 1, 30),
+        null,
+        [
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18")
+        ],
+        Diff()
+    ),
+    Music(170, "僕らまだアンダーグラウンド",
+        [
+            Creator("Eve", "ttf"),
+            Creator("Numa", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "ichika", "shiho"])
+        ],
+        mDate(2019, 1, 24),
+        null,
+        [
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=nBteO-bU78Y")
+        ],
+        Diff(),
+        ""
+    ),
+    Music(171, "アイデンティティ",
         [
             Creator("Kanaria", "fff")
         ],
@@ -3043,7 +3123,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(167, "サラマンダー",
+    Music(172, "サラマンダー",
         [
             Creator("DECO*27", "fff")
         ],
@@ -3059,7 +3139,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(168, "青色絵具",
+    Music(173, "青色絵具",
         [
             Creator("くじら", "fff")
         ],
@@ -3076,7 +3156,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(169, "コスモスパイス",
+    Music(174, "コスモスパイス",
         [
             Creator("ピノキオピー", "fff")
         ],
@@ -3094,7 +3174,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(170, "徳川カップヌードル禁止令",
+    Music(175, "徳川カップヌードル禁止令",
         [
             Creator("Mitchie M", "fff")
         ],
@@ -3108,7 +3188,7 @@ const future_musics = [
         ],
         Diff(),
         "cupNoodle"
-    )
+    ),
 ];
 /*
     Music(000, "",

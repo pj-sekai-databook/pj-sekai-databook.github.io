@@ -114,6 +114,7 @@ const creatorLinks = {
     "蝶々P": "https://twitter.com/papiyon_cyoucyo",
     "きくお": "https://twitter.com/kikuo_sound",
     "Chinozo": "https://twitter.com/chinozo_",
-    "カルロス袴田(サイゼP)": "https://twitter.com/hakamad"
+    "カルロス袴田(サイゼP)": "https://twitter.com/hakamad",
+    "Twinfield": "https://twitter.com/Twinfieldnex"
 };
 const creatorIds = Object.keys(creatorLinks);
