@@ -1,4 +1,12 @@
 const fourFrameList = [
+    Thumbnail(mURL("#93 KAITOと3人の座長", "https://twitter.com/pj_sekai/status/1494144573395939332", mDate(2022, 2, 17)),
+        ["kaito", "miku_wonder", "rin", "len", "luka", "meiko"],
+        "https://pbs.twimg.com/media/FLw-AHhaIAAYQ1P?format=jpg&name=4096x4096"
+    ),
+    Thumbnail(mURL("#92 言葉は無力…！", "https://twitter.com/pj_sekai/status/1493783020830347264", mDate(2022, 2, 16)),
+        ["kohane", "minori", "shiho"],
+        "https://pbs.twimg.com/media/FLr7f1paIAEKAmB?format=jpg&name=4096x4096"
+    ),
     Thumbnail(mURL("#91 わたしの好物", "https://twitter.com/pj_sekai/status/1491607889735127043", mDate(2022, 2, 10)),
         ["kanade", "honami"],
         "https://pbs.twimg.com/media/FLNA0PMVcAAKsFb?format=jpg&name=4096x4096"

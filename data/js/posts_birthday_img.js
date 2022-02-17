@@ -1,4 +1,8 @@
 const birthdayImgList = [
+    Thumbnail(mURL(characters["kaito"].fullName, "https://twitter.com/pj_sekai/status/1493963380478156803", mDate(2022, 2, 17)),
+        ["kaito"],
+        "https://pbs.twimg.com/media/FLuLLiFVgAAB0xk?format=jpg&name=900x900"
+    ),
     Thumbnail(mURL(characters["kanade"].fullName, "https://twitter.com/pj_sekai/status/1491426665309765635", mDate(2022, 2, 10)),
         ["kanade", "mafuyu", "ena", "mizuki", "miku_night"],
         "https://pbs.twimg.com/media/FLJ-TRPaMAQX_rx?format=jpg&name=900x900"
