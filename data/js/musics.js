@@ -2982,9 +2982,27 @@ const musics = [
         ],
         Diff(5, 12, 16, 25, 28)
     ),
+    Music(163, "Flyer!",
+        [
+            Creator("Chinozo", "ttt")
+        ],
+        [
+            Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
+            Vocal("3DMV", ["kohane", "toya", "an", "akito", "len"])
+        ],
+        mDate(2022, 2, 16),
+        mDate(2022, 2, 16),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=nfpYhYtHuKo"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm40047025"),
+            mURL("3DMV", "https://www.youtube.com/watch?v=5fQRNjyRuSY", mDate(2022, 2, 16))
+        ],
+        Diff(9, 12, 18, 24, 29),
+        "newlyWritten_vivid"
+    ),
 ];
 const future_musics = [
-    Music(163, "ジウダス",
+    Music(164, "ジウダス",
         [
             Creator("すこやか大聖堂", "fff")
         ],
@@ -2999,19 +3017,6 @@ const future_musics = [
         ],
         Diff(),
         "contest_virtual"
-    ),
-    Music(164, "書き下ろし楽曲(Chinozo)",
-        [
-            Creator("Chinozo", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_vivid"
     ),
     Music(165, "書き下ろし楽曲(みきとP)",
         [
