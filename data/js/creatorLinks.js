@@ -88,7 +88,7 @@ const creatorLinks = {
     "Picon": "https://twitter.com/picon_bs",
     "オゾン": "https://twitter.com/ozon_541",
     "烏屋茶房": "https://twitter.com/tghgworks_krsy",
-    "iroha(sasaki)": "https://twitter.com/iroha_sasaki/status/1443727317402992648",
+    "iroha(sasaki)": "https://twitter.com/iroha_sasaki",
     "kuma(alfred)": "https://twitter.com/kuma_alfred",
     "かいりきベア": "https://twitter.com/kairiki_bear",
     "takamatt": "https://twitter.com/takamatt",

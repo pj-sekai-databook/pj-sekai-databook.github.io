@@ -2461,7 +2461,7 @@ const musics = [
     ),
     Music(133, "しっくおぶはうす！",
         [
-            Creator("オゾン", "fff")
+            Creator("オゾン", "ttt")
         ],
         [
             Vocal("virtual", ["rin", "len"])
@@ -2670,7 +2670,7 @@ const musics = [
     ),
     Music(145, "ラストスコア",
         [
-            Creator("せきこみごはん", "fff")
+            Creator("せきこみごはん", "ttt")
         ],
         [
             Vocal("virtual", ["miku"])
@@ -2932,7 +2932,7 @@ const musics = [
         [
             Creator("Giga", "ftt"),
             Creator("TeddyLoid", "ftt"),
-            Creator("DECO*27", "ftf")
+            Creator("DECO*27", "tff")
         ],
         [
             Vocal("virtual", ["rin", "len"]),
