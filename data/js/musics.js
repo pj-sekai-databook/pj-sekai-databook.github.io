@@ -3000,37 +3000,39 @@ const musics = [
         Diff(9, 12, 18, 24, 29),
         "newlyWritten_vivid"
     ),
-];
-const future_musics = [
-    Music(164, "ジウダス",
+    Music(164, "Peaky Peaky",
         [
-            Creator("すこやか大聖堂", "fff")
+            Creator("みきとP", "ttt")
+        ],
+        [
+            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
+        ],
+        null,
+        mDate(2022, 2, 18),
+        [
+            mURL("2DMV", "https://www.youtube.com/watch?v=IPIwkhKdQxM", mDate(2022, 2, 26))
+        ],
+        Diff(6, 12, 18, 25, 28),
+        "newlyWritten_leo"
+    ),
+    Music(165, "ジウダス",
+        [
+            Creator("すこやか大聖堂", "ttt")
         ],
         [
             Vocal("virtual", ["kaito"])
         ],
         mDate(2021, 11, 27),
-        null,
+        mDate(2022, 2, 21),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=3pl9alka_-A"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39675720")
         ],
-        Diff(),
-        "contest_virtual"
-    ),
-    Music(165, "書き下ろし楽曲(みきとP)",
-        [
-            Creator("みきとP", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_leo"
-    ),
+        Diff(7, 12, 18, 25, 28),
+        "contest"
+    )
+];
+const future_musics = [
     Music(166, "ONESELF",
         [
             Creator("Twinfield", "fff")
