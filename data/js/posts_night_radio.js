@@ -1,4 +1,7 @@
 const nightRadioList = [
+    Thumbnail(mURL("#35", "https://www.youtube.com/watch?v=XdcFaYnp7OA"),
+        ["mafuyu", "ena"]
+    ),
     Thumbnail(mURL("#34", "https://www.youtube.com/watch?v=tnAGDjNQ5sU"),
         ["kanade", "mafuyu", "ena", "mizuki"]
     ),
