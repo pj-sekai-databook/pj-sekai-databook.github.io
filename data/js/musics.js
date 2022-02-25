@@ -3030,10 +3030,31 @@ const musics = [
         ],
         Diff(7, 12, 18, 25, 28),
         "contest"
+    ),
+    Music(166, "ナンセンス文学",
+        [
+            Creator("Eve", "ttf"),
+            Creator("Numa", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["len", "tsukasa", "rui"]),
+            Vocal("another", ["tsukasa"]),
+            Vocal("another", ["rui"]),
+            Vocal("2DMV", ["len", "tsukasa", "rui"])
+        ],
+        mDate(2017, 5, 19),
+        mDate(2022, 2, 24),
+        [
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm31241401"),
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8"),
+            mURL("2DMV", "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24))
+        ],
+        Diff(7, 11, 18, 25, 29)
     )
 ];
 const future_musics = [
-    Music(166, "ONESELF",
+    Music(167, "ONESELF",
         [
             Creator("Twinfield", "fff")
         ],
@@ -3049,7 +3070,7 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-    Music(167, "書き下ろし楽曲(emon(Tes.))",
+    Music(168, "書き下ろし楽曲(emon(Tes.))",
         [
             Creator("emon(Tes.)", "fff")
         ],
@@ -3061,23 +3082,6 @@ const future_musics = [
         ],
         Diff(),
         "newlyWritten_more"
-    ),
-    Music(168, "ナンセンス文学",
-        [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
-        ],
-        [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["len", "tsukasa", "rui"])
-        ],
-        mDate(2017, 5, 19),
-        null,
-        [
-            mURL("原曲", "https://www.nicovideo.jp/watch/sm31241401"),
-            mURL("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8")
-        ],
-        Diff()
     ),
     Music(169, "心予報",
         [
