@@ -26,13 +26,13 @@ const parented_row_info_list = {
     },
     "youtube_video": {
         "more_voice": PostsRowInfo("モモジャンボイスドラマ", moreVoiceList, "youtube"),
-        "vivid_archive": PostsRowInfo("ビビバスアーカイブ", vividArchiveList, "youtube"),
+        "vivid_archive": NewPostsRowInfo("ビビバスアーカイブ", "youtube"),
         "youtube_250k_voice": PostsRowInfo("YouTube25万人記念ボイスドラマ", youtube_250k_voice_list, "youtube"),
         "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
     },
     "youtube_radio": {
         "night_radio": PostsRowInfo("25時、ナイトラジオで。", nightRadioList, "youtube"),
-        "sekai_station": PostsRowInfo("セカイ・ステーション", sekai_station_list, "youtube"),
+        "sekai_station": NewPostsRowInfo("セカイ・ステーション", "youtube"),
         "summer_radio": PostsRowInfo("なつやすみラジオ", summerRadioList, "youtube"),
     },
     "puchiseka": {

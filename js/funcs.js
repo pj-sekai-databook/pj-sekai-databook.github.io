@@ -226,3 +226,10 @@ const getMVList = (type) => {
         return compareDate(a.url.date, b.url.date, false);
     });
 };
+const getAnchorWithIcon = (title, link) => {
+    let span = document.createElement("span");
+    let a = getA(title, link, true);
+    span.appendChild(getImg("https://www.google.com/s2/favicons?domain=" + getDomain(link)));
+    span.appendChild(a);
+    return span;
+}

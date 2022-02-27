@@ -65,17 +65,6 @@ const more_showroom_list = [
         ["haruka", "shizuku"]
     ),
 ];
-const vividArchiveList = [
-    Thumbnail(mURL("#3 Gimme×Gimme", "https://www.youtube.com/watch?v=_KNAFKsNPXQ", mDate(2022, 1, 6)),
-        ["an", "akito"]
-    ),
-    Thumbnail(mURL("#2 ドラマツルギー", "https://www.youtube.com/watch?v=iQwSADwcsG4", mDate(2021, 8, 30)),
-        ["akito", "toya"]
-    ),
-    Thumbnail(mURL("#1 アスノヨゾラ哨戒班", "https://www.youtube.com/watch?v=vPui2iPg8sk", mDate(2021, 5, 14)),
-        ["kohane", "an"]
-    )
-];
 const storyTheaterList = [
     Thumbnail(mURL("イベントストーリー(ニーゴ)Vol.2", "https://www.youtube.com/watch?v=JtHEcJZMtdI", mDate(2021, 8, 29)),
         ["mizuki", "mafuyu"]
