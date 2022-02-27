@@ -40,23 +40,6 @@ const leoEverydayList = [
         "https://pbs.twimg.com/media/EvixN0AVoAIEtAK?format=jpg&name=medium"
     )
 ];
-const moreVoiceList = [
-    Thumbnail(mURL("#5 ムチャぶり!?　サイコロトーク", "https://www.youtube.com/watch?v=iaf1nnQchg4", mDate(2021, 9, 22)),
-        ["minori", "haruka", "airi", "shizuku"]
-    ),
-    Thumbnail(mURL("#4 ときめき♪　コーデ対決", "https://www.youtube.com/watch?v=mHpt8lGKj9Y", mDate(2021, 7, 5)),
-        ["minori", "haruka", "airi", "shizuku"]
-    ),
-    Thumbnail(mURL("#3 とびっきりサプライズ！", "https://www.youtube.com/watch?v=EOlZ1dpz8gM", mDate(2021, 4, 23)),
-        ["minori", "haruka", "airi", "shizuku"]
-    ),
-    Thumbnail(mURL("#2 練習のあとはポカポカお鍋で", "https://www.youtube.com/watch?v=tHL-bJYwgK4"),
-        ["shiho", "minori", "haruka", "airi", "shizuku"]
-    ),
-    Thumbnail(mURL("#1 アイドル活動、スタート", "https://www.youtube.com/watch?v=REKq7jCLpSo"),
-        ["minori", "haruka", "airi", "shizuku"]
-    )
-];
 const more_showroom_list = [
     Thumbnail(mURL("第1回", "https://www.youtube.com/watch?v=2CU0QRH7e8I", mDate(2022, 1, 7)),
         ["haruka", "airi"]

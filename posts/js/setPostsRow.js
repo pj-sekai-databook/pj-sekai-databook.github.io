@@ -79,8 +79,14 @@ const switchDispRow = (parent_id, child_id) => {
     row.classList.add("row", "flex-row", "w-auto", "row_posts");
     const card_class = info.card_class;
     if (typeof (info.arr) == "undefined") {
-        for (let json of PjContents.getContents(child_id)) {
-            row.appendChild(getColFromLoadedJson(json, card_class));
+        let json_arr = PjContents.getContents(child_id);
+        if (typeof json_arr != "undefined") {
+            for (let json of json_arr) {
+                row.appendChild(getColFromLoadedJson(json, card_class));
+            }
+        }
+        else {
+            row.appendChild(getDiv("※データが見つかりませんでした※", "text-muted text-center"));
         }
     }
     else {

@@ -25,7 +25,7 @@ const parented_row_info_list = {
         "live": PostsRowInfo("その他の生放送", liveList, "youtube"),
     },
     "youtube_video": {
-        "more_voice": PostsRowInfo("モモジャンボイスドラマ", moreVoiceList, "youtube"),
+        "more_voice": NewPostsRowInfo("モモジャンボイスドラマ", "youtube"),
         "vivid_archive": NewPostsRowInfo("ビビバスアーカイブ", "youtube"),
         "youtube_250k_voice": PostsRowInfo("YouTube25万人記念ボイスドラマ", youtube_250k_voice_list, "youtube"),
         "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
