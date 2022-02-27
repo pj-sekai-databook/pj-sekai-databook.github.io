@@ -110,3 +110,25 @@ h2{
     height: 220px;
     object-fit: cover;
 }
+
+
+.card_outer.youtube{
+    width: 310px;
+}
+.img_wrap{
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+}
+.youtube .img_wrap::before{
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+.img_wrap img.img_thumb {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
