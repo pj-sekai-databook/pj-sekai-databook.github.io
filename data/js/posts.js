@@ -1,4 +1,8 @@
 const leoEverydayList = [
+    Thumbnail(mURL("#11", "https://twitter.com/pj_sekai/status/1497768458213367808", mDate(2022, 2, 27)),
+        ["ichika", "saki", "honami", "shiho"],
+        "https://pbs.twimg.com/media/FMcGmipaUAYTt4y?format=jpg&name=large"
+    ),
     Thumbnail(mURL("#10", "https://twitter.com/pj_sekai/status/1477482278683136006", mDate(2022, 1, 2)),
         ["ichika", "saki", "honami", "shiho"],
         "https://pbs.twimg.com/media/FH8ZBFdVgAM8M2B?format=jpg&name=large"
