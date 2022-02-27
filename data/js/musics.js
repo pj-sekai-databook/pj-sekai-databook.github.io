@@ -2889,6 +2889,8 @@ const musics = [
         mDate(2022, 1, 29),
         mDate(2022, 1, 21),
         [
+            mURL("バーチャル・シンガーver(flower)", "https://www.youtube.com/watch?v=BPh4m2VnfNo"),
+            mURL("バーチャル・シンガーver(ミク)", "https://www.nicovideo.jp/watch/sm40094958"),
             mURL("2DMV", "https://www.youtube.com/watch?v=M_ijFuoASt0", mDate(2022, 1, 29))
         ],
         Diff(7, 13, 18, 24, 28),
@@ -3005,11 +3007,13 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
-            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
+            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"]),
+            Vocal("2DMV", ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
-        null,
+        mDate(2022, 2, 26),
         mDate(2022, 2, 18),
         [
+            mURL("バーチャル・シンガーver", "https://www.youtube.com/watch?v=GWuI8LXceYc"),
             mURL("2DMV", "https://www.youtube.com/watch?v=IPIwkhKdQxM", mDate(2022, 2, 26))
         ],
         Diff(6, 12, 18, 25, 28),
