@@ -1,4 +1,5 @@
 window.addEventListener("load", () => {
+    PjContents.initJson();
     initTabPosts();
     const query = getQueryParameters();
     if (typeof query.type != "undefined") {
