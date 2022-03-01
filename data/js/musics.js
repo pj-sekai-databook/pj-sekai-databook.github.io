@@ -2989,7 +2989,9 @@ const musics = [
             Creator("Chinozo", "ttt")
         ],
         [
+            Vocal("virtual", ["flower"]),
             Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
+            Vocal("another", ["miku"]),
             Vocal("3DMV", ["kohane", "toya", "an", "akito", "len"])
         ],
         mDate(2022, 2, 16),
