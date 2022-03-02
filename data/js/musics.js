@@ -409,7 +409,7 @@ const musics = [
         Diff(7, 12, 17, 25, 29),
         "newlyWritten"
     ),
-    Music(23, "アイドル親衛隊",
+    Music(23, "アイドル新鋭隊",
         [
             Creator("Mitchie M", "ttt")
         ],
@@ -3057,10 +3057,29 @@ const musics = [
             mURL("2DMV", "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24))
         ],
         Diff(7, 11, 18, 25, 29)
-    )
+    ),
+    Music(167, "心予報",
+        [
+            Creator("Eve", "ttf"),
+            Creator("TAKU INOUE", "fft"),
+            Creator("Numa", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
+            Vocal("another", ["minori", "haruka"]),
+            Vocal("another", ["airi", "shizuku"])
+        ],
+        mDate(2020, 1, 30),
+        mDate(2022, 3, 2),
+        [
+            mURL("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18")
+        ],
+        Diff(6, 12, 18, 24, 28)
+    ),
 ];
 const future_musics = [
-    Music(167, "ONESELF",
+    Music(168, "ONESELF",
         [
             Creator("Twinfield", "fff")
         ],
@@ -3076,7 +3095,7 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-    Music(168, "書き下ろし楽曲(emon(Tes.))",
+    Music(169, "書き下ろし楽曲(emon(Tes.))",
         [
             Creator("emon(Tes.)", "fff")
         ],
@@ -3088,23 +3107,6 @@ const future_musics = [
         ],
         Diff(),
         "newlyWritten_more"
-    ),
-    Music(169, "心予報",
-        [
-            Creator("Eve", "ttf"),
-            Creator("TAKU INOUE", "fft"),
-            Creator("Numa", "fft")
-        ],
-        [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
-        ],
-        mDate(2020, 1, 30),
-        null,
-        [
-            mURL("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18")
-        ],
-        Diff()
     ),
     Music(170, "僕らまだアンダーグラウンド",
         [
