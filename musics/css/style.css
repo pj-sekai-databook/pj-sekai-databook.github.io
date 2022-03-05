@@ -1,7 +1,5 @@
-img.imgYouTube{ /* 16:9 */
-    width: 240px;
-    height: 134px;
-    object-fit: cover;
+.card_music{
+    width: 350px;
 }
 .th_detail{
     width: 30%;
@@ -23,4 +21,29 @@ img.imgYouTube{ /* 16:9 */
     height: 100%;
     background-color: aliceblue;
     z-index: 100;
+}
+.img_wrap{
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.img_wrap.niconico{
+    width: calc(90% * 0.75);
+}
+.img_wrap::before{
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+.img_wrap.niconico::before{
+    padding-top: 75%;
+}
+.img_wrap img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

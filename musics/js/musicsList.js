@@ -36,29 +36,32 @@ const getCardCol = (m, is_normal = false) => {
     return col;
 }
 const getCard = (m) => {
-    const card = getDiv("", "card");
-    card.style.width = "300px";
+    const card = getDiv("", "card card_music");
     //header
     const card_header = getDiv(m.title, "card-header d-flex justify-content-between align-items-center");
     card_header.appendChild(getModalButton(m));
     card.appendChild(card_header);
     //body
     const card_body = getDiv("", "card-body text-center");
+    const img_wrap = getDiv("", "img_wrap");
     let img = null;
     for (let u of m.urls) {
         if (u.domain == "www.youtube.com") {
             img = getImg(getYouTubeThumbnailSrc(u.link), "imgYouTube");
+            img_wrap.classList.remove("niconico");
             break;
         }
         else if (u.domain == "www.nicovideo.jp") {
             img = getImg(getNiconicoThumbnailSrc(u.link), "imgYouTube");
+            img_wrap.classList.add("niconico");
             //break;
         }
     }
     if (img == null) {
         img = getImg("./img/img_not_found.png", "imgYouTube");
     }
-    card_body.appendChild(img);
+    img_wrap.appendChild(img);
+    card_body.appendChild(img_wrap);
     card.appendChild(card_body);
     //footer
     const card_footer = getDiv("", "card-footer small d-flex justify-content-between align-items-center");
