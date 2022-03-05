@@ -36,7 +36,7 @@ const parented_row_info_list = {
         "summer_radio": PostsRowInfo("なつやすみラジオ", summerRadioList, "youtube"),
     },
     "puchiseka": {
-        "puchiseka": PostsRowInfo("ぷちセカ", puchiseka_list, "youtube"),
+        "puchiseka": NewPostsRowInfo("ぷちセカ", "youtube"),
     },
     "four_frame": {
         "four_frame": PostsRowInfo("セカイの4コマ", fourFrameList, "four_frame")

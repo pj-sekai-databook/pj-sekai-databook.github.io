@@ -81,7 +81,7 @@ const switchDispRow = (parent_id, child_id) => {
     if (typeof (info.arr) == "undefined") {
         let json_arr = PjContents.getContents(child_id);
         if (typeof json_arr != "undefined") {
-            for (let json of json_arr) {
+            for (let json of json_arr.sort((a, b) => compareDateString(a.posted_date, b.posted_date, true))) {
                 row.appendChild(getColFromLoadedJson(json, card_class));
             }
         }
@@ -155,3 +155,24 @@ const initTabPosts = () => {
         }
     };
 }
+const compareDateString = (a, b, isAsc = true) => {
+    if (a == b) {
+        return 0;
+    }
+    if (a == null) {
+        if (b == null) {
+            return 0;
+        }
+        else {
+            return 1;
+        }
+    }
+    else {
+        if (b == null) {
+            return -1;
+        }
+        else {
+            return (isAsc ? 1 : -1) * (new Date(a).getTime() < new Date(b).getTime() ? 1 : -1);
+        }
+    }
+};

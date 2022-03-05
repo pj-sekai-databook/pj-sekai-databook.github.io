@@ -1,4 +1,8 @@
 const fourFrameList = [
+    Thumbnail(mURL("#95 フェニランで特別なひとときを", "https://twitter.com/pj_sekai/status/1498855865457291268", mDate(2022, 3, 2)),
+        ["kohane", "minori", "shiho", "haruka", "ichika", "saki", "honami"],
+        "https://pbs.twimg.com/media/FMz7mlLaUAE2gJ_?format=jpg&name=4096x4096"
+    ),
     Thumbnail(mURL("#94 似たもの同士？", "https://twitter.com/pj_sekai/status/1497043742507040769", mDate(2022, 2, 25)),
         ["shiho", "kaito", "saki", "rin", "kohane", "minori", "emu"],
         "https://pbs.twimg.com/media/FMaQ9_jaMAAXqPD?format=jpg&name=4096x4096"
