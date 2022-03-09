@@ -59,6 +59,7 @@ h2{
     /*320,180 = 16,9*/
     width: 288px;
     height: 162px;
+    object-position: 0 0;
     object-fit: cover;
 }
 

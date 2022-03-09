@@ -117,6 +117,9 @@ const youtube_250k_voice_list = [
     )
 ];
 const liveList = [
+    Thumbnail(mURL("ミクの日&もうすぐ1.5周年生放送", "https://www.youtube.com/watch?v=8XT6HLyhSoU", mDate(2022, 3, 9)),
+        ["miku", "kohane", "ena"]
+    ),
     Thumbnail(mURL("アニバーサリー生放送", "https://www.youtube.com/watch?v=_VxsPsxEqsY", mDate(2021, 9, 29)),
         ["ichika", "haruka", "kohane", "tsukasa", "mafuyu"]
     ),

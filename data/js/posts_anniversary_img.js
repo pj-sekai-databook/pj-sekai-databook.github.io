@@ -1,4 +1,8 @@
 const anniversaryImgList = [
+    Thumbnail(mURL("ミクの日2022", "https://twitter.com/pj_sekai/status/1501211142647132163", mDate(2022, 3, 9)),
+        ["miku"],
+        "https://pbs.twimg.com/media/FNUlrDtUcAAjQNK?format=jpg&name=medium"
+    ),
     Thumbnail(mURL("バレンタイン2022", "https://twitter.com/pj_sekai/status/1492876233297825799", mDate(2022, 2, 14)),
         ["meiko", "an", "mizuki"],
         "https://pbs.twimg.com/media/FLPMqtUaAAAnCdq?format=jpg&name=900x900"
