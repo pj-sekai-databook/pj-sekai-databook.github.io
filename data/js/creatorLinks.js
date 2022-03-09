@@ -116,6 +116,7 @@ const creatorLinks = {
     "Chinozo": "https://twitter.com/chinozo_",
     "カルロス袴田(サイゼP)": "https://twitter.com/hakamad",
     "Twinfield": "https://twitter.com/Twinfieldnex",
-    "TAKU INOUE": "https://twitter.com/ino_tac"
+    "TAKU INOUE": "https://twitter.com/ino_tac",
+    "Anamanaguchi": "https://twitter.com/anamanaguchi"
 };
 const creatorIds = Object.keys(creatorLinks);
