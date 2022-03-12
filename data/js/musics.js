@@ -3118,9 +3118,25 @@ const musics = [
         ],
         Diff(6, 12, 17, 24, 28)
     ),
+    Music(170, "メタモリボン",
+        [
+            Creator("emon(Tes.)", "ttt"),
+            Creator("Tudiken", "tff")
+        ],
+        [
+            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
+        ],
+        mDate(2022, 3, 18),
+        mDate(2022, 3, 11),
+        [
+            mURL("2DMV", "https://www.youtube.com/watch?v=0BHY0Gs0ZZM", mDate(2022, 3, 18))
+        ],
+        Diff(5, 11, 16, 23, 26),
+        "newlyWritten_more"
+    ),
 ];
 const future_musics = [
-    Music(170, "ONESELF",
+    Music(171, "ONESELF",
         [
             Creator("Twinfield", "fff")
         ],
@@ -3135,19 +3151,6 @@ const future_musics = [
         ],
         Diff(),
         "contest"
-    ),
-    Music(171, "書き下ろし楽曲(emon(Tes.))",
-        [
-            Creator("emon(Tes.)", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_more"
     ),
     Music(172, "いーあるふぁんくらぶ",
         [
@@ -3222,7 +3225,8 @@ const future_musics = [
         mDate(2022, 1, 7),
         null,
         [
-            mURL("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ")
+            mURL("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
+            mURL("セカイver", "https://www.youtube.com/watch?v=babaG-xuBQM")
         ],
         Diff(),
         "cupNoodle"
