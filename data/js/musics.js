@@ -1089,6 +1089,7 @@ const musics = [
             Vocal("sekai", ["nene", "rui", "meiko", "kaito"]),
             Vocal("another", ["nene", "rui"]),
             Vocal("another", ["meiko", "kaito"]),
+            Vocal("2DMV", ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"]),
             Vocal("2DMV(ゲームサイズ)", ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"])
         ],
         mDate(2020, 12, 20),
@@ -1096,6 +1097,7 @@ const musics = [
         [
             mURL("原曲", "https://www.youtube.com/watch?v=WztzykQSkgM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37987111"),
+            mURL("2DMV", "https://www.youtube.com/watch?v=eLIUBridZsw", mDate(2022, 3, 14)),
             mURL("2DMV(ゲームサイズ)", "https://www.youtube.com/watch?v=EIUO-fPrkSo", mDate(2020, 12, 20))
         ],
         Diff(9, 13, 18, 25, 28),
@@ -3134,9 +3136,27 @@ const musics = [
         Diff(5, 11, 16, 23, 26),
         "newlyWritten_more"
     ),
+    Music(171, "いーあるふぁんくらぶ",
+        [
+            Creator("みきとP", "ttt")
+        ],
+        [
+            Vocal("virtual", ["gumi", "rin"]),
+            Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"]),
+            Vocal("3DMV", ["rin", "tsukasa", "nene", "emu", "rui"])
+        ],
+        mDate(2012, 8, 15),
+        mDate(2022, 3, 14),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=oBgADhsOoog"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm18623327"),
+            mURL("3DMV", "https://www.youtube.com/watch?v=v_VDb-gxF5Y", mDate(2022, 3, 14))
+        ],
+        Diff(6, 12, 17, 24, 28)
+    ),
 ];
 const future_musics = [
-    Music(171, "ONESELF",
+    Music(172, "ONESELF",
         [
             Creator("Twinfield", "fff")
         ],
@@ -3152,22 +3172,7 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-    Music(172, "いーあるふぁんくらぶ",
-        [
-            Creator("みきとP", "ttt")
-        ],
-        [
-            Vocal("virtual", ["gumi", "rin"]),
-            Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"])
-        ],
-        mDate(2012, 8, 15),
-        null,
-        [
-            mURL("原曲", "https://www.youtube.com/watch?v=oBgADhsOoog"),
-            mURL("原曲", "https://www.nicovideo.jp/watch/sm18623327")
-        ],
-        Diff()
-    ),
+
     Music(173, "書き下ろし楽曲(バルーン)",
         [
             Creator("バルーン", "fff")
