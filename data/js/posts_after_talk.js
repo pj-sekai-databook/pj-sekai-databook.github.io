@@ -1,4 +1,7 @@
 const afterTalkList = [
+    Thumbnail(mURL("Cast Spell on You", "https://www.youtube.com/watch?v=k-nLZyflydE", mDate(2022, 3, 18)),
+        ["shizuku"]
+    ),
     Thumbnail(mURL("あの日、空は遠かった", "https://www.youtube.com/watch?v=x61iL580hKU", mDate(2022, 2, 26)),
         ["saki"]
     ),
