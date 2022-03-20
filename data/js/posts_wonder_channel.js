@@ -1,5 +1,8 @@
 
 const wonderChannelList = [
+    Thumbnail(mURL("#18 1.5周年スペシャル", "https://www.youtube.com/watch?v=oiMN9IBizJU", mDate(2022, 3, 24)),
+        ["tsukasa", "emu", "ichika", "airi", "an"]
+    ),
     Thumbnail(mURL("#17", "https://www.youtube.com/watch?v=K-OR_9eupvk", mDate(2022, 2, 16)),
         ["tsukasa", "shizuku", "ena"]
     ),
