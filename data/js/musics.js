@@ -3126,7 +3126,8 @@ const musics = [
             Creator("Tudiken", "tff")
         ],
         [
-            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
+            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"]),
+            Vocal("2DMV", ["shizuku", "rin", "minori", "haruka", "airi"])
         ],
         mDate(2022, 3, 18),
         mDate(2022, 3, 11),
