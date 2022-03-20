@@ -3131,6 +3131,7 @@ const musics = [
         mDate(2022, 3, 18),
         mDate(2022, 3, 11),
         [
+            mURL("原曲", "https://www.youtube.com/watch?v=PulLO9CgBE0"),
             mURL("2DMV", "https://www.youtube.com/watch?v=0BHY0Gs0ZZM", mDate(2022, 3, 18))
         ],
         Diff(5, 11, 16, 23, 26),
