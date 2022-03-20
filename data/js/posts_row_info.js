@@ -18,8 +18,8 @@ const parented_row_info_list = {
         "2dmv": PostsRowInfo("2DMV", getMVList("2DMV"), "youtube")
     },
     "youtube_live": {
-        "wonder_channel": PostsRowInfo("ワンダショちゃんねる", wonderChannelList, "youtube"),
-        "after_talk": PostsRowInfo("アフタートーク", afterTalkList, "youtube"),
+        "wonder_channel": NewPostsRowInfo("ワンダショちゃんねる", "youtube"),
+        "after_talk": NewPostsRowInfo("アフタートーク", "youtube"),
         "story_theater": PostsRowInfo("ストーリーシアター", storyTheaterList, "youtube"),
         "more_showroom": PostsRowInfo("モモジャンSHOWROOM", more_showroom_list, "youtube"),
         "live": PostsRowInfo("その他の生放送", liveList, "youtube"),

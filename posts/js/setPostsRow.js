@@ -81,7 +81,7 @@ const switchDispRow = (parent_id, child_id) => {
     if (typeof (info.arr) == "undefined") {
         let json_arr = PjContents.getContents(child_id);
         if (typeof json_arr != "undefined") {
-            for (let json of json_arr.sort((a, b) => compareDateString(a.posted_date, b.posted_date, true))) {
+            for (let json of json_arr) {
                 row.appendChild(getColFromLoadedJson(json, card_class));
             }
         }
