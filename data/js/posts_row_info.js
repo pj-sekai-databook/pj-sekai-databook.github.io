@@ -20,20 +20,20 @@ const parented_row_info_list = {
     "youtube_live": {
         "wonder_channel": NewPostsRowInfo("ワンダショちゃんねる", "youtube"),
         "after_talk": NewPostsRowInfo("アフタートーク", "youtube"),
-        "story_theater": PostsRowInfo("ストーリーシアター", storyTheaterList, "youtube"),
+        "story_theater": NewPostsRowInfo("ストーリーシアター", "youtube"),
         "more_showroom": PostsRowInfo("モモジャンSHOWROOM", more_showroom_list, "youtube"),
         "live": PostsRowInfo("その他の生放送", liveList, "youtube"),
     },
     "youtube_video": {
         "more_voice": NewPostsRowInfo("モモジャンボイスドラマ", "youtube"),
         "vivid_archive": NewPostsRowInfo("ビビバスアーカイブ", "youtube"),
-        "youtube_250k_voice": PostsRowInfo("YouTube25万人記念ボイスドラマ", youtube_250k_voice_list, "youtube"),
+        "youtube_250k_voice": NewPostsRowInfo("YouTube25万人記念ボイスドラマ", "youtube"),
         "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
     },
     "youtube_radio": {
         "night_radio": PostsRowInfo("25時、ナイトラジオで。", nightRadioList, "youtube"),
         "sekai_station": NewPostsRowInfo("セカイ・ステーション", "youtube"),
-        "summer_radio": PostsRowInfo("なつやすみラジオ", summerRadioList, "youtube"),
+        "summer_radio_2021": NewPostsRowInfo("なつやすみラジオ2021", "youtube"),
     },
     "puchiseka": {
         "puchiseka": NewPostsRowInfo("ぷちセカ", "youtube"),
@@ -52,7 +52,7 @@ const parented_row_info_list = {
         "cupnoodle_intro": PostsRowInfo("カップヌードル紹介イラスト", cupnoodle_intro_list, "cupnoodle_intro")
     },
     "championship": {
-        "championship": PostsRowInfo("大会", championshipList, "youtube")
+        "championship": NewPostsRowInfo("大会", "youtube")
     },
     "cd": {
         "single": PostsRowInfo("シングル", singleList, "cd"),

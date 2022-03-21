@@ -52,70 +52,6 @@ const more_showroom_list = [
         ["haruka", "shizuku"]
     ),
 ];
-const storyTheaterList = [
-    Thumbnail(mURL("イベントストーリー(ニーゴ)Vol.2", "https://www.youtube.com/watch?v=JtHEcJZMtdI", mDate(2021, 8, 29)),
-        ["mizuki", "mafuyu"]
-    ),
-    Thumbnail(mURL("イベントストーリー(ワンダショ)Vol.2", "https://www.youtube.com/watch?v=VIbnPrA_EjM", mDate(2021, 8, 21)),
-        ["emu", "tsukasa"]
-    ),
-    Thumbnail(mURL("イベントストーリー(ビビバス)Vol.2", "https://www.youtube.com/watch?v=qiBasiZjo1I", mDate(2021, 8, 14)),
-        ["akito", "kohane"]
-    ),
-    Thumbnail(mURL("イベントストーリー(モモジャン)Vol.2", "https://www.youtube.com/watch?v=gdVMS4UbAto", mDate(2021, 8, 7)),
-        ["minori", "shizuku", "haruka"]
-    ),
-    Thumbnail(mURL("イベントストーリー(レオニ)Vol.2", "https://www.youtube.com/watch?v=9seQXdbJHH4", mDate(2021, 7, 31)),
-        ["shiho", "saki"]
-    ),
-    Thumbnail(mURL("イベントストーリー(ニーゴ)", "https://www.youtube.com/watch?v=dcR54fZmp90", mDate(2021, 6, 13)),
-        ["ena"]
-    ),
-    Thumbnail(mURL("イベントストーリー(ワンダショ)", "https://www.youtube.com/watch?v=mPrNau-PNtA", mDate(2021, 6, 5)),
-        ["tsukasa", "nene"]
-    ),
-    Thumbnail(mURL("イベントストーリー(ビビバス)", "https://www.youtube.com/watch?v=lDmGpxirIhc", mDate(2021, 5, 30)),
-        ["kohane", "an"]
-    ),
-    Thumbnail(mURL("イベントストーリー(モモジャン)", "https://www.youtube.com/watch?v=9oZ96rsmFxI", mDate(2021, 5, 22)),
-        ["airi", "shizuku"]
-    ),
-    Thumbnail(mURL("イベントストーリー(レオニ)", "https://www.youtube.com/watch?v=n0nDrVHO6ow", mDate(2021, 5, 16)),
-        ["ichika", "saki"]
-    ),
-    Thumbnail(mURL("メインストーリー(ニーゴ)", "https://www.youtube.com/watch?v=TH1sx7k625Q", mDate(2021, 2, 14)),
-        ["ena", "mizuki"]
-    ),
-    Thumbnail(mURL("メインストーリー(ワンダショ)", "https://www.youtube.com/watch?v=IR3fK3_El-s", mDate(2021, 2, 7)),
-        ["tsukasa", "nene"]
-    ),
-    Thumbnail(mURL("メインストーリー(ビビバス)", "https://www.youtube.com/watch?v=536yjKtI794", mDate(2021, 1, 30)),
-        ["an", "akito"]
-    ),
-    Thumbnail(mURL("メインストーリー(モモジャン)", "https://www.youtube.com/watch?v=nTQr_XYpLlo", mDate(2021, 1, 23)),
-        ["haruka", "shizuku"]
-    ),
-    Thumbnail(mURL("メインストーリー(レオニ)", "https://www.youtube.com/watch?v=WIbFxoWWD28", mDate(2021, 1, 16)),
-        ["ichika", "shiho"]
-    )
-];
-const youtube_250k_voice_list = [
-    Thumbnail(mURL(units["wonder"].fullName, "https://www.youtube.com/watch?v=RsKbjphr46k", mDate(2021, 10, 9)),
-        ["tsukasa", "emu", "nene", "rui", "miku_wonder", "len", "kaito"]
-    ),
-    Thumbnail(mURL(units["night"].fullName, "https://www.youtube.com/watch?v=xD6x24LX8Wc", mDate(2021, 10, 2)),
-        ["kanade", "mafuyu", "ena", "mizuki", "miku_night"]
-    ),
-    Thumbnail(mURL(units["leo"].fullName, "https://www.youtube.com/watch?v=yEWTjLK6UXo", mDate(2021, 9, 25)),
-        ["ichika", "saki", "honami", "shiho", "miku_leo", "luka"]
-    ),
-    Thumbnail(mURL(units["vivid"].fullName, "https://www.youtube.com/watch?v=5kFjJ3dsEJA", mDate(2021, 9, 18)),
-        ["kohane", "an", "akito", "toya", "miku_vivid", "len", "meiko"]
-    ),
-    Thumbnail(mURL(units["more"].fullName, "https://www.youtube.com/watch?v=mhgBYO6r83Q", mDate(2021, 9, 11)),
-        ["minori", "haruka", "airi", "shizuku"]
-    )
-];
 const liveList = [
     Thumbnail(mURL("ミクの日&もうすぐ1.5周年生放送", "https://www.youtube.com/watch?v=8XT6HLyhSoU", mDate(2022, 3, 9)),
         ["miku", "kohane", "ena"]
@@ -141,20 +77,6 @@ const movieList = [
         ["kanade", "mafuyu", "ena", "mizuki"]
     )
 ]
-const championshipList = [
-    Thumbnail(mURL("第2回大会(2021 Autumn)", "https://www.youtube.com/watch?v=VrLQ3VpBaXo", mDate(2021, 9, 26)),
-        ["shiho"]
-    ),
-    Thumbnail(mURL("スペシャルチームマッチ", "https://www.youtube.com/watch?v=0cPFdqStSt4", mDate(2021, 9, 25)),
-        ["shiho", "tsukasa", "shizuku", "ena"]
-    ),
-    Thumbnail(mURL("RAGE PARTY 2021", "https://www.youtube.com/watch?v=zFvdtBtW2ao"),
-        ["shiho", "tsukasa"]
-    ),
-    Thumbnail(mURL("第1回大会(2020 Winter)", "https://www.youtube.com/watch?v=P8QTYVL-JS8"),
-        ["shiho"]
-    )
-];
 const singleList = [
     Thumbnail(mURL("ワンダショ-2nd", "https://bushiroad-music.com/musics/brmm-10461", mDate(2022, 3, 16)),
         ["tsukasa", "emu", "nene", "rui", "meiko", "kaito"],
