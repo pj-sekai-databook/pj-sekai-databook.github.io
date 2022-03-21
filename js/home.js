@@ -6,7 +6,6 @@ const initSlider = () => {
     link_obj_list = [];
     musics_id_list = [];
     addLinkObj("four_frame");
-    addLinkObj("after_talk");
     addLinkFromMusics("3DMV", "www.youtube.com");
     addLinkFromMusics("2DMV", "www.youtube.com");
     addLinkFromMusics("3DMV", "www.youtube.com");
