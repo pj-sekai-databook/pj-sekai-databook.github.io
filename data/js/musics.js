@@ -3379,7 +3379,7 @@ const future_musics = [
         Diff(),
         ""
     ),
-    Music(185, "アイデンティティ",
+    Music(186, "アイデンティティ",
         [
             Creator("Kanaria", "fff")
         ],
@@ -3396,7 +3396,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(186, "サラマンダー",
+    Music(187, "サラマンダー",
         [
             Creator("DECO*27", "fff")
         ],
@@ -3413,7 +3413,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(187, "青色絵具",
+    Music(188, "青色絵具",
         [
             Creator("くじら", "fff")
         ],
@@ -3430,7 +3430,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(188, "コスモスパイス",
+    Music(189, "コスモスパイス",
         [
             Creator("ピノキオピー", "fff")
         ],
@@ -3448,7 +3448,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(189, "徳川カップヌードル禁止令",
+    Music(190, "徳川カップヌードル禁止令",
         [
             Creator("Mitchie M", "fff")
         ],
