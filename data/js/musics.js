@@ -3156,9 +3156,39 @@ const musics = [
         ],
         Diff(6, 12, 17, 24, 28)
     ),
+    Music(172, "雨とペトラ",
+        [
+            Creator("バルーン", "ttt")
+        ],
+        [
+            Vocal("virtual", ["flower"]),
+            Vocal("sekai", ["len", "akito", "toya"])
+        ],
+        mDate(2017, 3, 9),
+        mDate(2022, 3, 22),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=PdfdOhYVU40"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm30789907")
+        ],
+        Diff(9, 12, 18, 25, 29)
+    ),
 ];
 const future_musics = [
-    Music(172, "ONESELF",
+    Music(173, "書き下ろし楽曲(バルーン)",
+        [
+            Creator("バルーン", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_night"
+    ),
+
+    Music(174, "ONESELF",
         [
             Creator("Twinfield", "fff")
         ],
@@ -3174,10 +3204,144 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-
-    Music(173, "書き下ろし楽曲(バルーン)",
+    Music(175, "マトリョシカ",
         [
-            Creator("バルーン", "fff")
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku", "gumi"])
+        ],
+        mDate(2010, 8, 19),
+        mDate(2022, 3, 30),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=HOz-9FzIDf0"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm11809611")
+        ],
+        Diff(),
+        ""
+    ),
+
+    Music(176, "ドーナツホール",
+        [
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["gumi"])
+        ],
+        mDate(2013, 10, 28),
+        mDate(2022, 3, 31),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=qnX2CdOBcDI"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm22138447")
+        ],
+        Diff(),
+        ""
+    ),
+
+    Music(177, "砂の惑星",
+        [
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku"])
+        ],
+        mDate(2017, 7, 21),
+        mDate(2022, 4, 1),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=AS4q9yaWJkI"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm31606995")
+        ],
+        Diff(),
+        ""
+    ),
+
+    Music(178, "ルカルカ★ナイトフィーバー",
+        [
+            Creator("SAM(samfree)", "ttt")
+        ],
+        [
+            Vocal("virtual", ["luka"])
+        ],
+        mDate(2009, 2, 12),
+        mDate(2022, 4, 2),
+        [
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm6119955")
+        ],
+        Diff(),
+        ""
+    ),
+
+    Music(179, "ピアノ×フォルテ×スキャンダル",
+        [
+            Creator("OSTER project", "ttt")
+        ],
+        [
+            Vocal("virtual", ["meiko"])
+        ],
+        mDate(2008, 12, 20),
+        mDate(2022, 4, 3),
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=JQTl7IvOX0E"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm5597663")
+        ],
+        Diff(),
+        ""
+    ),
+
+    Music(180, "千年の独奏歌",
+        [
+            Creator("yanagi", "ttt")
+        ],
+        [
+            Vocal("virtual", ["kaito"])
+        ],
+        mDate(2008, 4, 27),
+        mDate(2022, 4, 4),
+        [
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm3122624")
+        ],
+        Diff(),
+        ""
+    ),
+    Music(181, "PaⅢ.SENSATION",
+        [
+            Creator("牛肉", "tff"),
+            Creator("雄之助", "ftt")
+        ],
+        [
+            Vocal("virtual", ["miku", "gumi", "rin"]),
+            Vocal("sekai", ["miku", "rin", "kohane", "an"])
+        ],
+        mDate(2016, 9, 15),
+        null,
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=OMQNhcGZbX4"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm29648328")
+        ],
+        Diff(),
+        ""
+    ),
+    Music(182, "ダーリンダンス",
+        [
+            Creator("かいりきベア", "ttf")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "minori", "haruka"])
+        ],
+        mDate(2020, 8, 30),
+        null,
+        [
+            mURL("原曲", "https://www.youtube.com/watch?v=Rkrm5foi188"),
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm37441963")
+        ],
+        Diff(),
+        ""
+    ),
+    Music(183, "書き下ろし楽曲(まらしぃ×堀江昌太(kemu))",
+        [
+            Creator("まらしぃ", "fff"),
+            Creator("堀江昌太(kemu)", "fff")
         ],
         [
         ],
@@ -3186,25 +3350,36 @@ const future_musics = [
         [
         ],
         Diff(),
-        "newlyWritten_night"
+        "newlyWritten_wonder"
     ),
-    Music(174, "雨とペトラ",
+    Music(184, "書き下ろし楽曲(傘村トータ)",
         [
-            Creator("バルーン", "ttt")
+            Creator("傘村トータ", "fff")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["len", "akito", "toya"])
         ],
-        mDate(2017, 3, 9),
+        null,
         null,
         [
-            mURL("原曲", "https://www.youtube.com/watch?v=PdfdOhYVU4"),
-            mURL("原曲", "https://www.nicovideo.jp/watch/sm30789907")
         ],
-        Diff()
+        Diff(),
+        "newlyWritten_leo"
     ),
-    Music(175, "アイデンティティ",
+    Music(185, "ブラック★ロックシューター",
+        [
+            Creator("ryo", "fff")
+        ],
+        [
+        ],
+        mDate(2008, 6, 13),
+        null,
+        [
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm3645817")
+        ],
+        Diff(),
+        ""
+    ),
+    Music(185, "アイデンティティ",
         [
             Creator("Kanaria", "fff")
         ],
@@ -3221,7 +3396,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(176, "サラマンダー",
+    Music(186, "サラマンダー",
         [
             Creator("DECO*27", "fff")
         ],
@@ -3238,7 +3413,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(177, "青色絵具",
+    Music(187, "青色絵具",
         [
             Creator("くじら", "fff")
         ],
@@ -3255,7 +3430,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(178, "コスモスパイス",
+    Music(188, "コスモスパイス",
         [
             Creator("ピノキオピー", "fff")
         ],
@@ -3273,7 +3448,7 @@ const future_musics = [
         Diff(),
         "cupNoodle"
     ),
-    Music(179, "徳川カップヌードル禁止令",
+    Music(189, "徳川カップヌードル禁止令",
         [
             Creator("Mitchie M", "fff")
         ],

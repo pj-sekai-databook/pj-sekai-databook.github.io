@@ -54,7 +54,7 @@ const getCard = (m) => {
         else if (u.domain == "www.nicovideo.jp") {
             img = getImg(getNiconicoThumbnailSrc(u.link), "imgYouTube");
             img_wrap.classList.add("niconico");
-            //break;
+            break;
         }
     }
     if (img == null) {
@@ -179,7 +179,12 @@ const getMainUnitTr = (m) => {
             break;
         case "unclassified":
             let unit_temp = m.note.replace(/^.*_/, "");
-            tr.appendChild(getTd(units[unit_temp].fullName));
+            if (Object.keys(units).includes(unit_temp)) {
+                tr.appendChild(getTd(units[unit_temp].fullName));
+            }
+            else {
+                tr.appendChild(getTd(""));
+            }
             break;
         default:
             tr.appendChild(getTd(units[m.main_unit].fullName));

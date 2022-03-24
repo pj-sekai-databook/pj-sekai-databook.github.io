@@ -118,6 +118,12 @@ const creatorLinks = {
     "Twinfield": "https://twitter.com/Twinfieldnex",
     "TAKU INOUE": "https://twitter.com/ino_tac",
     "Anamanaguchi": "https://twitter.com/anamanaguchi",
-    "Tudiken": "https://twitter.com/tudiken"
+    "Tudiken": "https://twitter.com/tudiken",
+    "ハチ": "https://twitter.com/hachi_08",
+    "SAM(samfree)": "https://twitter.com/samfree33",
+    "yanagi": "https://mobile.twitter.com/yanagi4126",
+    "牛肉": "https://twitter.com/gyuniku32",
+    "雄之助": "https://twitter.com/bass_ynk",
+    "傘村トータ": "https://twitter.com/machiomiii"
 };
 const creatorIds = Object.keys(creatorLinks);
