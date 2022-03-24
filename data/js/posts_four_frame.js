@@ -1,4 +1,8 @@
 const fourFrameList = [
+    Thumbnail(mURL("#99 焦りと成長", "https://twitter.com/pj_sekai/status/1506465765062492163", mDate(2022, 3, 23)),
+        ["ena", "akito"],
+        "https://pbs.twimg.com/media/FOgKO5jaAAMPK2L?format=jpg&name=4096x4096"
+    ),
     Thumbnail(mURL("#98 今も昔も", "https://twitter.com/pj_sekai/status/1505016216791904258", mDate(2022, 3, 19)),
         ["airi", "ena", "mizuki"],
         "https://pbs.twimg.com/media/FOHOU23aIAERtcB?format=jpg&name=4096x4096"
