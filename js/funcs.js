@@ -205,20 +205,31 @@ const getIcon = (title) => {
 
 const getMVList = (type) => {
     let arr = [];
+    let d = Number(type[0]);
     for (let m of musics) {
         for (let u of m.urls) {
-            if (u.title.indexOf(type) == 0) {
-                let cArr = null;
-                for (let v of m.vocals) {
-                    if (v.type == u.title) {
-                        cArr = JSON.parse(JSON.stringify(v.members));
-                        break;
+            if (u instanceof Link) {
+                if (u instanceof MV && u.d == d) {
+                    if (typeof u.c_arr == "undefined") {
+                        console.log("undefined MV vocals: " + m.title + u.title);
                     }
+                    arr.push(Thumbnail(mURL(`${m.title}${u.option_str}`, u.href, u.date), u.c_arr));
                 }
-                if (cArr == null) {
-                    console.log("undefined MV vocals: " + m.title + u.title);
+            }
+            else {
+                if (u.title.indexOf(type) == 0) {
+                    let cArr = null;
+                    for (let v of m.vocals) {
+                        if (v.type == u.title) {
+                            cArr = JSON.parse(JSON.stringify(v.members));
+                            break;
+                        }
+                    }
+                    if (cArr == null) {
+                        console.log("undefined MV vocals: " + m.title + u.title);
+                    }
+                    arr.push(Thumbnail(mURL(m.title + u.title.replace(type, ""), u.link, u.date), cArr));
                 }
-                arr.push(Thumbnail(mURL(m.title + u.title.replace(type, ""), u.link, u.date), cArr));
             }
         }
     }

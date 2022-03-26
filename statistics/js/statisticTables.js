@@ -93,6 +93,11 @@ const getStatFunc = (id) => {
                         arr = arr.concat(v.members);
                     }
                 }
+                for (let u of m.urls) {
+                    if (u instanceof MV && u.d == 3) {
+                        arr = arr.concat(u.c_arr);
+                    }
+                }
                 return arr;
             }
         case "2dmv_ranking":
@@ -101,6 +106,11 @@ const getStatFunc = (id) => {
                 for (let v of m.vocals) {
                     if (v.type.indexOf("2DMV") == 0) {
                         arr = arr.concat(v.members);
+                    }
+                }
+                for (let u of m.urls) {
+                    if (u instanceof MV && u.d == 2) {
+                        arr = arr.concat(u.c_arr);
                     }
                 }
                 return arr;

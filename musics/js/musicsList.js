@@ -46,15 +46,29 @@ const getCard = (m) => {
     const img_wrap = getDiv("", "img_wrap");
     let img = null;
     for (let u of m.urls) {
-        if (u.domain == "www.youtube.com") {
-            img = getImg(getYouTubeThumbnailSrc(u.link), "imgYouTube");
-            img_wrap.classList.remove("niconico");
-            break;
+        if (u instanceof Link) {
+            if (u.domain == "www.youtube.com") {
+                img = getImg(u.thumb_src, "imgYouTube");
+                img_wrap.classList.remove("niconico");
+                break;
+            }
+            else if (u.domain == "www.nicovideo.jp") {
+                img = getImg(u.thumb_src, "imgYouTube");
+                img_wrap.classList.add("niconico");
+                break;
+            }
         }
-        else if (u.domain == "www.nicovideo.jp") {
-            img = getImg(getNiconicoThumbnailSrc(u.link), "imgYouTube");
-            img_wrap.classList.add("niconico");
-            break;
+        else {
+            if (u.domain == "www.youtube.com") {
+                img = getImg(getYouTubeThumbnailSrc(u.link), "imgYouTube");
+                img_wrap.classList.remove("niconico");
+                break;
+            }
+            else if (u.domain == "www.nicovideo.jp") {
+                img = getImg(getNiconicoThumbnailSrc(u.link), "imgYouTube");
+                img_wrap.classList.add("niconico");
+                break;
+            }
         }
     }
     if (img == null) {
@@ -149,7 +163,12 @@ const getUrlTr = (m) => {
     let td = getTd();
     let url_list = [];
     for (let u of m.urls) {
-        url_list.push(getAFromURL(u));
+        if (u instanceof Link) {
+            url_list.push(u.getAnchorTag());
+        }
+        else {
+            url_list.push(getAFromURL(u));
+        }
     }
     td.appendChild(concatElms(url_list, getBr()));
     tr.appendChild(td);

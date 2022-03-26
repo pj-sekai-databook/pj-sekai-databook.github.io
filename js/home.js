@@ -6,10 +6,10 @@ const initSlider = () => {
     link_obj_list = [];
     musics_id_list = [];
     addLinkObj("four_frame");
-    addLinkFromMusics("3DMV", "www.youtube.com");
-    addLinkFromMusics("2DMV", "www.youtube.com");
-    addLinkFromMusics("3DMV", "www.youtube.com");
-    addLinkFromMusics("2DMV", "www.youtube.com");
+    addLinkFromMusics(3, "www.youtube.com");
+    addLinkFromMusics(2, "www.youtube.com");
+    addLinkFromMusics(3, "www.youtube.com");
+    addLinkFromMusics(2, "www.youtube.com");
     link_obj_list = shuffleArr(link_obj_list);
     for (let i = 0; i < link_obj_list.length; ++i) {
         let d = getSliderDiv(link_obj_list[i], s, "youtube");
@@ -87,11 +87,11 @@ const getSliderDiv = (link_obj, s, css_class) => {
     div.appendChild(a);
     return div;
 }
-const addLinkFromMusics = (title, domain) => {
+const addLinkFromMusics = (d, domain) => {
     while (true) {
         let link_obj = null;
         while (link_obj == null) {
-            link_obj = findLinkFromMusics(title, domain);
+            link_obj = findLinkFromMusics(d, domain);
         }
         if (music_id_list.indexOf(link_obj.id) < 0) {
             music_id_list.push(link_obj.id);
@@ -100,11 +100,12 @@ const addLinkFromMusics = (title, domain) => {
         }
     }
 }
-const findLinkFromMusics = (title, domain) => {
+const findLinkFromMusics = (d, domain) => {
     let m = musics[randomInt(musics.length)];
     for (let u of m.urls) {
-        if (u.title == title && u.domain == domain) {
-            return { id: m.id, type: "mv", link: "./musics/?id=" + m.id, src: getYouTubeThumbnailSrc(u.link), text: "【" + title + "】" + m.title };
+
+        if (u instanceof MV && u.d == d && u.domain == domain) {
+            return { id: m.id, type: "mv", link: "./musics/?id=" + m.id, src: u.thumb_src, text: `【${d}DMV】${m.title}` };
         }
     }
     return null;

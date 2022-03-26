@@ -4,14 +4,13 @@ const musics = [
             Creator("kz", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("3DMV", ["miku"])
+            Vocal("virtual", ["miku"])
         ],
         mDate(2012, 3, 12),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=PqJNc9KVIZE"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=UUaVUWCPv_Y", mDate(2020, 12, 9))
+            new MV(3, "https://www.youtube.com/watch?v=UUaVUWCPv_Y", mDate(2020, 12, 9), ["miku"])
         ],
         Diff(5, 10, 16, 22, 26)
     ),
@@ -98,15 +97,14 @@ const musics = [
         [
             Vocal("virtual", ["rin"]),
             Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["len", "kaito"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["len", "kaito"])
         ],
         mDate(2018, 2, 27),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=Xg-qfsKN2_E"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm32798041"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=PD8PHqWuSUI", mDate(2020, 12, 25))
+            new MV(3, "https://www.youtube.com/watch?v=PD8PHqWuSUI", mDate(2020, 12, 25), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(7, 11, 17, 24, 28)
     ),
@@ -120,15 +118,14 @@ const musics = [
             Vocal("sekai", ["ichika", "miku"]),
             Vocal("another", ["ichika"]),
             Vocal("another", ["saki"]),
-            Vocal("another", ["miku", "luka"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["miku", "luka"])
         ],
         mDate(2017, 7, 8),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=bmkY2yc1K7Q"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm31533883"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=RCULeLioEnc", mDate(2021, 1, 18))
+            new MV(3, "https://www.youtube.com/watch?v=RCULeLioEnc", mDate(2021, 1, 18), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(9, 14, 19, 27, 31)
     ),
@@ -142,14 +139,13 @@ const musics = [
             Vocal("sekai", ["miku", "ichika"]),
             Vocal("another", ["meiko"]),
             Vocal("another", ["ichika"]),
-            Vocal("2DMV", ["miku_leo", "ichika"])
         ],
         mDate(2017, 8, 4),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=hxSg2Ioz3LM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm31685272"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=i16qWEUjd4o", mDate(2021, 2, 20))
+            new MV(2, "https://www.youtube.com/watch?v=i16qWEUjd4o", mDate(2021, 2, 20), ["miku_leo", "ichika"])
         ],
         Diff(9, 14, 19, 28, 32)
     ),
@@ -163,16 +159,14 @@ const musics = [
             Vocal("sekai", ["minori", "haruka", "airi", "shizuku"]),
             Vocal("another", ["minori", "haruka"]),
             Vocal("another", ["airi", "shizuku"]),
-            Vocal("3DMV", ["minori", "haruka", "airi", "shizuku"]),
-            Vocal("2DMV", ["minori", "haruka", "airi", "shizuku"])
         ],
         mDate(2010, 11, 22),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=poiZSEjQBgw"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm12825985"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=4x2oA5vy2_U", mDate(2021, 1, 6)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=xD3amnjfxac", mDate(2021, 3, 19))
+            new MV(3, "https://www.youtube.com/watch?v=4x2oA5vy2_U", mDate(2021, 1, 6), ["minori", "haruka", "airi", "shizuku"]),
+            new MV(2, "https://www.youtube.com/watch?v=xD3amnjfxac", mDate(2021, 3, 19), ["minori", "haruka", "airi", "shizuku"])
         ],
         Diff(6, 11, 18, 24, 28)
     ),
@@ -201,14 +195,13 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("virtual", ["miku", "rin", "meiko"]),
             Vocal("sekai", ["miku", "airi", "shizuku"]),
-            Vocal("3DMV", ["airi", "shizuku", "miku_more"])
         ],
         mDate(2014, 6, 12),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=p2Irc9NPCtk"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm23762151"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=6iwD9hM9ND4", mDate(2021, 1, 20))
+            new MV(3, "https://www.youtube.com/watch?v=6iwD9hM9ND4", mDate(2021, 1, 20), ["airi", "shizuku", "miku_more"])
         ],
         Diff(6, 11, 16, 24, 27)
     ),
@@ -219,15 +212,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["rin", "len", "kohane", "an"]),
-            Vocal("3DMV", ["kohane", "an", "rin", "len"])
+            Vocal("sekai", ["rin", "len", "kohane", "an"])
         ],
         mDate(2018, 7, 13),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=oEkGC2HV7rc"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm33510542"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=mjbDHb4B5NY", mDate(2021, 1, 8)),
+            new MV(3, "https://www.youtube.com/watch?v=mjbDHb4B5NY", mDate(2021, 1, 8), ["kohane", "an", "rin", "len"]),
             mURL("マジカルミライ2018", "https://www.youtube.com/watch?v=T7-AXotDMDE"),
             mURL("マジカルミライ2018", "https://www.nicovideo.jp/watch/so33838374")
         ],
@@ -259,17 +251,15 @@ const musics = [
             Vocal("virtual", ["len", "kaito"]),
             Vocal("sekai", ["akito", "toya"]),
             Vocal("another", ["akito"]),
-            Vocal("another", ["toya"]),
-            Vocal("3DMV", ["akito", "toya"]),
-            Vocal("2DMV", ["akito", "toya"])
+            Vocal("another", ["toya"])
         ],
         mDate(2016, 9, 10),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=a_rrj1Xh5LI"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm29610327"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=WDWgBLrw-Jg", mDate(2021, 1, 22)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=9kZ6MPqj9Tg", mDate(2020, 12, 3))
+            new MV(3, "https://www.youtube.com/watch?v=WDWgBLrw-Jg", mDate(2021, 1, 22), ["akito", "toya"]),
+            new MV(2, "https://www.youtube.com/watch?v=9kZ6MPqj9Tg", mDate(2020, 12, 3), ["akito", "toya"])
         ],
         Diff(6, 11, 17, 24, 27)
     ),
@@ -281,14 +271,13 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["tsukasa", "rui", "len"]),
             Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"]),
-            Vocal("3DMV", ["len", "rui", "tsukasa"])
+            Vocal("another", ["rui"])
         ],
         mDate(2013, 3, 10),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm20296308"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=msnpPsYN2oM", mDate(2021, 1, 25))
+            new MV(3, "https://www.youtube.com/watch?v=msnpPsYN2oM", mDate(2021, 1, 25), ["len", "rui", "tsukasa"])
         ],
         Diff(8, 13, 18, 25, 29)
     ),
@@ -301,17 +290,15 @@ const musics = [
             Vocal("virtual", ["miku", "rin", "len", "meiko", "kaito"]),
             Vocal("sekai", ["rin", "emu", "nene", "tsukasa", "rui"]),
             Vocal("another", ["emu"]),
-            Vocal("another", ["nene"]),
-            Vocal("3DMV", ["rin", "tsukasa", "emu", "nene", "rui"]),
-            Vocal("2DMV", ["rin", "tsukasa", "emu", "nene", "rui"])
+            Vocal("another", ["nene"])
         ],
         mDate(2011, 4, 2),
         mDate(2020, 9, 30),
         [
             mURL("オリジナル", "https://www.youtube.com/watch?v=Vz1C44EDkYA"),
             mURL("オリジナル", "https://www.nicovideo.jp/watch/sm14044008"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=gPimbh-jxCo", mDate(2021, 1, 11)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=nNe6o3ivrXA", mDate(2021, 6, 4))
+            new MV(3, "https://www.youtube.com/watch?v=gPimbh-jxCo", mDate(2021, 1, 11), ["rin", "tsukasa", "emu", "nene", "rui"]),
+            new MV(2, "https://www.youtube.com/watch?v=nNe6o3ivrXA", mDate(2021, 6, 4), ["rin", "tsukasa", "emu", "nene", "rui"])
         ],
         Diff(5, 12, 18, 24, 27)
     ),
@@ -340,15 +327,14 @@ const musics = [
             Vocal("sekai", ["ena", "mizuki"]),
             Vocal("another", ["mizuki"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["len", "kaito"]),
-            Vocal("3DMV", ["ena", "mizuki"])
+            Vocal("another", ["len", "kaito"])
         ],
         mDate(2016, 10, 12),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=TA5OFS_xX0c"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm29854242"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=diTjDNKgjLE", mDate(2021, 1, 27))
+            new MV(3, "https://www.youtube.com/watch?v=diTjDNKgjLE", mDate(2021, 1, 27), ["ena", "mizuki"])
         ],
         Diff(6, 11, 17, 23, 27)
     ),
@@ -375,15 +361,13 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["miku", "kanade", "mafuyu"]),
-            Vocal("3DMV", ["miku_night", "kanade", "mafuyu"]),
-            Vocal("2DMV", ["miku_night", "kanade", "mafuyu"])
         ],
         mDate(2013, 1, 20),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm19870840"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=LEEyYKrEvvk", mDate(2021, 1, 15)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=n7ZmBBf5-7g", mDate(2021, 6, 15))
+            new MV(3, "https://www.youtube.com/watch?v=LEEyYKrEvvk", mDate(2021, 1, 15), ["miku_night", "kanade", "mafuyu"]),
+            new MV(2, "https://www.youtube.com/watch?v=n7ZmBBf5-7g", mDate(2021, 6, 15), ["miku_night", "kanade", "mafuyu"])
         ],
         Diff(5, 10, 17, 22, 26)
     ),
@@ -397,14 +381,13 @@ const musics = [
             Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
             Vocal("another", ["honami"]),
             Vocal("another", ["shiho"]),
-            Vocal("another", ["saki"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["saki"])
         ],
         mDate(2020, 8, 14),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=buoYwfZG4vQ"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=kXGtXnq1iF8", mDate(2020, 12, 11))
+            new MV(3, "https://www.youtube.com/watch?v=kXGtXnq1iF8", mDate(2020, 12, 11), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(7, 12, 17, 25, 29),
         "newlyWritten"
@@ -416,13 +399,12 @@ const musics = [
         [
             Vocal("virtual", ["miku", "rin", "luka", "meiko"]),
             Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
-            Vocal("3DMV", ["miku_more", "airi", "haruka", "minori", "shizuku"])
         ],
         mDate(2020, 9, 9),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=4QL9tLfVFJg"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=3yQWZcYXcgg", mDate(2020, 12, 14))
+            new MV(3, "https://www.youtube.com/watch?v=3yQWZcYXcgg", mDate(2020, 12, 14), ["miku_more", "airi", "haruka", "minori", "shizuku"])
         ],
         Diff(8, 12, 17, 24, 28),
         "newlyWritten"
@@ -434,15 +416,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku", "rin", "len"]),
-            Vocal("sekai", ["kohane", "an", "akito", "toya", "miku"]),
-            Vocal("3DMV", ["miku_vivid", "kohane", "akito", "toya", "an"])
+            Vocal("sekai", ["kohane", "an", "akito", "toya", "miku"])
         ],
         mDate(2020, 9, 30),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=XAg1jDDG49Y"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37601066"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=cj3y6DBjyvs", mDate(2020, 12, 16))
+            new MV(3, "https://www.youtube.com/watch?v=cj3y6DBjyvs", mDate(2020, 12, 16), ["miku_vivid", "kohane", "akito", "toya", "an"])
         ],
         Diff(5, 10, 16, 25, 29),
         "newlyWritten"
@@ -455,15 +436,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"]),
             Vocal("another", ["tsukasa", "emu"]),
-            Vocal("another", ["nene", "rui"]),
-            Vocal("3DMV", ["miku_wonder", "tsukasa", "nene", "emu", "rui"])
+            Vocal("another", ["nene", "rui"])
         ],
         mDate(2020, 4, 17),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=1s8NNPgdl5g"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm36685972"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=cFExVIRuGso", mDate(2020, 12, 18))
+            new MV(3, "https://www.youtube.com/watch?v=cFExVIRuGso", mDate(2020, 12, 18), ["miku_wonder", "tsukasa", "nene", "emu", "rui"])
         ],
         Diff(6, 13, 16, 24, 29),
         "newlyWritten"
@@ -477,15 +457,14 @@ const musics = [
             Vocal("another", ["kanade"]),
             Vocal("another", ["mafuyu"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("3DMV", ["miku_night", "mizuki", "kanade", "mafuyu", "ena"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2020, 4, 22),
         mDate(2020, 9, 30),
         [
             mURL("セルフカバー", "https://www.youtube.com/watch?v=r2OS97F6P_U"),
             mURL("セルフカバー", "https://www.nicovideo.jp/watch/sm36723146"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=an_gDTrVdHo", mDate(2020, 12, 21))
+            new MV(3, "https://www.youtube.com/watch?v=an_gDTrVdHo", mDate(2020, 12, 21), ["miku_night", "mizuki", "kanade", "mafuyu", "ena"])
         ],
         Diff(8, 13, 17, 26, 30),
         "newlyWritten"
@@ -498,14 +477,13 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "tsukasa", "kanade", "miku"]),
-            Vocal("3DMV", ["ichika", "tsukasa", "kanade", "miku"])
+            Vocal("sekai", ["ichika", "tsukasa", "kanade", "miku"])
         ],
         mDate(2020, 7, 31),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=9vyIPWBeRes"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=jxP2_vihhpM", mDate(2020, 12, 4))
+            new MV(3, "https://www.youtube.com/watch?v=jxP2_vihhpM", mDate(2020, 12, 4), ["ichika", "tsukasa", "kanade", "miku"])
         ],
         Diff(6, 12, 18, 23, 27),
         "newlyWritten"
@@ -517,15 +495,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku", "rin"]),
-            Vocal("sekai", ["minori", "kohane", "miku"]),
-            Vocal("3DMV", ["miku", "kohane", "minori"])
+            Vocal("sekai", ["minori", "kohane", "miku"])
         ],
         mDate(2020, 8, 5),
         mDate(2020, 9, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=okJ9Vk6owG8"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37301259"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=GJbEn1srk3Y", mDate(2020, 12, 7))
+            new MV(3, "https://www.youtube.com/watch?v=GJbEn1srk3Y", mDate(2020, 12, 7), ["miku", "kohane", "minori"])
         ],
         Diff(7, 12, 17, 24, 28),
         "newlyWritten"
@@ -554,15 +531,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["minori", "haruka", "miku"]),
-            Vocal("another", ["haruka"]),
-            Vocal("3DMV", ["minori", "haruka", "miku_more"])
+            Vocal("another", ["haruka"])
         ],
         mDate(2017, 7, 2),
         mDate(2020, 10, 2),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm31477166"),
             mURL("セルフカバー", "https://www.youtube.com/watch?v=7uacnNTk7I8"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=mzZOoZqDly4", mDate(2021, 2, 1))
+            new MV(3, "https://www.youtube.com/watch?v=mzZOoZqDly4", mDate(2021, 2, 1), ["minori", "haruka", "miku_more"])
         ],
         Diff(6, 11, 16, 22, 26)
     ),
@@ -574,14 +550,13 @@ const musics = [
             Vocal("virtual", ["luka"]),
             Vocal("sekai", ["kohane", "an", "luka"]),
             Vocal("another", ["kohane"]),
-            Vocal("another", ["an"]),
-            Vocal("2DMV", ["luka"])
+            Vocal("another", ["an"])
         ],
         mDate(2009, 7, 4),
         mDate(2020, 10, 3),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm7528841"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=esaV1kjzg_Q", mDate(2020, 10, 3))
+            new MV(2, "https://www.youtube.com/watch?v=esaV1kjzg_Q", mDate(2020, 10, 3), ["luka"])
         ],
         Diff(6, 11, 17, 23, 27)
     ),
@@ -611,17 +586,15 @@ const musics = [
             Vocal("sekai", ["kanade", "miku"]),
             Vocal("another", ["kanade"]),
             Vocal("another", ["rin"]),
-            Vocal("another", ["luka"]),
-            Vocal("2DMV", ["miku_night", "kanade"]),
-            Vocal("2DMV(アナザー)", ["kanade"])
+            Vocal("another", ["luka"])
         ],
         mDate(2017, 8, 6),
         mDate(2020, 10, 5),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=0HYm60Mjm0k"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm31700140"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=F7iqxHOth58", mDate(2020, 9, 26, 0)),
-            mURL("2DMV(アナザー)", "https://www.youtube.com/watch?v=wNxrGUf6G0A", mDate(2020, 9, 26, 1))
+            new MV(2, "https://www.youtube.com/watch?v=F7iqxHOth58", mDate(2020, 9, 26, 0), ["miku_night", "kanade"]),
+            new MV(2, "https://www.youtube.com/watch?v=wNxrGUf6G0A", mDate(2020, 9, 26, 1), ["kanade"], "アナザー")
         ],
         Diff(9, 14, 18, 26, 29)
     ),
@@ -646,15 +619,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["emu", "nene", "miku"]),
-            Vocal("another", ["emu"]),
-            Vocal("3DMV", ["miku_wonder", "emu", "nene"])
+            Vocal("another", ["emu"])
         ],
         mDate(2016, 12, 6),
         mDate(2020, 10, 7),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=g7dvpD_zlIM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm30177801"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=rLt45Ylw5Ks", mDate(2022, 1, 1))
+            new MV(3, "https://www.youtube.com/watch?v=rLt45Ylw5Ks", mDate(2022, 1, 1), ["miku_wonder", "emu", "nene"])
         ],
         Diff(8, 13, 18, 26, 29)
     ),
@@ -717,15 +689,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
-            Vocal("another", ["minori", "airi"]),
-            Vocal("2DMV", ["miku_more", "minori", "haruka", "airi", "shizuku"])
+            Vocal("another", ["minori", "airi"])
         ],
         mDate(2013, 7, 26),
         mDate(2020, 10, 11),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=WiUjG9fF3zw"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm21443197"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=zAkqd6iw-lo", mDate(2020, 10, 11))
+            new MV(2, "https://www.youtube.com/watch?v=zAkqd6iw-lo", mDate(2020, 10, 11), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
         Diff(6, 12, 17, 24, 28)
     ),
@@ -750,15 +721,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"]),
-            Vocal("2DMV", ["miku_wonder", "tsukasa", "emu", "nene", "rui"])
+            Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"])
         ],
         mDate(2007, 11, 22),
         mDate(2020, 10, 13),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=gqPWXe0dCC4"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm1588476"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=kU4Rth300FM", mDate(2020, 11, 2))
+            new MV(2, "https://www.youtube.com/watch?v=kU4Rth300FM", mDate(2020, 11, 2), ["miku_wonder", "tsukasa", "emu", "nene", "rui"])
         ],
         Diff(9, 12, 18, 25, 29)
     ),
@@ -783,15 +753,14 @@ const musics = [
         ],
         [
             Vocal("sekai", ["ena", "mizuki", "miku"]),
-            Vocal("another", ["ena"]),
-            Vocal("2DMV", ["miku_night", "ena", "mizuki"])
+            Vocal("another", ["ena"])
         ],
         mDate(2020, 5, 22),
         mDate(2020, 10, 15),
         [
             mURL("セルフカバー", "https://www.youtube.com/watch?v=bNagYg_YGbU"),
             mURL("セルフカバー", "https://www.nicovideo.jp/watch/sm36903498"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=kNLyqES4fC8", mDate(2020, 10, 15))
+            new MV(2, "https://www.youtube.com/watch?v=kNLyqES4fC8", mDate(2020, 10, 15), ["miku_night", "ena", "mizuki"])
         ],
         Diff(8, 12, 18, 25, 29),
         "newlyWritten"
@@ -834,14 +803,14 @@ const musics = [
         [
             Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
             Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["shiho"])
         ],
         mDate(2020, 11, 16),
         mDate(2020, 10, 18),
         [
             mURL("セカイVer.", "https://www.youtube.com/watch?v=AL6hWKN0WQo", mDate(2020, 11, 16)),
-            mURL("原曲", "https://www.nicovideo.jp/watch/sm37828296")
+            mURL("原曲", "https://www.nicovideo.jp/watch/sm37828296"),
+            new MV(3, "https://www.youtube.com/watch?v=oo2s6w-l1jQ", mDate(2021, 2, 5), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(8, 13, 17, 26, 30),
         "newlyWritten"
@@ -868,15 +837,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("2DMV", ["kanade", "mafuyu", "ena", "mizuki", "miku_night"])
+            Vocal("another", ["mafuyu"])
         ],
         mDate(2020, 10, 24),
         mDate(2020, 10, 20),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=B2llCEKbxwA"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37716686"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=J9kD9rYR088", mDate(2021, 8, 2))
+            new MV(2, "https://www.youtube.com/watch?v=J9kD9rYR088", mDate(2021, 8, 2), ["kanade", "mafuyu", "ena", "mizuki", "miku_night"])
         ],
         Diff(9, 13, 18, 26, 29),
         "newlyWritten"
@@ -887,15 +855,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
-            Vocal("3DMV", ["minori", "shizuku", "haruka", "airi", "miku_more"])
+            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
         ],
         mDate(2018, 2, 16),
         mDate(2020, 10, 25),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=ZEy36W1xX8c"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm32748202"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=ZKbnmy82DZE", mDate(2021, 2, 3))
+            new MV(3, "https://www.youtube.com/watch?v=ZKbnmy82DZE", mDate(2021, 2, 3), ["minori", "shizuku", "haruka", "airi", "miku_more"])
         ],
         Diff(6, 12, 17, 24, 26)
     ),
@@ -908,7 +875,6 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["mafuyu", "mizuki", "miku"]),
-            Vocal("2DMV", ["mafuyu", "mizuki", "miku_night"]),
             Vocal("another", ["mafuyu"]),
             Vocal("another", ["mizuki"])
         ],
@@ -917,7 +883,7 @@ const musics = [
         [
             mURL("原曲", "https://www.youtube.com/watch?v=7zwCIz-Ohn4"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm34470195"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=JluOv0KD9Wc", mDate(2022, 1, 14))
+            new MV(2, "https://www.youtube.com/watch?v=JluOv0KD9Wc", mDate(2022, 1, 14), ["mafuyu", "mizuki", "miku_night"])
         ],
         Diff(5, 12, 16, 24, 27)
     ),
@@ -928,15 +894,14 @@ const musics = [
         [
             Vocal("virtual", ["rin", "len"]),
             Vocal("virtual", ["len", "meiko", "luka", "kaito", "miku"]),
-            Vocal("sekai", ["rui", "miku", "tsukasa", "emu", "nene"]),
-            Vocal("3DMV", ["miku_wonder", "emu", "rui", "tsukasa", "nene"])
+            Vocal("sekai", ["rui", "miku", "tsukasa", "emu", "nene"])
         ],
         mDate(2020, 3, 30),
         mDate(2020, 11, 7),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=Dun11cIEo9s"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm36594334"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=h_h1uJcLsAE", mDate(2021, 2, 8))
+            new MV(3, "https://www.youtube.com/watch?v=h_h1uJcLsAE", mDate(2021, 2, 8), ["miku_wonder", "emu", "rui", "tsukasa", "nene"])
         ],
         Diff(5, 11, 17, 24, 28),
         "newlyWritten"
@@ -962,14 +927,12 @@ const musics = [
         ],
         [
             Vocal("sekai", ["airi", "miku", "minori", "haruka", "shizuku"]),
-            Vocal("2DMV", ["airi", "miku_more", "minori", "haruka", "shizuku"]),
-            Vocal("2DMV(ゲームサイズ)", ["airi", "miku_more", "minori", "haruka", "shizuku"])
         ],
         null,
         mDate(2020, 11, 19),
         [
-            mURL("2DMV", "https://www.youtube.com/watch?v=SKbutknpQ_I", mDate(2021, 6, 21)),
-            mURL("2DMV(ゲームサイズ)", "https://www.youtube.com/watch?v=vjCfKbwD17c", mDate(2020, 11, 19))
+            new MV(2, "https://www.youtube.com/watch?v=SKbutknpQ_I", mDate(2021, 6, 21), ["airi", "miku_more", "minori", "haruka", "shizuku"]),
+            new MV(2, "https://www.youtube.com/watch?v=vjCfKbwD17c", mDate(2020, 11, 19), ["airi", "miku_more", "minori", "haruka", "shizuku"], "ゲームサイズ")
         ],
         Diff(9, 13, 18, 26, 31),
         "newlyWritten"
@@ -1026,15 +989,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["ichika", "miku", "honami"]),
-            Vocal("another", ["honami"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["honami"])
         ],
         mDate(2014, 2, 24),
         mDate(2020, 12, 1),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=7JANm3jOb2k"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm22960446"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=7y8ufRaaZC4", mDate(2022, 1, 1))
+            new MV(3, "https://www.youtube.com/watch?v=7y8ufRaaZC4", mDate(2022, 1, 1), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(6, 13, 17, 23, 27)
     ),
@@ -1046,15 +1008,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("virtual", ["rin", "meiko", "miku", "kaito", "len"]),
             Vocal("sekai", ["an", "kohane", "miku", "akito", "toya"]),
-            Vocal("another", ["an", "kohane"]),
-            Vocal("3DMV", ["miku_vivid", "an", "akito", "toya", "kohane"])
+            Vocal("another", ["an", "kohane"])
         ],
         mDate(2020, 12, 11),
         mDate(2020, 12, 8),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=crCS77wqxTI"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37937383"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=t7hnsVAsWCo", mDate(2020, 12, 8))
+            new MV(3, "https://www.youtube.com/watch?v=t7hnsVAsWCo", mDate(2020, 12, 8), ["miku_vivid", "an", "akito", "toya", "kohane"])
         ],
         Diff(6, 11, 16, 24, 28),
         "newlyWritten"
@@ -1068,15 +1029,14 @@ const musics = [
             Vocal("virtual", ["miku", "luka", "rin"]),
             Vocal("sekai", ["miku", "kanade", "mizuki"]),
             Vocal("another", ["kanade"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("3DMV", ["miku_night", "mizuki", "kanade"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2012, 11, 29),
         mDate(2020, 12, 14),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=UKVioegPPds"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm19466301"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=luujC_Y4Wsw", mDate(2020, 12, 14))
+            new MV(3, "https://www.youtube.com/watch?v=luujC_Y4Wsw", mDate(2020, 12, 14), ["miku_night", "mizuki", "kanade"])
         ],
         Diff(6, 11, 16, 22, 26)
     ),
@@ -1088,17 +1048,15 @@ const musics = [
             Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"]),
             Vocal("sekai", ["nene", "rui", "meiko", "kaito"]),
             Vocal("another", ["nene", "rui"]),
-            Vocal("another", ["meiko", "kaito"]),
-            Vocal("2DMV", ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"]),
-            Vocal("2DMV(ゲームサイズ)", ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"])
+            Vocal("another", ["meiko", "kaito"])
         ],
         mDate(2020, 12, 20),
         mDate(2020, 12, 20),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=WztzykQSkgM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37987111"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=eLIUBridZsw", mDate(2022, 3, 14)),
-            mURL("2DMV(ゲームサイズ)", "https://www.youtube.com/watch?v=EIUO-fPrkSo", mDate(2020, 12, 20))
+            new MV(2, "https://www.youtube.com/watch?v=eLIUBridZsw", mDate(2022, 3, 14), ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"]),
+            new MV(2, "https://www.youtube.com/watch?v=EIUO-fPrkSo", mDate(2020, 12, 20), ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"], "ゲームサイズ")
         ],
         Diff(9, 13, 18, 25, 28),
         "newlyWritten"
@@ -1161,15 +1119,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["airi", "miku", "minori"]),
             Vocal("another", ["minori"]),
-            Vocal("another", ["airi"]),
-            Vocal("2DMV", ["airi", "miku_more", "minori"])
+            Vocal("another", ["airi"])
         ],
         mDate(2014, 6, 10),
         mDate(2020, 12, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=TXzfQ0cP1P0"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm23750267"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=mqrp4SfMJwk", mDate(2021, 8, 26))
+            new MV(2, "https://www.youtube.com/watch?v=mqrp4SfMJwk", mDate(2021, 8, 26), ["airi", "miku_more", "minori"])
         ],
         Diff(6, 12, 17, 22, 27)
     ),
@@ -1212,15 +1169,14 @@ const musics = [
             Vocal("virtual", ["gumi"]),
             Vocal("sekai", ["luka", "kohane", "an", "akito", "toya"]),
             Vocal("another", ["kohane", "toya"]),
-            Vocal("another", ["an", "akito"]),
-            Vocal("2DMV", ["luka", "kohane", "an", "akito", "toya"])
+            Vocal("another", ["an", "akito"])
         ],
         mDate(2014, 10, 8),
         mDate(2021, 1, 2),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=cQKGUgOfD8U"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm24643818"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=4z9Mg8sbFeU", mDate(2021, 5, 4))
+            new MV(2, "https://www.youtube.com/watch?v=4z9Mg8sbFeU", mDate(2021, 5, 4), ["luka", "kohane", "an", "akito", "toya"])
         ],
         Diff(6, 12, 16, 23, 26)
     ),
@@ -1231,16 +1187,14 @@ const musics = [
         [
             Vocal("sekai", ["tsukasa", "emu", "nene", "rui"]),
             Vocal("another", ["tsukasa", "nene"]),
-            Vocal("3DMV", ["emu", "nene", "tsukasa", "rui"]),
-            Vocal("2DMV", ["emu", "nene", "tsukasa", "rui"])
         ],
         mDate(2016, 2, 22),
         mDate(2021, 1, 3),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=_j0kfGNwIlw"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm28276238"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=QOU2jkl30Vs", mDate(2021, 1, 3)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=ZiZkXbivmh4", mDate(2022, 1, 26)),
+            new MV(3, "https://www.youtube.com/watch?v=QOU2jkl30Vs", mDate(2021, 1, 3), ["emu", "nene", "tsukasa", "rui"]),
+            new MV(2, "https://www.youtube.com/watch?v=ZiZkXbivmh4", mDate(2022, 1, 26), ["emu", "nene", "tsukasa", "rui"]),
             mURL("セルフカバー", "https://www.youtube.com/watch?v=t2iQNmVfhGY")
         ],
         Diff(9, 13, 18, 26, 31)
@@ -1286,15 +1240,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["honami", "ichika", "miku", "saki", "shiho"]),
             Vocal("another", ["saki"]),
-            Vocal("another", ["honami"]),
-            Vocal("2DMV", ["miku_leo", "ichika", "saki", "honami", "shiho"])
+            Vocal("another", ["honami"])
         ],
         mDate(2021, 1, 10),
         mDate(2021, 1, 10),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=wvlUWjqGQSA"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38099931"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=70ZLvDTonqI", mDate(2021, 1, 10))
+            new MV(2, "https://www.youtube.com/watch?v=70ZLvDTonqI", mDate(2021, 1, 10), ["miku_leo", "ichika", "saki", "honami", "shiho"])
         ],
         Diff(7, 12, 17, 26, 30),
         "newlyWritten"
@@ -1339,14 +1292,13 @@ const musics = [
             Vocal("sekai", ["shizuku", "luka", "minori", "haruka", "airi"]),
             Vocal("another", ["haruka"]),
             Vocal("another", ["shizuku"]),
-            Vocal("another", ["luka"]),
-            Vocal("3DMV", ["shizuku", "minori", "haruka", "airi", "luka"])
+            Vocal("another", ["luka"])
         ],
         mDate(2021, 1, 29),
         mDate(2021, 1, 29),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=i5rl-NGSYoo"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=vU-tfn7yyrQ", mDate(2021, 1, 29))
+            new MV(3, "https://www.youtube.com/watch?v=vU-tfn7yyrQ", mDate(2021, 1, 29), ["shizuku", "minori", "haruka", "airi", "luka"])
         ],
         Diff(6, 12, 16, 23, 27),
         "newlyWritten"
@@ -1359,13 +1311,12 @@ const musics = [
         [
             Vocal("sekai", ["toya", "akito", "kohane", "an", "miku"]),
             Vocal("another", ["akito", "toya"]),
-            Vocal("another", ["kohane", "an"]),
-            Vocal("2DMV", ["toya", "akito", "kohane", "an", "miku_vivid"])
+            Vocal("another", ["kohane", "an"])
         ],
         mDate(2021, 2, 7),
         mDate(2021, 1, 31),
         [
-            mURL("2DMV", "https://www.youtube.com/watch?v=ZMbWDpC1N7s", mDate(2021, 2, 7))
+            new MV(2, "https://www.youtube.com/watch?v=ZMbWDpC1N7s", mDate(2021, 2, 7), ["toya", "akito", "kohane", "an", "miku_vivid"])
         ],
         Diff(6, 12, 18, 26, 30),
         "newlyWritten"
@@ -1398,17 +1349,15 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("virtual", ["miku", "luka", "meiko"]),
             Vocal("sekai", ["miku", "ichika", "saki"]),
-            Vocal("another", ["saki"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"]),
-            Vocal("2DMV", ["ichika", "saki", "miku_leo"])
+            Vocal("another", ["saki"])
         ],
         mDate(2010, 9, 13),
         mDate(2021, 2, 10),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=EgOWe9ByNaE"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm12098837"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=NHR3b9v_S0I", mDate(2021, 2, 10)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=s1yW2jPJiVE", mDate(2021, 7, 3))
+            new MV(3, "https://www.youtube.com/watch?v=NHR3b9v_S0I", mDate(2021, 2, 10), ["ichika", "saki", "honami", "shiho", "miku_leo"]),
+            new MV(2, "https://www.youtube.com/watch?v=s1yW2jPJiVE", mDate(2021, 7, 3), ["ichika", "saki", "miku_leo"])
         ],
         Diff(6, 11, 16, 23, 26)
     ),
@@ -1420,14 +1369,13 @@ const musics = [
         [
             Vocal("virtual", ["rin", "luka"]),
             Vocal("sekai", ["rin", "luka", "kohane", "an"]),
-            Vocal("3DMV", ["kohane", "an", "rin", "luka"])
         ],
         mDate(2014, 7, 18),
         mDate(2021, 2, 15),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=4sq2lPNxi7M"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm24029703"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=KxNII3csgw4", mDate(2021, 2, 15))
+            new MV(3, "https://www.youtube.com/watch?v=KxNII3csgw4", mDate(2021, 2, 15), ["kohane", "an", "rin", "luka"])
         ],
         Diff(6, 12, 17, 25, 28)
     ),
@@ -1439,15 +1387,14 @@ const musics = [
             Vocal("virtual", ["una", "rin"]),
             Vocal("sekai", ["rin", "emu", "nene"]),
             Vocal("another", ["emu"]),
-            Vocal("another", ["nene"]),
-            Vocal("2DMV", ["rin", "emu", "nene"])
+            Vocal("another", ["nene"])
         ],
         mDate(2017, 10, 12),
         mDate(2021, 2, 19),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=FT91CrPPAqc"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm32087162"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=BdTf_uKTqos", mDate(2021, 7, 20))
+            new MV(2, "https://www.youtube.com/watch?v=BdTf_uKTqos", mDate(2021, 7, 20), ["rin", "emu", "nene"])
         ],
         Diff(9, 14, 18, 26, 31)
     ),
@@ -1476,14 +1423,13 @@ const musics = [
             Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
             Vocal("another", ["ena"]),
             Vocal("another", ["rin"]),
-            Vocal("3DMV", ["ena", "mizuki", "kanade", "rin", "mafuyu"])
         ],
         mDate(2021, 2, 26),
         mDate(2021, 2, 26),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=cwLlHFMlBNQ"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38335870"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=qtJ6U4c0_fQ", mDate(2021, 4, 6))
+            new MV(3, "https://www.youtube.com/watch?v=qtJ6U4c0_fQ", mDate(2021, 4, 6), ["ena", "mizuki", "kanade", "rin", "mafuyu"])
         ],
         Diff(6, 12, 18, 26, 30),
         "newlyWritten"
@@ -1495,15 +1441,14 @@ const musics = [
         [
             Vocal("virtual", ["rin"]),
             Vocal("sekai", ["emu", "len", "tsukasa", "nene", "rui"]),
-            Vocal("another", ["emu"]),
-            Vocal("2DMV", ["emu", "len", "tsukasa", "nene", "rui"])
+            Vocal("another", ["emu"])
         ],
         mDate(2021, 3, 8),
         mDate(2021, 2, 28),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=S84mvlha5Fc"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38385642"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=1RoDmN9n8xE", mDate(2021, 4, 21))
+            new MV(2, "https://www.youtube.com/watch?v=1RoDmN9n8xE", mDate(2021, 4, 21), ["emu", "len", "tsukasa", "nene", "rui"])
         ],
         Diff(6, 11, 16, 22, 27),
         "newlyWritten"
@@ -1514,15 +1459,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["mafuyu", "mizuki"]),
-            Vocal("2DMV", ["mafuyu", "mizuki"])
+            Vocal("sekai", ["mafuyu", "mizuki"])
         ],
         mDate(2020, 4, 26),
         mDate(2021, 3, 6),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=wp9Z2wZ-2bs"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm36731216"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=ZjNUJUgyoOw", mDate(2021, 5, 27))
+            new MV(2, "https://www.youtube.com/watch?v=ZjNUJUgyoOw", mDate(2021, 5, 27), ["mafuyu", "mizuki"])
         ],
         Diff(7, 13, 18, 25, 28)
     ),
@@ -1549,15 +1493,14 @@ const musics = [
             Vocal("sekai", ["akito", "toya", "kaito"]),
             Vocal("another", ["akito"]),
             Vocal("another", ["toya"]),
-            Vocal("another", ["kaito"]),
-            Vocal("3DMV", ["kaito", "akito", "toya"])
+            Vocal("another", ["kaito"])
         ],
         mDate(2012, 10, 29),
         mDate(2021, 3, 15),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=xGNQOqtGU_E"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm19233263"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=KvnS-TCq05Y", mDate(2021, 3, 15))
+            new MV(3, "https://www.youtube.com/watch?v=KvnS-TCq05Y", mDate(2021, 3, 15), ["kaito", "akito", "toya"])
         ],
         Diff(6, 12, 17, 24, 28)
     ),
@@ -1602,15 +1545,14 @@ const musics = [
             Vocal("virtual", ["rin"]),
             Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "rin"]),
             Vocal("another", ["minori"]),
-            Vocal("another", ["airi"]),
-            Vocal("3DMV", ["minori", "airi", "haruka", "shizuku", "rin"])
+            Vocal("another", ["airi"])
         ],
         mDate(2021, 3, 30),
         mDate(2021, 3, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=lFJA9muTUDM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38510568"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=fYhFyk41rSw", mDate(2021, 3, 30))
+            new MV(3, "https://www.youtube.com/watch?v=fYhFyk41rSw", mDate(2021, 3, 30), ["minori", "airi", "haruka", "shizuku", "rin"])
         ],
         Diff(9, 13, 17, 26, 31),
         "newlyWritten"
@@ -1623,15 +1565,14 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "len"]),
-            Vocal("another", ["rui"]),
-            Vocal("3DMV", ["len", "emu", "tsukasa", "rui", "nene"])
+            Vocal("another", ["rui"])
         ],
         mDate(2017, 11, 28),
         mDate(2021, 4, 5),
         [
             mURL("セルフカバー", "https://www.youtube.com/watch?v=nROvY9uiYYk"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm32338124"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=M_9lPZyS-eQ", mDate(2021, 4, 5))
+            new MV(3, "https://www.youtube.com/watch?v=M_9lPZyS-eQ", mDate(2021, 4, 5), ["len", "emu", "tsukasa", "rui", "nene"])
         ],
         Diff(6, 12, 18, 24, 28)
     ),
@@ -1644,14 +1585,13 @@ const musics = [
             Vocal("sekai", ["luka", "minori", "haruka", "airi", "shizuku"]),
             Vocal("another", ["haruka"]),
             Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"]),
-            Vocal("2DMV", ["luka", "minori", "haruka", "airi", "shizuku"])
+            Vocal("another", ["shizuku"])
         ],
         mDate(2014, 2, 28),
         mDate(2021, 4, 12),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=WdHRGH1Qv70"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=ZVnD_K972P8", mDate(2022, 2, 14))
+            new MV(2, "https://www.youtube.com/watch?v=ZVnD_K972P8", mDate(2022, 2, 14), ["luka", "minori", "haruka", "airi", "shizuku"])
         ],
         Diff(6, 13, 17, 23, 27)
     ),
@@ -1665,15 +1605,14 @@ const musics = [
             Vocal("another", ["kanade"]),
             Vocal("another", ["mafuyu"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("3DMV", ["mizuki", "ena", "kanade", "meiko", "mafuyu"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2021, 5, 1, 25, 0),
         mDate(2021, 4, 20),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=X_6EPkvIAGg"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38667465"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=QdYji4SVH3A", mDate(2021, 4, 19))
+            new MV(3, "https://www.youtube.com/watch?v=QdYji4SVH3A", mDate(2021, 4, 19), ["mizuki", "ena", "kanade", "meiko", "mafuyu"])
         ],
         Diff(7, 12, 17, 25, 28),
         "newlyWritten"
@@ -1687,15 +1626,14 @@ const musics = [
             Vocal("sekai", ["shiho", "ichika", "luka", "saki", "honami"]),
             Vocal("another", ["ichika"]),
             Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"]),
-            Vocal("2DMV", ["shiho", "ichika", "luka", "saki", "honami"])
+            Vocal("another", ["shiho"])
         ],
         mDate(2021, 4, 21),
         mDate(2021, 4, 21),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=fobQOAOAdoE"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38662481"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=_GdIO1AANg4", mDate(2021, 4, 28))
+            new MV(2, "https://www.youtube.com/watch?v=_GdIO1AANg4", mDate(2021, 4, 28), ["shiho", "ichika", "luka", "saki", "honami"])
         ],
         Diff(8, 13, 16, 23, 26),
         "newlyWritten"
@@ -1763,17 +1701,15 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["akito", "kaito", "kohane", "an", "toya"]),
-            Vocal("another", ["akito"]),
-            Vocal("3DMV", ["kaito", "kohane", "toya", "akito", "an"]),
-            Vocal("2DMV", ["akito", "kaito", "kohane", "an", "toya"])
+            Vocal("another", ["akito"])
         ],
         mDate(2021, 5, 8),
         mDate(2021, 5, 8),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=EEbWRjavSVw"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38708262"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=mfYruS61p48", mDate(2021, 5, 8)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=8m1cUgLepmY", mDate(2021, 8, 17))
+            new MV(3, "https://www.youtube.com/watch?v=mfYruS61p48", mDate(2021, 5, 8), ["kaito", "kohane", "toya", "akito", "an"]),
+            new MV(2, "https://www.youtube.com/watch?v=8m1cUgLepmY", mDate(2021, 8, 17), ["akito", "kaito", "kohane", "an", "toya"])
         ],
         Diff(6, 12, 18, 24, 29),
         "newlyWritten"
@@ -1786,15 +1722,14 @@ const musics = [
             Vocal("virtual", ["gumi"]),
             Vocal("sekai", ["tsukasa", "rui"]),
             Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"]),
-            Vocal("2DMV", ["tsukasa", "rui"])
+            Vocal("another", ["rui"])
         ],
         mDate(2020, 8, 2),
         mDate(2021, 5, 17),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=cm-l2h6GB8Q"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm37287661"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=B45Q1AbiBWg", mDate(2021, 12, 23))
+            new MV(2, "https://www.youtube.com/watch?v=B45Q1AbiBWg", mDate(2021, 12, 23), ["tsukasa", "rui"])
         ],
         Diff(7, 14, 19, 25, 29)
     ),
@@ -1806,13 +1741,12 @@ const musics = [
             Vocal("virtual", ["miku", "rin"]),
             Vocal("sekai", ["haruka", "shizuku", "meiko", "minori", "airi"]),
             Vocal("another", ["minori"]),
-            Vocal("2DMV", ["haruka", "shizuku", "meiko", "minori", "airi"])
         ],
         mDate(2021, 5, 29),
         mDate(2021, 5, 21),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=YsVmtXmpGEI"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=miLfbcfdqus", mDate(2021, 5, 29))
+            new MV(2, "https://www.youtube.com/watch?v=miLfbcfdqus", mDate(2021, 5, 29), ["haruka", "shizuku", "meiko", "minori", "airi"])
         ],
         Diff(6, 11, 16, 22, 26),
         "newlyWritten"
@@ -1824,15 +1758,14 @@ const musics = [
         [
             Vocal("virtual", ["yuki"]),
             Vocal("sekai", ["ichika", "saki", "miku"]),
-            Vocal("another", ["saki"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["saki"])
         ],
         mDate(2013, 10, 9),
         mDate(2021, 5, 28),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm22001720"),
             mURL("原曲(remaster)", "https://www.youtube.com/watch?v=L0tcMxp8Iy8"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=x7_chKm37m8", mDate(2021, 5, 28))
+            new MV(3, "https://www.youtube.com/watch?v=x7_chKm37m8", mDate(2021, 5, 28), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(8, 13, 18, 25, 29)
     ),
@@ -1844,15 +1777,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["miku", "airi", "shizuku"]),
             Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"]),
-            Vocal("3DMV", ["miku_more", "airi", "shizuku"])
+            Vocal("another", ["shizuku"])
         ],
         mDate(2009, 4, 6),
         mDate(2021, 6, 7),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=kp-plPYAPq8"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm6666016"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=mlTSkRO92S0", mDate(2021, 6, 7))
+            new MV(3, "https://www.youtube.com/watch?v=mlTSkRO92S0", mDate(2021, 6, 7), ["miku_more", "airi", "shizuku"])
         ],
         Diff(7, 12, 17, 24, 27)
     ),
@@ -1880,7 +1812,6 @@ const musics = [
         [
             Vocal("virtual", ["miku", "kaito"]),
             Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"]),
-            Vocal("3DMV", ["kaito", "emu", "tsukasa", "nene", "rui"]),
             Vocal("another", ["tsukasa"]),
             Vocal("another", ["emu"]),
             Vocal("another", ["nene"]),
@@ -1891,7 +1822,7 @@ const musics = [
         [
             mURL("原曲", "https://www.youtube.com/watch?v=dBQg24mx45Y"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm38907008"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=vI5xihka9hw", mDate(2021, 6, 19))
+            new MV(3, "https://www.youtube.com/watch?v=vI5xihka9hw", mDate(2021, 6, 19), ["kaito", "emu", "tsukasa", "nene", "rui"])
         ],
         Diff(9, 14, 19, 27, 32),
         "newlyWritten"
@@ -1905,14 +1836,13 @@ const musics = [
             Vocal("another", ["kanade"]),
             Vocal("another", ["mafuyu"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("2DMV", ["kanade", "luka", "mafuyu", "ena", "mizuki"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2022, 2, 10),
         mDate(2021, 6, 21),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm40015219"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=GTlQhMRHXIg", mDate(2021, 6, 28))
+            new MV(2, "https://www.youtube.com/watch?v=GTlQhMRHXIg", mDate(2021, 6, 28), ["kanade", "luka", "mafuyu", "ena", "mizuki"])
         ],
         Diff(6, 11, 15, 22, 26),
         "newlyWritten"
@@ -1925,15 +1855,14 @@ const musics = [
             Vocal("virtual", ["flower"]),
             Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"]),
             Vocal("another", ["kohane", "toya"]),
-            Vocal("another", ["an", "akito"]),
-            Vocal("2DMV", ["rin", "kohane", "an", "akito", "toya"])
+            Vocal("another", ["an", "akito"])
         ],
         mDate(2019, 8, 25),
         mDate(2021, 6, 30),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=oUevY6uH4Qg"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm35586514"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=UyDytd1EZSk", mDate(2021, 12, 9))
+            new MV(2, "https://www.youtube.com/watch?v=UyDytd1EZSk", mDate(2021, 12, 9), ["rin", "kohane", "an", "akito", "toya"])
         ],
         Diff(6, 13, 18, 24, 28)
     ),
@@ -1947,15 +1876,14 @@ const musics = [
             Vocal("sekai", ["saki", "ichika", "miku", "honami", "shiho"]),
             Vocal("another", ["saki"]),
             Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
+            Vocal("another", ["shiho"])
         ],
         mDate(2021, 7, 23),
         mDate(2021, 7, 7),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=mMiLWxuffdQ"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39105923"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=ydf6PIlMuyE", mDate(2021, 7, 7))
+            new MV(3, "https://www.youtube.com/watch?v=ydf6PIlMuyE", mDate(2021, 7, 7), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(6, 12, 18, 24, 28),
         "newlyWritten"
@@ -1968,15 +1896,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
             Vocal("another", ["kohane"]),
-            Vocal("another", ["an"]),
-            Vocal("2DMV", ["kohane", "len", "an", "akito", "toya"])
+            Vocal("another", ["an"])
         ],
         mDate(2021, 7, 18),
         mDate(2021, 7, 9),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=Rcc_BreWEMI"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39046046"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=DaWbq6KeJq4", mDate(2021, 7, 18))
+            new MV(2, "https://www.youtube.com/watch?v=DaWbq6KeJq4", mDate(2021, 7, 18), ["kohane", "len", "an", "akito", "toya"])
         ],
         Diff(6, 11, 17, 25, 28),
         "newlyWritten"
@@ -1989,15 +1916,14 @@ const musics = [
             Vocal("virtual", ["ia"]),
             Vocal("sekai", ["miku", "ichika"]),
             Vocal("another", ["ichika"]),
-            Vocal("another", ["miku"]),
-            Vocal("2DMV", ["miku_leo", "ichika"])
+            Vocal("another", ["miku"])
         ],
         mDate(2012, 4, 11),
         mDate(2021, 7, 12),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=Om3MTou2kPg"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm17520775"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=uDgikBUvIlQ", mDate(2021, 7, 12))
+            new MV(2, "https://www.youtube.com/watch?v=uDgikBUvIlQ", mDate(2021, 7, 12), ["miku_leo", "ichika"])
         ],
         Diff(9, 14, 20, 29, 33)
     ),
@@ -2009,15 +1935,14 @@ const musics = [
             Vocal("virtual", ["gumi"]),
             Vocal("sekai", ["luka", "haruka", "shizuku"]),
             Vocal("another", ["haruka"]),
-            Vocal("another", ["luka"]),
-            Vocal("2DMV", ["luka", "haruka", "shizuku"])
+            Vocal("another", ["luka"])
         ],
         mDate(2012, 6, 26),
         mDate(2021, 7, 19),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=s8KBk8ZRH54"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm18198019"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=jSwRwYVjRg8", mDate(2021, 7, 19))
+            new MV(2, "https://www.youtube.com/watch?v=jSwRwYVjRg8", mDate(2021, 7, 19), ["luka", "haruka", "shizuku"])
         ],
         Diff(8, 13, 18, 25, 31)
     ),
@@ -2030,15 +1955,14 @@ const musics = [
             Vocal("sekai", ["miku", "kanade", "mafuyu", "ena", "mizuki"]),
             Vocal("another", ["mafuyu"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("3DMV", ["miku_night", "mizuki", "mafuyu", "kanade", "ena"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2019, 1, 4),
         mDate(2021, 7, 28),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=XCyKJD6uQyg"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm34425299"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=vnTW9sS-9P4", mDate(2021, 7, 28))
+            new MV(3, "https://www.youtube.com/watch?v=vnTW9sS-9P4", mDate(2021, 7, 28), ["miku_night", "mizuki", "mafuyu", "kanade", "ena"])
         ],
         Diff(7, 12, 19, 25, 31)
     ),
@@ -2085,14 +2009,13 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["airi", "len", "minori", "haruka", "shizuku"]),
-            Vocal("another", ["airi"]),
-            Vocal("3DMV", ["len", "airi", "haruka", "shizuku", "minori"])
+            Vocal("another", ["airi"])
         ],
         mDate(2021, 8, 18),
         mDate(2021, 8, 18),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=WXvm5XfkXrk"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=3_HXYLEP7aU", mDate(2021, 8, 18))
+            new MV(3, "https://www.youtube.com/watch?v=3_HXYLEP7aU", mDate(2021, 8, 18), ["len", "airi", "haruka", "shizuku", "minori"])
         ],
         Diff(7, 12, 18, 24, 27),
         "newlyWritten"
@@ -2103,15 +2026,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["nene", "luka", "tsukasa", "emu", "rui"]),
-            Vocal("2DMV", ["nene", "luka", "tsukasa", "emu", "rui"])
+            Vocal("sekai", ["nene", "luka", "tsukasa", "emu", "rui"])
         ],
         mDate(2021, 8, 29),
         mDate(2021, 8, 20),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=Y-QhzXC9NbI"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39258986"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=JoM4JGqQyCU", mDate(2021, 8, 28))
+            new MV(2, "https://www.youtube.com/watch?v=JoM4JGqQyCU", mDate(2021, 8, 28), ["nene", "luka", "tsukasa", "emu", "rui"])
         ],
         Diff(7, 12, 18, 25, 29),
         "newlyWritten"
@@ -2124,8 +2046,7 @@ const musics = [
             Vocal("virtual", ["ia"]),
             Vocal("sekai", ["kohane", "an", "akito", "toya", "len"]),
             Vocal("another", ["kohane", "akito"]),
-            Vocal("another", ["an", "toya"]),
-            Vocal("3DMV", ["len", "toya", "an", "akito", "kohane"])
+            Vocal("another", ["an", "toya"])
         ],
         mDate(2012, 7, 21),
         mDate(2021, 8, 23),
@@ -2133,7 +2054,7 @@ const musics = [
             mURL("原曲", "https://www.youtube.com/watch?v=oh9UGmqtdMg"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm18406343"),
             mURL("Re:boot", "https://www.youtube.com/watch?v=WEVgkh_7_0k"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=jzecTyD0ljs", mDate(2021, 8, 23))
+            new MV(3, "https://www.youtube.com/watch?v=jzecTyD0ljs", mDate(2021, 8, 23), ["len", "toya", "an", "akito", "kohane"])
         ],
         Diff(9, 14, 19, 27, 31)
     ),
@@ -2161,13 +2082,12 @@ const musics = [
         [
             Vocal("virtual", ["len", "miku", "rin", "luka", "meiko", "kaito"]),
             Vocal("sekai", ["ichika", "meiko", "saki", "honami", "shiho"]),
-            Vocal("2DMV", ["ichika", "meiko", "saki", "honami", "shiho"])
         ],
         mDate(2021, 9, 19),
         mDate(2021, 9, 10),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=8Zds1FvEtKw"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=hZgbqUQI64E", mDate(2021, 9, 19)),
+            new MV(2, "https://www.youtube.com/watch?v=hZgbqUQI64E", mDate(2021, 9, 19), ["ichika", "meiko", "saki", "honami", "shiho"]),
         ],
         Diff(8, 13, 17, 25, 30),
         "newlyWritten_leo"
@@ -2198,15 +2118,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["mafuyu", "rin", "kanade", "ena", "mizuki"]),
             Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("3DMV", ["mafuyu", "mizuki", "kanade", "ena", "rin"])
+            Vocal("another", ["mafuyu"])
         ],
         mDate(2021, 9, 29),
         mDate(2021, 9, 29),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=purlnb5K_jM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39408553"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=LLoHF639Jes", mDate(2021, 9, 29)),
+            new MV(3, "https://www.youtube.com/watch?v=LLoHF639Jes", mDate(2021, 9, 29), ["mafuyu", "mizuki", "kanade", "ena", "rin"]),
         ],
         Diff(5, 11, 15, 22, 26),
         "newlyWritten_night"
@@ -2218,20 +2137,19 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "minori", "kohane", "tsukasa", "kanade", "miku"]),
+            Vocal("sekai"),
             Vocal("another", ["ichika"]),
             Vocal("another", ["minori"]),
             Vocal("another", ["kohane"]),
             Vocal("another", ["tsukasa"]),
-            Vocal("another", ["kanade"]),
-            Vocal("3DMV", ["miku", "ichika", "kanade", "kohane", "tsukasa", "minori"])
+            Vocal("another", ["kanade"])
         ],
         mDate(2021, 9, 30),
         mDate(2021, 9, 30),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39411572"),
             mURL("セルフカバー", "https://www.youtube.com/watch?v=sgZjbk9eH6g"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=xs4RPTt4J0M", mDate(2021, 9, 30)),
+            new MV(3, "https://www.youtube.com/watch?v=xs4RPTt4J0M", mDate(2021, 9, 30), ["ichika", "minori", "kohane", "tsukasa", "kanade", "miku"]),
             mURL("セカライ", "https://www.youtube.com/watch?v=xtLPqIeA07I")
         ],
         Diff(7, 13, 17, 24, 27),
@@ -2262,15 +2180,14 @@ const musics = [
             Vocal("virtual", ["rin", "luka", "meiko"]),
             Vocal("sekai", ["rin", "ichika", "shiho"]),
             Vocal("another", ["shiho"]),
-            Vocal("another", ["miku"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "rin"])
+            Vocal("another", ["miku"])
         ],
         mDate(2013, 3, 4),
         mDate(2021, 10, 2),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=8oBV3jPTW4s"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm20244918"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=kIvTE89Yj2A", mDate(2021, 10, 2))
+            new MV(3, "https://www.youtube.com/watch?v=kIvTE89Yj2A", mDate(2021, 10, 2), ["ichika", "saki", "honami", "shiho", "rin"])
         ],
         Diff(7, 14, 19, 26, 32)
     ),
@@ -2364,15 +2281,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"]),
-            Vocal("3DMV", ["rin", "kohane", "toya", "akito", "an"])
+            Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"])
         ],
         mDate(2018, 5, 2),
         mDate(2021, 10, 8),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=v7_Jo4SfICk"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm33141569"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=lu0AF-JByA8", mDate(2021, 10, 8))
+            new MV(3, "https://www.youtube.com/watch?v=lu0AF-JByA8", mDate(2021, 10, 8), ["rin", "kohane", "toya", "akito", "an"])
         ],
         Diff(5, 12, 19, 26, 30)
     ),
@@ -2432,16 +2348,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "miku"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"]),
-            Vocal("2DMV", ["ichika", "miku_leo"])
+            Vocal("sekai", ["ichika", "miku"])
         ],
         mDate(2014, 3, 13),
         mDate(2021, 10, 12),
         [
             mURL("オリジナル", "https://www.youtube.com/watch?v=yT_ylSCgY6Q"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=S-okMR4YUlo", mDate(2021, 10, 12)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=YkP0JMByjRM", mDate(2021, 10, 12))
+            new MV(3, "https://www.youtube.com/watch?v=S-okMR4YUlo", mDate(2021, 10, 12), ["ichika", "saki", "honami", "shiho", "miku_leo"]),
+            new MV(2, "https://www.youtube.com/watch?v=YkP0JMByjRM", mDate(2021, 10, 12), ["ichika", "miku_leo"])
         ],
         Diff(6, 12, 16, 24, 26)
     ),
@@ -2452,13 +2366,12 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
-            Vocal("2DMV", ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         mDate(2015, 5, 1),
         mDate(2021, 10, 13),
         [
             mURL("オリジナル", "https://www.youtube.com/watch?v=rOU4YiuaxAM"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=B1nUc7LfZYA", mDate(2021, 10, 14))
+            new MV(2, "https://www.youtube.com/watch?v=B1nUc7LfZYA", mDate(2021, 10, 14), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
         Diff(9, 13, 17, 25, 29)
     ),
@@ -2486,14 +2399,13 @@ const musics = [
             Vocal("virtual", ["rin"]),
             Vocal("sekai", ["rui", "rin", "tsukasa", "emu", "nene"]),
             Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"]),
-            Vocal("3DMV", ["rui", "tsukasa", "emu", "nene", "rin"])
+            Vocal("another", ["rui"])
         ],
         mDate(2021, 10, 29),
         mDate(2021, 10, 29),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=uDBVetc5JKo"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=bKKxLK_1ae8", mDate(2021, 10, 29))
+            new MV(3, "https://www.youtube.com/watch?v=bKKxLK_1ae8", mDate(2021, 10, 29), ["rui", "tsukasa", "emu", "nene", "rin"])
         ],
         Diff(9, 13, 19, 25, 31),
         "newlyWritten_wonder"
@@ -2525,15 +2437,14 @@ const musics = [
             Vocal("sekai", ["mizuki", "meiko", "kanade", "mafuyu", "ena"]),
             Vocal("another", ["ena"]),
             Vocal("another", ["mizuki"]),
-            Vocal("another", ["miku"]),
-            Vocal("2DMV", ["mizuki", "meiko", "kanade", "mafuyu", "ena"])
+            Vocal("another", ["miku"])
         ],
         mDate(2021, 11, 11),
         mDate(2021, 10, 31),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=3sEptl-psU0"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39608927"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=16M9oC-a5bY", mDate(2021, 11, 9))
+            new MV(2, "https://www.youtube.com/watch?v=16M9oC-a5bY", mDate(2021, 11, 9), ["mizuki", "meiko", "kanade", "mafuyu", "ena"])
         ],
         Diff(6, 12, 17, 26, 30),
         "newlyWritten_night"
@@ -2575,15 +2486,14 @@ const musics = [
             Creator("棚橋 EDDY テルアキ", "fft")
         ],
         [
-            Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"]),
-            Vocal("3DMV", ["ichika", "saki", "honami", "shiho", "len"])
+            Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"])
         ],
         mDate(2021, 12, 22),
         mDate(2021, 11, 18),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=YVD1RLI7klc"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39782705"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=BNdJWYHa_xg", mDate(2021, 11, 18))
+            new MV(3, "https://www.youtube.com/watch?v=BNdJWYHa_xg", mDate(2021, 11, 18), ["ichika", "saki", "honami", "shiho", "len"])
         ],
         Diff(8, 12, 17, 25, 30),
         "newlyWritten_leo"
@@ -2596,15 +2506,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
             Vocal("another", ["minori", "haruka"]),
-            Vocal("another", ["airi", "shizuku"]),
-            Vocal("3DMV", ["miku_more", "airi", "haruka", "minori", "shizuku"])
+            Vocal("another", ["airi", "shizuku"])
         ],
         mDate(2011, 7, 15),
         mDate(2021, 11, 29),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=xxFkW3PCT5M"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm15022913"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=R3CGPv9oeDk", mDate(2021, 11, 29))
+            new MV(3, "https://www.youtube.com/watch?v=R3CGPv9oeDk", mDate(2021, 11, 29), ["miku_more", "airi", "haruka", "minori", "shizuku"])
         ],
         Diff(5, 11, 16, 23, 27)
     ),
@@ -2615,14 +2524,13 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["minori", "kaito", "haruka", "airi", "shizuku"]),
-            Vocal("2DMV", ["minori", "kaito", "haruka", "airi", "shizuku"])
         ],
         mDate(2021, 12, 18),
         mDate(2021, 12, 10),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=6NdOqVypgCM"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39771984"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=aO_ZCaoojh4", mDate(2021, 12, 18))
+            new MV(2, "https://www.youtube.com/watch?v=aO_ZCaoojh4", mDate(2021, 12, 18), ["minori", "kaito", "haruka", "airi", "shizuku"])
         ],
         Diff(6, 13, 18, 24, 28),
         "newlyWritten_more"
@@ -2715,15 +2623,13 @@ const musics = [
             Vocal("sekai", ["toya", "luka", "kohane", "an", "akito"]),
             Vocal("another", ["akito"]),
             Vocal("another", ["toya"]),
-            Vocal("3DMV", ["toya", "kohane", "an", "akito", "luka"]),
-            Vocal("2DMV", ["toya", "luka", "kohane", "an", "akito"])
         ],
         mDate(2021, 12, 29),
         mDate(2021, 12, 29),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=zTokBPAXHW4"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=7ub8n1J8ruY", mDate(2021, 12, 29)),
-            mURL("2DMV", "https://www.youtube.com/watch?v=X_u5UtcgrKw", mDate(2021, 12, 29))
+            new MV(3, "https://www.youtube.com/watch?v=7ub8n1J8ruY", mDate(2021, 12, 29), ["toya", "kohane", "an", "akito", "luka"]),
+            new MV(2, "https://www.youtube.com/watch?v=X_u5UtcgrKw", mDate(2021, 12, 29), ["toya", "luka", "kohane", "an", "akito"])
         ],
         Diff(6, 12, 18, 24, 28),
         "newlyWritten_vivid"
@@ -2753,15 +2659,14 @@ const musics = [
             Vocal("virtual", ["flower"]),
             Vocal("sekai", ["mafuyu", "mizuki"]),
             Vocal("another", ["mafuyu"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("3DMV", ["mizuki", "mafuyu"])
+            Vocal("another", ["mizuki"])
         ],
         mDate(2020, 2, 7),
         mDate(2021, 12, 31),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=p9FJXfGHtDA"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm36332327"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=gQD4GfgIqZA", mDate(2021, 12, 31))
+            new MV(3, "https://www.youtube.com/watch?v=gQD4GfgIqZA", mDate(2021, 12, 31), ["mizuki", "mafuyu"])
         ],
         Diff(6, 13, 18, 25, 29)
     ),
@@ -2788,15 +2693,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "haruka", "shizuku"]),
-            Vocal("3DMV", ["miku_more", "haruka", "shizuku"])
+            Vocal("sekai", ["miku", "haruka", "shizuku"])
         ],
         mDate(2018, 7, 18),
         mDate(2022, 1, 2),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=JW3N-HvU0MA"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm33546451"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=NpOR2QwvjPk", mDate(2022, 1, 2))
+            new MV(3, "https://www.youtube.com/watch?v=NpOR2QwvjPk", mDate(2022, 1, 2), ["miku_more", "haruka", "shizuku"])
         ],
         Diff(7, 14, 17, 24, 27)
     ),
@@ -2867,15 +2771,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["emu", "miku", "tsukasa", "nene", "rui"]),
-            Vocal("3DMV", ["emu", "tsukasa", "nene", "miku_wonder", "rui"])
+            Vocal("sekai", ["emu", "miku", "tsukasa", "nene", "rui"])
         ],
         mDate(2022, 1, 19),
         mDate(2022, 1, 19),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=C_Fc1x_aeFQ"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39919568"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=v7SYWS2jarw", mDate(2022, 1, 19))
+            new MV(3, "https://www.youtube.com/watch?v=v7SYWS2jarw", mDate(2022, 1, 19), ["emu", "tsukasa", "nene", "miku_wonder", "rui"])
         ],
         Diff(8, 12, 18, 26, 31),
         "newlyWritten_wonder"
@@ -2887,15 +2790,14 @@ const musics = [
         [
             Vocal("virtual", ["flower"]),
             Vocal("sekai", ["kanade", "miku", "mafuyu", "ena", "mizuki"]),
-            Vocal("another", ["miku"]),
-            Vocal("2DMV", ["kanade", "miku_night", "mafuyu", "ena", "mizuki"])
+            Vocal("another", ["miku"])
         ],
         mDate(2022, 1, 29),
         mDate(2022, 1, 21),
         [
             mURL("バーチャル・シンガーver(flower)", "https://www.youtube.com/watch?v=BPh4m2VnfNo"),
             mURL("バーチャル・シンガーver(ミク)", "https://www.nicovideo.jp/watch/sm40094958"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=M_ijFuoASt0", mDate(2022, 1, 29))
+            new MV(2, "https://www.youtube.com/watch?v=M_ijFuoASt0", mDate(2022, 1, 29), ["kanade", "miku_night", "mafuyu", "ena", "mizuki"])
         ],
         Diff(7, 13, 18, 24, 28),
         "newlyWritten_night"
@@ -2976,15 +2878,14 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "mafuyu", "ena"]),
-            Vocal("3DMV", ["miku_night", "ena", "mafuyu"])
+            Vocal("sekai", ["miku", "mafuyu", "ena"])
         ],
         mDate(2015, 3, 6),
         mDate(2022, 2, 7),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=NTrm_idbhUk"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm25724827"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=DsFlCC96EgU", mDate(2022, 2, 7))
+            new MV(3, "https://www.youtube.com/watch?v=DsFlCC96EgU", mDate(2022, 2, 7), ["miku_night", "ena", "mafuyu"])
         ],
         Diff(5, 12, 16, 25, 28)
     ),
@@ -2995,15 +2896,14 @@ const musics = [
         [
             Vocal("virtual", ["flower"]),
             Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
-            Vocal("another", ["miku"]),
-            Vocal("3DMV", ["kohane", "toya", "an", "akito", "len"])
+            Vocal("another", ["miku"])
         ],
         mDate(2022, 2, 16),
         mDate(2022, 2, 16),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=nfpYhYtHuKo"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm40047025"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=5fQRNjyRuSY", mDate(2022, 2, 16))
+            new MV(3, "https://www.youtube.com/watch?v=5fQRNjyRuSY", mDate(2022, 2, 16), ["kohane", "toya", "an", "akito", "len"])
         ],
         Diff(9, 12, 18, 24, 29),
         "newlyWritten_vivid"
@@ -3013,14 +2913,13 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
-            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"]),
-            Vocal("2DMV", ["shiho", "ichika", "kaito", "saki", "honami"])
+            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
         mDate(2022, 2, 26),
         mDate(2022, 2, 18),
         [
             mURL("バーチャル・シンガーver", "https://www.youtube.com/watch?v=GWuI8LXceYc"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=IPIwkhKdQxM", mDate(2022, 2, 26))
+            new MV(2, "https://www.youtube.com/watch?v=IPIwkhKdQxM", mDate(2022, 2, 26), ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
         Diff(6, 12, 18, 25, 28),
         "newlyWritten_leo"
@@ -3050,15 +2949,14 @@ const musics = [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["len", "tsukasa", "rui"]),
             Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"]),
-            Vocal("2DMV", ["len", "tsukasa", "rui"])
+            Vocal("another", ["rui"])
         ],
         mDate(2017, 5, 19),
         mDate(2022, 2, 24),
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm31241401"),
             mURL("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24))
+            new MV(2, "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24), ["len", "tsukasa", "rui"])
         ],
         Diff(7, 11, 18, 25, 29)
     ),
@@ -3089,14 +2987,13 @@ const musics = [
         [
             Vocal("virtual", ["miku"]),
             Vocal("sekai", ["miku", "ichika", "shiho"]),
-            Vocal("another", ["shiho"]),
-            Vocal("2DMV", ["miku_leo", "ichika", "shiho"])
+            Vocal("another", ["shiho"])
         ],
         mDate(2019, 1, 24),
         mDate(2022, 3, 4),
         [
             mURL("Eve ver.", "https://www.youtube.com/watch?v=nBteO-bU78Y"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=eb46opRRyLc", mDate(2022, 3, 4))
+            new MV(2, "https://www.youtube.com/watch?v=eb46opRRyLc", mDate(2022, 3, 4), ["miku_leo", "ichika", "shiho"])
         ],
         Diff(7, 12, 18, 25, 28)
     ),
@@ -3110,14 +3007,13 @@ const musics = [
             Creator("Anamanaguchi", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("3DMV", ["minori", "kanade", "tsukasa", "kohane", "ichika", "miku"])
+            Vocal("virtual", ["miku"])
         ],
         mDate(2016, 5, 28),
         mDate(2022, 3, 9),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=NocXEwsJGOQ"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=Z21UcyNdXSQ", mDate(2022, 3, 9))
+            new MV(3, "https://www.youtube.com/watch?v=Z21UcyNdXSQ", mDate(2022, 3, 9), ["minori", "kanade", "tsukasa", "kohane", "ichika", "miku"])
         ],
         Diff(6, 12, 17, 24, 28)
     ),
@@ -3127,14 +3023,13 @@ const musics = [
             Creator("Tudiken", "tff")
         ],
         [
-            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"]),
-            Vocal("2DMV", ["shizuku", "rin", "minori", "haruka", "airi"])
+            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
         ],
         mDate(2022, 3, 18),
         mDate(2022, 3, 11),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=PulLO9CgBE0"),
-            mURL("2DMV", "https://www.youtube.com/watch?v=0BHY0Gs0ZZM", mDate(2022, 3, 18))
+            new MV(2, "https://www.youtube.com/watch?v=0BHY0Gs0ZZM", mDate(2022, 3, 18), ["shizuku", "rin", "minori", "haruka", "airi"])
         ],
         Diff(5, 11, 16, 23, 26),
         "newlyWritten_more"
@@ -3146,14 +3041,13 @@ const musics = [
         [
             Vocal("virtual", ["gumi", "rin"]),
             Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"]),
-            Vocal("3DMV", ["rin", "tsukasa", "nene", "emu", "rui"])
         ],
         mDate(2012, 8, 15),
         mDate(2022, 3, 14),
         [
             mURL("原曲", "https://www.youtube.com/watch?v=oBgADhsOoog"),
             mURL("原曲", "https://www.nicovideo.jp/watch/sm18623327"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=v_VDb-gxF5Y", mDate(2022, 3, 14))
+            new MV(3, "https://www.youtube.com/watch?v=v_VDb-gxF5Y", mDate(2022, 3, 14), ["rin", "tsukasa", "nene", "emu", "rui"])
         ],
         Diff(6, 12, 17, 24, 28)
     ),
