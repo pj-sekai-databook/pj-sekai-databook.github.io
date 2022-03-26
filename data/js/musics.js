@@ -2231,7 +2231,8 @@ const musics = [
         [
             mURL("原曲", "https://www.nicovideo.jp/watch/sm39411572"),
             mURL("セルフカバー", "https://www.youtube.com/watch?v=sgZjbk9eH6g"),
-            mURL("3DMV", "https://www.youtube.com/watch?v=xs4RPTt4J0M", mDate(2021, 9, 30))
+            mURL("3DMV", "https://www.youtube.com/watch?v=xs4RPTt4J0M", mDate(2021, 9, 30)),
+            mURL("セカライ", "https://www.youtube.com/watch?v=xtLPqIeA07I")
         ],
         Diff(7, 13, 17, 24, 27),
         "newlyWritten"

@@ -67,6 +67,9 @@ const liveList = [
     )
 ];
 const movieList = [
+    Thumbnail(mURL("セカイシンフォニー2021 ダイジェスト", "https://www.youtube.com/watch?v=wuxtrul-nlQ"),
+        ["tsukasa", "nene"]
+    ),
     Thumbnail(mURL("ニーゴ24時間(3)", "https://www.youtube.com/watch?v=iirpWIYpSKw"),
         ["kanade", "mafuyu", "ena", "mizuki"]
     ),
