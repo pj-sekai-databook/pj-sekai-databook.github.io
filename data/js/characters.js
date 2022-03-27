@@ -56,7 +56,7 @@ const characters = (function () {
     }
     return cArr;
 })();
-const characters_interaction = (function () {
+const characters_mv = (function () {
     let cArr = {};
     for (let i in characters_team) {
         if (!(i.match(/_/) && !(i.match(/miku_/)))) {
@@ -65,6 +65,7 @@ const characters_interaction = (function () {
     }
     return cArr;
 }());
+const characters_interaction = characters_mv;
 const characters_other = {
     "gumi": Character("GUMI", "GUMI", "virtual"),
     "flower": Character("flower", "flower", "virtual"),

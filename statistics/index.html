@@ -18,8 +18,7 @@
     <script src="../data/js/musics.js"></script>
     <script src="../data/js/creatorLinks.js"></script>
     <script src="../data/js/posts_four_frame.js"></script>
-    <script src="./js/statisticTables.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/calc_data.js"></script>
 </head>
 
 <body>
@@ -30,23 +29,18 @@
                 <span class="fs-3 d-inline-block">統計/ランキング集</span>
             </div>
             <hr />
-            <div id="content">
-                <h4>楽曲関連</h4>
-                <h5 id="vocal_ranking">ボーカル実装回数(全バージョン合計)</h5>
-                <h5 id="another_vocal_ranking">アナザーボーカル実装曲数</h5>
-                <h5 id="3dmv_ranking">3DMV実装曲数</h5>
-                <h5 id="2dmv_ranking">2DMV実装曲数</h5>
-                <h5 id="implemented_date">楽曲実装曜日</h5>
-                <hr />
-                <h4>公式Twitter関連</h4>
-                <h5 id="four_frame_ranking">セカイの4コマ登場数</h5>
-            </div>
+            <label for="select_stat" class="col-form-label">表示項目</label>
+            <select id="select_stat" class="form-select" onchange="applySelectVal();">
+                <option value="none" selected>(表示項目を選択してください)</option>
+                <option value="vocal_ranking">ボーカル実装回数(全バージョン合計)</option>
+                <option value="another_vocal_ranking">アナザーボーカル実装曲数</option>
+                <option value="3dmv_ranking">3DMV実装曲数</option>
+                <option value="2dmv_ranking">2DMV実装曲数</option>
+                <option value="diff_4_unit_ranking">ユニット別MASTER平均レベル</option>
+                <option value="diff_4_creator_ranking">クリエイター別MASTER平均レベル</option>
+            </select>
             <hr />
-            <b>参照データ</b>
-            <ul>
-                <li>楽曲：<span id="ref_music">???</span></li>
-                <li>セカイの4コマ：<span id="ref_four_frame">???</span></li>
-            </ul>
+            <div id="content" class="d-flex justify-content-center"></div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
