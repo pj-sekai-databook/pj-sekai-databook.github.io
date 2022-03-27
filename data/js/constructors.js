@@ -93,52 +93,6 @@ const Vocal = (type, members = []) => {
         type, members, units: getUnitsOfVocal(), str: getStrOfVocal()
     };
 };
-const Music = (id, title, creators, vocals, date_posted, date_implemented, urls, diff, note = null) => {
-    const getUnitsOfMusic = () => {
-        let units = [];
-        for (let v of vocals) {
-            switch (v.type) {
-                case "virtual":
-                case "sekai":
-                case "another":
-                    for (let unit of v.units) {
-                        if (units.indexOf(unit) < 0) {
-                            units.push(unit);
-                        }
-                    }
-                    break;
-                default:
-                    break;
-            }
-        }
-        return units;
-    };
-    const getMainUnitOfMusic = () => {
-        if (vocals.length == 1 && vocals[0].type == "inst") {
-            return "inst";
-        }
-        for (let v of vocals) {
-            if (v.type == "sekai") {
-                for (let unit of v.units) {
-                    if (unit != "virtual") {
-                        return unit;
-                    }
-                }
-            }
-        }
-        for (let v of vocals) {
-            if (v.type == "virtual") {
-                return v.units[0];
-            }
-        }
-        return "unclassified";
-    };
-    return {
-        id, title, creators, vocals, date_posted, date_implemented, urls, diff, note,
-        units: getUnitsOfMusic(),
-        main_unit: getMainUnitOfMusic()
-    };
-};
 const mDate = (y, m, d, h = 0, mi = 0) => {
     return new Date(y, m - 1, d, h, mi);
 };

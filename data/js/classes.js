@@ -1,3 +1,56 @@
+class Music {
+    static cnt = 0;
+    constructor(title, creators, vocals, date_posted, date_implemented, urls, diff, note) {
+        this.id = ++Music.cnt;
+        this.title = title;
+        this.creators = creators;
+        this.vocals = vocals;
+        this.date_posted = date_posted;
+        this.date_implemented = date_implemented;
+        this.urls = urls;
+        this.diff = diff;
+        this.note = note;
+        this.units = (() => {
+            let units = [];
+            for (let v of vocals) {
+                switch (v.type) {
+                    case "virtual":
+                    case "sekai":
+                    case "another":
+                        for (let unit of v.units) {
+                            if (units.indexOf(unit) < 0) {
+                                units.push(unit);
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return units;
+        })();
+        this.main_unit = (() => {
+            if (vocals.length == 1 && vocals[0].type == "inst") {
+                return "inst";
+            }
+            for (let v of vocals) {
+                if (v.type == "sekai") {
+                    for (let unit of v.units) {
+                        if (unit != "virtual") {
+                            return unit;
+                        }
+                    }
+                }
+            }
+            for (let v of vocals) {
+                if (v.type == "virtual") {
+                    return v.units[0];
+                }
+            }
+            return "unclassified";
+        })();
+    }
+}
 class Link {
     constructor(title, href, date) {
         this.title = title;
