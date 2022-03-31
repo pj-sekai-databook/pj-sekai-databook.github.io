@@ -230,7 +230,16 @@ const getVocalTr = (m) => {
         icon.title = vocalTypes[v.type].fullName;
         th_sub.appendChild(icon);
         tr_sub.appendChild(th_sub);
-        tr_sub.appendChild(getTd(v.str));
+        if (v.type == "april") {
+            const td = getTd();
+            const s = document.createElement("s");
+            s.innerText = v.str;
+            td.appendChild(s);
+            tr_sub.appendChild(td);
+        }
+        else {
+            tr_sub.appendChild(getTd(v.str));
+        }
         tbody.appendChild(tr_sub);
     }
     table.appendChild(tbody);

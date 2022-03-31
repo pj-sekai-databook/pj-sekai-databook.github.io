@@ -159,6 +159,7 @@ const musics = [
             Vocal("sekai", ["minori", "haruka", "airi", "shizuku"]),
             Vocal("another", ["minori", "haruka"]),
             Vocal("another", ["airi", "shizuku"]),
+            Vocal("april", ["shiho", "shizuku", "an", "kanade"])
         ],
         mDate(2010, 11, 22),
         mDate(2020, 9, 30),
@@ -166,7 +167,8 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=poiZSEjQBgw"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm12825985"),
             new MV(3, "https://www.youtube.com/watch?v=4x2oA5vy2_U", mDate(2021, 1, 6), ["minori", "haruka", "airi", "shizuku"]),
-            new MV(2, "https://www.youtube.com/watch?v=xD3amnjfxac", mDate(2021, 3, 19), ["minori", "haruka", "airi", "shizuku"])
+            new MV(2, "https://www.youtube.com/watch?v=xD3amnjfxac", mDate(2021, 3, 19), ["minori", "haruka", "airi", "shizuku"]),
+            new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1RkUmg_BgFw")
         ],
         Diff(6, 11, 18, 24, 28)
     ),
@@ -785,14 +787,16 @@ const musics = [
             Creator("まらしぃ", "ttf")
         ],
         [
-            Vocal("sekai", ["miku", "ichika"])
+            Vocal("sekai", ["miku", "ichika"]),
+            Vocal("april", ["miku", "ichika", "saki", "airi", "ena"])
         ],
         mDate(2020, 8, 13),
         mDate(2020, 10, 17),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=_qbKRIwkTCc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37349785"),
-            new Link("WEBムービー", "https://www.youtube.com/watch?v=w3VTDaAYvmQ")
+            new Link("WEBムービー", "https://www.youtube.com/watch?v=w3VTDaAYvmQ"),
+            new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1ddmm-WEXSE")
         ],
         Diff(8, 13, 17, 24, 27)
     ),
@@ -1387,14 +1391,16 @@ const musics = [
             Vocal("virtual", ["una", "rin"]),
             Vocal("sekai", ["rin", "emu", "nene"]),
             Vocal("another", ["emu"]),
-            Vocal("another", ["nene"])
+            Vocal("another", ["nene"]),
+            Vocal("april", ["rin", "haruka", "kohane", "emu", "mafuyu"])
         ],
         mDate(2017, 10, 12),
         mDate(2021, 2, 19),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=FT91CrPPAqc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32087162"),
-            new MV(2, "https://www.youtube.com/watch?v=BdTf_uKTqos", mDate(2021, 7, 20), ["rin", "emu", "nene"])
+            new MV(2, "https://www.youtube.com/watch?v=BdTf_uKTqos", mDate(2021, 7, 20), ["rin", "emu", "nene"]),
+            new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=HBJ3HWq5c10")
         ],
         Diff(9, 14, 18, 26, 31)
     ),
@@ -1493,14 +1499,16 @@ const musics = [
             Vocal("sekai", ["akito", "toya", "kaito"]),
             Vocal("another", ["akito"]),
             Vocal("another", ["toya"]),
-            Vocal("another", ["kaito"])
+            Vocal("another", ["kaito"]),
+            Vocal("april", ["kaito", "akito", "toya", "tsukasa", "rui"])
         ],
         mDate(2012, 10, 29),
         mDate(2021, 3, 15),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=xGNQOqtGU_E"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19233263"),
-            new MV(3, "https://www.youtube.com/watch?v=KvnS-TCq05Y", mDate(2021, 3, 15), ["kaito", "akito", "toya"])
+            new MV(3, "https://www.youtube.com/watch?v=KvnS-TCq05Y", mDate(2021, 3, 15), ["kaito", "akito", "toya"]),
+            new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=6i79cbsbRrs")
         ],
         Diff(6, 12, 17, 24, 28)
     ),
@@ -2215,13 +2223,15 @@ const musics = [
             Vocal("virtual", ["flower"]),
             Vocal("sekai", ["ena", "mizuki"]),
             Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"])
+            Vocal("another", ["mizuki"]),
+            Vocal("april", ["honami", "minori", "nene", "mizuki"])
         ],
         mDate(2018, 8, 2),
         mDate(2021, 10, 4),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=oRJBwaZ59fQ"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm33624822")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm33624822"),
+            new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=S3lC1oBfVNQ")
         ],
         Diff(7, 13, 18, 26, 29)
     ),
@@ -3086,6 +3096,37 @@ const musics = [
         Diff(5, 11, 16, 23, 26),
         "newlyWritten_night"
     ),
+
+    new Music("マトリョシカ",
+        [
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku", "gumi"])
+        ],
+        mDate(2010, 8, 19),
+        mDate(2022, 3, 30),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=HOz-9FzIDf0"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm11809611")
+        ],
+        Diff(9, 13, 18, 25, 30)
+    ),
+    new Music("ドーナツホール",
+        [
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["gumi"])
+        ],
+        mDate(2013, 10, 28),
+        mDate(2022, 3, 31),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=qnX2CdOBcDI"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm22138447")
+        ],
+        Diff(9, 14, 18, 25, 29)
+    ),
 ];
 const future_musics = [
 
@@ -3105,39 +3146,6 @@ const future_musics = [
         ],
         Diff(),
         "contest"
-    ),
-    new Music("マトリョシカ",
-        [
-            Creator("ハチ", "ttt")
-        ],
-        [
-            Vocal("virtual", ["miku", "gumi"])
-        ],
-        mDate(2010, 8, 19),
-        mDate(2022, 3, 30),
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=HOz-9FzIDf0"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm11809611")
-        ],
-        Diff(),
-        ""
-    ),
-
-    new Music("ドーナツホール",
-        [
-            Creator("ハチ", "ttt")
-        ],
-        [
-            Vocal("virtual", ["gumi"])
-        ],
-        mDate(2013, 10, 28),
-        mDate(2022, 3, 31),
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=qnX2CdOBcDI"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm22138447")
-        ],
-        Diff(),
-        ""
     ),
 
     new Music("砂の惑星",
