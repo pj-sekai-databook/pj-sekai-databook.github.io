@@ -2188,7 +2188,8 @@ const musics = [
             Vocal("virtual", ["rin", "luka", "meiko"]),
             Vocal("sekai", ["rin", "ichika", "shiho"]),
             Vocal("another", ["shiho"]),
-            Vocal("another", ["miku"])
+            Vocal("another", ["miku"]),
+            Vocal("another", ["len"])
         ],
         mDate(2013, 3, 4),
         mDate(2021, 10, 2),
@@ -3127,10 +3128,38 @@ const musics = [
         ],
         Diff(9, 14, 18, 25, 29)
     ),
+
+    new Music("砂の惑星",
+        [
+            Creator("ハチ", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku"])
+        ],
+        mDate(2017, 7, 21),
+        mDate(2022, 4, 1),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=AS4q9yaWJkI"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm31606995")
+        ],
+        Diff(5, 11, 16, 23, 27)
+    ),
+    new Music("ルカルカ★ナイトフィーバー",
+        [
+            Creator("SAM(samfree)", "ttt")
+        ],
+        [
+            Vocal("virtual", ["luka"])
+        ],
+        mDate(2009, 2, 12),
+        mDate(2022, 4, 2),
+        [
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm6119955")
+        ],
+        Diff(7, 13, 18, 25, 29)
+    ),
 ];
 const future_musics = [
-
-
     new Music("ONESELF",
         [
             Creator("Twinfield", "fff")
@@ -3147,40 +3176,6 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-
-    new Music("砂の惑星",
-        [
-            Creator("ハチ", "ttt")
-        ],
-        [
-            Vocal("virtual", ["miku"])
-        ],
-        mDate(2017, 7, 21),
-        mDate(2022, 4, 1),
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=AS4q9yaWJkI"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm31606995")
-        ],
-        Diff(),
-        ""
-    ),
-
-    new Music("ルカルカ★ナイトフィーバー",
-        [
-            Creator("SAM(samfree)", "ttt")
-        ],
-        [
-            Vocal("virtual", ["luka"])
-        ],
-        mDate(2009, 2, 12),
-        mDate(2022, 4, 2),
-        [
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm6119955")
-        ],
-        Diff(),
-        ""
-    ),
-
     new Music("ピアノ×フォルテ×スキャンダル",
         [
             Creator("OSTER project", "ttt")
