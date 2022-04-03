@@ -1,19 +1,25 @@
-.card_music{
+.card_music {
     width: 350px;
 }
-.th_detail{
+
+.th_detail {
     width: 30%;
 }
-.table_vocal tr:last-child th, .table_vocal tr:last-child td{
+
+.table_vocal tr:last-child th,
+.table_vocal tr:last-child td {
     border-bottom-style: none;
 }
-.th_vocal_icon{
+
+.th_vocal_icon {
     width: 30px;
 }
-.elm_future{
+
+.elm_future {
     display: none;
 }
-.loading{
+
+.loading {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -22,28 +28,47 @@
     background-color: aliceblue;
     z-index: 100;
 }
-.img_wrap{
+
+.img_wrap {
     position: relative;
     overflow-y: hidden;
     text-align: center;
     margin: 0 auto;
     width: 90%;
 }
-.img_wrap.niconico{
+
+.img_wrap.niconico {
     width: calc(90% * 0.75);
 }
-.img_wrap::before{
+
+.img_wrap::before {
     content: "";
     display: block;
     padding-top: 56.25%;
 }
-.img_wrap.niconico::before{
+
+.img_wrap.niconico::before {
     padding-top: 75%;
 }
-.img_wrap img{
+
+.img_wrap img {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img_wrap .note {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: smaller;
+    max-width: 100%;
+    color: darkgreen;
+    padding: 0 5px;
+    background: rgba(255, 255, 255, 0.75);
+    /*border-left: solid 5px lightgreen;*/
+    border-radius: 0 0 0.5rem 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }

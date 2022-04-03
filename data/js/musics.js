@@ -2145,7 +2145,7 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai"),
+            Vocal("sekai", ["miku", "ichika", "minori", "kohane", "tsukasa", "kanade"]),
             Vocal("another", ["ichika"]),
             Vocal("another", ["minori"]),
             Vocal("another", ["kohane"]),
@@ -2745,7 +2745,8 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=r3FFOl-LAM8"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm27724530")
         ],
-        Diff(9, 15, 23, 31, 35)
+        Diff(9, 15, 23, 31, 35),
+        "performai"
     ),
     new Music("the EmpErroR",
         [
@@ -2759,7 +2760,8 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=eImN9Ov-tJg"),
         ],
-        Diff(9, 15, 23, 31, 36)
+        Diff(9, 15, 23, 31, 36),
+        "performai"
     ),
     new Music("Don't Fight The Music",
         [
@@ -2773,7 +2775,7 @@ const musics = [
         [
         ],
         Diff(9, 15, 23, 30, 36),
-        "instOnly"
+        "performai"
     ),
     new Music("にっこり^^調査隊のテーマ",
         [
@@ -3158,6 +3160,21 @@ const musics = [
         ],
         Diff(7, 13, 18, 25, 29)
     ),
+    new Music("ピアノ×フォルテ×スキャンダル",
+        [
+            Creator("OSTER project", "ttt")
+        ],
+        [
+            Vocal("virtual", ["meiko"])
+        ],
+        mDate(2008, 12, 20),
+        mDate(2022, 4, 3),
+        [
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm5597663"),
+            new Link("原曲", "https://www.youtube.com/watch?v=JQTl7IvOX0E")
+        ],
+        Diff(6, 11, 18, 26, 30)
+    )
 ];
 const future_musics = [
     new Music("ONESELF",
@@ -3176,23 +3193,6 @@ const future_musics = [
         Diff(),
         "contest"
     ),
-    new Music("ピアノ×フォルテ×スキャンダル",
-        [
-            Creator("OSTER project", "ttt")
-        ],
-        [
-            Vocal("virtual", ["meiko"])
-        ],
-        mDate(2008, 12, 20),
-        mDate(2022, 4, 3),
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=JQTl7IvOX0E"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm5597663")
-        ],
-        Diff(),
-        ""
-    ),
-
     new Music("千年の独奏歌",
         [
             Creator("yanagi", "ttt")

@@ -53,9 +53,16 @@ const getCard = (m) => {
                 break;
             }
             else if (u.domain == "www.nicovideo.jp") {
-                img = getImg(u.thumb_src, "imgYouTube");
-                img_wrap.classList.add("niconico");
-                break;
+                if (Object.keys(niconico_thumbnail_list).includes(u.href_id)) {
+                    img = getImg(niconico_thumbnail_list[u.href_id], "imgYouTube");
+                    img_wrap.classList.remove("niconico");
+                    break;
+                }
+                else {
+                    img = getImg(u.thumb_src, "imgYouTube");
+                    img_wrap.classList.add("niconico");
+                    break;
+                }
             }
         }
         else {
@@ -75,6 +82,13 @@ const getCard = (m) => {
         img = getImg("./img/img_not_found.png", "imgYouTube");
     }
     img_wrap.appendChild(img);
+    const note_text = getNoteText(m.note);
+    if (note_text.length) {
+        const note_tag = document.createElement("div");
+        note_tag.innerText = note_text;
+        note_tag.classList.add("note");
+        img_wrap.appendChild(note_tag);
+    }
     card_body.appendChild(img_wrap);
     card.appendChild(card_body);
     //footer
@@ -197,13 +211,7 @@ const getMainUnitTr = (m) => {
             tr.appendChild(getTd("その他"));
             break;
         case "unclassified":
-            let unit_temp = m.note.replace(/^.*_/, "");
-            if (Object.keys(units).includes(unit_temp)) {
-                tr.appendChild(getTd(units[unit_temp].fullName));
-            }
-            else {
-                tr.appendChild(getTd(""));
-            }
+            tr.appendChild(getTd("???"));
             break;
         default:
             tr.appendChild(getTd(units[m.main_unit].fullName));
@@ -288,4 +296,15 @@ const getRelatedMusicsTr = (m) => {
         tr.appendChild(getTd("なし"));
     }
     return tr;
+}
+
+const getNoteText = (note) => {
+    let list = [];
+    for (let n of note) {
+        switch (n) {
+            case "performai":
+                list.push("ゲキ！チュウマイコラボ");
+        }
+    }
+    return list.join(",");
 }

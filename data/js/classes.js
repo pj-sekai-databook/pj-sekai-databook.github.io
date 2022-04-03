@@ -9,25 +9,50 @@ class Music {
         this.date_implemented = date_implemented;
         this.urls = urls;
         this.diff = diff;
-        this.note = note;
+        this.note = (note ?? "").split(",").map(x => x.trim()).filter(x => x != "");
+
+        const getTmpUnitFromNote = () => {
+            const item = this.note.find(x => x.match(/^newlyWritten_/));
+            if (typeof item != "undefined") {
+                const tmp_unit = item.replace(/^.*_/, "");
+                if (Object.keys(units).includes(tmp_unit)) {
+                    return tmp_unit;
+                }
+                else {
+                    return null;
+                }
+            }
+            else {
+                return null;
+            }
+        }
+
         this.units = (() => {
-            let units = [];
+            let tmp_units = [];
             for (let v of vocals) {
                 switch (v.type) {
                     case "virtual":
                     case "sekai":
                     case "another":
                         for (let unit of v.units) {
-                            if (units.indexOf(unit) < 0) {
-                                units.push(unit);
+                            if (!tmp_units.includes(unit)) {
+                                tmp_units.push(unit);
                             }
                         }
                         break;
+                    case "inst":
+                        if (!tmp_units.includes("inst")) {
+                            tmp_units.push("inst");
+                        }
                     default:
                         break;
                 }
             }
-            return units;
+            const tmp_unit_note = getTmpUnitFromNote();
+            if (typeof tmp_unit_note != "undefined" && (!tmp_units.includes(tmp_unit_note))) {
+                tmp_units.push(tmp_unit_note);
+            }
+            return tmp_units;
         })();
         this.main_unit = (() => {
             if (vocals.length == 1 && vocals[0].type == "inst") {
@@ -47,7 +72,7 @@ class Music {
                     return v.units[0];
                 }
             }
-            return "unclassified";
+            return getTmpUnitFromNote() ?? "unclassified";
         })();
     }
 }
