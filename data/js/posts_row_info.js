@@ -31,7 +31,7 @@ const parented_row_info_list = {
         "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
     },
     "youtube_radio": {
-        "night_radio": PostsRowInfo("25時、ナイトラジオで。", nightRadioList, "youtube"),
+        "night_radio": NewPostsRowInfo("25時、ナイトラジオで。", "youtube"),
         "sekai_station": NewPostsRowInfo("セカイ・ステーション", "youtube"),
         "summer_radio_2021": NewPostsRowInfo("なつやすみラジオ2021", "youtube"),
     },
@@ -42,7 +42,7 @@ const parented_row_info_list = {
         "four_frame": PostsRowInfo("セカイの4コマ", fourFrameList, "four_frame")
     },
     "twitter_post": {
-        "leo_everyday": PostsRowInfo("レオニの日常", leoEverydayList, "leo_everyday"),
+        "leo_everyday": NewPostsRowInfo("レオニの日常", "leo_everyday"),
         "birthday_img": PostsRowInfo("誕生日/記念日イラスト", birthdayImgList, "twitter"),
         "anniversary_img": PostsRowInfo("その他の記念イラスト", anniversaryImgList, "twitter"),
         "countdown_1st_img": PostsRowInfo("1周年記念/カウントダウンイラスト", countdown_1st_img_list, "twitter_a3"),

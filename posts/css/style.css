@@ -1,15 +1,17 @@
 table#table_filter_characters th {
     text-align: left;
 }
-div#div_toc, div#content{
+
+div#div_toc,
+div#content {
     max-width: calc(100% - 20px);
 }
 
-h3{
+h3 {
     padding-top: 25px;
 }
 
-h2{
+h2 {
     padding-top: 15px;
 }
 
@@ -31,30 +33,33 @@ h2{
     margin: 0 auto;
 }
 
-.card_inner{
+.card_inner {
     padding: 5px;
 }
 
-.row_posts{
+.row_posts {
     padding: 5px;
 }
-.card_remain{
+
+.card_remain {
     background-color: lightgray;
     min-height: 200px;
 }
 
-.card_thumb.youtube{
+.card_thumb.youtube {
     width: 310px;
 }
+
 .card_thumb.youtube img.img_thumb {
     width: 288px;
     height: 160px;
     object-fit: cover;
 }
 
-.card_thumb.twitter{
+.card_thumb.twitter {
     width: 310px;
 }
+
 .card_thumb.twitter img.img_thumb {
     /*320,180 = 16,9*/
     width: 288px;
@@ -63,19 +68,21 @@ h2{
     object-fit: cover;
 }
 
-.card_thumb.four_frame{
+.card_thumb.four_frame {
     width: 270px;
 }
-.card_thumb.four_frame img.img_thumb{
+
+.card_thumb.four_frame img.img_thumb {
     width: 250px;
     height: 185px;
     object-position: 0 3.5%;
     object-fit: cover;
 }
 
-.card_thumb.leo_everyday{
+.card_thumb.leo_everyday {
     width: 220px;
 }
+
 .card_thumb.leo_everyday img.img_thumb {
     width: 200px;
     height: 200px;
@@ -83,53 +90,69 @@ h2{
     object-fit: cover;
 }
 
-.card_thumb.twitter_a3{
+.card_thumb.twitter_a3 {
     width: 290px;
 }
+
 .card_thumb.twitter_a3 img.img_thumb {
     width: 267.3px;
     height: 189px;
     object-fit: cover;
 }
 
-.card_thumb.cd{
+.card_thumb.cd {
     width: 240px;
 }
 
-.card_thumb.cd img.img_thumb{
+.card_thumb.cd img.img_thumb {
     width: 220px;
     height: 220px;
     object-fit: cover;
 }
 
-.card_thumb.cupnoodle_intro{
+.card_thumb.cupnoodle_intro {
     width: 240px;
 }
 
-.card_thumb.cupnoodle_intro img.img_thumb{
+.card_thumb.cupnoodle_intro img.img_thumb {
     width: 220px;
     height: 220px;
     object-fit: cover;
 }
 
 
-.card_outer.youtube{
+.card_outer {
     width: 310px;
 }
-.img_wrap{
+
+.leo_everyday.card_outer {
+    width: 220px;
+}
+
+.img_wrap {
     position: relative;
     overflow-y: hidden;
     text-align: center;
 }
-.youtube .img_wrap::before{
+
+.img_wrap::before {
     content: "";
     display: block;
     padding-top: 56.25%;
 }
+
+.leo_everyday .img_wrap::before {
+    padding-top: 100%;
+}
+
 .img_wrap img.img_thumb {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.leo_everyday .img_wrap img.img_thumb {
+    top: 87.5%;
 }
