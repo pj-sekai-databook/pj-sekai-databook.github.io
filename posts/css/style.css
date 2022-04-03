@@ -79,27 +79,6 @@ h2 {
     object-fit: cover;
 }
 
-.card_thumb.leo_everyday {
-    width: 220px;
-}
-
-.card_thumb.leo_everyday img.img_thumb {
-    width: 200px;
-    height: 200px;
-    object-position: 0 16%;
-    object-fit: cover;
-}
-
-.card_thumb.twitter_a3 {
-    width: 290px;
-}
-
-.card_thumb.twitter_a3 img.img_thumb {
-    width: 267.3px;
-    height: 189px;
-    object-fit: cover;
-}
-
 .card_thumb.cd {
     width: 240px;
 }
@@ -129,6 +108,10 @@ h2 {
     width: 220px;
 }
 
+.twitter_a3.card_outer {
+    width: 267.3px;
+}
+
 .img_wrap {
     position: relative;
     overflow-y: hidden;
@@ -143,6 +126,10 @@ h2 {
 
 .leo_everyday .img_wrap::before {
     padding-top: 100%;
+}
+
+.twitter_a3 .img_wrap::before {
+    padding-top: 70.71%;
 }
 
 .img_wrap img.img_thumb {
