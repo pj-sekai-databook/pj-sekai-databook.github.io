@@ -46,16 +46,19 @@ const getCard = (m) => {
     const img_wrap = getDiv("", "img_wrap");
     let img = null;
     for (let u of m.urls) {
+        if (u instanceof PlayingMovie) {
+            img = getImg(u.thumb_src, "imgYouTube");
+            //img_wrap.classList.add("playing_movie");
+            break;
+        }
         if (u instanceof Link) {
             if (u.domain == "www.youtube.com") {
                 img = getImg(u.thumb_src, "imgYouTube");
-                img_wrap.classList.remove("niconico");
                 break;
             }
             else if (u.domain == "www.nicovideo.jp") {
                 if (Object.keys(niconico_thumbnail_list).includes(u.href_id)) {
                     img = getImg(niconico_thumbnail_list[u.href_id], "imgYouTube");
-                    img_wrap.classList.remove("niconico");
                     break;
                 }
                 else {

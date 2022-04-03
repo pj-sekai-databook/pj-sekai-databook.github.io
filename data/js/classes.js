@@ -117,3 +117,19 @@ class MV extends Link {
         this.option_str = option_str;
     }
 }
+class PlayingMovie extends Link {
+    constructor(diff_param, href, date) {
+        let title = null;
+        for (let k in DiffParam) {
+            if (DiffParam[k] == diff_param) {
+                title = `プレイ動画(${k})`;
+                break;
+            }
+        }
+        if (title == null) {
+            throw new RangeError("undefined diff in PlayingMovie");
+        }
+        super(title, href, date);
+        this.diff_param = diff_param;
+    }
+}

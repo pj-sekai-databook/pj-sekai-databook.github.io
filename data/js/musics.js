@@ -1075,6 +1075,7 @@ const musics = [
         null,
         mDate(2020, 12, 24),
         [
+            new PlayingMovie(DiffParam.HARD, "https://www.youtube.com/watch?v=onaipOwQ_Ek"),
             new Link("マジカルミライ2013", "https://www.youtube.com/watch?v=5kEoYWYnIIw")
         ],
         Diff(8, 12, 18, 24, 29)
@@ -2773,6 +2774,7 @@ const musics = [
         null,
         mDate(2022, 1, 10),
         [
+            new PlayingMovie(DiffParam.MASTER, "https://www.youtube.com/watch?v=yyBsUVFFSKA")
         ],
         Diff(9, 15, 23, 30, 36),
         "performai"

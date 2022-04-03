@@ -31,7 +31,7 @@
 
 .img_wrap {
     position: relative;
-    overflow-y: hidden;
+    overflow: hidden;
     text-align: center;
     margin: 0 auto;
     width: 90%;
@@ -39,6 +39,10 @@
 
 .img_wrap.niconico {
     width: calc(90% * 0.75);
+}
+
+.img_wrap.playing_movie {
+    width: calc(90% * 9 / 16);
 }
 
 .img_wrap::before {
@@ -51,12 +55,21 @@
     padding-top: 75%;
 }
 
+.img_wrap.playing_movie::before {
+    padding-top: 100%;
+}
+
 .img_wrap img {
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img_wrap.playing_movie img {
+    width: 350%;
+    top: 72%;
 }
 
 .img_wrap .note {
