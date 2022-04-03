@@ -18,14 +18,6 @@ const initAllCards = () => {
     }
     updateFooter("implemented");
     modal_area.appendChild(getModal());
-    document.getElementById(modal_music_id.main).addEventListener("show.bs.modal", (e) => {
-        const button = e.relatedTarget;
-        const id = button.getAttribute("data-bs-id");
-        const m = [...musics, ...future_musics].find((m) => { return m.id == id });
-        document.getElementById(modal_music_id.title).innerText = m.title;
-        resetElement(modal_music_id.body);
-        document.getElementById(modal_music_id.body).appendChild(getDetailTable(m));
-    });
 }
 const getCardCol = (m, is_normal = false) => {
     const col = getDiv("", "col px-1 py-3 d-flex justify-content-center align-items-center" + (is_normal ? " sort_item" : ""));
@@ -129,12 +121,30 @@ const getModal = () => {
 }
 const getModalButton = (m) => {
     const button = getIcon("circle-info");
-    button.setAttribute("data-bs-toggle", "modal");
-    button.setAttribute("data-bs-target", "#" + modal_music_id.main);
-    button.setAttribute("data-bs-id", m.id);
+    button.addEventListener("click", () => {
+        showModal(m.id);
+    })
     button.style.cursor = "pointer";
     return button;
 }
+const showModal = (() => {
+    let modal = null;
+    return (id, time = 0) => {
+        if (modal == null) {
+            modal = new bootstrap.Modal(document.getElementById(modal_music_id.main));
+        }
+        $(`#${modal_music_id.title},#${modal_music_id.body}`).animate({
+            opacity: 0
+        }, time, () => {
+            const m = [...musics, ...future_musics].find((m) => { return m.id == id });
+            document.getElementById(modal_music_id.title).innerText = m.title;
+            resetElement(modal_music_id.body);
+            document.getElementById(modal_music_id.body).appendChild(getDetailTable(m));
+            $(`#${modal_music_id.title},#${modal_music_id.body}`).animate({ opacity: 1 }, time);
+            modal.show();
+        });
+    }
+})();
 const getUnitIcon = (m) => {
     let result = "";
     const list = {
@@ -272,14 +282,12 @@ const getRelatedMusicsTr = (m) => {
         for (let c of m.creators) {
             for (let c2 of m2.creators) {
                 if (isSameCreator(c.name, c2.name)) {
-                    let a = document.createElement("span");
+                    let a = document.createElement("a");
                     a.innerText = m2.title;
-                    /*
-                    a.classList.add("aJump");
+                    a.classList.add("jump");
                     a.onclick = () => {
-                        scrollDetails(m2.id);
+                        showModal(m2.id, 100);
                     }
-                    */
                     related_music_list.push(a);
                     flag = true;
                     break;
@@ -302,12 +310,31 @@ const getRelatedMusicsTr = (m) => {
 }
 
 const getNoteText = (note) => {
-    let list = [];
+    let text_list = [];
     for (let n of note) {
-        switch (n) {
-            case "performai":
-                list.push("ゲキ！チュウマイコラボ");
+        switch (true) {
+            case /^contest/.test(n):
+                text_list.push("コンテスト採用曲");
+                break;
+            case /^newlyWritten/.test(n):
+                text_list.push("書き下ろし楽曲");
+                break;
+            case /^performai/.test(n):
+                text_list.push("ゲキ！チュウマイコラボ");
+                break;
+            case /^cupnoodle/.test(n):
+                text_list.push("カップヌードルタイアップ");
+                break;
+            case /^collab_.+/.test(n):
+                text_list.push(`${n.replace(/^collab_/, "")}コラボ`);
+                break;
+            case /^tieup_.+/.test(n):
+                text_list.push(`${n.replace(/^tieup_/, "")}タイアップ`);
+                break;
+            case /^brsDF/.test(n):
+                text_list.push("アニメ放送記念タイアップ");
+                break;
         }
     }
-    return list.join(",");
+    return text_list.join(",");
 }

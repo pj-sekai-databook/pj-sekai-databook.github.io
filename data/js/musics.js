@@ -798,7 +798,8 @@ const musics = [
             new Link("WEBムービー", "https://www.youtube.com/watch?v=w3VTDaAYvmQ"),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1ddmm-WEXSE")
         ],
-        Diff(8, 13, 17, 24, 27)
+        Diff(8, 13, 17, 24, 27),
+        "newlyWritten"
     ),
     new Music("ステラ",
         [
@@ -1682,7 +1683,8 @@ const musics = [
             new Link("オリジナル", "https://www.youtube.com/watch?v=x8VYWazR5mE"),
             new Link("オリジナル", "https://www.nicovideo.jp/watch/sm35979548")
         ],
-        Diff(6, 11, 18, 25, 29)
+        Diff(6, 11, 18, 25, 29),
+        "tieup_Ayase"
     ),
     new Music("幽霊東京",
         [
@@ -1701,7 +1703,8 @@ const musics = [
             new Link("セルフカバー", "https://www.youtube.com/watch?v=DtBoAqkIJzI"),
             new Link("セルフカバー", "https://www.nicovideo.jp/watch/sm36036629")
         ],
-        Diff(7, 13, 17, 24, 27)
+        Diff(7, 13, 17, 24, 27),
+        "tieup_Ayase"
     ),
     new Music("シネマ",
         [
@@ -2560,7 +2563,8 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=W77q-kK8iA8"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm2916956")
         ],
-        Diff(6, 12, 17, 24, 27)
+        Diff(6, 12, 17, 24, 27),
+        "collab_悪ノ大罪"
     ),
     new Music("悪ノ召使",
         [
@@ -2575,7 +2579,8 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=yzpNpaS0uLc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3133304")
         ],
-        Diff(6, 12, 17, 24, 27)
+        Diff(6, 12, 17, 24, 27),
+        "collab_悪ノ大罪"
     ),
     new Music("去り人達のワルツ",
         [
@@ -2590,7 +2595,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=jNBRyo54Tks")
         ],
         Diff(8, 13, 17, 23, 28),
-        "newlyWritten_virtual"
+        "collab_悪ノ大罪, newlyWritten"
     ),
     new Music("ラストスコア",
         [
@@ -2849,7 +2854,8 @@ const musics = [
             new Link("Ado ver.", "https://www.youtube.com/watch?v=Qp3b-RXtz4w"),
             new Link("Ado ver.", "https://www.nicovideo.jp/watch/sm37761910")
         ],
-        Diff(8, 12, 17, 24, 28)
+        Diff(8, 12, 17, 24, 28),
+        "tieup_Ado"
     ),
     new Music("踊",
         [
@@ -2870,7 +2876,8 @@ const musics = [
             new Link("Ado ver.", "https://www.youtube.com/watch?v=YnSW8ian29w"),
             new Link("Ado ver.", "https://www.nicovideo.jp/watch/sm38668379")
         ],
-        Diff(6, 13, 18, 26, 29)
+        Diff(6, 13, 18, 26, 29),
+        "tieup_Ado"
     ),
     new Music("君色マリンスノウ",
         [
@@ -2885,7 +2892,8 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=NwSriMki_UA"),
             new Link("原曲", "https://www.nicovideo.jp/watch/so39817429")
         ],
-        Diff(9, 14, 19, 28, 31)
+        Diff(9, 14, 19, 28, 31),
+        "collab_SNOW MIKU2022"
     ),
     new Music("愛して愛して愛して",
         [
@@ -2973,7 +2981,8 @@ const musics = [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8"),
             new MV(2, "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24), ["len", "tsukasa", "rui"])
         ],
-        Diff(7, 11, 18, 25, 29)
+        Diff(7, 11, 18, 25, 29),
+        "tieup_Eve"
     ),
     new Music("心予報",
         [
@@ -2992,7 +3001,8 @@ const musics = [
         [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18")
         ],
-        Diff(6, 12, 18, 24, 28)
+        Diff(6, 12, 18, 24, 28),
+        "tieup_Eve"
     ),
     new Music("僕らまだアンダーグラウンド",
         [
@@ -3010,7 +3020,8 @@ const musics = [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=nBteO-bU78Y"),
             new MV(2, "https://www.youtube.com/watch?v=eb46opRRyLc", mDate(2022, 3, 4), ["miku_leo", "ichika", "shiho"])
         ],
-        Diff(7, 12, 18, 25, 28)
+        Diff(7, 12, 18, 25, 28),
+        "tieup_Eve"
     ),
     new Music("Miku",
         [
@@ -3284,7 +3295,7 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3645817")
         ],
         Diff(),
-        ""
+        "brsDF"
     ),
     new Music("アイデンティティ",
         [
@@ -3301,7 +3312,7 @@ const future_musics = [
             new Link("セカイVer.", "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10))
         ],
         Diff(),
-        "cupNoodle"
+        "cupnoodle"
     ),
     new Music("サラマンダー",
         [
@@ -3318,7 +3329,7 @@ const future_musics = [
             new Link("セカイver", "https://www.youtube.com/watch?v=babaG-xuBQM")
         ],
         Diff(),
-        "cupNoodle"
+        "cupnoodle"
     ),
     new Music("青色絵具",
         [
@@ -3335,7 +3346,7 @@ const future_musics = [
             new Link("セカイver.", "https://www.youtube.com/watch?v=a-Xnb5Iw6Is")
         ],
         Diff(),
-        "cupNoodle"
+        "cupnoodle"
     ),
     new Music("コスモスパイス",
         [
@@ -3353,7 +3364,7 @@ const future_musics = [
             new Link("セカイver.", "https://www.youtube.com/watch?v=0qb27SBWZ38")
         ],
         Diff(),
-        "cupNoodle"
+        "cupnoodle"
     ),
     new Music("徳川カップヌードル禁止令",
         [
@@ -3368,7 +3379,7 @@ const future_musics = [
             new Link("セカイver.", "https://www.youtube.com/watch?v=jPXAgWkqbo4")
         ],
         Diff(),
-        "cupNoodle"
+        "cupnoodle"
     ),
 ];
 /*
