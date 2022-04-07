@@ -84,6 +84,7 @@ const getCard = (m) => {
         note_tag.classList.add("note");
         img_wrap.appendChild(note_tag);
     }
+    img_wrap.appendChild(getDiv("", "cover"));
     card_body.appendChild(img_wrap);
     card.appendChild(card_body);
     //footer
@@ -314,7 +315,10 @@ const getNoteText = (note) => {
     for (let n of note) {
         switch (true) {
             case /^contest/.test(n):
-                text_list.push("コンテスト採用曲");
+                text_list.push("楽曲コンテスト採用曲");
+                break;
+            case /^next_[0-9]+$/.test(n):
+                text_list.push(`第${n.replace(/^next_/, "")}回プロセカNEXT採用曲`)
                 break;
             case /^newlyWritten/.test(n):
                 text_list.push("書き下ろし楽曲");

@@ -1420,7 +1420,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37894731")
         ],
         Diff(9, 14, 19, 28, 32),
-        "contest"
+        "next_1"
     ),
     new Music("限りなく灰色へ",
         [
@@ -1662,7 +1662,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38186882")
         ],
         Diff(6, 12, 19, 25, 30),
-        "contest"
+        "next_2"
     ),
     new Music("夜に駆ける",
         [
@@ -1814,7 +1814,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38333228")
         ],
         Diff(8, 12, 17, 25, 29),
-        "contest"
+        "next_3"
     ),
     new Music("トンデモワンダーズ",
         [
@@ -1992,7 +1992,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38613334")
         ],
         Diff(8, 14, 19, 27, 31),
-        "contest"
+        "next_4"
     ),
     new Music("カゲロウデイズ",
         [
@@ -2404,7 +2404,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39049587")
         ],
         Diff(7, 13, 17, 26, 30),
-        "contest_virtual"
+        "next_5"
     ),
     new Music("ショウタイム・ルーラー",
         [
@@ -2611,7 +2611,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39267476")
         ],
         Diff(7, 13, 18, 26, 30),
-        "contest_virtual"
+        "next_6"
     ),
     new Music("フィクサー",
         [
@@ -2961,7 +2961,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39675720")
         ],
         Diff(7, 12, 18, 25, 28),
-        "contest"
+        "next_7"
     ),
     new Music("ナンセンス文学",
         [
@@ -2999,7 +2999,8 @@ const musics = [
         mDate(2020, 1, 30),
         mDate(2022, 3, 2),
         [
-            new Link("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18")
+            new Link("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18"),
+            new MV(2, "https://www.youtube.com/watch?v=t5c8D1xbXtw", mDate(2022, 4, 7), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
         Diff(6, 12, 18, 24, 28),
         "tieup_Eve"
@@ -3187,7 +3188,21 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=JQTl7IvOX0E")
         ],
         Diff(6, 11, 18, 26, 30)
-    )
+    ),
+    new Music("千年の独奏歌",
+        [
+            Creator("yanagi", "ttt")
+        ],
+        [
+            Vocal("virtual", ["kaito"])
+        ],
+        mDate(2008, 4, 27),
+        mDate(2022, 4, 4),
+        [
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm3122624")
+        ],
+        Diff(5, 11, 16, 23, 27)
+    ),
 ];
 const future_musics = [
     new Music("ONESELF",
@@ -3204,22 +3219,7 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39972552")
         ],
         Diff(),
-        "contest"
-    ),
-    new Music("千年の独奏歌",
-        [
-            Creator("yanagi", "ttt")
-        ],
-        [
-            Vocal("virtual", ["kaito"])
-        ],
-        mDate(2008, 4, 27),
-        mDate(2022, 4, 4),
-        [
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm3122624")
-        ],
-        Diff(),
-        ""
+        "next_8"
     ),
     new Music("PaⅢ.SENSATION",
         [

@@ -65,6 +65,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .img_wrap.playing_movie img {
@@ -80,10 +81,20 @@
     max-width: 100%;
     color: darkgreen;
     padding: 0 5px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.7);
     /*border-left: solid 5px lightgreen;*/
     border-radius: 0 0 0.5rem 0;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.img_wrap .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
 
 a.jump {
