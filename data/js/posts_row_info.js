@@ -43,8 +43,8 @@ const parented_row_info_list = {
     },
     "twitter_post": {
         "leo_everyday": NewPostsRowInfo("レオニの日常", "leo_everyday"),
-        "birthday_img": PostsRowInfo("誕生日/記念日イラスト", birthdayImgList, "twitter"),
-        "anniversary_img": PostsRowInfo("その他の記念イラスト", anniversaryImgList, "twitter"),
+        "birthday_img": NewPostsRowInfo("誕生日/記念日イラスト", "twitter"),
+        "anniversary_img": NewPostsRowInfo("その他の記念イラスト", "twitter"),
         "countdown_1st_img": NewPostsRowInfo("1周年記念/カウントダウンイラスト", "twitter_a3"),
         "countdown_release_img": NewPostsRowInfo("サービス開始カウントダウンイラスト", "twitter"),
         "kakizome": PostsRowInfo("書き初め", newyearKakizomeList, "twitter"),
