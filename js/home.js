@@ -5,7 +5,9 @@ const initSlider = () => {
     const s = getSizeInfo();
     link_obj_list = [];
     musics_id_list = [];
-    addLinkObj("four_frame");
+    //addLinkObj("four_frame");
+    addLinkFromMusics(3, "www.youtube.com");
+    addLinkFromMusics(2, "www.youtube.com");
     addLinkFromMusics(3, "www.youtube.com");
     addLinkFromMusics(2, "www.youtube.com");
     addLinkFromMusics(3, "www.youtube.com");

@@ -112,6 +112,10 @@ h2 {
     width: 267.3px;
 }
 
+.four_frame.card_outer {
+    width: 260px;
+}
+
 .img_wrap {
     position: relative;
     overflow-y: hidden;
@@ -132,6 +136,10 @@ h2 {
     padding-top: 70.71%;
 }
 
+.four_frame .img_wrap::before {
+    padding-top: 74%;
+}
+
 .img_wrap img.img_thumb {
     width: 100%;
     position: absolute;
@@ -142,4 +150,8 @@ h2 {
 
 .leo_everyday .img_wrap img.img_thumb {
     top: 87.5%;
+}
+
+.four_frame .img_wrap img.img_thumb {
+    top: 210.5%;
 }

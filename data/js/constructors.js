@@ -261,11 +261,6 @@ const PostsRowInfo = (title, arr, card_class) => {
         title, arr, card_class
     };
 }
-const NewPostsRowInfo = (title, card_class) => {
-    return {
-        title, card_class
-    };
-}
 const Result = (easy, normal, hard, expert, master) => {
     return [easy, normal, hard, expert, master];
 }

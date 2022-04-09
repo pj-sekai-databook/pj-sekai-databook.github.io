@@ -18,41 +18,41 @@ const parented_row_info_list = {
         "2dmv": PostsRowInfo("2DMV", getMVList("2DMV"), "youtube")
     },
     "youtube_live": {
-        "wonder_channel": NewPostsRowInfo("ワンダショちゃんねる", "youtube"),
-        "after_talk": NewPostsRowInfo("アフタートーク", "youtube"),
-        "story_theater": NewPostsRowInfo("ストーリーシアター", "youtube"),
+        "wonder_channel": new RowInfo("ワンダショちゃんねる", "youtube"),
+        "after_talk": new RowInfo("アフタートーク", "youtube"),
+        "story_theater": new RowInfo("ストーリーシアター", "youtube"),
         "more_showroom": PostsRowInfo("モモジャンSHOWROOM", more_showroom_list, "youtube"),
         "live": PostsRowInfo("その他の生放送", liveList, "youtube"),
     },
     "youtube_video": {
-        "more_voice": NewPostsRowInfo("モモジャンボイスドラマ", "youtube"),
-        "vivid_archive": NewPostsRowInfo("ビビバスアーカイブ", "youtube"),
-        "youtube_250k_voice": NewPostsRowInfo("YouTube25万人記念ボイスドラマ", "youtube"),
+        "more_voice": new RowInfo("モモジャンボイスドラマ", "youtube"),
+        "vivid_archive": new RowInfo("ビビバスアーカイブ", "youtube"),
+        "youtube_250k_voice": new RowInfo("YouTube25万人記念ボイスドラマ", "youtube"),
         "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
     },
     "youtube_radio": {
-        "night_radio": NewPostsRowInfo("25時、ナイトラジオで。", "youtube"),
-        "sekai_station": NewPostsRowInfo("セカイ・ステーション", "youtube"),
-        "summer_radio_2021": NewPostsRowInfo("なつやすみラジオ2021", "youtube"),
+        "night_radio": new RowInfo("25時、ナイトラジオで。", "youtube"),
+        "sekai_station": new RowInfo("セカイ・ステーション", "youtube"),
+        "summer_radio_2021": new RowInfo("なつやすみラジオ2021", "youtube"),
     },
     "puchiseka": {
-        "puchiseka": NewPostsRowInfo("ぷちセカ", "youtube"),
+        "puchiseka": new RowInfo("ぷちセカ", "youtube"),
     },
     "four_frame": {
-        "four_frame": PostsRowInfo("セカイの4コマ", fourFrameList, "four_frame")
+        "four_frame": new RowInfo("セカイの4コマ", "four_frame")
     },
     "twitter_post": {
-        "leo_everyday": NewPostsRowInfo("レオニの日常", "leo_everyday"),
-        "birthday_img": NewPostsRowInfo("誕生日/記念日イラスト", "twitter"),
-        "anniversary_img": NewPostsRowInfo("その他の記念イラスト", "twitter"),
-        "countdown_1st_img": NewPostsRowInfo("1周年記念/カウントダウンイラスト", "twitter_a3"),
-        "countdown_release_img": NewPostsRowInfo("サービス開始カウントダウンイラスト", "twitter"),
+        "leo_everyday": new RowInfo("レオニの日常", "leo_everyday"),
+        "birthday_img": new RowInfo("誕生日/記念日イラスト", "twitter"),
+        "anniversary_img": new RowInfo("その他の記念イラスト", "twitter"),
+        "countdown_1st_img": new RowInfo("1周年記念/カウントダウンイラスト", "twitter_a3"),
+        "countdown_release_img": new RowInfo("サービス開始カウントダウンイラスト", "twitter"),
         "kakizome": PostsRowInfo("書き初め", newyearKakizomeList, "twitter"),
         "cupnoodle_illust": PostsRowInfo("カップヌードル記念イラスト", cupnoodle_illust_list, "twitter"),
         "cupnoodle_intro": PostsRowInfo("カップヌードル紹介イラスト", cupnoodle_intro_list, "cupnoodle_intro")
     },
     "championship": {
-        "championship": NewPostsRowInfo("大会", "youtube")
+        "championship": new RowInfo("大会", "youtube")
     },
     "cd": {
         "single": PostsRowInfo("シングル", singleList, "cd"),
