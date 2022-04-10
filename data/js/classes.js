@@ -49,7 +49,7 @@ class Music {
                 }
             }
             const tmp_unit_note = getTmpUnitFromNote();
-            if (typeof tmp_unit_note != "undefined" && (!tmp_units.includes(tmp_unit_note))) {
+            if (tmp_unit_note != null && (!tmp_units.includes(tmp_unit_note))) {
                 tmp_units.push(tmp_unit_note);
             }
             return tmp_units;
