@@ -47,9 +47,9 @@ const parented_row_info_list = {
         "anniversary_img": new RowInfo("その他の記念イラスト", "twitter"),
         "countdown_1st_img": new RowInfo("1周年記念/カウントダウンイラスト", "twitter_a3"),
         "countdown_release_img": new RowInfo("サービス開始カウントダウンイラスト", "twitter"),
-        "kakizome": PostsRowInfo("書き初め", newyearKakizomeList, "twitter"),
-        "cupnoodle_illust": PostsRowInfo("カップヌードル記念イラスト", cupnoodle_illust_list, "twitter"),
-        "cupnoodle_intro": PostsRowInfo("カップヌードル紹介イラスト", cupnoodle_intro_list, "cupnoodle_intro")
+        "kakizome_2022": new RowInfo("書き初め", "twitter"),
+        "cupnoodle_illust": new RowInfo("カップヌードル記念イラスト", "twitter"),
+        "cupnoodle_intro": new RowInfo("カップヌードル紹介イラスト", "cd")
     },
     "championship": {
         "championship": new RowInfo("大会", "youtube")

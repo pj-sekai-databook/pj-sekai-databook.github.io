@@ -2,11 +2,11 @@ const getColFromThumbnail = (t, card_class) => {
     const col = document.createElement("div");
     col.classList.add("col", "px-1", "py-3", "d-flex", "justify-content-center");
     const card = document.createElement("div");
-    card.classList.add("card", "h-100", "card_thumb", card_class);
+    card.classList.add("card", "card_wrap", card_class);
     const card_inner = document.createElement("div");
     card_inner.classList.add("card_inner");
     const img_outer = document.createElement("div");
-    img_outer.classList.add("text-center");
+    img_outer.classList.add("img_wrap");
     const img = document.createElement("img");
     img.classList.add("img_thumb");
     switch (t.url.domain) {
@@ -35,7 +35,7 @@ const getColFromLoadedJson = (json, card_class) => {
     const col = document.createElement("div");
     col.classList.add("col", "px-1", "py-3", "d-flex", "justify-content-center");
     const card = document.createElement("div");
-    card.classList.add("card", "card_outer", card_class);
+    card.classList.add("card", "card_wrap", card_class);
     const card_inner = document.createElement("div");
     card_inner.classList.add("card_inner");
     const img_outer = document.createElement("div");
