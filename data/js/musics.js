@@ -3203,6 +3203,22 @@ const musics = [
         ],
         Diff(5, 11, 16, 23, 27)
     ),
+    new Music("88☆彡",
+        [
+            Creator("まらしぃ", "ttf"),
+            Creator("堀江昌太(kemu)", "ftt")
+        ],
+        [
+            Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"])
+        ],
+        null,
+        mDate(2022, 4, 11),
+        [
+            new MV(2, "https://www.youtube.com/watch?v=giOsLry_orw", mDate(2022, 4, 19), ["tsukasa", "kaito", "emu", "nene", "rui"])
+        ],
+        Diff(9, 13, 18, 26, 29),
+        "newlyWritten_wonder"
+    ),
 ];
 const future_musics = [
     new Music("ONESELF",
@@ -3255,20 +3271,6 @@ const future_musics = [
         ],
         Diff(),
         ""
-    ),
-    new Music("書き下ろし楽曲(まらしぃ×堀江昌太(kemu))",
-        [
-            Creator("まらしぃ", "fff"),
-            Creator("堀江昌太(kemu)", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_wonder"
     ),
     new Music("書き下ろし楽曲(傘村トータ)",
         [
