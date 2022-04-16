@@ -3219,8 +3219,6 @@ const musics = [
         Diff(9, 13, 18, 26, 29),
         "newlyWritten_wonder"
     ),
-];
-const future_musics = [
     new Music("ONESELF",
         [
             Creator("Twinfield", "fff")
@@ -3229,14 +3227,16 @@ const future_musics = [
             Vocal("virtual", ["miku"])
         ],
         mDate(2022, 1, 31),
-        null,
+        mDate(2022, 4, 15),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=0ahJ3_4hcL0"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39972552")
         ],
-        Diff(),
+        Diff(7, 14, 18, 27, 30),
         "next_8"
-    ),
+    )
+];
+const future_musics = [
     new Music("PaⅢ.SENSATION",
         [
             Creator("牛肉", "tff"),
