@@ -798,8 +798,7 @@ const musics = [
             new Link("WEBムービー", "https://www.youtube.com/watch?v=w3VTDaAYvmQ"),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1ddmm-WEXSE")
         ],
-        Diff(8, 13, 17, 24, 27),
-        "newlyWritten"
+        Diff(8, 13, 17, 24, 27)
     ),
     new Music("ステラ",
         [
@@ -3234,9 +3233,7 @@ const musics = [
         ],
         Diff(7, 14, 18, 27, 30),
         "next_8"
-    )
-];
-const future_musics = [
+    ),
     new Music("PaⅢ.SENSATION",
         [
             Creator("牛肉", "tff"),
@@ -3247,14 +3244,17 @@ const future_musics = [
             Vocal("sekai", ["miku", "rin", "kohane", "an"])
         ],
         mDate(2016, 9, 15),
-        null,
+        mDate(2022, 4, 18),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=OMQNhcGZbX4"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm29648328")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm29648328"),
+            new MV(3, "https://www.youtube.com/watch?v=VgRSxoqClkw", mDate(2022, 4, 18), ["miku_vivid", "an", "rin", "kohane"])
         ],
-        Diff(),
-        ""
-    ),
+        Diff(8, 12, 17, 24, 29)
+    )
+];
+const future_musics = [
+
     new Music("ダーリンダンス",
         [
             Creator("かいりきベア", "ttf")
