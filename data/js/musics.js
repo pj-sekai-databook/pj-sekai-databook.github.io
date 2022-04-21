@@ -3294,6 +3294,7 @@ const future_musics = [
             Creator("ryo", "fff")
         ],
         [
+            Vocal("virtual", ["miku"])
         ],
         mDate(2008, 6, 13),
         null,
@@ -3387,9 +3388,102 @@ const future_musics = [
         Diff(),
         "cupnoodle"
     ),
+    new Music("未完成讃歌",
+        [
+            Creator("しゃいと", "fff")
+        ],
+        [
+            Vocal("virtual", ["miku"])
+        ],
+        mDate(2022, 3, 29),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=PmRtXlhzgAU"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40244309")
+        ],
+        Diff(),
+        "next_9"
+    ),
+    new Music("妄想感傷代償連盟",
+        [
+            Creator("DECO*27", "ttf"),
+            Creator("emon(Tes.)", "fft")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "kanade", "ena"])
+        ],
+        mDate(2016, 11, 18),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=8pGRdRhjX3o"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm30067009")
+        ],
+        Diff()
+    ),
+    new Music("リモコン",
+        [
+            Creator("じーざす", "ttf"),
+            Creator("ワンダフル☆オポチュニティ！", "fft")
+        ],
+        [
+            Vocal("virtual", ["rin", "len"]),
+            Vocal("sekai", ["emu", "nene", "rin", "len"])
+        ],
+        mDate(2011, 2, 16),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=1st0XSY0VKQ"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm13612500")
+        ],
+        Diff()
+    ),
+    new Music("アサガオの散る頃に",
+        [
+            Creator("ぷす(fromツユ)", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku"]),
+            Vocal("sekai", ["miku", "ichika", "honami"])
+        ],
+        mDate(2015, 3, 15),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=ugs4oVUNZ-o"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
+        ],
+        Diff()
+    ),
+    new Music("書き下ろし楽曲(ユリイ・カノン)",
+        [
+            Creator("ユリイ・カノン", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_more"
+    ),
+    new Music("書き下ろし楽曲(キタニタツヤ×はるまきごはん)",
+        [
+            Creator("キタニタツヤ", "fff"),
+            Creator("はるまきごはん", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_vivid"
+    ),
 ];
 /*
-    new Music( "",
+    new Music("",
         [
         ],
         [
