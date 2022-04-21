@@ -620,6 +620,7 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
+            Vocal("virtual", ["miku", "rin", "luka"]),
             Vocal("sekai", ["emu", "nene", "miku"]),
             Vocal("another", ["emu"])
         ],
@@ -2657,7 +2658,9 @@ const musics = [
         ],
         [
             Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika"])
+            Vocal("sekai", ["miku", "ichika"]),
+            Vocal("another", ["rin", "len"]),
+            Vocal("another", ["luka", "meiko"])
         ],
         mDate(2016, 1, 8),
         mDate(2021, 12, 30),
@@ -3210,9 +3213,10 @@ const musics = [
         [
             Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
-        null,
+        mDate(2022, 4, 20),
         mDate(2022, 4, 11),
         [
+            new Link("原曲", "https://www.youtube.com/watch?v=505rBX9MNcQ"),
             new MV(2, "https://www.youtube.com/watch?v=giOsLry_orw", mDate(2022, 4, 19), ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
         Diff(9, 13, 18, 26, 29),
