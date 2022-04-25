@@ -3255,10 +3255,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=VgRSxoqClkw", mDate(2022, 4, 18), ["miku_vivid", "an", "rin", "kohane"])
         ],
         Diff(8, 12, 17, 24, 29)
-    )
-];
-const future_musics = [
-
+    ),
     new Music("ダーリンダンス",
         [
             Creator("かいりきベア", "ttf")
@@ -3268,14 +3265,15 @@ const future_musics = [
             Vocal("sekai", ["miku", "minori", "haruka"])
         ],
         mDate(2020, 8, 30),
-        null,
+        mDate(2022, 4, 25),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Rkrm5foi188"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37441963")
         ],
-        Diff(),
-        ""
-    ),
+        Diff(7, 12, 17, 25, 30)
+    )
+];
+const future_musics = [
     new Music("書き下ろし楽曲(傘村トータ)",
         [
             Creator("傘村トータ", "fff")

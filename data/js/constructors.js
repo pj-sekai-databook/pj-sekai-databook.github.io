@@ -8,23 +8,6 @@ const Character = (fullName, shortName, unit) => {
         fullName, shortName, unit
     };
 };
-const Interaction = (from, to, fromStr, toStr) => {
-    return {
-        from, to, fromStr, toStr,
-        fromC: convMiku(from), toC: convMiku(to),
-        text: getInteractionText(from, to, fromStr, toStr)
-    };
-};
-const getInteractionText = (from, to, fromStr, toStr) => {
-    let strArr = [];
-    if (from != null) {
-        strArr.push(characters_interaction[from].shortName + "「" + fromStr + "」");
-    }
-    if (to != null) {
-        strArr.push(characters_interaction[to].shortName + "「" + toStr + "」");
-    }
-    return strArr.join("\n");
-}
 const convMiku = (name) => {
     if (name == null) {
         return null;
@@ -35,19 +18,6 @@ const convMiku = (name) => {
     else {
         return name;
     }
-};
-const Name = (from, to, name) => {
-    let text = characters_interaction[from].shortName;
-    if (from == to) {
-        text += "の一人称";
-    }
-    else {
-        text += "→" + characters_interaction[to].shortName;
-    }
-    text += ": " + name;
-    return {
-        from, to, name, text
-    };
 };
 const VocalType = (fullName, shortName, icon) => {
     return {
@@ -227,35 +197,6 @@ const Thumbnail = (url, characters = null, src = null) => {
         url, characters, src
     };
 };
-const Team = (characters, names) => {
-    return {
-        characters, names: uniq(names),
-        characters_virtual: getVirtualsFromCharacters(characters)
-    };
-};
-const TeamStat = (cName, tName) => {
-    return {
-        cName, tName
-    };
-};
-const getVirtualsFromCharacters = (characters) => {
-    let arr = [];
-    for (let c of characters) {
-        let new_c = c;
-        if (c.match(/_/)) {
-            new_c = new_c.replace(/_.*$/, "");
-        }
-        if (characters_all[new_c].unit == "virtual") {
-            arr.push(new_c);
-        }
-    }
-    return arr;
-};
-const Hist = (date, text) => {
-    return {
-        date, text
-    };
-}
 const PostsRowInfo = (title, arr, card_class) => {
     return {
         title, arr, card_class
