@@ -1,1 +1,0 @@
-document.write(JSON.stringify(musics, null, "\t"));
