@@ -1510,6 +1510,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=xGNQOqtGU_E"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19233263"),
             new MV(3, "https://www.youtube.com/watch?v=KvnS-TCq05Y", mDate(2021, 3, 15), ["kaito", "akito", "toya"]),
+            new MV(2, "https://www.youtube.com/watch?v=I36IQ3cEPAo", mDate(2022, 4, 26), ["kaito", "akito", "toya"]),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=6i79cbsbRrs")
         ],
         Diff(6, 12, 17, 24, 28)
@@ -3217,6 +3218,7 @@ const musics = [
         mDate(2022, 4, 11),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=505rBX9MNcQ"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40350149"),
             new MV(2, "https://www.youtube.com/watch?v=giOsLry_orw", mDate(2022, 4, 19), ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
         Diff(9, 13, 18, 26, 29),
