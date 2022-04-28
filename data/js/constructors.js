@@ -31,7 +31,7 @@ const Vocal = (type, members = []) => {
         }
         let units = [];
         for (let m of members) {
-            let unit = characters_all[m].unit;
+            let unit = characters_vocal[m].unit;
             if (!(type == "sekai" && unit == "virtual")) {
                 if (units.indexOf(unit) < 0) {
                     units.push(unit);
@@ -50,8 +50,8 @@ const Vocal = (type, members = []) => {
             return "Inst ver.";
         }
         for (let m of members) {
-            if (typeof characters_all[m] != "undefined") {
-                names.push(characters_all[m].fullName);
+            if (typeof characters_vocal[m] != "undefined") {
+                names.push(characters_vocal[m].fullName);
             }
             else {
                 names.push("???");
