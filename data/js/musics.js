@@ -3273,22 +3273,26 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37441963")
         ],
         Diff(7, 12, 17, 25, 30)
-    )
-];
-const future_musics = [
-    new Music("書き下ろし楽曲(傘村トータ)",
+    ),
+    new Music("オーダーメイド",
         [
-            Creator("傘村トータ", "fff")
+            Creator("傘村トータ(LIVE LAB.)", "ttf"),
+            Creator("村田祐一(LIVE LAB.)", "fft")
         ],
         [
+            Vocal("sekai", ["ichika", "luka", "saki", "honami", "shiho"])
         ],
-        null,
-        null,
+        mDate(2022, 4, 29),
+        mDate(2022, 4, 29),
         [
+            new Link("傘村家のボカロたちver.", "https://www.youtube.com/watch?v=sHXrqptOU2s"),
+            new MV(3, "https://www.youtube.com/watch?v=eEs1PD_33EM", mDate(2022, 4, 29), ["ichika", "saki", "honami", "shiho", "luka"])
         ],
-        Diff(),
+        Diff(5, 11, 16, 21, 26),
         "newlyWritten_leo"
     ),
+];
+const future_musics = [
     new Music("ブラック★ロックシューター",
         [
             Creator("ryo", "fff")

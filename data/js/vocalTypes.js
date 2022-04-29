@@ -5,4 +5,3 @@ const vocalTypes = {
     "inst": VocalType("Inst Ver.", "(I)", "headphones-alt"),
     "april": VocalType("エイプリルフールVer.", "(?)", "face-grin-wide")
 }
-const vocalTypeIds = Object.keys(vocalTypes);

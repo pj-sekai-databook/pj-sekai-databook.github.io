@@ -124,8 +124,8 @@ const creatorLinks = {
     "yanagi": "https://mobile.twitter.com/yanagi4126",
     "牛肉": "https://twitter.com/gyuniku32",
     "雄之助": "https://twitter.com/bass_ynk",
-    "傘村トータ": "https://twitter.com/machiomiii",
+    "傘村トータ(LIVE LAB.)": "https://twitter.com/machiomiii",
     "しゃいと": "https://twitter.com/shaito_otiahs",
-    "ぷす(fromツユ)": "https://twitter.com/pusu_kun"
+    "ぷす(fromツユ)": "https://twitter.com/pusu_kun",
+    "村田祐一(LIVE LAB.)": "https://twitter.com/muranco1225"
 };
-const creatorIds = Object.keys(creatorLinks);
