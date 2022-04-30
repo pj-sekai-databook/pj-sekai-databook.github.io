@@ -6,13 +6,15 @@
     width: 30%;
 }
 
-.table_vocal tr:last-child th,
-.table_vocal tr:last-child td {
+.table_sub tr:last-child th,
+.table_sub tr:last-child td {
     border-bottom-style: none;
 }
 
-.th_vocal_icon {
-    width: 30px;
+.table_sub th {
+    font-weight: normal;
+    white-space: nowrap;
+    width: 10px;
 }
 
 .elm_future {

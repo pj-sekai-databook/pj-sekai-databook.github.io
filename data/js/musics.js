@@ -3226,7 +3226,7 @@ const musics = [
     ),
     new Music("ONESELF",
         [
-            Creator("Twinfield", "fff")
+            Creator("Twinfield", "ttt")
         ],
         [
             Vocal("virtual", ["miku"])

@@ -136,7 +136,7 @@ const getCreatorRole = (c) => {
         return "";
     }
 };
-const getAFromCreator = (c) => {
+const getAFromCreator = (c, has_detail = true) => {
     let span = getSpan();
     if (typeof creatorLinks[c.name] != "undefined") {
         span.appendChild(getAFromURL(mURL(c.name, creatorLinks[c.name])));
@@ -144,7 +144,9 @@ const getAFromCreator = (c) => {
     else {
         span.appendChild(getSpan(c.name));
     }
-    span.appendChild(getSpan(getCreatorRole(c)));
+    if (has_detail) {
+        span.appendChild(getSpan(getCreatorRole(c)));
+    }
     return span;
 }
 const isSameCreator = (c1, c2) => {

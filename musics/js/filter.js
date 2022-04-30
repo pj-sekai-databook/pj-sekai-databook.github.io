@@ -120,5 +120,7 @@ const applyOption = () => {
     applyFilter();
 }
 const switchOptionButtonDisp = (tf) => {
-    document.getElementById("button_option").disabled = !tf;
+    const btn = document.getElementById("button_option");
+    btn.disabled = !tf;
+    btn.style.opacity = tf ? 1 : 0;
 }

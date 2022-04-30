@@ -1,3 +1,4 @@
 initAllCards();
 initFilter();
 applyOption();
+checkInvalidMusic();

@@ -146,31 +146,13 @@ const showModal = (() => {
         });
     }
 })();
-const getUnitIcon = (m) => {
-    let result = "";
-    const list = {
-        virtual: "💎",
-        leo: "🌠",
-        more: "☘",
-        vivid: "🎤",
-        wonder: "👑",
-        night: "🌙",
-        others: "👬"
-    }
-    for (let u of m.units) {
-        result += list[u];
-    }
-    return result;
-}
-
-
 const getDetailTable = (m) => {
     const table = document.createElement("table");
     table.className = "table table-border small align-middle";
     const tbody = document.createElement("tbody");
     tbody.appendChild(getSimpleTr("楽曲投稿日", getStrFromDate(m.date_posted)));
     tbody.appendChild(getSimpleTr("ゲーム収録日", getStrFromDate(m.date_implemented)));
-    tbody.appendChild(getCreatorTr(m));
+    tbody.appendChild(getNewCreatorTr(m));
     tbody.appendChild(getMainUnitTr(m));
     tbody.appendChild(getVocalTr(m));
     tbody.appendChild(getUrlTr(m));
@@ -202,15 +184,45 @@ const getUrlTr = (m) => {
     tr.appendChild(td);
     return tr;
 }
-const getCreatorTr = (m) => {
+const getNewCreatorTr = (m) => {
+    if (m.creators.findIndex(c => c.isLyricist || c.isComposer || c.isArranger) < 0) {
+        //作詞・作曲・編曲が定義されていないので、今まで通りの出力とする
+        let tr = getTr();
+        tr.appendChild(getTh("クリエイター"));
+        let td = getTd();
+        let creator_list = [];
+        for (let c of m.creators) {
+            creator_list.push(getAFromCreator(c));
+        }
+        td.appendChild(concatElms(creator_list, getBr()));
+        tr.appendChild(td);
+        return tr;
+    }
     let tr = getTr();
     tr.appendChild(getTh("クリエイター"));
-    let td = getTd();
-    let creator_list = [];
-    for (let c of m.creators) {
-        creator_list.push(getAFromCreator(c));
+    const getSubTr = (title, arr) => {
+        const tr_sub = getTr();
+        const th_sub = getTh(title, "align-middle text-center");
+        tr_sub.appendChild(th_sub);
+        const td_sub = getTd();
+        td_sub.appendChild(arr.length ? concatElms(arr.map(c => getAFromCreator(c, false)), getBr()) : getSpan("-"));
+        tr_sub.appendChild(td_sub);
+        return tr_sub;
     }
-    td.appendChild(concatElms(creator_list, getBr()));
+    const table = document.createElement("table");
+    table.className = "table table-sm my-0 table_sub";
+    const tbody = document.createElement("tbody");
+    tbody.appendChild(getSubTr("作詞:", m.creators.filter(c => c.isLyricist)));
+    tbody.appendChild(getSubTr("作曲:", m.creators.filter(c => c.isComposer)));
+    tbody.appendChild(getSubTr("編曲:", m.creators.filter(c => c.isArranger)));
+    for (let c of m.creators) {
+        if (c.note != null) {
+            tbody.appendChild(getSubTr(`${c.note}:`, [c]));
+        }
+    }
+    table.appendChild(tbody);
+    const td = getTd("", "my-0 py-0");
+    td.appendChild(table);
     tr.appendChild(td);
     return tr;
 }
@@ -243,11 +255,11 @@ const getVocalTr = (m) => {
         }
     }
     const table = document.createElement("table");
-    table.className = "table table-sm my-0 table_vocal";
+    table.className = "table table-sm my-0 table_sub";
     const tbody = document.createElement("tbody");
     for (let v of vocal_list) {
         const tr_sub = getTr();
-        const th_sub = getTh("", "align-middle text-center th_vocal_icon");
+        const th_sub = getTh("", "align-middle text-center");
         const icon = getIcon(vocalTypes[v.type].icon);
         icon.title = vocalTypes[v.type].fullName;
         th_sub.appendChild(icon);
