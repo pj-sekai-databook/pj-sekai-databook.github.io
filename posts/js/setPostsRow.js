@@ -1,36 +1,3 @@
-const getColFromThumbnail = (t, card_class) => {
-    const col = document.createElement("div");
-    col.classList.add("col", "px-1", "py-3", "d-flex", "justify-content-center");
-    const card = document.createElement("div");
-    card.classList.add("card", "card_wrap", card_class);
-    const card_inner = document.createElement("div");
-    card_inner.classList.add("card_inner");
-    const img_outer = document.createElement("div");
-    img_outer.classList.add("img_wrap");
-    const img = document.createElement("img");
-    img.classList.add("img_thumb");
-    switch (t.url.domain) {
-        case "twitter.com":
-        case "bushiroad-music.com":
-        case "pocarisweat.jp":
-            img.src = t.src;
-            break;
-        case "www.youtube.com":
-            img.src = getYouTubeThumbnailSrc(t.url.link);
-            break;
-        default:
-            break;
-    }
-    img_outer.appendChild(img);
-    card_inner.appendChild(img_outer);
-    const text_outer = document.createElement("div");
-    text_outer.classList.add("text-start");
-    text_outer.appendChild(getAFromURL(t.url));
-    card_inner.appendChild(text_outer);
-    card.appendChild(card_inner);
-    col.appendChild(card);
-    return col;
-};
 const getColFromLoadedJson = (json, card_class) => {
     const col = document.createElement("div");
     col.classList.add("col", "px-1", "py-3", "d-flex", "justify-content-center");
@@ -45,8 +12,13 @@ const getColFromLoadedJson = (json, card_class) => {
     if (typeof (json.img) != "undefined") {
         img.src = json.img;
     }
-    else if (getDomain(json.link) == "www.youtube.com") {
-        img.src = getYouTubeThumbnailSrc(json.link);
+    else if (getDomain(json.link) == PjYtHelper.domain) {
+        img.src = PjYtHelper.getThumbnailSrc(json.link);
+        img.addEventListener("load", () => {
+            if (img.naturalWidth < PjYtHelper.thumbnailNaturalWidth) {
+                col.classList.add("card_invalid");
+            }
+        });
     }
     else {
         img.src = json.link;
@@ -78,21 +50,14 @@ const switchDispRow = (parent_id, child_id) => {
     const row = document.createElement("div");
     row.classList.add("row", "flex-row", "w-auto", "row_posts");
     const card_class = info.card_class;
-    if (info instanceof RowInfo) {
-        let json_arr = info.fixed_arr != null ? info.fixed_arr : PjContents.getContents(child_id);
-        if (typeof json_arr != "undefined") {
-            for (let json of json_arr) {
-                row.appendChild(getColFromLoadedJson(json, card_class));
-            }
-        }
-        else {
-            row.appendChild(getDiv("※データが見つかりませんでした※", "text-muted text-center"));
+    const json_arr = info.fixed_arr != null ? info.fixed_arr : PjContents.getContents(child_id);
+    if (typeof json_arr != "undefined") {
+        for (let json of json_arr) {
+            row.appendChild(getColFromLoadedJson(json, card_class));
         }
     }
     else {
-        for (let t of info.arr) {
-            row.appendChild(getColFromThumbnail(t, card_class));
-        }
+        row.appendChild(getDiv("※データが見つかりませんでした※", "text-muted text-center"));
     }
     area.appendChild(row);
 }
