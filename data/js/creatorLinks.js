@@ -127,5 +127,6 @@ const creatorLinks = {
     "傘村トータ(LIVE LAB.)": "https://twitter.com/machiomiii",
     "しゃいと": "https://twitter.com/shaito_otiahs",
     "ぷす(fromツユ)": "https://twitter.com/pusu_kun",
-    "村田祐一(LIVE LAB.)": "https://twitter.com/muranco1225"
+    "村田祐一(LIVE LAB.)": "https://twitter.com/muranco1225",
+    "れるりり": "https://twitter.com/rerulili"
 };

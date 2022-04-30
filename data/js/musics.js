@@ -3485,6 +3485,20 @@ const future_musics = [
         Diff(),
         "newlyWritten_vivid"
     ),
+    new Music("脳漿炸裂ガール",
+        [
+            Creator("れるりり", "ttt")
+        ],
+        [
+        ],
+        mDate(2012, 10, 19),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
+        ],
+        Diff()
+    ),
 ];
 /*
     new Music("",
