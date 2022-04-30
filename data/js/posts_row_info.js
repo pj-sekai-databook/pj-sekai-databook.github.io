@@ -12,23 +12,23 @@ const parented_row_name_list = {
 };
 const parented_row_info_list = {
     "3dmv": {
-        "3dmv": PostsRowInfo("3DMV", getMVList("3DMV"), "youtube")
+        "3dmv": new RowInfo("3DMV", "youtube", getMVJson(3))
     },
     "2dmv": {
-        "2dmv": PostsRowInfo("2DMV", getMVList("2DMV"), "youtube")
+        "2dmv": new RowInfo("2DMV", "youtube", getMVJson(2))
     },
     "youtube_live": {
         "wonder_channel": new RowInfo("ワンダショちゃんねる", "youtube"),
         "after_talk": new RowInfo("アフタートーク", "youtube"),
         "story_theater": new RowInfo("ストーリーシアター", "youtube"),
-        "more_showroom": PostsRowInfo("モモジャンSHOWROOM", more_showroom_list, "youtube"),
-        "live": PostsRowInfo("その他の生放送", liveList, "youtube"),
+        "more_live": new RowInfo("モモジャン生放送", "youtube"),
+        "live": new RowInfo("その他の生放送", "youtube"),
     },
     "youtube_video": {
         "more_voice": new RowInfo("モモジャンボイスドラマ", "youtube"),
         "vivid_archive": new RowInfo("ビビバスアーカイブ", "youtube"),
         "youtube_250k_voice": new RowInfo("YouTube25万人記念ボイスドラマ", "youtube"),
-        "movie": PostsRowInfo("その他の動画", movieList, "youtube"),
+        "movie": new RowInfo("その他の動画", "youtube"),
     },
     "youtube_radio": {
         "night_radio": new RowInfo("25時、ナイトラジオで。", "youtube"),

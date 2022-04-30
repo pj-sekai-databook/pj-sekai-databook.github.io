@@ -117,44 +117,6 @@ const uniq = (arr) => {
 const insertAfter = (base_node, new_node) => {
     base_node.parentNode.insertBefore(new_node, base_node.nextSibling);
 }
-const initToc = (table_id = "toc", content_id = "content", main_tag = "h2", sub_tag = "h3") => {
-    const getTocTr = (thName, aArr) => {
-        let tr = document.createElement("tr");
-        tr.appendChild(getTh(thName));
-        let td = document.createElement("td");
-        td.appendChild(concatElms(aArr, getSpan(" / ")));
-        tr.appendChild(td);
-        return tr;
-    }
-    resetElement(table_id);
-    let t = document.getElementById(table_id);
-    t.classList.add("tocTable");
-    let thName = null;
-    let aArr = [];
-    for (let tag of document.getElementById(content_id).childNodes) {
-        let tagName = tag.tagName;
-        if (typeof tagName == "undefined") {
-            continue;
-        }
-        switch (tagName.toLowerCase()) {
-            case main_tag:
-                if (thName != null) {
-                    t.appendChild(getTocTr(thName, aArr));
-                }
-                thName = tag.innerText;
-                aArr = [];
-                break;
-            case sub_tag:
-                let sub_a = getA(tag.innerText, "#" + tag.id, false);
-                sub_a.classList.add("tocA");
-                aArr.push(sub_a);
-                break;
-        }
-    }
-    if (thName != null) {
-        t.appendChild(getTocTr(thName, aArr));
-    }
-};
 const shuffleArr = (arr) => {
     let base_arr = [];
     let new_arr = [];
@@ -202,41 +164,6 @@ const getIcon = (title) => {
     i.classList.add("fa-" + title);
     return i;
 }
-
-const getMVList = (type) => {
-    let arr = [];
-    let d = Number(type[0]);
-    for (let m of musics) {
-        for (let u of m.urls) {
-            if (u instanceof Link) {
-                if (u instanceof MV && u.d == d) {
-                    if (typeof u.c_arr == "undefined") {
-                        console.log("undefined MV vocals: " + m.title + u.title);
-                    }
-                    arr.push(Thumbnail(mURL(`${m.title}${u.option_str}`, u.href, u.date), u.c_arr));
-                }
-            }
-            else {
-                if (u.title.indexOf(type) == 0) {
-                    let cArr = null;
-                    for (let v of m.vocals) {
-                        if (v.type == u.title) {
-                            cArr = JSON.parse(JSON.stringify(v.members));
-                            break;
-                        }
-                    }
-                    if (cArr == null) {
-                        console.log("undefined MV vocals: " + m.title + u.title);
-                    }
-                    arr.push(Thumbnail(mURL(m.title + u.title.replace(type, ""), u.link, u.date), cArr));
-                }
-            }
-        }
-    }
-    return arr.sort((a, b) => {
-        return compareDate(a.url.date, b.url.date, false);
-    });
-};
 const getAnchorWithIcon = (title, link) => {
     let span = document.createElement("span");
     let a = getA(title, link, true);
