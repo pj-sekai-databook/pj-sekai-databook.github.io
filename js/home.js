@@ -72,18 +72,6 @@ const getSliderDiv = (link_obj, s, css_class) => {
             img.style.height = s.img_height + "px";
             img.classList.add("youtube");
             break;
-        case "after_talk":
-            img.src = getYouTubeThumbnailSrc(link_obj.link);
-            img.style.width = s.img_width + "px";
-            img.style.height = s.img_height + "px";
-            img.classList.add("youtube");
-            break;
-        case "four_frame":
-            img.src = link_obj.thumbnail.src;
-            img.style.width = s.img_width_4frame + "px";
-            img.style.height = s.img_height_4frame + "px";
-            img.classList.add("twitter4Frame");
-            break;
     }
     div.appendChild(img);
     div.appendChild(a);

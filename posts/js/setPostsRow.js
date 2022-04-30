@@ -12,10 +12,10 @@ const getColFromLoadedJson = (json, card_class) => {
     if (typeof (json.img) != "undefined") {
         img.src = json.img;
     }
-    else if (getDomain(json.link) == PjYtHelper.domain) {
-        img.src = PjYtHelper.getThumbnailSrc(json.link);
+    else if (Link.getDomain(json.link) == Link.domain.youtube) {
+        img.src = Link.getThumbnailSrc(json.link, Link.domain.youtube);
         img.addEventListener("load", () => {
-            if (img.naturalWidth < PjYtHelper.thumbnailNaturalWidth) {
+            if (img.naturalWidth < Link.thumb_info.youtube.natural_width) {
                 col.classList.add("card_invalid");
             }
         });
@@ -27,7 +27,7 @@ const getColFromLoadedJson = (json, card_class) => {
     card_inner.appendChild(img_outer);
     const text_outer = document.createElement("div");
     text_outer.classList.add("text-start");
-    text_outer.appendChild(getAnchorWithIcon(json.title, json.link));
+    text_outer.appendChild(Link.getAnchorTag(json.title, json.link));
     card_inner.appendChild(text_outer);
     card.appendChild(card_inner);
     col.appendChild(card);

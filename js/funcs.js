@@ -61,22 +61,6 @@ const getA = (text, link, isTargetBlank = true, className = null) => {
     }
     return a;
 }
-const getDomain = (link) => {
-    return link.replace(/^https*:\/\//, "").split("/")[0];
-}
-const getYouTubeId = (link) => {
-    return link.split("?")[1].split("=")[1];
-};
-const getYouTubeThumbnailSrc = (link) => {
-    return "https://img.youtube.com/vi/" + getYouTubeId(link) + "/hqdefault.jpg";
-};
-const getNiconicoId = (link) => {
-    return link.replace("https://www.nicovideo.jp/watch/", "");
-}
-const getNiconicoThumbnailSrc = (link) => {
-    let id_num = getNiconicoId(link).replace(/^sm/, "");
-    return "https://nicovideo.cdn.nimg.jp/thumbnails/" + id_num + "/" + id_num;
-}
 const getCheckboxLabel = (name, value, text, isChecked = false) => {
     let label = document.createElement("label");
     let checkbox = document.createElement("input");
@@ -163,11 +147,4 @@ const getIcon = (title) => {
     i.classList.add("fa-solid");
     i.classList.add("fa-" + title);
     return i;
-}
-const getAnchorWithIcon = (title, link) => {
-    let span = document.createElement("span");
-    let a = getA(title, link, true);
-    span.appendChild(getImg("https://www.google.com/s2/favicons?domain=" + getDomain(link)));
-    span.appendChild(a);
-    return span;
 }

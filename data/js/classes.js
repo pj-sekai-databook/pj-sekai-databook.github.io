@@ -77,33 +77,86 @@ class Music {
     }
 }
 class Link {
+    static domain = {
+        youtube: "www.youtube.com",
+        niconico: "www.nicovideo.jp"
+    }
+    static thumb_info = {
+        youtube: {
+            img_name: "hqdefault.jpg",
+            natural_width: 480
+        },
+        niconico: {
+            hq_head: "https://img.cdn.nimg.jp",
+            exceptions: {
+                "sm39411572": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/39411572/39411572.5041558.original/r1280x720l?key=c955c01765c37c3b80e0ce8259d6a3ec1ff41ee80b28178c2fb3ef8bca081b6c",
+                "sm40015219": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40015219/40015219.4765762.original/r1280x720l?key=3d79d8ee2f6d7b268ea1a34e15c2bce78a5a9feba9d1f4e6236c6eefb13a5143"
+            }
+        }
+    }
+    static getDomain(link) {
+        return link.replace(/^https*:\/\//, "").split("/")[0];
+    }
+    static getHrefId(href, domain = null) {
+        if (domain == null) {
+            domain = Link.getDomain(href);
+        }
+        switch (domain) {
+            case Link.domain.youtube:
+                if (href.match(/www\.youtube\.com\/watch\?v=/)) {
+                    return href.split("?")[1].split("=")[1];
+                }
+                if (href.match(/youtu\.be\//)) {
+                    return href.split("youtu.be/")[1];
+                }
+                return undefined;
+            case Link.domain.niconico:
+                return href.replace("https://www.nicovideo.jp/watch/", "");
+            default:
+                return undefined;
+        }
+    }
+    static getAnchorTag(title, link, domain = null) {
+        if (domain == null) {
+            domain = Link.getDomain(link);
+        }
+        let span = document.createElement("span");
+        let a = getA(title, link, true);
+        span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${Link.getDomain(link)}`));
+        span.appendChild(a);
+        return span;
+    }
+    static getThumbnailSrc(link, domain = null, href_id = null) {
+        if (domain == null) {
+            domain = Link.getDomain(link);
+        }
+        if (href_id == null) {
+            href_id = Link.getHrefId(link, domain);
+        }
+        switch (domain) {
+            case Link.domain.youtube:
+                return `https://img.youtube.com/vi/${href_id}/${Link.thumb_info.youtube.img_name}`;
+            case Link.domain.niconico:
+                if (Object.keys(Link.thumb_info.niconico.exceptions).includes(href_id)) {
+                    return Link.thumb_info.niconico.exceptions[href_id];
+                }
+                const id_num = href_id.replace(/^sm/, "");
+                return `https://nicovideo.cdn.nimg.jp/thumbnails/${id_num}/${id_num}`;
+            default:
+                return undefined;
+        }
+    }
     constructor(title, href, date) {
         this.title = title;
         this.href = href;
         this.date = date;
-        this.domain = this.href.replace(/^https*:\/\//, "").split("/")[0];
-        switch (this.domain) {
-            case "www.youtube.com":
-                this.href_id = this.href.split("?")[1].split("=")[1];
-                this.thumb_src = `https://img.youtube.com/vi/${this.href_id}/hqdefault.jpg`;
-                break;
-            case "www.nicovideo.jp":
-                this.href_id = this.href.replace("https://www.nicovideo.jp/watch/", "");
-                let id_num = this.href_id.replace(/^sm/, "");
-                this.thumb_src = `https://nicovideo.cdn.nimg.jp/thumbnails/${id_num}/${id_num}`;
-                break;
-            default:
-                this.href_id = undefined;
-                this.thumb_src = undefined;
-        }
+        this.domain = Link.getDomain(this.href);
+        this.href_id = Link.getHrefId(this.href, this.domain);
+        this.thumb_src = Link.getThumbnailSrc(this.href, this.domain, this.href_id);
     }
     getAnchorTag() {
-        let span = document.createElement("span");
-        let a = getA(this.title, this.href, true);
-        span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${this.domain}`));
-        span.appendChild(a);
-        return span;
-    };
+        return Link.getAnchorTag(this.title, this.href, this.domain);
+    }
 }
 class MV extends Link {
     constructor(d, href, date, c_arr, option) {

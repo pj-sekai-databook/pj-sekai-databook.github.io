@@ -96,7 +96,7 @@ const compareDate = (a, b, isAsc = true) => {
 const mURL = (title, link, date = null) => {
     return {
         title, link, date,
-        domain: getDomain(link)
+        domain: Link.getDomain(link)
     }
 };
 const getAFromURL = (u) => {
