@@ -197,11 +197,6 @@ const Thumbnail = (url, characters = null, src = null) => {
         url, characters, src
     };
 };
-const PostsRowInfo = (title, arr, card_class) => {
-    return {
-        title, arr, card_class
-    };
-}
 const Result = (easy, normal, hard, expert, master) => {
     return [easy, normal, hard, expert, master];
 }

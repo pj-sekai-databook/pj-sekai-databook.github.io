@@ -55,7 +55,7 @@ const parented_row_info_list = {
         "championship": new RowInfo("大会", "youtube")
     },
     "cd": {
-        "single": PostsRowInfo("シングル", singleList, "cd"),
-        "album": PostsRowInfo("アルバム", albumList, "cd")
+        "single": new RowInfo("シングル", "cd"),
+        "album": new RowInfo("アルバム", "cd")
     }
 };
