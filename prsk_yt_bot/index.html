@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="../css/master_bs.css" + "?20211220" />
     <link rel="stylesheet" href="./css/style.css" + "?20220407" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="../js/funcs.js" + "?20220326"></script>
+    <script src="../js/funcs.js" + "?20220501"></script>
     <script src="../data/js/constructors.js" + "?20220327"></script>
     <script src="../data/js/classes.js" + "?20220410"></script>
+    <script src="./js/hist.js" + "?20220501"></script>
 </head>
 
 <body class="unselectable">
@@ -24,10 +25,39 @@
         <div class="my-3">
             <span class="fs-3 d-inline-block">プロセカYouTube再生数通知bot</span>
         </div>
-        <div class="row">
-            <div class="col d-flex justify-content-center align-items-center">
-                <a class="twitter-timeline" data-width="350" data-height="500"
-                    href="https://twitter.com/prsk_yt_bot?ref_src=twsrc%5Etfw">Tweets by prsk_yt_bot</a>
+        <ul id="nav_ul" class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <div class="nav-link active" id="nav_twitter" data-bs-toggle="tab" data-bs-target="#tab_twitter"
+                    role="tab">
+                    Twitter
+                </div>
+            </li>
+            <li class="nav-item" role="presentation">
+                <div class="nav-link" id="nav_videos" data-bs-toggle="tab" data-bs-target="#tab_videos" role="tab">
+                    対象動画
+                </div>
+            </li>
+            <li class="nav-item" role="presentation">
+                <div class="nav-link" id="nav_hist" data-bs-toggle="tab" data-bs-target="#tab_hist" role="tab">
+                    更新履歴
+                </div>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab_twitter" role="tabpanel">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="twitter-timeline" data-width="350" data-height="400"
+                        href="https://twitter.com/prsk_yt_bot?ref_src=twsrc%5Etfw">Tweets by prsk_yt_bot</a>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab_videos" role="tabpanel">
+                <div id="div_calc_date" class="py-2 text-muted"></div>
+                <table id="table_json" class="table table-bordered w-100"></table>
+            </div>
+            <div class="tab-pane fade" id="tab_hist" role="tabpanel">
+                <div class="py-2">
+                    <table id="table_hist" class="table table-bordered py-2"></table>
+                </div>
             </div>
         </div>
     </div>
@@ -39,6 +69,7 @@
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
         </script>
     <script src="../js/header.js" + "?20220103"></script>
+    <script src="./js/PjYtBot.js" + "?20220501"></script>
     <script src="./js/main.js"></script>
 </body>
 

@@ -148,3 +148,15 @@ const getIcon = (title) => {
     i.classList.add("fa-" + title);
     return i;
 }
+const zeroPad = (val, total_len) => {
+    return `${"0".repeat(total_len)}${val}`.slice(-total_len);
+}
+const formatDate = (date) => {
+    return `${date.getFullYear()}/${zeroPad(date.getMonth() + 1, 2)}/${zeroPad(date.getDate(), 2)}`;
+}
+const formatDateTime = (date) => {
+    return `${formatDate(date)} ${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`
+}
+const formatDateTimeSecond = (date) => {
+    return `${formatDateTime(date)}:${zeroPad(date.getSeconds(), 2)}`
+}

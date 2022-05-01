@@ -120,9 +120,12 @@ class Link {
         if (domain == null) {
             domain = Link.getDomain(link);
         }
+        if (domain == "youtu.be") {
+            domain = Link.domain.youtube;
+        }
         let span = document.createElement("span");
         let a = getA(title, link, true);
-        span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${Link.getDomain(link)}`));
+        span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${domain}`));
         span.appendChild(a);
         return span;
     }
