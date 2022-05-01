@@ -3291,6 +3291,23 @@ const musics = [
         Diff(5, 11, 16, 21, 26),
         "newlyWritten_leo"
     ),
+    new Music("アイデンティティ",
+        [
+            Creator("Kanaria", "ttf")
+        ],
+        [
+            Vocal("virtual", ["miku", "gumi"]),
+            Vocal("sekai", ["miku", "kanade"])
+        ],
+        mDate(2022, 1, 9),
+        mDate(2022, 5, 1),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=M9moY0hEJRE"),
+            new Link("セカイVer.", "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10))
+        ],
+        Diff(9, 13, 18, 26, 31),
+        "cupnoodle"
+    ),
 ];
 const future_musics = [
     new Music("ブラック★ロックシューター",
@@ -3307,23 +3324,6 @@ const future_musics = [
         ],
         Diff(),
         "brsDF"
-    ),
-    new Music("アイデンティティ",
-        [
-            Creator("Kanaria", "fff")
-        ],
-        [
-            Vocal("virtual", ["gumi", "miku"]),
-            Vocal("sekai", ["miku", "kanade"])
-        ],
-        mDate(2022, 1, 9),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=M9moY0hEJRE"),
-            new Link("セカイVer.", "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10))
-        ],
-        Diff(),
-        "cupnoodle"
     ),
     new Music("サラマンダー",
         [
