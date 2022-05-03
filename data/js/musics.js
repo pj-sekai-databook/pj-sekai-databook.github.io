@@ -3303,11 +3303,46 @@ const musics = [
         mDate(2022, 5, 1),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=M9moY0hEJRE"),
-            new Link("セカイVer.", "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10))
+            new MV(2, "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10), ["miku_night", "kanade"])
         ],
         Diff(9, 13, 18, 26, 31),
         "cupnoodle"
     ),
+    new Music("青色絵具",
+        [
+            Creator("くじら", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku", "luka", "meiko"]),
+            Vocal("sekai", ["miku", "shiho", "shizuku"])
+        ],
+        mDate(2022, 1, 20),
+        mDate(2022, 5, 2),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=_j5rd9kZIZw"),
+            new MV(2, "https://www.youtube.com/watch?v=a-Xnb5Iw6Is", mDate(2022, 1, 21), ["miku", "shiho", "shizuku"])
+        ],
+        Diff(6, 12, 16, 24, 27),
+        "cupnoodle"
+    ),
+    new Music("コスモスパイス",
+        [
+            Creator("ピノキオピー", "ttt")
+        ],
+        [
+            Vocal("virtual", ["miku", "rin", "len"]),
+            Vocal("sekai", ["miku", "saki", "tsukasa"])
+        ],
+        mDate(2022, 1, 26),
+        mDate(2022, 5, 3),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=pu1gbwsB9Os"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm39948783"),
+            new MV(2, "https://www.youtube.com/watch?v=0qb27SBWZ38", mDate(2022, 2, 1), ["miku", "saki", "tsukasa"])
+        ],
+        Diff(7, 12, 17, 25, 30),
+        "cupnoodle"
+    )
 ];
 const future_musics = [
     new Music("ブラック★ロックシューター",
@@ -3337,42 +3372,7 @@ const future_musics = [
         null,
         [
             new Link("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
-            new Link("セカイver", "https://www.youtube.com/watch?v=babaG-xuBQM")
-        ],
-        Diff(),
-        "cupnoodle"
-    ),
-    new Music("青色絵具",
-        [
-            Creator("くじら", "fff")
-        ],
-        [
-            Vocal("virtual", ["miku", "luka", "meiko"]),
-            Vocal("sekai", ["miku", "shiho", "shizuku"])
-        ],
-        mDate(2022, 1, 20),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=_j5rd9kZIZw"),
-            new Link("セカイver.", "https://www.youtube.com/watch?v=a-Xnb5Iw6Is")
-        ],
-        Diff(),
-        "cupnoodle"
-    ),
-    new Music("コスモスパイス",
-        [
-            Creator("ピノキオピー", "fff")
-        ],
-        [
-            Vocal("virtual", ["miku", "rin", "len"]),
-            Vocal("sekai", ["miku", "saki", "tsukasa"])
-        ],
-        mDate(2022, 1, 26),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=pu1gbwsB9Os"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm39948783"),
-            new Link("セカイver.", "https://www.youtube.com/watch?v=0qb27SBWZ38")
+            new MV(2, "https://www.youtube.com/watch?v=babaG-xuBQM", mDate(2022, 3, 12), ["miku", "akito", "ena"])
         ],
         Diff(),
         "cupnoodle"
@@ -3387,7 +3387,7 @@ const future_musics = [
         mDate(2022, 2, 16),
         null,
         [
-            new Link("セカイver.", "https://www.youtube.com/watch?v=jPXAgWkqbo4")
+            new MV(2, "https://www.youtube.com/watch?v=jPXAgWkqbo4", mDate(2022, 2, 16), ["nene", "nenerobo", "mikudayo", "len", "kaito"])
         ],
         Diff(),
         "cupnoodle"
