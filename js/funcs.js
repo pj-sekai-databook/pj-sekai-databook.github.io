@@ -160,3 +160,11 @@ const formatDateTime = (date) => {
 const formatDateTimeSecond = (date) => {
     return `${formatDateTime(date)}:${zeroPad(date.getSeconds(), 2)}`
 }
+const setVh = () => {
+    const setVhFunc = () => {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+    }
+    window.addEventListener("resize", setVhFunc);
+    setVhFunc();
+}
