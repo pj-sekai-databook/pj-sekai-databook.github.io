@@ -58,6 +58,10 @@ class Music {
             if (vocals.length == 1 && vocals[0].type == "inst") {
                 return "inst";
             }
+            //暫定的にカップヌードルタイアップ曲をすべて「その他」に強制変換
+            if (this.note.includes("cupnoodle")) {
+                return "other";
+            }
             for (let v of vocals) {
                 if (v.type == "sekai") {
                     for (let unit of v.units) {

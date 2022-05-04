@@ -3342,6 +3342,21 @@ const musics = [
         ],
         Diff(7, 12, 17, 25, 30),
         "cupnoodle"
+    ),
+    new Music("徳川カップヌードル禁止令",
+        [
+            Creator("Mitchie M", "ttt")
+        ],
+        [
+            Vocal("sekai", ["len", "kaito", "nene", "nenerobo", "mikudayo"])
+        ],
+        mDate(2022, 2, 16),
+        mDate(2022, 5, 4),
+        [
+            new MV(2, "https://www.youtube.com/watch?v=jPXAgWkqbo4", mDate(2022, 2, 16), ["nene", "nenerobo", "mikudayo", "len", "kaito"])
+        ],
+        Diff(8, 13, 19, 27, 31),
+        "cupnoodle"
     )
 ];
 const future_musics = [
@@ -3373,21 +3388,6 @@ const future_musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
             new MV(2, "https://www.youtube.com/watch?v=babaG-xuBQM", mDate(2022, 3, 12), ["miku", "akito", "ena"])
-        ],
-        Diff(),
-        "cupnoodle"
-    ),
-    new Music("徳川カップヌードル禁止令",
-        [
-            Creator("Mitchie M", "fff")
-        ],
-        [
-            Vocal("sekai", ["nene", "nenerobo", "mikudayo", "len", "kaito"])
-        ],
-        mDate(2022, 2, 16),
-        null,
-        [
-            new MV(2, "https://www.youtube.com/watch?v=jPXAgWkqbo4", mDate(2022, 2, 16), ["nene", "nenerobo", "mikudayo", "len", "kaito"])
         ],
         Diff(),
         "cupnoodle"
