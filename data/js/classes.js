@@ -11,7 +11,12 @@ class Music {
         this.diff = diff;
         this.note = (note ?? "").split(",").map(x => x.trim()).filter(x => x != "");
 
-        const getTmpUnitFromNote = () => {
+        const tmp_unit_note = (() => {
+            //カップヌードルタイアップ曲には「その他」ユニットを追加する
+            if (this.note == "cupnoodle") {
+                return "other";
+            }
+            //書き下ろし楽曲のユニット指定があれば追加する
             const item = this.note.find(x => x.match(/^newlyWritten_/));
             if (typeof item != "undefined") {
                 const tmp_unit = item.replace(/^.*_/, "");
@@ -25,22 +30,22 @@ class Music {
             else {
                 return null;
             }
-        }
+        })();
 
         this.units = (() => {
             let tmp_units = [];
             for (let v of vocals) {
                 switch (v.type) {
-                    case "virtual":
-                    case "sekai":
-                    case "another":
+                    case Vocal.type.virtual:
+                    case Vocal.type.sekai:
+                    case Vocal.type.another:
                         for (let unit of v.units) {
                             if (!tmp_units.includes(unit)) {
                                 tmp_units.push(unit);
                             }
                         }
                         break;
-                    case "inst":
+                    case Vocal.type.inst:
                         if (!tmp_units.includes("inst")) {
                             tmp_units.push("inst");
                         }
@@ -48,38 +53,68 @@ class Music {
                         break;
                 }
             }
-            const tmp_unit_note = getTmpUnitFromNote();
             if (tmp_unit_note != null && (!tmp_units.includes(tmp_unit_note))) {
                 tmp_units.push(tmp_unit_note);
             }
             return tmp_units;
         })();
-        this.main_unit = (() => {
-            if (vocals.length == 1 && vocals[0].type == "inst") {
-                return "inst";
-            }
-            //暫定的にカップヌードルタイアップ曲をすべて「その他」に強制変換
-            if (this.note.includes("cupnoodle")) {
-                return "other";
-            }
-            for (let v of vocals) {
-                if (v.type == "sekai") {
-                    for (let unit of v.units) {
-                        if (unit != "virtual") {
-                            return unit;
-                        }
-                    }
-                }
-            }
-            for (let v of vocals) {
-                if (v.type == "virtual") {
-                    return v.units[0];
-                }
-            }
-            return getTmpUnitFromNote() ?? "unclassified";
-        })();
+
+        this.main_unit = Music.getMainUnit(this);
     }
+    static getMainUnit = (() => {
+        const prior_list = ["inst", "other", "leo", "more", "vivid", "wonder", "night", "virtual"];
+        return (m) => {
+            for (const p of prior_list) {
+                if (m.units.includes(p)) {
+                    return p;
+                }
+            }
+            return "unclassified";
+        }
+    })();
 }
+class Vocal {
+    static type = {
+        virtual: "virtual",
+        sekai: "sekai",
+        another: "another",
+        inst: "inst",
+        april: "april"
+    };
+    constructor(type, members = [], summarize = true) {
+        this.type = type;
+        this.members = members;
+
+        //units
+        let units = [];
+        if (type == Vocal.type.virtual) {
+            units.push("virtual");
+        }
+        else {
+            for (let m of members) {
+                let unit = characters_vocal[m].unit;
+                if (!units.includes(unit)) {
+                    units.push(unit);
+                }
+            }
+            if (units.filter(u => u != "virtual").length >= 2) {
+                //混合ユニット。summarizeがtrueの時は「その他」1つにする
+                if (summarize) {
+                    units = ["other"];
+                }
+            }
+        }
+        this.units = units;
+
+        //str
+        if (type == Vocal.type.inst) {
+            this.str = "Inst ver.";
+        }
+        else {
+            this.str = members.map(m => characters_vocal[m].fullName ?? m).join(", ");
+        }
+    }
+};
 class Link {
     static domain = {
         youtube: "www.youtube.com",

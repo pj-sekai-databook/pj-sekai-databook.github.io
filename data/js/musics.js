@@ -4,7 +4,7 @@ const musics = [
             Creator("kz", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2012, 3, 12),
         mDate(2020, 9, 30),
@@ -19,7 +19,7 @@ const musics = [
             Creator("さつき が てんこもり", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2014, 6, 27),
         mDate(2020, 9, 30),
@@ -34,7 +34,7 @@ const musics = [
             Creator("ryo", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2007, 12, 7),
         mDate(2020, 9, 30),
@@ -49,7 +49,7 @@ const musics = [
             Creator("cosMo@暴走P", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2008, 4, 8),
         mDate(2020, 9, 30),
@@ -64,7 +64,7 @@ const musics = [
             Creator("halyosy", "ttf")
         ],
         [
-            Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"])
+            new Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"])
         ],
         mDate(2014, 4, 11),
         mDate(2020, 9, 30),
@@ -79,7 +79,7 @@ const musics = [
             Creator("市瀬るぽ", "ttf")
         ],
         [
-            Vocal("virtual", ["rin"])
+            new Vocal("virtual", ["rin"])
         ],
         mDate(2020, 9, 30),
         mDate(2020, 9, 30),
@@ -95,9 +95,9 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["len", "kaito"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["len", "kaito"])
         ],
         mDate(2018, 2, 27),
         mDate(2020, 9, 30),
@@ -114,11 +114,11 @@ const musics = [
             Creator("Omoi", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "miku"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["saki"]),
-            Vocal("another", ["miku", "luka"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "miku"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["saki"]),
+            new Vocal("another", ["miku", "luka"])
         ],
         mDate(2017, 7, 8),
         mDate(2020, 9, 30),
@@ -135,10 +135,10 @@ const musics = [
             Creator("Rockwell", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["meiko"]),
-            Vocal("another", ["ichika"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["meiko"]),
+            new Vocal("another", ["ichika"]),
         ],
         mDate(2017, 8, 4),
         mDate(2020, 9, 30),
@@ -154,12 +154,12 @@ const musics = [
             Creator("EasyPop", "ttf")
         ],
         [
-            Vocal("virtual", ["luka", "gumi"]),
-            Vocal("virtual", ["miku", "luka", "rin", "meiko"]),
-            Vocal("sekai", ["minori", "haruka", "airi", "shizuku"]),
-            Vocal("another", ["minori", "haruka"]),
-            Vocal("another", ["airi", "shizuku"]),
-            Vocal("april", ["shiho", "shizuku", "an", "kanade"])
+            new Vocal("virtual", ["luka", "gumi"]),
+            new Vocal("virtual", ["miku", "luka", "rin", "meiko"]),
+            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku"]),
+            new Vocal("another", ["minori", "haruka"]),
+            new Vocal("another", ["airi", "shizuku"]),
+            new Vocal("april", ["shiho", "shizuku", "an", "kanade"])
         ],
         mDate(2010, 11, 22),
         mDate(2020, 9, 30),
@@ -177,10 +177,10 @@ const musics = [
             Creator("yuukiss", "ttf")
         ],
         [
-            Vocal("virtual", ["meiko"]),
-            Vocal("sekai", ["haruka", "shizuku", "meiko"]),
-            Vocal("another", ["haruka"]),
-            Vocal("another", ["shizuku"])
+            new Vocal("virtual", ["meiko"]),
+            new Vocal("sekai", ["haruka", "shizuku", "meiko"]),
+            new Vocal("another", ["haruka"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2014, 11, 5),
         mDate(2020, 9, 30),
@@ -194,9 +194,9 @@ const musics = [
             Creator("とあ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["miku", "rin", "meiko"]),
-            Vocal("sekai", ["miku", "airi", "shizuku"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["miku", "rin", "meiko"]),
+            new Vocal("sekai", ["miku", "airi", "shizuku"]),
         ],
         mDate(2014, 6, 12),
         mDate(2020, 9, 30),
@@ -213,8 +213,8 @@ const musics = [
             Creator("Giga", "ftt")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["rin", "len", "kohane", "an"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["rin", "len", "kohane", "an"])
         ],
         mDate(2018, 7, 13),
         mDate(2020, 9, 30),
@@ -232,9 +232,9 @@ const musics = [
             Creator("nyanyannya", "ttf")
         ],
         [
-            Vocal("virtual", ["kaito"]),
-            Vocal("sekai", ["kaito", "akito", "toya"]),
-            Vocal("another", ["len"])
+            new Vocal("virtual", ["kaito"]),
+            new Vocal("sekai", ["kaito", "akito", "toya"]),
+            new Vocal("another", ["len"])
         ],
         mDate(2015, 6, 12),
         mDate(2020, 9, 30),
@@ -249,11 +249,11 @@ const musics = [
             Creator("ぬゆり", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"]),
-            Vocal("virtual", ["len", "kaito"]),
-            Vocal("sekai", ["akito", "toya"]),
-            Vocal("another", ["akito"]),
-            Vocal("another", ["toya"])
+            new Vocal("virtual", ["gumi"]),
+            new Vocal("virtual", ["len", "kaito"]),
+            new Vocal("sekai", ["akito", "toya"]),
+            new Vocal("another", ["akito"]),
+            new Vocal("another", ["toya"])
         ],
         mDate(2016, 9, 10),
         mDate(2020, 9, 30),
@@ -270,10 +270,10 @@ const musics = [
             Creator("日向電工", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["tsukasa", "rui", "len"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["tsukasa", "rui", "len"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2013, 3, 10),
         mDate(2020, 9, 30),
@@ -288,11 +288,11 @@ const musics = [
             Creator("Junky", "ttf")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("virtual", ["miku", "rin", "len", "meiko", "kaito"]),
-            Vocal("sekai", ["rin", "emu", "nene", "tsukasa", "rui"]),
-            Vocal("another", ["emu"]),
-            Vocal("another", ["nene"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("virtual", ["miku", "rin", "len", "meiko", "kaito"]),
+            new Vocal("sekai", ["rin", "emu", "nene", "tsukasa", "rui"]),
+            new Vocal("another", ["emu"]),
+            new Vocal("another", ["nene"])
         ],
         mDate(2011, 4, 2),
         mDate(2020, 9, 30),
@@ -309,8 +309,8 @@ const musics = [
             Creator("じーざす", "ttf")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["tsukasa", "emu", "rin", "len"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["tsukasa", "emu", "rin", "len"])
         ],
         mDate(2014, 11, 14),
         mDate(2020, 9, 30),
@@ -325,11 +325,11 @@ const musics = [
             Creator("バルーン", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["ena", "mizuki"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["len", "kaito"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["ena", "mizuki"]),
+            new Vocal("another", ["mizuki"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["len", "kaito"])
         ],
         mDate(2016, 10, 12),
         mDate(2020, 9, 30),
@@ -345,8 +345,8 @@ const musics = [
             Creator("ナノウ", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["mafuyu", "ena", "miku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["mafuyu", "ena", "miku"])
         ],
         mDate(2010, 7, 20),
         mDate(2020, 9, 30),
@@ -361,8 +361,8 @@ const musics = [
             Creator("ササノマリイ", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "kanade", "mafuyu"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "mafuyu"]),
         ],
         mDate(2013, 1, 20),
         mDate(2020, 9, 30),
@@ -379,11 +379,11 @@ const musics = [
             Creator("Rockwell", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
-            Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"]),
-            Vocal("another", ["saki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"]),
+            new Vocal("another", ["saki"])
         ],
         mDate(2020, 8, 14),
         mDate(2020, 9, 30),
@@ -399,8 +399,8 @@ const musics = [
             Creator("Mitchie M", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "rin", "luka", "meiko"]),
-            Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
+            new Vocal("virtual", ["miku", "rin", "luka", "meiko"]),
+            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
         ],
         mDate(2020, 9, 9),
         mDate(2020, 9, 30),
@@ -417,8 +417,8 @@ const musics = [
             Creator("Giga", "ftt")
         ],
         [
-            Vocal("virtual", ["miku", "rin", "len"]),
-            Vocal("sekai", ["kohane", "an", "akito", "toya", "miku"])
+            new Vocal("virtual", ["miku", "rin", "len"]),
+            new Vocal("sekai", ["kohane", "an", "akito", "toya", "miku"])
         ],
         mDate(2020, 9, 30),
         mDate(2020, 9, 30),
@@ -435,10 +435,10 @@ const musics = [
             Creator("ピノキオピー", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"]),
-            Vocal("another", ["tsukasa", "emu"]),
-            Vocal("another", ["nene", "rui"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"]),
+            new Vocal("another", ["tsukasa", "emu"]),
+            new Vocal("another", ["nene", "rui"])
         ],
         mDate(2020, 4, 17),
         mDate(2020, 9, 30),
@@ -455,11 +455,11 @@ const musics = [
             Creator("まふまふ", "ttt")
         ],
         [
-            Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2020, 4, 22),
         mDate(2020, 9, 30),
@@ -478,8 +478,8 @@ const musics = [
             Creator("Rockwell", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "tsukasa", "kanade", "miku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "tsukasa", "kanade", "miku"])
         ],
         mDate(2020, 7, 31),
         mDate(2020, 9, 30),
@@ -496,8 +496,8 @@ const musics = [
             Creator("Giga", "ftt")
         ],
         [
-            Vocal("virtual", ["miku", "rin"]),
-            Vocal("sekai", ["minori", "kohane", "miku"])
+            new Vocal("virtual", ["miku", "rin"]),
+            new Vocal("sekai", ["minori", "kohane", "miku"])
         ],
         mDate(2020, 8, 5),
         mDate(2020, 9, 30),
@@ -515,7 +515,7 @@ const musics = [
             Creator("Rockwell", "fft")
         ],
         [
-            Vocal("sekai", ["ichika"])
+            new Vocal("sekai", ["ichika"])
         ],
         mDate(2014, 8, 19),
         mDate(2020, 10, 1),
@@ -531,9 +531,9 @@ const musics = [
             Creator("渡辺拓也", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["minori", "haruka", "miku"]),
-            Vocal("another", ["haruka"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["minori", "haruka", "miku"]),
+            new Vocal("another", ["haruka"])
         ],
         mDate(2017, 7, 2),
         mDate(2020, 10, 2),
@@ -549,10 +549,10 @@ const musics = [
             Creator("Dixie Flatline", "ttf")
         ],
         [
-            Vocal("virtual", ["luka"]),
-            Vocal("sekai", ["kohane", "an", "luka"]),
-            Vocal("another", ["kohane"]),
-            Vocal("another", ["an"])
+            new Vocal("virtual", ["luka"]),
+            new Vocal("sekai", ["kohane", "an", "luka"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["an"])
         ],
         mDate(2009, 7, 4),
         mDate(2020, 10, 3),
@@ -567,9 +567,9 @@ const musics = [
             Creator("Neru", "ttf")
         ],
         [
-            Vocal("virtual", ["len"]),
-            Vocal("sekai", ["tsukasa", "rui", "len"]),
-            Vocal("another", ["kaito"])
+            new Vocal("virtual", ["len"]),
+            new Vocal("sekai", ["tsukasa", "rui", "len"]),
+            new Vocal("another", ["kaito"])
         ],
         mDate(2016, 6, 19),
         mDate(2020, 10, 4),
@@ -584,11 +584,11 @@ const musics = [
             Creator("カンザキイオリ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["kanade", "miku"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["rin"]),
-            Vocal("another", ["luka"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["kanade", "miku"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["rin"]),
+            new Vocal("another", ["luka"])
         ],
         mDate(2017, 8, 6),
         mDate(2020, 10, 5),
@@ -605,7 +605,7 @@ const musics = [
             Creator("ryo", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2008, 5, 31),
         mDate(2020, 10, 6),
@@ -619,10 +619,10 @@ const musics = [
             Creator("ナユタン星人", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["miku", "rin", "luka"]),
-            Vocal("sekai", ["emu", "nene", "miku"]),
-            Vocal("another", ["emu"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["miku", "rin", "luka"]),
+            new Vocal("sekai", ["emu", "nene", "miku"]),
+            new Vocal("another", ["emu"])
         ],
         mDate(2016, 12, 6),
         mDate(2020, 10, 7),
@@ -638,7 +638,7 @@ const musics = [
             Creator("kz", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2015, 7, 8),
         mDate(2020, 10, 8),
@@ -654,11 +654,11 @@ const musics = [
             Creator("じん", "ttt")
         ],
         [
-            Vocal("virtual", ["ia"]),
-            Vocal("sekai", ["akito", "toya", "len"]),
-            Vocal("another", ["akito"]),
-            Vocal("another", ["toya"]),
-            Vocal("another", ["len"])
+            new Vocal("virtual", ["ia"]),
+            new Vocal("sekai", ["akito", "toya", "len"]),
+            new Vocal("another", ["akito"]),
+            new Vocal("another", ["toya"]),
+            new Vocal("another", ["len"])
         ],
         mDate(2013, 2, 17),
         mDate(2020, 10, 9),
@@ -675,7 +675,7 @@ const musics = [
             Creator("Giga", "ftt")
         ],
         [
-            Vocal("virtual", ["miku", "rin"])
+            new Vocal("virtual", ["miku", "rin"])
         ],
         mDate(2019, 10, 26),
         mDate(2020, 10, 10),
@@ -690,9 +690,9 @@ const musics = [
             Creator("Mitchie M", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
-            Vocal("another", ["minori", "airi"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"]),
+            new Vocal("another", ["minori", "airi"])
         ],
         mDate(2013, 7, 26),
         mDate(2020, 10, 11),
@@ -708,7 +708,7 @@ const musics = [
             Creator("すりぃ", "ttf")
         ],
         [
-            Vocal("virtual", ["len"])
+            new Vocal("virtual", ["len"])
         ],
         mDate(2019, 12, 20),
         mDate(2020, 10, 12),
@@ -723,8 +723,8 @@ const musics = [
             Creator("OSTER project", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"])
         ],
         mDate(2007, 11, 22),
         mDate(2020, 10, 13),
@@ -740,7 +740,7 @@ const musics = [
             Creator("OSTER project", "ttt")
         ],
         [
-            Vocal("virtual", ["meiko", "kaito"])
+            new Vocal("virtual", ["meiko", "kaito"])
         ],
         mDate(2014, 7, 8),
         mDate(2020, 10, 14),
@@ -755,8 +755,8 @@ const musics = [
             Creator("まふまふ", "ttt")
         ],
         [
-            Vocal("sekai", ["ena", "mizuki", "miku"]),
-            Vocal("another", ["ena"])
+            new Vocal("sekai", ["ena", "mizuki", "miku"]),
+            new Vocal("another", ["ena"])
         ],
         mDate(2020, 5, 22),
         mDate(2020, 10, 15),
@@ -773,7 +773,7 @@ const musics = [
             Creator("みきとP", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2016, 6, 29),
         mDate(2020, 10, 16),
@@ -788,8 +788,8 @@ const musics = [
             Creator("まらしぃ", "ttf")
         ],
         [
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("april", ["miku", "ichika", "saki", "airi", "ena"])
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("april", ["miku", "ichika", "saki", "airi", "ena"])
         ],
         mDate(2020, 8, 13),
         mDate(2020, 10, 17),
@@ -806,9 +806,9 @@ const musics = [
             Creator("じん", "ttf")
         ],
         [
-            Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
-            Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"])
+            new Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2020, 11, 16),
         mDate(2020, 10, 18),
@@ -825,7 +825,7 @@ const musics = [
             Creator("ゆよゆっぺ", "ttt")
         ],
         [
-            Vocal("virtual", ["luka"]),
+            new Vocal("virtual", ["luka"]),
         ],
         mDate(2011, 1, 1),
         mDate(2020, 10, 19),
@@ -840,9 +840,9 @@ const musics = [
             Creator("syudou", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
-            Vocal("another", ["mafuyu"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
+            new Vocal("another", ["mafuyu"])
         ],
         mDate(2020, 10, 24),
         mDate(2020, 10, 20),
@@ -859,8 +859,8 @@ const musics = [
             Creator("はるまきごはん", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
         ],
         mDate(2018, 2, 16),
         mDate(2020, 10, 25),
@@ -878,10 +878,10 @@ const musics = [
             Creator("Rockwell", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["mafuyu", "mizuki", "miku"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["mafuyu", "mizuki", "miku"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2019, 1, 18),
         mDate(2020, 11, 1),
@@ -897,9 +897,9 @@ const musics = [
             Creator("Neru", "ttt")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("virtual", ["len", "meiko", "luka", "kaito", "miku"]),
-            Vocal("sekai", ["rui", "miku", "tsukasa", "emu", "nene"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("virtual", ["len", "meiko", "luka", "kaito", "miku"]),
+            new Vocal("sekai", ["rui", "miku", "tsukasa", "emu", "nene"])
         ],
         mDate(2020, 3, 30),
         mDate(2020, 11, 7),
@@ -916,7 +916,7 @@ const musics = [
             Creator("wowaka", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2010, 2, 14),
         mDate(2020, 11, 14),
@@ -931,7 +931,7 @@ const musics = [
             Creator("ナユタン星人", "ttt")
         ],
         [
-            Vocal("sekai", ["airi", "miku", "minori", "haruka", "shizuku"]),
+            new Vocal("sekai", ["airi", "miku", "minori", "haruka", "shizuku"]),
         ],
         null,
         mDate(2020, 11, 19),
@@ -947,7 +947,7 @@ const musics = [
             Creator("wowaka", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2009, 8, 30),
         mDate(2020, 11, 21),
@@ -962,7 +962,7 @@ const musics = [
             Creator("wowaka", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2017, 8, 22),
         mDate(2020, 11, 23),
@@ -977,7 +977,7 @@ const musics = [
             Creator("ピノキオピー", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2020, 7, 22),
         mDate(2020, 11, 30),
@@ -992,9 +992,9 @@ const musics = [
             Creator("n-buna", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "miku", "honami"]),
-            Vocal("another", ["honami"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "miku", "honami"]),
+            new Vocal("another", ["honami"])
         ],
         mDate(2014, 2, 24),
         mDate(2020, 12, 1),
@@ -1010,10 +1010,10 @@ const musics = [
             Creator("R Sound Design", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["rin", "meiko", "miku", "kaito", "len"]),
-            Vocal("sekai", ["an", "kohane", "miku", "akito", "toya"]),
-            Vocal("another", ["an", "kohane"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["rin", "meiko", "miku", "kaito", "len"]),
+            new Vocal("sekai", ["an", "kohane", "miku", "akito", "toya"]),
+            new Vocal("another", ["an", "kohane"])
         ],
         mDate(2020, 12, 11),
         mDate(2020, 12, 8),
@@ -1030,11 +1030,11 @@ const musics = [
             Creator("koyori", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["miku", "luka", "rin"]),
-            Vocal("sekai", ["miku", "kanade", "mizuki"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["miku", "luka", "rin"]),
+            new Vocal("sekai", ["miku", "kanade", "mizuki"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2012, 11, 29),
         mDate(2020, 12, 14),
@@ -1050,10 +1050,10 @@ const musics = [
             Creator("OSTER project", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"]),
-            Vocal("sekai", ["nene", "rui", "meiko", "kaito"]),
-            Vocal("another", ["nene", "rui"]),
-            Vocal("another", ["meiko", "kaito"])
+            new Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"]),
+            new Vocal("sekai", ["nene", "rui", "meiko", "kaito"]),
+            new Vocal("another", ["nene", "rui"]),
+            new Vocal("another", ["meiko", "kaito"])
         ],
         mDate(2020, 12, 20),
         mDate(2020, 12, 20),
@@ -1071,7 +1071,7 @@ const musics = [
             Creator("ryo", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         null,
         mDate(2020, 12, 24),
@@ -1087,9 +1087,9 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["ichika"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["ichika"])
         ],
         mDate(2017, 10, 10),
         mDate(2020, 12, 28),
@@ -1105,7 +1105,7 @@ const musics = [
             Creator("Omoi", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2018, 7, 6),
         mDate(2020, 12, 29),
@@ -1122,10 +1122,10 @@ const musics = [
             Creator("40mP", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["airi", "miku", "minori"]),
-            Vocal("another", ["minori"]),
-            Vocal("another", ["airi"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["airi", "miku", "minori"]),
+            new Vocal("another", ["minori"]),
+            new Vocal("another", ["airi"])
         ],
         mDate(2014, 6, 10),
         mDate(2020, 12, 30),
@@ -1141,7 +1141,7 @@ const musics = [
             Creator("sasakure.UK", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2009, 5, 24),
         mDate(2020, 12, 31),
@@ -1157,8 +1157,8 @@ const musics = [
             Creator("黒うさ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"])
         ],
         mDate(2011, 9, 17),
         mDate(2021, 1, 1),
@@ -1172,10 +1172,10 @@ const musics = [
             Creator("Crusher P", "ttf")
         ],
         [
-            Vocal("virtual", ["gumi"]),
-            Vocal("sekai", ["luka", "kohane", "an", "akito", "toya"]),
-            Vocal("another", ["kohane", "toya"]),
-            Vocal("another", ["an", "akito"])
+            new Vocal("virtual", ["gumi"]),
+            new Vocal("sekai", ["luka", "kohane", "an", "akito", "toya"]),
+            new Vocal("another", ["kohane", "toya"]),
+            new Vocal("another", ["an", "akito"])
         ],
         mDate(2014, 10, 8),
         mDate(2021, 1, 2),
@@ -1191,8 +1191,8 @@ const musics = [
             Creator("和田たけあき(くらげP)", "ttt")
         ],
         [
-            Vocal("sekai", ["tsukasa", "emu", "nene", "rui"]),
-            Vocal("another", ["tsukasa", "nene"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui"]),
+            new Vocal("another", ["tsukasa", "nene"]),
         ],
         mDate(2016, 2, 22),
         mDate(2021, 1, 3),
@@ -1210,7 +1210,7 @@ const musics = [
             Creator("和田たけあき", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2019, 5, 31),
         mDate(2021, 1, 4),
@@ -1227,8 +1227,8 @@ const musics = [
             Creator("EZFG", "ttt")
         ],
         [
-            Vocal("virtual", ["vy2v3"]),
-            Vocal("sekai", ["miku", "mafuyu", "ena"])
+            new Vocal("virtual", ["vy2v3"]),
+            new Vocal("sekai", ["miku", "mafuyu", "ena"])
         ],
         mDate(2012, 10, 3),
         mDate(2021, 1, 5),
@@ -1243,10 +1243,10 @@ const musics = [
             Creator("Orangestar", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["honami", "ichika", "miku", "saki", "shiho"]),
-            Vocal("another", ["saki"]),
-            Vocal("another", ["honami"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["honami", "ichika", "miku", "saki", "shiho"]),
+            new Vocal("another", ["saki"]),
+            new Vocal("another", ["honami"])
         ],
         mDate(2021, 1, 10),
         mDate(2021, 1, 10),
@@ -1263,7 +1263,7 @@ const musics = [
             Creator("wowaka", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "luka"])
+            new Vocal("virtual", ["miku", "luka"])
         ],
         mDate(2010, 5, 18),
         mDate(2021, 1, 14),
@@ -1279,7 +1279,7 @@ const musics = [
             Creator("ギガ", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2014, 9, 24),
         mDate(2021, 1, 18),
@@ -1294,11 +1294,11 @@ const musics = [
             Creator("40mP", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["shizuku", "luka", "minori", "haruka", "airi"]),
-            Vocal("another", ["haruka"]),
-            Vocal("another", ["shizuku"]),
-            Vocal("another", ["luka"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["shizuku", "luka", "minori", "haruka", "airi"]),
+            new Vocal("another", ["haruka"]),
+            new Vocal("another", ["shizuku"]),
+            new Vocal("another", ["luka"])
         ],
         mDate(2021, 1, 29),
         mDate(2021, 1, 29),
@@ -1315,9 +1315,9 @@ const musics = [
             Creator("八王子P", "ftt")
         ],
         [
-            Vocal("sekai", ["toya", "akito", "kohane", "an", "miku"]),
-            Vocal("another", ["akito", "toya"]),
-            Vocal("another", ["kohane", "an"])
+            new Vocal("sekai", ["toya", "akito", "kohane", "an", "miku"]),
+            new Vocal("another", ["akito", "toya"]),
+            new Vocal("another", ["kohane", "an"])
         ],
         mDate(2021, 2, 7),
         mDate(2021, 1, 31),
@@ -1332,10 +1332,10 @@ const musics = [
             Creator("ユジー", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["minori", "shizuku", "miku"]),
-            Vocal("another", ["minori"]),
-            Vocal("another", ["shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["minori", "shizuku", "miku"]),
+            new Vocal("another", ["minori"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2014, 4, 25),
         mDate(2021, 2, 6),
@@ -1352,10 +1352,10 @@ const musics = [
             Creator("1640mP", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("virtual", ["miku", "luka", "meiko"]),
-            Vocal("sekai", ["miku", "ichika", "saki"]),
-            Vocal("another", ["saki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("virtual", ["miku", "luka", "meiko"]),
+            new Vocal("sekai", ["miku", "ichika", "saki"]),
+            new Vocal("another", ["saki"])
         ],
         mDate(2010, 9, 13),
         mDate(2021, 2, 10),
@@ -1373,8 +1373,8 @@ const musics = [
             Creator("ギガ", "ftt")
         ],
         [
-            Vocal("virtual", ["rin", "luka"]),
-            Vocal("sekai", ["rin", "luka", "kohane", "an"]),
+            new Vocal("virtual", ["rin", "luka"]),
+            new Vocal("sekai", ["rin", "luka", "kohane", "an"]),
         ],
         mDate(2014, 7, 18),
         mDate(2021, 2, 15),
@@ -1390,11 +1390,11 @@ const musics = [
             Creator("キノシタ", "ttt")
         ],
         [
-            Vocal("virtual", ["una", "rin"]),
-            Vocal("sekai", ["rin", "emu", "nene"]),
-            Vocal("another", ["emu"]),
-            Vocal("another", ["nene"]),
-            Vocal("april", ["rin", "haruka", "kohane", "emu", "mafuyu"])
+            new Vocal("virtual", ["una", "rin"]),
+            new Vocal("sekai", ["rin", "emu", "nene"]),
+            new Vocal("another", ["emu"]),
+            new Vocal("another", ["nene"]),
+            new Vocal("april", ["rin", "haruka", "kohane", "emu", "mafuyu"])
         ],
         mDate(2017, 10, 12),
         mDate(2021, 2, 19),
@@ -1411,7 +1411,7 @@ const musics = [
             Creator("いるかアイス", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2020, 11, 30),
         mDate(2021, 2, 22),
@@ -1427,10 +1427,10 @@ const musics = [
             Creator("すりぃ", "ttt")
         ],
         [
-            Vocal("virtual", ["len"]),
-            Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["rin"]),
+            new Vocal("virtual", ["len"]),
+            new Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["rin"]),
         ],
         mDate(2021, 2, 26),
         mDate(2021, 2, 26),
@@ -1447,9 +1447,9 @@ const musics = [
             Creator("YASUHIRO(康寛)", "ttt"),
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["emu", "len", "tsukasa", "nene", "rui"]),
-            Vocal("another", ["emu"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["emu", "len", "tsukasa", "nene", "rui"]),
+            new Vocal("another", ["emu"])
         ],
         mDate(2021, 3, 8),
         mDate(2021, 2, 28),
@@ -1466,8 +1466,8 @@ const musics = [
             Creator("柊キライ", "ttt"),
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["mafuyu", "mizuki"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["mafuyu", "mizuki"])
         ],
         mDate(2020, 4, 26),
         mDate(2021, 3, 6),
@@ -1483,7 +1483,7 @@ const musics = [
             Creator("ika_mo", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2007, 9, 20),
         mDate(2021, 3, 9),
@@ -1497,12 +1497,12 @@ const musics = [
             Creator("梅とら", "ttt")
         ],
         [
-            Vocal("virtual", ["luka", "miku", "gumi", "ia", "rin"]),
-            Vocal("sekai", ["akito", "toya", "kaito"]),
-            Vocal("another", ["akito"]),
-            Vocal("another", ["toya"]),
-            Vocal("another", ["kaito"]),
-            Vocal("april", ["kaito", "akito", "toya", "tsukasa", "rui"])
+            new Vocal("virtual", ["luka", "miku", "gumi", "ia", "rin"]),
+            new Vocal("sekai", ["akito", "toya", "kaito"]),
+            new Vocal("another", ["akito"]),
+            new Vocal("another", ["toya"]),
+            new Vocal("another", ["kaito"]),
+            new Vocal("april", ["kaito", "akito", "toya", "tsukasa", "rui"])
         ],
         mDate(2012, 10, 29),
         mDate(2021, 3, 15),
@@ -1520,10 +1520,10 @@ const musics = [
             Creator("ジミーサムP", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika", "saki", "honami", "shiho"]),
-            Vocal("another", ["ichika", "honami"]),
-            Vocal("another", ["saki", "shiho"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "saki", "honami", "shiho"]),
+            new Vocal("another", ["ichika", "honami"]),
+            new Vocal("another", ["saki", "shiho"])
         ],
         mDate(2009, 3, 24),
         mDate(2021, 3, 22),
@@ -1538,7 +1538,7 @@ const musics = [
             Creator("cosMo@暴走P", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2010, 7, 9),
         mDate(2021, 3, 30),
@@ -1553,10 +1553,10 @@ const musics = [
             Creator("DIVELA", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "rin"]),
-            Vocal("another", ["minori"]),
-            Vocal("another", ["airi"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "rin"]),
+            new Vocal("another", ["minori"]),
+            new Vocal("another", ["airi"])
         ],
         mDate(2021, 3, 30),
         mDate(2021, 3, 30),
@@ -1574,9 +1574,9 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "len"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "len"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2017, 11, 28),
         mDate(2021, 4, 5),
@@ -1592,11 +1592,11 @@ const musics = [
             Creator("emon(Tes.)", "ttt")
         ],
         [
-            Vocal("virtual", ["luka"]),
-            Vocal("sekai", ["luka", "minori", "haruka", "airi", "shizuku"]),
-            Vocal("another", ["haruka"]),
-            Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"])
+            new Vocal("virtual", ["luka"]),
+            new Vocal("sekai", ["luka", "minori", "haruka", "airi", "shizuku"]),
+            new Vocal("another", ["haruka"]),
+            new Vocal("another", ["airi"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2014, 2, 28),
         mDate(2021, 4, 12),
@@ -1611,12 +1611,12 @@ const musics = [
             Creator("とあ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "rin"]),
-            Vocal("sekai", ["mizuki", "meiko", "kanade", "mafuyu", "ena"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["miku", "rin"]),
+            new Vocal("sekai", ["mizuki", "meiko", "kanade", "mafuyu", "ena"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2021, 5, 1, 25, 0),
         mDate(2021, 4, 20),
@@ -1633,11 +1633,11 @@ const musics = [
             Creator("164", "ttt")
         ],
         [
-            Vocal("virtual", ["luka"]),
-            Vocal("sekai", ["shiho", "ichika", "luka", "saki", "honami"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"])
+            new Vocal("virtual", ["luka"]),
+            new Vocal("sekai", ["shiho", "ichika", "luka", "saki", "honami"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2021, 4, 21),
         mDate(2021, 4, 21),
@@ -1654,7 +1654,7 @@ const musics = [
             Creator("シノ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 1, 28),
         mDate(2021, 4, 26),
@@ -1670,13 +1670,13 @@ const musics = [
             Creator("Ayase", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["kanade", "miku"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["shizuku"]),
-            Vocal("another", ["kohane"]),
-            Vocal("another", ["nene"]),
-            Vocal("another", ["kanade"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["kanade", "miku"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["shizuku"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["nene"]),
+            new Vocal("another", ["kanade"])
         ],
         mDate(2019, 11, 20),
         mDate(2021, 5, 1),
@@ -1692,9 +1692,9 @@ const musics = [
             Creator("Ayase", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["kaito", "akito", "toya"]),
-            Vocal("another", ["toya"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["kaito", "akito", "toya"]),
+            new Vocal("another", ["toya"])
         ],
         mDate(2019, 12, 3),
         mDate(2021, 5, 3),
@@ -1712,9 +1712,9 @@ const musics = [
             Creator("Ayase", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["akito", "kaito", "kohane", "an", "toya"]),
-            Vocal("another", ["akito"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["akito", "kaito", "kohane", "an", "toya"]),
+            new Vocal("another", ["akito"])
         ],
         mDate(2021, 5, 8),
         mDate(2021, 5, 8),
@@ -1732,10 +1732,10 @@ const musics = [
             Creator("Kanaria", "ttf")
         ],
         [
-            Vocal("virtual", ["gumi"]),
-            Vocal("sekai", ["tsukasa", "rui"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["gumi"]),
+            new Vocal("sekai", ["tsukasa", "rui"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2020, 8, 2),
         mDate(2021, 5, 17),
@@ -1751,9 +1751,9 @@ const musics = [
             Creator("Junky", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "rin"]),
-            Vocal("sekai", ["haruka", "shizuku", "meiko", "minori", "airi"]),
-            Vocal("another", ["minori"]),
+            new Vocal("virtual", ["miku", "rin"]),
+            new Vocal("sekai", ["haruka", "shizuku", "meiko", "minori", "airi"]),
+            new Vocal("another", ["minori"]),
         ],
         mDate(2021, 5, 29),
         mDate(2021, 5, 21),
@@ -1769,9 +1769,9 @@ const musics = [
             Creator("想太", "ttf")
         ],
         [
-            Vocal("virtual", ["yuki"]),
-            Vocal("sekai", ["ichika", "saki", "miku"]),
-            Vocal("another", ["saki"])
+            new Vocal("virtual", ["yuki"]),
+            new Vocal("sekai", ["ichika", "saki", "miku"]),
+            new Vocal("another", ["saki"])
         ],
         mDate(2013, 10, 9),
         mDate(2021, 5, 28),
@@ -1787,10 +1787,10 @@ const musics = [
             Creator("doriko", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "airi", "shizuku"]),
-            Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "airi", "shizuku"]),
+            new Vocal("another", ["airi"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2009, 4, 6),
         mDate(2021, 6, 7),
@@ -1806,7 +1806,7 @@ const musics = [
             Creator("加賀(ネギシャワーP)", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 2, 26),
         mDate(2021, 6, 14),
@@ -1823,12 +1823,12 @@ const musics = [
             Creator("岸田勇気(有形ランペイジ)", "fff", "Key")
         ],
         [
-            Vocal("virtual", ["miku", "kaito"]),
-            Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["emu"]),
-            Vocal("another", ["nene"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["miku", "kaito"]),
+            new Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["emu"]),
+            new Vocal("another", ["nene"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2021, 6, 19),
         mDate(2021, 6, 19),
@@ -1845,11 +1845,11 @@ const musics = [
             Creator("Sasanomaly", "ttt")
         ],
         [
-            Vocal("sekai", ["kanade", "luka", "mafuyu", "ena", "mizuki"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("sekai", ["kanade", "luka", "mafuyu", "ena", "mizuki"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2022, 2, 10),
         mDate(2021, 6, 21),
@@ -1865,10 +1865,10 @@ const musics = [
             Creator("煮ル果実", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"]),
-            Vocal("another", ["kohane", "toya"]),
-            Vocal("another", ["an", "akito"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"]),
+            new Vocal("another", ["kohane", "toya"]),
+            new Vocal("another", ["an", "akito"])
         ],
         mDate(2019, 8, 25),
         mDate(2021, 6, 30),
@@ -1885,11 +1885,11 @@ const musics = [
             Creator("渡辺拓也", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["saki", "ichika", "miku", "honami", "shiho"]),
-            Vocal("another", ["saki"]),
-            Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["saki", "ichika", "miku", "honami", "shiho"]),
+            new Vocal("another", ["saki"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2021, 7, 23),
         mDate(2021, 7, 7),
@@ -1906,10 +1906,10 @@ const musics = [
             Creator("ポリスピカデリー", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
-            Vocal("another", ["kohane"]),
-            Vocal("another", ["an"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["an"])
         ],
         mDate(2021, 7, 18),
         mDate(2021, 7, 9),
@@ -1926,10 +1926,10 @@ const musics = [
             Creator("kemu", "ttt")
         ],
         [
-            Vocal("virtual", ["ia"]),
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["miku"])
+            new Vocal("virtual", ["ia"]),
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["miku"])
         ],
         mDate(2012, 4, 11),
         mDate(2021, 7, 12),
@@ -1945,10 +1945,10 @@ const musics = [
             Creator("kemu", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"]),
-            Vocal("sekai", ["luka", "haruka", "shizuku"]),
-            Vocal("another", ["haruka"]),
-            Vocal("another", ["luka"])
+            new Vocal("virtual", ["gumi"]),
+            new Vocal("sekai", ["luka", "haruka", "shizuku"]),
+            new Vocal("another", ["haruka"]),
+            new Vocal("another", ["luka"])
         ],
         mDate(2012, 6, 26),
         mDate(2021, 7, 19),
@@ -1964,11 +1964,11 @@ const musics = [
             Creator("syudou", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "kanade", "mafuyu", "ena", "mizuki"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "mafuyu", "ena", "mizuki"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2019, 1, 4),
         mDate(2021, 7, 28),
@@ -1984,7 +1984,7 @@ const musics = [
             Creator("タケノコ少年", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 4, 25),
         mDate(2021, 8, 6),
@@ -2000,12 +2000,12 @@ const musics = [
             Creator("じん", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["saki"]),
-            Vocal("another", ["honami"]),
-            Vocal("another", ["shiho"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["saki"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2011, 9, 30),
         mDate(2021, 8, 15, 12, 30),
@@ -2020,9 +2020,9 @@ const musics = [
             Creator("aqu3ra", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["airi", "len", "minori", "haruka", "shizuku"]),
-            Vocal("another", ["airi"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["airi", "len", "minori", "haruka", "shizuku"]),
+            new Vocal("another", ["airi"])
         ],
         mDate(2021, 8, 18),
         mDate(2021, 8, 18),
@@ -2038,8 +2038,8 @@ const musics = [
             Creator("キノシタ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["nene", "luka", "tsukasa", "emu", "rui"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["nene", "luka", "tsukasa", "emu", "rui"])
         ],
         mDate(2021, 8, 29),
         mDate(2021, 8, 20),
@@ -2056,10 +2056,10 @@ const musics = [
             Creator("じん", "ttt")
         ],
         [
-            Vocal("virtual", ["ia"]),
-            Vocal("sekai", ["kohane", "an", "akito", "toya", "len"]),
-            Vocal("another", ["kohane", "akito"]),
-            Vocal("another", ["an", "toya"])
+            new Vocal("virtual", ["ia"]),
+            new Vocal("sekai", ["kohane", "an", "akito", "toya", "len"]),
+            new Vocal("another", ["kohane", "akito"]),
+            new Vocal("another", ["an", "toya"])
         ],
         mDate(2012, 7, 21),
         mDate(2021, 8, 23),
@@ -2077,7 +2077,7 @@ const musics = [
             Creator("OSTER project", "fft")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 9, 1),
         mDate(2021, 9, 1),
@@ -2093,8 +2093,8 @@ const musics = [
             Creator("*Luna", "ttt")
         ],
         [
-            Vocal("virtual", ["len", "miku", "rin", "luka", "meiko", "kaito"]),
-            Vocal("sekai", ["ichika", "meiko", "saki", "honami", "shiho"]),
+            new Vocal("virtual", ["len", "miku", "rin", "luka", "meiko", "kaito"]),
+            new Vocal("sekai", ["ichika", "meiko", "saki", "honami", "shiho"]),
         ],
         mDate(2021, 9, 19),
         mDate(2021, 9, 10),
@@ -2110,10 +2110,10 @@ const musics = [
             Creator("有機酸", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "kanade", "mafuyu"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "mafuyu"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mafuyu"])
         ],
         mDate(2017, 12, 25),
         mDate(2021, 9, 21),
@@ -2128,10 +2128,10 @@ const musics = [
             Creator("Picon", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["mafuyu", "rin", "kanade", "ena", "mizuki"]),
-            Vocal("another", ["kanade"]),
-            Vocal("another", ["mafuyu"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["mafuyu", "rin", "kanade", "ena", "mizuki"]),
+            new Vocal("another", ["kanade"]),
+            new Vocal("another", ["mafuyu"])
         ],
         mDate(2021, 9, 29),
         mDate(2021, 9, 29),
@@ -2149,13 +2149,13 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika", "minori", "kohane", "tsukasa", "kanade"]),
-            Vocal("another", ["ichika"]),
-            Vocal("another", ["minori"]),
-            Vocal("another", ["kohane"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["kanade"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "minori", "kohane", "tsukasa", "kanade"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["minori"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["kanade"])
         ],
         mDate(2021, 9, 30),
         mDate(2021, 9, 30),
@@ -2174,7 +2174,7 @@ const musics = [
             Creator("iroha(sasaki)", "ftf")
         ],
         [
-            Vocal("virtual", ["rin"])
+            new Vocal("virtual", ["rin"])
         ],
         mDate(2009, 8, 30),
         mDate(2021, 10, 1),
@@ -2189,12 +2189,12 @@ const musics = [
             Creator("Neru", "ttf")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("virtual", ["rin", "luka", "meiko"]),
-            Vocal("sekai", ["rin", "ichika", "shiho"]),
-            Vocal("another", ["shiho"]),
-            Vocal("another", ["miku"]),
-            Vocal("another", ["len"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("virtual", ["rin", "luka", "meiko"]),
+            new Vocal("sekai", ["rin", "ichika", "shiho"]),
+            new Vocal("another", ["shiho"]),
+            new Vocal("another", ["miku"]),
+            new Vocal("another", ["len"])
         ],
         mDate(2013, 3, 4),
         mDate(2021, 10, 2),
@@ -2210,7 +2210,7 @@ const musics = [
             Creator("cosMo@暴走P", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 10, 3),
         mDate(2021, 10, 3),
@@ -2226,11 +2226,11 @@ const musics = [
             Creator("かいりきベア", "ttf")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["ena", "mizuki"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("april", ["honami", "minori", "nene", "mizuki"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["ena", "mizuki"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"]),
+            new Vocal("april", ["honami", "minori", "nene", "mizuki"])
         ],
         mDate(2018, 8, 2),
         mDate(2021, 10, 4),
@@ -2246,7 +2246,7 @@ const musics = [
             Creator("kemu", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"])
+            new Vocal("virtual", ["gumi"])
         ],
         mDate(2017, 5, 31),
         mDate(2021, 10, 5),
@@ -2261,10 +2261,10 @@ const musics = [
             Creator("すりぃ", "ttt")
         ],
         [
-            Vocal("virtual", ["len"]),
-            Vocal("sekai", ["len", "tsukasa", "emu", "nene", "rui"]),
-            Vocal("another", ["emu"]),
-            Vocal("another", ["nene"])
+            new Vocal("virtual", ["len"]),
+            new Vocal("sekai", ["len", "tsukasa", "emu", "nene", "rui"]),
+            new Vocal("another", ["emu"]),
+            new Vocal("another", ["nene"])
         ],
         mDate(2019, 4, 13),
         mDate(2021, 10, 6),
@@ -2281,7 +2281,7 @@ const musics = [
             Creator("takamatt", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"])
+            new Vocal("virtual", ["gumi"])
         ],
         mDate(2013, 5, 27),
         mDate(2021, 10, 7),
@@ -2296,8 +2296,8 @@ const musics = [
             Creator("キタニタツヤ", "ttf")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["rin", "kohane", "an", "akito", "toya"])
         ],
         mDate(2018, 5, 2),
         mDate(2021, 10, 8),
@@ -2313,7 +2313,7 @@ const musics = [
             Creator("ユリイ・カノン", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"])
+            new Vocal("virtual", ["gumi"])
         ],
         mDate(2018, 2, 12),
         mDate(2021, 10, 9),
@@ -2328,9 +2328,9 @@ const musics = [
             Creator("MIMI", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "airi"]),
-            Vocal("another", ["airi"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "airi"]),
+            new Vocal("another", ["airi"])
         ],
         mDate(2018, 1, 4),
         mDate(2021, 10, 10),
@@ -2346,7 +2346,7 @@ const musics = [
             Creator("のりぴー", "ftt")
         ],
         [
-            Vocal("virtual", ["len"])
+            new Vocal("virtual", ["len"])
         ],
         mDate(2009, 5, 3),
         mDate(2021, 10, 11),
@@ -2363,8 +2363,8 @@ const musics = [
             Creator("藤原基央", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "miku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "miku"])
         ],
         mDate(2014, 3, 13),
         mDate(2021, 10, 12),
@@ -2380,8 +2380,8 @@ const musics = [
             Creator("藤原基央", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
         ],
         mDate(2015, 5, 1),
         mDate(2021, 10, 13),
@@ -2396,7 +2396,7 @@ const musics = [
             Creator("オゾン", "ttt")
         ],
         [
-            Vocal("virtual", ["rin", "len"])
+            new Vocal("virtual", ["rin", "len"])
         ],
         mDate(2021, 7, 18),
         mDate(2021, 10, 22),
@@ -2412,10 +2412,10 @@ const musics = [
             Creator("烏屋茶房", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["rui", "rin", "tsukasa", "emu", "nene"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["rui", "rin", "tsukasa", "emu", "nene"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2021, 10, 29),
         mDate(2021, 10, 29),
@@ -2431,11 +2431,11 @@ const musics = [
             Creator("Junky", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"]),
-            Vocal("sekai", ["rin", "minori", "haruka", "airi", "shizuku"]),
-            Vocal("another", ["haruka"]),
-            Vocal("another", ["airi"]),
-            Vocal("another", ["shizuku"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["rin", "minori", "haruka", "airi", "shizuku"]),
+            new Vocal("another", ["haruka"]),
+            new Vocal("another", ["airi"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2014, 10, 10),
         mDate(2021, 10, 30),
@@ -2449,11 +2449,11 @@ const musics = [
             Creator("ぬゆり", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["mizuki", "meiko", "kanade", "mafuyu", "ena"]),
-            Vocal("another", ["ena"]),
-            Vocal("another", ["mizuki"]),
-            Vocal("another", ["miku"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["mizuki", "meiko", "kanade", "mafuyu", "ena"]),
+            new Vocal("another", ["ena"]),
+            new Vocal("another", ["mizuki"]),
+            new Vocal("another", ["miku"])
         ],
         mDate(2021, 11, 11),
         mDate(2021, 10, 31),
@@ -2470,7 +2470,7 @@ const musics = [
             Creator("cosMo@暴走P", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 8, 20),
         mDate(2021, 11, 5),
@@ -2485,8 +2485,8 @@ const musics = [
             Creator("Misumi", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "kohane", "an", "akito", "toya"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kohane", "an", "akito", "toya"])
         ],
         mDate(2019, 8, 16),
         mDate(2021, 11, 10),
@@ -2502,7 +2502,7 @@ const musics = [
             Creator("棚橋 EDDY テルアキ", "fft")
         ],
         [
-            Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"])
+            new Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"])
         ],
         mDate(2021, 12, 22),
         mDate(2021, 11, 18),
@@ -2519,10 +2519,10 @@ const musics = [
             Creator("40mP", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
-            Vocal("another", ["minori", "haruka"]),
-            Vocal("another", ["airi", "shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
+            new Vocal("another", ["minori", "haruka"]),
+            new Vocal("another", ["airi", "shizuku"])
         ],
         mDate(2011, 7, 15),
         mDate(2021, 11, 29),
@@ -2538,8 +2538,8 @@ const musics = [
             Creator("TOKOTOKO", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["minori", "kaito", "haruka", "airi", "shizuku"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["minori", "kaito", "haruka", "airi", "shizuku"]),
         ],
         mDate(2021, 12, 18),
         mDate(2021, 12, 10),
@@ -2556,7 +2556,7 @@ const musics = [
             Creator("mothy", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"])
+            new Vocal("virtual", ["rin"])
         ],
         mDate(2008, 4, 6),
         mDate(2021, 12, 13),
@@ -2572,7 +2572,7 @@ const musics = [
             Creator("mothy", "ttt")
         ],
         [
-            Vocal("virtual", ["len"])
+            new Vocal("virtual", ["len"])
         ],
         mDate(2008, 4, 29),
         mDate(2021, 12, 14),
@@ -2588,7 +2588,7 @@ const musics = [
             Creator("mothy", "ttt")
         ],
         [
-            Vocal("virtual", ["rin"])
+            new Vocal("virtual", ["rin"])
         ],
         mDate(2022, 2, 28),
         mDate(2021, 12, 15),
@@ -2603,7 +2603,7 @@ const musics = [
             Creator("せきこみごはん", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 8, 30),
         mDate(2021, 12, 20),
@@ -2619,10 +2619,10 @@ const musics = [
             Creator("ぬゆり", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["tsukasa", "rui"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["tsukasa", "rui"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2017, 3, 22),
         mDate(2021, 12, 28),
@@ -2637,10 +2637,10 @@ const musics = [
             Creator("有機酸", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["toya", "luka", "kohane", "an", "akito"]),
-            Vocal("another", ["akito"]),
-            Vocal("another", ["toya"]),
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["toya", "luka", "kohane", "an", "akito"]),
+            new Vocal("another", ["akito"]),
+            new Vocal("another", ["toya"]),
         ],
         mDate(2021, 12, 29),
         mDate(2021, 12, 29),
@@ -2658,10 +2658,10 @@ const musics = [
             Creator("Naoki Itai(MUSIC FOR MUSIC)", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika"]),
-            Vocal("another", ["rin", "len"]),
-            Vocal("another", ["luka", "meiko"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["rin", "len"]),
+            new Vocal("another", ["luka", "meiko"])
         ],
         mDate(2016, 1, 8),
         mDate(2021, 12, 30),
@@ -2676,10 +2676,10 @@ const musics = [
             Creator("てにをは", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["mafuyu", "mizuki"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["mafuyu", "mizuki"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2020, 2, 7),
         mDate(2021, 12, 31),
@@ -2696,7 +2696,7 @@ const musics = [
             Creator("Dios/シグナルP", "ftt")
         ],
         [
-            Vocal("virtual", ["miku", "kaito"])
+            new Vocal("virtual", ["miku", "kaito"])
         ],
         mDate(2018, 8, 27),
         mDate(2022, 1, 1),
@@ -2712,8 +2712,8 @@ const musics = [
             Creator("みきとP", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "haruka", "shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "haruka", "shizuku"])
         ],
         mDate(2018, 7, 18),
         mDate(2022, 1, 2),
@@ -2729,8 +2729,8 @@ const musics = [
             Creator("ピコン", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["len", "akito", "toya"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["len", "akito", "toya"])
         ],
         mDate(2018, 5, 11),
         mDate(2022, 1, 3),
@@ -2746,7 +2746,7 @@ const musics = [
             Creator("cosMo@暴走P", "ftt")
         ],
         [
-            Vocal("inst")
+            new Vocal("inst")
         ],
         mDate(2015, 12, 4),
         mDate(2022, 1, 8),
@@ -2762,7 +2762,7 @@ const musics = [
             Creator("sasakure.UK", "ftt")
         ],
         [
-            Vocal("inst")
+            new Vocal("inst")
         ],
         mDate(2020, 4, 28),
         mDate(2022, 1, 9),
@@ -2777,7 +2777,7 @@ const musics = [
             Creator("黒魔", "ftt")
         ],
         [
-            Vocal("inst")
+            new Vocal("inst")
         ],
         null,
         mDate(2022, 1, 10),
@@ -2793,8 +2793,8 @@ const musics = [
             Creator("ワンダフル☆オポチュニティ！", "fft")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["emu", "miku", "tsukasa", "nene", "rui"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["emu", "miku", "tsukasa", "nene", "rui"])
         ],
         mDate(2022, 1, 19),
         mDate(2022, 1, 19),
@@ -2811,9 +2811,9 @@ const musics = [
             Creator("煮ル果実", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["kanade", "miku", "mafuyu", "ena", "mizuki"]),
-            Vocal("another", ["miku"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["kanade", "miku", "mafuyu", "ena", "mizuki"]),
+            new Vocal("another", ["miku"])
         ],
         mDate(2022, 1, 29),
         mDate(2022, 1, 21),
@@ -2830,8 +2830,8 @@ const musics = [
             Creator("蝶々P", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika", "honami"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "honami"])
         ],
         mDate(2010, 8, 22),
         mDate(2022, 1, 24),
@@ -2845,10 +2845,10 @@ const musics = [
             Creator("syudou", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["mafuyu", "mizuki"]),
-            Vocal("another", ["mafuyu"]),
-            Vocal("another", ["mizuki"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["mafuyu", "mizuki"]),
+            new Vocal("another", ["mafuyu"]),
+            new Vocal("another", ["mizuki"])
         ],
         mDate(2020, 10, 23),
         mDate(2022, 1, 31),
@@ -2867,10 +2867,10 @@ const musics = [
             Creator("DECO*27", "tff")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["kohane", "an"]),
-            Vocal("another", ["kohane"]),
-            Vocal("another", ["an"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["kohane", "an"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["an"])
         ],
         mDate(2021, 4, 27),
         mDate(2022, 2, 4),
@@ -2887,7 +2887,7 @@ const musics = [
             Creator("カルロス袴田(サイゼP)", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2021, 12, 28),
         mDate(2022, 2, 5),
@@ -2903,8 +2903,8 @@ const musics = [
             Creator("きくお", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "mafuyu", "ena"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "mafuyu", "ena"])
         ],
         mDate(2015, 3, 6),
         mDate(2022, 2, 7),
@@ -2920,9 +2920,9 @@ const musics = [
             Creator("Chinozo", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
-            Vocal("another", ["miku"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["kohane", "len", "an", "akito", "toya"]),
+            new Vocal("another", ["miku"])
         ],
         mDate(2022, 2, 16),
         mDate(2022, 2, 16),
@@ -2939,7 +2939,7 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
-            Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
+            new Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
         mDate(2022, 2, 26),
         mDate(2022, 2, 18),
@@ -2955,7 +2955,7 @@ const musics = [
             Creator("すこやか大聖堂", "ttt")
         ],
         [
-            Vocal("virtual", ["kaito"])
+            new Vocal("virtual", ["kaito"])
         ],
         mDate(2021, 11, 27),
         mDate(2022, 2, 21),
@@ -2972,10 +2972,10 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["len", "tsukasa", "rui"]),
-            Vocal("another", ["tsukasa"]),
-            Vocal("another", ["rui"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["len", "tsukasa", "rui"]),
+            new Vocal("another", ["tsukasa"]),
+            new Vocal("another", ["rui"])
         ],
         mDate(2017, 5, 19),
         mDate(2022, 2, 24),
@@ -2994,10 +2994,10 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
-            Vocal("another", ["minori", "haruka"]),
-            Vocal("another", ["airi", "shizuku"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"]),
+            new Vocal("another", ["minori", "haruka"]),
+            new Vocal("another", ["airi", "shizuku"])
         ],
         mDate(2020, 1, 30),
         mDate(2022, 3, 2),
@@ -3014,9 +3014,9 @@ const musics = [
             Creator("Numa", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika", "shiho"]),
-            Vocal("another", ["shiho"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "shiho"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2019, 1, 24),
         mDate(2022, 3, 4),
@@ -3037,7 +3037,7 @@ const musics = [
             Creator("Anamanaguchi", "ftt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2016, 5, 28),
         mDate(2022, 3, 9),
@@ -3053,7 +3053,7 @@ const musics = [
             Creator("Tudiken", "tff")
         ],
         [
-            Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
+            new Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
         ],
         mDate(2022, 3, 18),
         mDate(2022, 3, 11),
@@ -3069,8 +3069,8 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi", "rin"]),
-            Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"]),
+            new Vocal("virtual", ["gumi", "rin"]),
+            new Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"]),
         ],
         mDate(2012, 8, 15),
         mDate(2022, 3, 14),
@@ -3086,8 +3086,8 @@ const musics = [
             Creator("バルーン", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["len", "akito", "toya"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["len", "akito", "toya"])
         ],
         mDate(2017, 3, 9),
         mDate(2022, 3, 22),
@@ -3102,9 +3102,9 @@ const musics = [
             Creator("バルーン", "ttt")
         ],
         [
-            Vocal("virtual", ["flower"]),
-            Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
-            Vocal("another", ["miku"])
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
+            new Vocal("another", ["miku"])
         ],
         mDate(2022, 3, 28),
         mDate(2022, 3, 28),
@@ -3122,7 +3122,7 @@ const musics = [
             Creator("ハチ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "gumi"])
+            new Vocal("virtual", ["miku", "gumi"])
         ],
         mDate(2010, 8, 19),
         mDate(2022, 3, 30),
@@ -3137,7 +3137,7 @@ const musics = [
             Creator("ハチ", "ttt")
         ],
         [
-            Vocal("virtual", ["gumi"])
+            new Vocal("virtual", ["gumi"])
         ],
         mDate(2013, 10, 28),
         mDate(2022, 3, 31),
@@ -3153,7 +3153,7 @@ const musics = [
             Creator("ハチ", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2017, 7, 21),
         mDate(2022, 4, 1),
@@ -3168,7 +3168,7 @@ const musics = [
             Creator("SAM(samfree)", "ttt")
         ],
         [
-            Vocal("virtual", ["luka"])
+            new Vocal("virtual", ["luka"])
         ],
         mDate(2009, 2, 12),
         mDate(2022, 4, 2),
@@ -3182,7 +3182,7 @@ const musics = [
             Creator("OSTER project", "ttt")
         ],
         [
-            Vocal("virtual", ["meiko"])
+            new Vocal("virtual", ["meiko"])
         ],
         mDate(2008, 12, 20),
         mDate(2022, 4, 3),
@@ -3197,7 +3197,7 @@ const musics = [
             Creator("yanagi", "ttt")
         ],
         [
-            Vocal("virtual", ["kaito"])
+            new Vocal("virtual", ["kaito"])
         ],
         mDate(2008, 4, 27),
         mDate(2022, 4, 4),
@@ -3212,7 +3212,7 @@ const musics = [
             Creator("堀江昌太(kemu)", "ftt")
         ],
         [
-            Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"])
+            new Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
         mDate(2022, 4, 20),
         mDate(2022, 4, 11),
@@ -3229,7 +3229,7 @@ const musics = [
             Creator("Twinfield", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2022, 1, 31),
         mDate(2022, 4, 15),
@@ -3246,8 +3246,8 @@ const musics = [
             Creator("雄之助", "ftt")
         ],
         [
-            Vocal("virtual", ["miku", "gumi", "rin"]),
-            Vocal("sekai", ["miku", "rin", "kohane", "an"])
+            new Vocal("virtual", ["miku", "gumi", "rin"]),
+            new Vocal("sekai", ["miku", "rin", "kohane", "an"])
         ],
         mDate(2016, 9, 15),
         mDate(2022, 4, 18),
@@ -3263,8 +3263,8 @@ const musics = [
             Creator("かいりきベア", "ttf")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "minori", "haruka"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "haruka"])
         ],
         mDate(2020, 8, 30),
         mDate(2022, 4, 25),
@@ -3280,7 +3280,7 @@ const musics = [
             Creator("村田祐一(LIVE LAB.)", "fft")
         ],
         [
-            Vocal("sekai", ["ichika", "luka", "saki", "honami", "shiho"])
+            new Vocal("sekai", ["ichika", "luka", "saki", "honami", "shiho"])
         ],
         mDate(2022, 4, 29),
         mDate(2022, 4, 29),
@@ -3296,8 +3296,8 @@ const musics = [
             Creator("Kanaria", "ttf")
         ],
         [
-            Vocal("virtual", ["miku", "gumi"]),
-            Vocal("sekai", ["miku", "kanade"])
+            new Vocal("virtual", ["miku", "gumi"]),
+            new Vocal("sekai", ["miku", "kanade"], false)
         ],
         mDate(2022, 1, 9),
         mDate(2022, 5, 1),
@@ -3313,8 +3313,8 @@ const musics = [
             Creator("くじら", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "luka", "meiko"]),
-            Vocal("sekai", ["miku", "shiho", "shizuku"])
+            new Vocal("virtual", ["miku", "luka", "meiko"]),
+            new Vocal("sekai", ["miku", "shiho", "shizuku"], false)
         ],
         mDate(2022, 1, 20),
         mDate(2022, 5, 2),
@@ -3330,8 +3330,8 @@ const musics = [
             Creator("ピノキオピー", "ttt")
         ],
         [
-            Vocal("virtual", ["miku", "rin", "len"]),
-            Vocal("sekai", ["miku", "saki", "tsukasa"])
+            new Vocal("virtual", ["miku", "rin", "len"]),
+            new Vocal("sekai", ["miku", "saki", "tsukasa"], false)
         ],
         mDate(2022, 1, 26),
         mDate(2022, 5, 3),
@@ -3348,7 +3348,7 @@ const musics = [
             Creator("Mitchie M", "ttt")
         ],
         [
-            Vocal("sekai", ["len", "kaito", "nene", "nenerobo", "mikudayo"])
+            new Vocal("sekai", ["len", "kaito", "nene", "nenerobo", "mikudayo"], false)
         ],
         mDate(2022, 2, 16),
         mDate(2022, 5, 4),
@@ -3357,7 +3357,25 @@ const musics = [
         ],
         Diff(8, 13, 19, 27, 31),
         "cupnoodle"
-    )
+    ),
+    new Music("サラマンダー",
+        [
+            Creator("DECO*27", "ttf"),
+            Creator("Rockwell", "fft")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "akito", "ena"], false)
+        ],
+        mDate(2022, 1, 7),
+        mDate(2022, 5, 5),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
+            new MV(2, "https://www.youtube.com/watch?v=babaG-xuBQM", mDate(2022, 3, 12), ["miku", "akito", "ena"])
+        ],
+        Diff(8, 12, 18, 25, 30),
+        "cupnoodle"
+    ),
 ];
 const future_musics = [
     new Music("ブラック★ロックシューター",
@@ -3365,7 +3383,7 @@ const future_musics = [
             Creator("ryo", "fff")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2008, 6, 13),
         null,
@@ -3375,29 +3393,12 @@ const future_musics = [
         Diff(),
         "brsDF"
     ),
-    new Music("サラマンダー",
-        [
-            Creator("DECO*27", "fff")
-        ],
-        [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "akito", "ena"])
-        ],
-        mDate(2022, 1, 7),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
-            new MV(2, "https://www.youtube.com/watch?v=babaG-xuBQM", mDate(2022, 3, 12), ["miku", "akito", "ena"])
-        ],
-        Diff(),
-        "cupnoodle"
-    ),
     new Music("未完成讃歌",
         [
             Creator("しゃいと", "fff")
         ],
         [
-            Vocal("virtual", ["miku"])
+            new Vocal("virtual", ["miku"])
         ],
         mDate(2022, 3, 29),
         null,
@@ -3414,8 +3415,8 @@ const future_musics = [
             Creator("emon(Tes.)", "fft")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "kanade", "ena"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "ena"])
         ],
         mDate(2016, 11, 18),
         null,
@@ -3431,8 +3432,8 @@ const future_musics = [
             Creator("ワンダフル☆オポチュニティ！", "fft")
         ],
         [
-            Vocal("virtual", ["rin", "len"]),
-            Vocal("sekai", ["emu", "nene", "rin", "len"])
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["emu", "nene", "rin", "len"])
         ],
         mDate(2011, 2, 16),
         null,
@@ -3447,8 +3448,8 @@ const future_musics = [
             Creator("ぷす(fromツユ)", "ttt")
         ],
         [
-            Vocal("virtual", ["miku"]),
-            Vocal("sekai", ["miku", "ichika", "honami"])
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "honami"])
         ],
         mDate(2015, 3, 15),
         null,

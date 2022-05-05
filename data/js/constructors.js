@@ -24,45 +24,6 @@ const VocalType = (fullName, shortName, icon) => {
         fullName, shortName, icon
     };
 };
-const Vocal = (type, members = []) => {
-    const getUnitsOfVocal = () => {
-        if (type == "virtual") {
-            return ["virtual"];
-        }
-        let units = [];
-        for (let m of members) {
-            let unit = characters_vocal[m].unit;
-            if (!(type == "sekai" && unit == "virtual")) {
-                if (units.indexOf(unit) < 0) {
-                    units.push(unit);
-                }
-            }
-        }
-        if (units.length >= 2 && units.indexOf("virtual") < 0) {
-            return ["other"];
-        }
-        return units;
-    };
-    const getStrOfVocal = () => {
-        //const header = (typeof vocalTypes[type] != "undefined") ? vocalTypes[type].shortName : "* ";
-        let names = [];
-        if (type == "inst") {
-            return "Inst ver.";
-        }
-        for (let m of members) {
-            if (typeof characters_vocal[m] != "undefined") {
-                names.push(characters_vocal[m].fullName);
-            }
-            else {
-                names.push("???");
-            }
-        }
-        return names.join(", ");
-    }
-    return {
-        type, members, units: getUnitsOfVocal(), str: getStrOfVocal()
-    };
-};
 const mDate = (y, m, d, h = 0, mi = 0) => {
     return new Date(y, m - 1, d, h, mi);
 };
