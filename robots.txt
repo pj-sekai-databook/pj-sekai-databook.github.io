@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*?
+
+Sitemap: https://pj-sekai-databook.github.io/sitemap.xml
