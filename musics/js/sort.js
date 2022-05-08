@@ -76,10 +76,10 @@ const updateFooter = (type) => {
         let text = "";
         switch (type) {
             case "implemented":
-                text = getStrFromDate(m.date_implemented) + " 追加";
+                text = formatDate(m.date_implemented) + " 追加";
                 break;
             case "posted":
-                text = getStrFromDate(m.date_posted) + " 公開";
+                text = formatDate(m.date_posted) + " 公開";
                 break;
             case "diff-4":
                 text = "MASTER Lv." + ((m.diff != null && m.diff[4] > 0) ? m.diff[4] : "--");

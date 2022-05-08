@@ -3376,6 +3376,24 @@ const musics = [
         Diff(8, 12, 18, 25, 30),
         "cupnoodle"
     ),
+    new Music("イフ",
+        [
+            Creator("ユリイ・カノン", "ttf"),
+            Creator("月詠み", "fft")
+        ],
+        [
+            new Vocal("sekai", ["haruka", "miku", "minori", "airi", "shizuku"])
+        ],
+        mDate(2022, 5, 8),
+        mDate(2022, 5, 8),
+        [
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40435671"),
+            new Link("月詠みver.", "https://www.youtube.com/watch?v=Xt1x1s2eAno"),
+            new MV(3, "https://www.youtube.com/watch?v=VsfcS_-b4j8", mDate(2022, 5, 8), ["haruka", "airi", "shizuku", "minori", "miku_more"])
+        ],
+        Diff(6, 12, 18, 23, 27),
+        "newlyWritten_more"
+    ),
 ];
 const future_musics = [
     new Music("ブラック★ロックシューター",
@@ -3458,19 +3476,6 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
         ],
         Diff()
-    ),
-    new Music("書き下ろし楽曲(ユリイ・カノン)",
-        [
-            Creator("ユリイ・カノン", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_more"
     ),
     new Music("書き下ろし楽曲(キタニタツヤ×はるまきごはん)",
         [

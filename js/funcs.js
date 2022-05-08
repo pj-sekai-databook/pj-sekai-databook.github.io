@@ -152,13 +152,28 @@ const zeroPad = (val, total_len) => {
     return `${"0".repeat(total_len)}${val}`.slice(-total_len);
 }
 const formatDate = (date) => {
-    return `${date.getFullYear()}/${zeroPad(date.getMonth() + 1, 2)}/${zeroPad(date.getDate(), 2)}`;
+    if (date instanceof Date) {
+        return `${date.getFullYear()}/${zeroPad(date.getMonth() + 1, 2)}/${zeroPad(date.getDate(), 2)}`;
+    }
+    else {
+        return "----/--/--";
+    }
 }
 const formatDateTime = (date) => {
-    return `${formatDate(date)} ${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`
+    if (date instanceof Date) {
+        return `${date.getFullYear()}/${zeroPad(date.getMonth() + 1, 2)}/${zeroPad(date.getDate(), 2)} ${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}`
+    }
+    else {
+        return "----/--/-- --:--";
+    }
 }
 const formatDateTimeSecond = (date) => {
-    return `${formatDateTime(date)}:${zeroPad(date.getSeconds(), 2)}`
+    if (date instanceof Date) {
+        return `${date.getFullYear()}/${zeroPad(date.getMonth() + 1, 2)}/${zeroPad(date.getDate(), 2)} ${zeroPad(date.getHours(), 2)}:${zeroPad(date.getMinutes(), 2)}:${zeroPad(date.getSeconds(), 2)}`
+    }
+    else {
+        return "----/--/-- --:--:--";
+    }
 }
 const setVh = () => {
     const setVhFunc = () => {

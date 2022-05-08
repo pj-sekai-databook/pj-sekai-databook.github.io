@@ -129,5 +129,6 @@ const creatorLinks = {
     "ぷす(fromツユ)": "https://twitter.com/pusu_kun",
     "村田祐一(LIVE LAB.)": "https://twitter.com/muranco1225",
     "れるりり": "https://twitter.com/rerulili",
-    "くじら": "https://twitter.com/WhaleDontSleep"
+    "くじら": "https://twitter.com/WhaleDontSleep",
+    "月詠み": "https://twitter.com/Tsukuyomi_JP"
 };
