@@ -137,6 +137,7 @@ const musics = [
         [
             new Vocal("virtual", ["miku"]),
             new Vocal("sekai", ["miku", "ichika"]),
+            new Vocal("another", ["rin"]),
             new Vocal("another", ["meiko"]),
             new Vocal("another", ["ichika"]),
         ],
@@ -2939,6 +2940,7 @@ const musics = [
             Creator("みきとP", "ttt")
         ],
         [
+            new Vocal("virtual", ["miku", "rin"]),
             new Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
         mDate(2022, 2, 26),
@@ -3394,23 +3396,23 @@ const musics = [
         Diff(6, 12, 18, 23, 27),
         "newlyWritten_more"
     ),
-];
-const future_musics = [
     new Music("ブラック★ロックシューター",
         [
-            Creator("ryo", "fff")
+            Creator("ryo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
         ],
         mDate(2008, 6, 13),
-        null,
+        mDate(2022, 5, 10),
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3645817")
         ],
-        Diff(),
+        Diff(7, 12, 16, 24, 27),
         "brsDF"
     ),
+];
+const future_musics = [
     new Music("未完成讃歌",
         [
             Creator("しゃいと", "fff")
