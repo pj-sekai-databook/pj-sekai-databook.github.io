@@ -11,9 +11,14 @@ class Music {
         this.diff = diff;
         this.note = (note ?? "").split(",").map(x => x.trim()).filter(x => x != "");
 
+        //テーマ曲であればボーカルのユニットを集約する(セカイver.を「その他」扱いする)
+        if (this.note.includes("theme")) {
+            this.vocals.forEach(v => v.setAsThemeSong());
+        }
+
         const tmp_unit_note = (() => {
             //カップヌードルタイアップ曲には「その他」ユニットを追加する
-            if (this.note == "cupnoodle") {
+            if (this.note.includes("cupnoodle")) {
                 return "other";
             }
             //書き下ろし楽曲のユニット指定があれば追加する
@@ -81,7 +86,7 @@ class Vocal {
         inst: "inst",
         april: "april"
     };
-    constructor(type, members = [], summarize = true) {
+    constructor(type, members = []) {
         this.type = type;
         this.members = members;
 
@@ -93,14 +98,8 @@ class Vocal {
         else {
             for (let m of members) {
                 let unit = characters_vocal[m].unit;
-                if (!units.includes(unit)) {
+                if (!(units.includes(unit) || unit == "virtual")) {
                     units.push(unit);
-                }
-            }
-            if (units.filter(u => u != "virtual").length >= 2) {
-                //混合ユニット。summarizeがtrueの時は「その他」1つにする
-                if (summarize) {
-                    units = ["other"];
                 }
             }
         }
@@ -112,6 +111,15 @@ class Vocal {
         }
         else {
             this.str = members.map(m => characters_vocal[m].fullName ?? m).join(", ");
+        }
+    }
+    is_theme_song_sekai_ver = false;
+    setAsThemeSong() {
+        //テーマソングの場合、特定ユニットがカバーしているわけではないので、セカイverのユニットを「その他」にする。
+        //「群青讃歌」のように、アナザーボーカルverの場合は各ユニットによるカバー扱いになる
+        if (this.type == Vocal.type.sekai) {
+            this.units = ["other"];
+            this.is_theme_song_sekai_ver = true;
         }
     }
 };

@@ -489,7 +489,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=jxP2_vihhpM", mDate(2020, 12, 4), ["ichika", "tsukasa", "kanade", "miku"])
         ],
         Diff(6, 12, 18, 23, 27),
-        "newlyWritten"
+        "newlyWritten,theme"
     ),
     new Music("ワーワーワールド",
         [
@@ -508,7 +508,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=GJbEn1srk3Y", mDate(2020, 12, 7), ["miku", "kohane", "minori"])
         ],
         Diff(7, 12, 17, 24, 28),
-        "newlyWritten"
+        "newlyWritten,theme"
     ),
     new Music("アスノヨゾラ哨戒班",
         [
@@ -2167,7 +2167,7 @@ const musics = [
             new Link("セカライ", "https://www.youtube.com/watch?v=xtLPqIeA07I")
         ],
         Diff(7, 13, 17, 24, 27),
-        "newlyWritten"
+        "newlyWritten,theme"
     ),
     new Music("炉心融解",
         [
