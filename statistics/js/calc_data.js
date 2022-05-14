@@ -148,7 +148,16 @@ const setStatResult = (mode) => {
         case "3dmv_ranking":
         case "2dmv_ranking":
             let d = Number(mode[0]);
-            stat.initKey(getCharactersConvJson(characters_mv), "count");
+            if (d == 3) {
+                stat.initKey(getCharactersConvJson(characters_mv), "count");
+            }
+            else if (d == 2) {
+                stat.initKey(getCharactersConvJson({
+                    ...characters_mv,
+                    "mikudayo": Character("ミクダヨー", "ミクダヨー", "virtual"),
+                    "nenerobo": Character("ネネロボ", "ネネロボ", "wonder")
+                }), "count");
+            }
             for (let m of musics) {
                 for (let u of m.urls) {
                     if (u instanceof MV && u.d == d) {
