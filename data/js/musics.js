@@ -3411,6 +3411,40 @@ const musics = [
         Diff(7, 12, 16, 24, 27),
         "brsDF"
     ),
+    new Music("妄想感傷代償連盟",
+        [
+            Creator("DECO*27", "ttf"),
+            Creator("emon(Tes.)", "fft")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "ena"])
+        ],
+        mDate(2016, 11, 18),
+        mDate(2022, 5, 13),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=8pGRdRhjX3o"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm30067009")
+        ],
+        Diff(7, 12, 16, 23, 27)
+    ),
+    new Music("リモコン",
+        [
+            Creator("じーざす", "ttf"),
+            Creator("ワンダフル☆オポチュニティ！", "fft")
+        ],
+        [
+            new Vocal("virtual", ["rin", "len"]),
+            new Vocal("sekai", ["rin", "len", "emu", "nene"])
+        ],
+        mDate(2011, 2, 16),
+        mDate(2022, 5, 16),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=1st0XSY0VKQ"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm13612500")
+        ],
+        Diff(7, 12, 17, 24, 29)
+    )
 ];
 const future_musics = [
     new Music("未完成讃歌",
@@ -3428,40 +3462,6 @@ const future_musics = [
         ],
         Diff(),
         "next_9"
-    ),
-    new Music("妄想感傷代償連盟",
-        [
-            Creator("DECO*27", "ttf"),
-            Creator("emon(Tes.)", "fft")
-        ],
-        [
-            new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "kanade", "ena"])
-        ],
-        mDate(2016, 11, 18),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=8pGRdRhjX3o"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm30067009")
-        ],
-        Diff()
-    ),
-    new Music("リモコン",
-        [
-            Creator("じーざす", "ttf"),
-            Creator("ワンダフル☆オポチュニティ！", "fft")
-        ],
-        [
-            new Vocal("virtual", ["rin", "len"]),
-            new Vocal("sekai", ["emu", "nene", "rin", "len"])
-        ],
-        mDate(2011, 2, 16),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=1st0XSY0VKQ"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm13612500")
-        ],
-        Diff()
     ),
     new Music("アサガオの散る頃に",
         [
