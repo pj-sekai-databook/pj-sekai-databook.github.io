@@ -2832,7 +2832,9 @@ const musics = [
         ],
         [
             new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "ichika", "honami"])
+            new Vocal("sekai", ["miku", "ichika", "honami"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["honami"])
         ],
         mDate(2010, 8, 22),
         mDate(2022, 1, 24),
@@ -3055,7 +3057,9 @@ const musics = [
             Creator("Tudiken", "tff")
         ],
         [
-            new Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"])
+            new Vocal("virtual", ["rin"]),
+            new Vocal("sekai", ["shizuku", "rin", "minori", "haruka", "airi"]),
+            new Vocal("another", ["shizuku"])
         ],
         mDate(2022, 3, 18),
         mDate(2022, 3, 11),
@@ -3444,6 +3448,22 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm13612500")
         ],
         Diff(7, 12, 17, 24, 29)
+    ),
+    new Music("月光",
+        [
+            Creator("キタニタツヤ", "ttt"),
+            Creator("はるまきごはん", "ttt")
+        ],
+        [
+            new Vocal("sekai", ["akito", "meiko", "kohane", "an", "toya"])
+        ],
+        null,
+        mDate(2022, 5, 20),
+        [
+            new MV(2, "https://www.youtube.com/watch?v=E5Wu8Ir6kdQ", mDate(2022, 5, 29), ["akito", "meiko", "kohane", "an", "toya"])
+        ],
+        Diff(5, 12, 18, 25, 29),
+        "newlyWritten_vivid"
     )
 ];
 const future_musics = [
@@ -3478,20 +3498,6 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
         ],
         Diff()
-    ),
-    new Music("書き下ろし楽曲(キタニタツヤ×はるまきごはん)",
-        [
-            Creator("キタニタツヤ", "fff"),
-            Creator("はるまきごはん", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_vivid"
     ),
     new Music("脳漿炸裂ガール",
         [
