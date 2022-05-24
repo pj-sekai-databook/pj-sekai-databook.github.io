@@ -1342,7 +1342,8 @@ const musics = [
         mDate(2021, 2, 6),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=zRar5r3TieE"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm23404002")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm23404002"),
+            new MV(2, "https://www.youtube.com/watch?v=xBVIHNosBTg", mDate(2022, 5, 24), ["minori", "shizuku", "miku_more"])
         ],
         Diff(7, 13, 18, 26, 30)
     ),
@@ -3464,6 +3465,22 @@ const musics = [
         ],
         Diff(5, 12, 18, 25, 29),
         "newlyWritten_vivid"
+    ),
+    new Music("アサガオの散る頃に",
+        [
+            Creator("ぷす(fromツユ)", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "honami"])
+        ],
+        mDate(2015, 3, 15),
+        mDate(2022, 5, 23),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=ugs4oVUNZ-o"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
+        ],
+        Diff(6, 12, 16, 21, 26)
     )
 ];
 const future_musics = [
@@ -3482,22 +3499,6 @@ const future_musics = [
         ],
         Diff(),
         "next_9"
-    ),
-    new Music("アサガオの散る頃に",
-        [
-            Creator("ぷす(fromツユ)", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "ichika", "honami"])
-        ],
-        mDate(2015, 3, 15),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=ugs4oVUNZ-o"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
-        ],
-        Diff()
     ),
     new Music("脳漿炸裂ガール",
         [
