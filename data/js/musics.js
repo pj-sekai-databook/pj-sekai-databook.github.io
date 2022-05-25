@@ -3514,6 +3514,110 @@ const future_musics = [
         ],
         Diff()
     ),
+    new Music("神のまにまに",
+        [
+            Creator("れるりり", "ttf")
+        ],
+        [
+            new Vocal("virtual", ["miku", "rin", "gumi"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"])
+        ],
+        mDate(2012, 4, 17),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=b2GJcYBoVyg"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm22831329")
+        ],
+        Diff()
+    ),
+    new Music("阿吽のビーツ",
+        [
+            Creator("羽生まゐご", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["akito", "toya"])
+        ],
+        mDate(2017, 8, 20),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=SiqjnFhLq2U"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm31775813")
+        ],
+        Diff()
+    ),
+    new Music("グッバイ宣言",
+        [
+            Creator("Chinozo", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui"])
+        ],
+        mDate(2020, 4, 13),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=dHXC_ahjtEE"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm36668789")
+        ],
+        Diff()
+    ),
+    new Music("ヴァンパイア",
+        [
+            Creator("DECO*27", "ttf"),
+            Creator("Rockwell", "fft")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"])
+        ],
+        mDate(2021, 3, 9),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=e1xCOsgWG0M"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707")
+        ],
+        Diff()
+    ),
+    new Music("書き下ろし楽曲(雄之助)",
+        [
+            Creator("雄之助", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_vivid"
+    ),
+    new Music("書き下ろし楽曲(かいりきベア)",
+        [
+            Creator("かいりきベア", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_night"
+    ),
+    new Music("書き下ろし楽曲(ぽりふぉ)",
+        [
+            Creator("ぽりふぉ", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_wonder"
+    )
 ];
 /*
     new Music("",
