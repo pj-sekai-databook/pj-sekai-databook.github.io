@@ -277,7 +277,7 @@ const getRelatedMusicsTr = (m) => {
                 if (isSameCreator(c.name, c2.name)) {
                     let a = document.createElement("a");
                     a.innerText = m2.title;
-                    a.classList.add("jump");
+                    a.classList.add("jump", "disabled");
                     a.onclick = () => {
                         showModal(m2.id, 100);
                     }

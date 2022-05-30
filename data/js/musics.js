@@ -3458,9 +3458,11 @@ const musics = [
         [
             new Vocal("sekai", ["akito", "meiko", "kohane", "an", "toya"])
         ],
-        null,
+        mDate(2022, 5, 30),
         mDate(2022, 5, 20),
         [
+            new Link("原曲", "https://www.youtube.com/watch?v=SaX0By61S3U"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40545552"),
             new MV(2, "https://www.youtube.com/watch?v=E5Wu8Ir6kdQ", mDate(2022, 5, 29), ["akito", "meiko", "kohane", "an", "toya"])
         ],
         Diff(5, 12, 18, 25, 29),
@@ -3481,9 +3483,40 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
         ],
         Diff(6, 12, 16, 21, 26)
+    ),
+    new Music("神のまにまに",
+        [
+            Creator("れるりり", "ttf")
+        ],
+        [
+            new Vocal("virtual", ["miku", "rin", "gumi"]),
+            new Vocal("sekai", ["miku", "tsukasa", "emu", "nene", "rui"])
+        ],
+        mDate(2012, 4, 17),
+        mDate(2022, 5, 30),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=b2GJcYBoVyg"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm22831329"),
+            new MV(3, "https://www.youtube.com/watch?v=cb1s5_U0wd0", mDate(2022, 5, 30), ["miku_wonder", "rui", "emu", "tsukasa", "nene"])
+        ],
+        Diff(6, 13, 18, 25, 29)
     )
 ];
 const future_musics = [
+    new Music("Awake Now",
+        [
+            Creator("雄之助", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+            new MV(2, "https://www.youtube.com/watch?v=BUyrhLRzAwU", mDate(2022, 6, 1), ["an", "miku_vivid", "kohane", "akito", "toya"])
+        ],
+        Diff(),
+        "newlyWritten_vivid"
+    ),
     new Music("未完成讃歌",
         [
             Creator("しゃいと", "fff")
@@ -3511,22 +3544,6 @@ const future_musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
-        ],
-        Diff()
-    ),
-    new Music("神のまにまに",
-        [
-            Creator("れるりり", "ttf")
-        ],
-        [
-            new Vocal("virtual", ["miku", "rin", "gumi"]),
-            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui", "miku"])
-        ],
-        mDate(2012, 4, 17),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=b2GJcYBoVyg"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm22831329")
         ],
         Diff()
     ),
@@ -3569,7 +3586,7 @@ const future_musics = [
         ],
         [
             new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["minori", "haruka", "airi", "shizuku", "miku"])
+            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
         ],
         mDate(2021, 3, 9),
         null,
@@ -3578,19 +3595,6 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707")
         ],
         Diff()
-    ),
-    new Music("書き下ろし楽曲(雄之助)",
-        [
-            Creator("雄之助", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_vivid"
     ),
     new Music("書き下ろし楽曲(かいりきベア)",
         [

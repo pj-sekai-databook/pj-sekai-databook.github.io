@@ -102,3 +102,10 @@
 a.jump {
     cursor: pointer;
 }
+
+a.jump.disabled {
+
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+}
