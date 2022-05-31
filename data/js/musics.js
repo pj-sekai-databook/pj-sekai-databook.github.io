@@ -2815,6 +2815,7 @@ const musics = [
         [
             new Vocal("virtual", ["flower"]),
             new Vocal("sekai", ["kanade", "miku", "mafuyu", "ena", "mizuki"]),
+            new Vocal("another", ["kanade"]),
             new Vocal("another", ["miku"])
         ],
         mDate(2022, 1, 29),
@@ -3111,6 +3112,7 @@ const musics = [
         [
             new Vocal("virtual", ["flower"]),
             new Vocal("sekai", ["ena", "rin", "kanade", "mafuyu", "mizuki"]),
+            new Vocal("another", ["ena"]),
             new Vocal("another", ["miku"])
         ],
         mDate(2022, 3, 28),
@@ -3500,23 +3502,28 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=cb1s5_U0wd0", mDate(2022, 5, 30), ["miku_wonder", "rui", "emu", "tsukasa", "nene"])
         ],
         Diff(6, 13, 18, 25, 29)
+    ),
+    new Music("Awake Now",
+        [
+            Creator("牛肉", "tff"),
+            Creator("雄之助", "ftt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["an", "miku", "kohane", "akito", "toya"])
+        ],
+        mDate(2022, 5, 31),
+        mDate(2022, 5, 31),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=gtYydJJtQdg"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40550223"),
+            new MV(2, "https://www.youtube.com/watch?v=BUyrhLRzAwU", mDate(2022, 6, 1), ["an", "miku_vivid", "kohane", "akito", "toya"])
+        ],
+        Diff(6, 12, 17, 24, 30),
+        "newlyWritten_vivid"
     )
 ];
 const future_musics = [
-    new Music("Awake Now",
-        [
-            Creator("雄之助", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-            new MV(2, "https://www.youtube.com/watch?v=BUyrhLRzAwU", mDate(2022, 6, 1), ["an", "miku_vivid", "kohane", "akito", "toya"])
-        ],
-        Diff(),
-        "newlyWritten_vivid"
-    ),
     new Music("未完成讃歌",
         [
             Creator("しゃいと", "fff")

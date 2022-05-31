@@ -8,17 +8,6 @@ const Character = (fullName, shortName, unit) => {
         fullName, shortName, unit
     };
 };
-const convMiku = (name) => {
-    if (name == null) {
-        return null;
-    }
-    if (name.match(/^miku_/)) {
-        return "miku";
-    }
-    else {
-        return name;
-    }
-};
 const VocalType = (fullName, shortName, icon) => {
     return {
         fullName, shortName, icon
@@ -26,14 +15,6 @@ const VocalType = (fullName, shortName, icon) => {
 };
 const mDate = (y, m, d, h = 0, mi = 0) => {
     return new Date(y, m - 1, d, h, mi);
-};
-const getStrFromDate = (md) => {
-    if (md == null) {
-        return "----/--/--";
-    }
-    else {
-        return md.toLocaleDateString();
-    }
 };
 const compareDate = (a, b, isAsc = true) => {
     if (a == null) {
