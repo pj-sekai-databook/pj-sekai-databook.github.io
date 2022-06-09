@@ -2841,7 +2841,8 @@ const musics = [
         mDate(2010, 8, 22),
         mDate(2022, 1, 24),
         [
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm11834233")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm11834233"),
+            new MV(2, "https://www.youtube.com/watch?v=g6hGN-WNig0", mDate(2022, 6, 9), ["miku_leo", "ichika", "honami"])
         ],
         Diff(5, 11, 16, 23, 26)
     ),
@@ -3521,6 +3522,22 @@ const musics = [
         ],
         Diff(6, 12, 17, 24, 30),
         "newlyWritten_vivid"
+    ),
+    new Music("阿吽のビーツ",
+        [
+            Creator("羽生まゐご", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["akito", "toya"])
+        ],
+        mDate(2017, 8, 20),
+        mDate(2022, 6, 6),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=SiqjnFhLq2U"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm31775813")
+        ],
+        Diff(6, 13, 18, 23, 28)
     )
 ];
 const future_musics = [
@@ -3551,22 +3568,6 @@ const future_musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
-        ],
-        Diff()
-    ),
-    new Music("阿吽のビーツ",
-        [
-            Creator("羽生まゐご", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["flower"]),
-            new Vocal("sekai", ["akito", "toya"])
-        ],
-        mDate(2017, 8, 20),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=SiqjnFhLq2U"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm31775813")
         ],
         Diff()
     ),
