@@ -807,7 +807,7 @@ const musics = [
             Creator("じん", "ttf")
         ],
         [
-            new Vocal("sekai", ["ichika", "saki", "honami", "shiho", "miku"]),
+            new Vocal("sekai", ["saki", "miku", "honami", "ichika", "shiho"]),
             new Vocal("another", ["honami"]),
             new Vocal("another", ["shiho"])
         ],
@@ -842,7 +842,7 @@ const musics = [
         ],
         [
             new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
+            new Vocal("sekai", ["mafuyu", "miku", "kanade", "ena", "mizuki"]),
             new Vocal("another", ["mafuyu"])
         ],
         mDate(2020, 10, 24),
@@ -850,7 +850,7 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=B2llCEKbxwA"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37716686"),
-            new MV(2, "https://www.youtube.com/watch?v=J9kD9rYR088", mDate(2021, 8, 2), ["kanade", "mafuyu", "ena", "mizuki", "miku_night"])
+            new MV(2, "https://www.youtube.com/watch?v=J9kD9rYR088", mDate(2021, 8, 2), ["mafuyu", "miku_night", "kanade", "ena", "mizuki"])
         ],
         Diff(9, 13, 18, 26, 29),
         "newlyWritten"
@@ -3538,7 +3538,22 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31775813")
         ],
         Diff(6, 13, 18, 23, 28)
-    )
+    ),
+    new Music("バグ",
+        [
+            Creator("かいりきベア", "ttf")
+        ],
+        [
+            new Vocal("sekai", ["mafuyu", "len", "kanade", "ena", "mizuki"])
+        ],
+        null,
+        mDate(2022, 6, 10),
+        [
+            new MV(2, "https://www.youtube.com/watch?v=2Ii7UBMxWVw", mDate(2022, 6, 18), ["mafuyu", "len", "kanade", "ena", "mizuki"])
+        ],
+        Diff(9, 13, 19, 26, 32),
+        "newlyWritten_night"
+    ),
 ];
 const future_musics = [
     new Music("未完成讃歌",
@@ -3603,19 +3618,6 @@ const future_musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707")
         ],
         Diff()
-    ),
-    new Music("書き下ろし楽曲(かいりきベア)",
-        [
-            Creator("かいりきベア", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_night"
     ),
     new Music("書き下ろし楽曲(ぽりふぉ)",
         [
