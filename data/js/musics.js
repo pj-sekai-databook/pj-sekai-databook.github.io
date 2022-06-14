@@ -3554,6 +3554,23 @@ const musics = [
         Diff(9, 13, 19, 26, 32),
         "newlyWritten_night"
     ),
+    new Music("グッバイ宣言",
+        [
+            Creator("Chinozo", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["flower"]),
+            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui"]),
+            new Vocal("another", ["nene", "rui"])
+        ],
+        mDate(2020, 4, 13),
+        mDate(2022, 6, 13),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=dHXC_ahjtEE"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm36668789")
+        ],
+        Diff(7, 12, 17, 26, 30)
+    ),
 ];
 const future_musics = [
     new Music("未完成讃歌",
@@ -3583,22 +3600,6 @@ const future_musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
-        ],
-        Diff()
-    ),
-    new Music("グッバイ宣言",
-        [
-            Creator("Chinozo", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["flower"]),
-            new Vocal("sekai", ["tsukasa", "emu", "nene", "rui"])
-        ],
-        mDate(2020, 4, 13),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=dHXC_ahjtEE"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm36668789")
         ],
         Diff()
     ),
