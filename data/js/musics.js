@@ -3080,6 +3080,7 @@ const musics = [
         [
             new Vocal("virtual", ["gumi", "rin"]),
             new Vocal("sekai", ["rin", "tsukasa", "emu", "nene", "rui"]),
+            new Vocal("another", ["tsukasa", "emu"])
         ],
         mDate(2012, 8, 15),
         mDate(2022, 3, 14),
@@ -3222,6 +3223,7 @@ const musics = [
             Creator("堀江昌太(kemu)", "ftt")
         ],
         [
+            new Vocal("virtual", ["miku", "kaito"]),
             new Vocal("sekai", ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
         mDate(2022, 4, 20),
@@ -3571,6 +3573,24 @@ const musics = [
         ],
         Diff(7, 12, 17, 26, 30)
     ),
+    new Music("ヴァンパイア",
+        [
+            Creator("DECO*27", "ttf"),
+            Creator("Rockwell", "fft")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
+        ],
+        mDate(2021, 3, 9),
+        mDate(2022, 6, 20),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=e1xCOsgWG0M"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707"),
+            new MV(3, "https://www.youtube.com/watch?v=8q-iWdjIbB0", mDate(2022, 6, 20), ["miku_more", "minori", "haruka", "airi", "shizuku"])
+        ],
+        Diff(7, 12, 18, 25, 29)
+    )
 ];
 const future_musics = [
     new Music("未完成讃歌",
@@ -3600,23 +3620,6 @@ const future_musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
-        ],
-        Diff()
-    ),
-    new Music("ヴァンパイア",
-        [
-            Creator("DECO*27", "ttf"),
-            Creator("Rockwell", "fft")
-        ],
-        [
-            new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "minori", "haruka", "airi", "shizuku"])
-        ],
-        mDate(2021, 3, 9),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=e1xCOsgWG0M"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707")
         ],
         Diff()
     ),
