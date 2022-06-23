@@ -317,7 +317,8 @@ const musics = [
         mDate(2020, 9, 30),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=vqiULULdvMA"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm24909819")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm24909819"),
+            new MV(2, "https://www.youtube.com/watch?v=_oe2F3tgKIk", mDate(2022, 6, 23), ["tsukasa", "emu", "rin", "len"])
         ],
         Diff(8, 13, 19, 26, 31)
     ),
