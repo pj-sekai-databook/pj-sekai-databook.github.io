@@ -3591,9 +3591,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=8q-iWdjIbB0", mDate(2022, 6, 20), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
         Diff(7, 12, 18, 25, 29)
-    )
-];
-const future_musics = [
+    ),
     new Music("未完成讃歌",
         [
             Creator("しゃいと", "fff")
@@ -3602,14 +3600,16 @@ const future_musics = [
             new Vocal("virtual", ["miku"])
         ],
         mDate(2022, 3, 29),
-        null,
+        mDate(2022, 6, 24),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=PmRtXlhzgAU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40244309")
         ],
-        Diff(),
+        Diff(8, 12, 18, 27, 31),
         "next_9"
-    ),
+    )
+];
+const future_musics = [
     new Music("脳漿炸裂ガール",
         [
             Creator("れるりり", "ttt")
@@ -3622,7 +3622,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
         ],
-        Diff()
+        Diff(0, 0, 0, 0, 32)
     ),
     new Music("書き下ろし楽曲(ぽりふぉ)",
         [
@@ -3636,6 +3636,98 @@ const future_musics = [
         ],
         Diff(),
         "newlyWritten_wonder"
+    ),
+    new Music("それでもいいんだよ",
+        [
+            Creator("Ponchi♪", "fff")
+        ],
+        [
+            new Vocal("virtual", ["miku"])
+        ],
+        mDate(2022, 5, 27),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=1AS0Mve80jQ"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40524295")
+        ],
+        Diff(),
+        "next_10"
+    ),
+    new Music("ぼくらの16bit戦争",
+        [
+            Creator("sasakure.UK", "ttt"),
+            Creator("佐々木秀尚", "fff", "Gt"),
+            Creator("二家元亮介", "fff", "Ba")
+        ],
+        [
+            new Vocal("virtual", ["gumi"])
+        ],
+        mDate(2009, 7, 12),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=XKTDNQ2sTvM"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm7610111")
+        ],
+        Diff(0, 0, 0, 0, 33)
+    ),
+    new Music("メリュー",
+        [
+            Creator("n-buna", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "mafuyu"])
+        ],
+        mDate(2015, 5, 12),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=Jak2qiq_jJo"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm26238908")
+        ],
+        Diff()
+    ),
+    new Music("エイリアンエイリアン",
+        [
+            Creator("ナユタン星人", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "emu", "nene"])
+        ],
+        mDate(2016, 4, 5),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=2t1NMRse6aI"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm28576299")
+        ],
+        Diff()
+    ),
+
+    new Music("書き下ろし楽曲(jon-YAKITORY)",
+        [
+            Creator("jon-YAKITORY", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_vivid"
+    ),
+    new Music("書き下ろし楽曲(和田たけあき)",
+        [
+            Creator("和田たけあき", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        Diff(),
+        "newlyWritten_leo"
     )
 ];
 /*

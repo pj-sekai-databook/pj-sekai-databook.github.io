@@ -121,21 +121,19 @@ const DiffParam = {
     MASTER: 4
 };
 const Diff = (easy = 0, normal = 0, hard = 0, expert = 0, master = 0) => {
-    if (easy * normal * hard * expert * master == 0) {
-        return null;
-    }
-    else {
-        return [easy, normal, hard, expert, master];
-    }
+    return [easy, normal, hard, expert, master];
 };
 const getStrFromDiff = (diff) => {
     if (diff == null) {
         return "-- / -- / -- / -- / --";
     }
     else {
-        return diff.join(" / ");
+        return diff.map(x => x == 0 ? "--" : x).join(" / ");
     }
 };
+const isValidDiff = (diff) => {
+    return !diff.some(x => x == 0);
+}
 const Thumbnail = (url, characters = null, src = null) => {
     return {
         url, characters, src

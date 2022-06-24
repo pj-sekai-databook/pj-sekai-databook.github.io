@@ -132,5 +132,7 @@ const creatorLinks = {
     "くじら": "https://twitter.com/WhaleDontSleep",
     "月詠み": "https://twitter.com/Tsukuyomi_JP",
     "羽生まゐご": "https://twitter.com/maigo_hanyuu",
-    "ぽりふぉ": "https://twitter.com/Tomoya_PB"
+    "ぽりふぉ": "https://twitter.com/Tomoya_PB",
+    "Ponchi♪": "https://twitter.com/ponchi_pop",
+    "jon-YAKITORY": "https://twitter.com/jon_408"
 };
