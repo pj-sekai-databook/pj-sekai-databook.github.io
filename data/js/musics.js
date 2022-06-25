@@ -3594,7 +3594,7 @@ const musics = [
     ),
     new Music("未完成讃歌",
         [
-            new Creator("しゃいと", "fff")
+            new Creator("しゃいと", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
