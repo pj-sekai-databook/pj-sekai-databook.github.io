@@ -8,10 +8,10 @@ class PjLoader {
         const base_list = [
             `${base_dir}/js/header.js`,
             `${base_dir}/js/funcs.js`,
-            `${base_dir}/data/js/constructors.js`,
+            `${base_dir}/js/constructors.js`,
             `${base_dir}/js/Creator.js`,
-            `${base_dir}/data/js/classes.js`,
-            `${base_dir}/data/js/musics.js`
+            `${base_dir}/js/classes.js`,
+            `${base_dir}/js/musics.js`
         ];
         for (const src of [...base_list, ...list]) {
             let request = new XMLHttpRequest();
