@@ -31,6 +31,9 @@
                                 <a class="dropdown-item" href="${base_url}/posts/">公式動画/画像集</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="${base_url}/statistics/">統計/ランキング集</a>
+                            </li>
+                            <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
