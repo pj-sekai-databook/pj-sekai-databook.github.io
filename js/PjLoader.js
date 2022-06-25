@@ -6,7 +6,7 @@ class PjLoader {
             `${base_dir}/js/header.js`,
             `${base_dir}/js/funcs.js`,
             `${base_dir}/data/js/constructors.js`,
-            `${base_dir}/_common/js/class/Creator.js`,
+            `${base_dir}/js/Creator.js`,
             `${base_dir}/data/js/classes.js`,
             `${base_dir}/data/js/musics.js`
         ];
