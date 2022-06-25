@@ -1,5 +1,9 @@
 (function () {
-    const base_url = "https://pj-sekai-databook.github.io";
+    const depth = Number(document.currentScript.getAttribute("data-depth"));
+    let base_url = "https://pj-sekai-databook.github.io";
+    if (depth > 1) {
+        base_url = depth > 1 ? ".." + "/..".repeat(depth - 2) : ".";
+    }
     document.getElementById("nav").className = "navbar navbar-expand-lg navbar-light bg-light fixed-top";
     document.getElementById("nav").innerHTML = `
         <div class="container-fluid unselectable">

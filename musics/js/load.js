@@ -1,4 +1,4 @@
-PjLoader.load(1, [
+PjLoader.load(2, [
     "./js/musicsList.js",
     "./js/sort.js",
     "./js/filter.js",
