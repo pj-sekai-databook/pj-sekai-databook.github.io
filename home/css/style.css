@@ -1,14 +1,17 @@
-.slider{
+.slider {
     margin: 0 auto;
 }
-.slider-head{
-    text-align:center;
+
+.slider-head {
+    text-align: center;
     background-color: white;
 }
+
 img.youtube {
-    object-fit: cover;    
+    object-fit: cover;
     margin: 0 auto;
 }
+
 img.twitter4Frame {
     width: 250px;
     height: 185px;
@@ -16,30 +19,37 @@ img.twitter4Frame {
     object-fit: cover;
     margin: 0 auto;
 }
-.slick-next{
-    right:0;
+
+.slick-next {
+    right: 0;
 }
-.slick-prev{
-    left:0;
+
+.slick-prev {
+    left: 0;
 }
-.slick-arrow{
+
+.slick-arrow {
     width: initial;
     height: initial;
-    z-index:2;
+    z-index: 2;
 }
-.slick-arrow:before{
+
+.slick-arrow:before {
     font-size: 30px;
     color: white;
     opacity: 1;
 }
-.slick-slide.slick-center{
+
+.slick-slide.slick-center {
     cursor: pointer;
 }
-.slick-slide:not(.slick-center){
+
+.slick-slide:not(.slick-center) {
     opacity: 0.5;
 }
-.slick-caption{
+
+.slick-caption {
     margin: 0 auto;
     text-align: center;
-    overflow-wrap:normal;
+    overflow-wrap: normal;
 }
