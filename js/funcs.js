@@ -142,10 +142,13 @@ const getQueryParametersStr = (param = {}) => {
         return "";
     }
 }
-const getIcon = (title) => {
+const getIcon = (font, title = null) => {
     const i = document.createElement("i");
     i.classList.add("fa-solid");
-    i.classList.add("fa-" + title);
+    i.classList.add(`fa-${font}`);
+    if (title != null) {
+        i.title = title;
+    }
     return i;
 }
 const zeroPad = (val, total_len) => {

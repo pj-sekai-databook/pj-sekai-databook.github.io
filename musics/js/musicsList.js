@@ -216,7 +216,7 @@ const getMainUnitTr = (m) => {
             tr.appendChild(getTd("???"));
             break;
         default:
-            tr.appendChild(getTd(units[m.main_unit].fullName));
+            tr.appendChild(getTd(Unit.units[m.main_unit].fullName));
             break;
     }
     return tr;
@@ -226,7 +226,7 @@ const getVocalTr = (m) => {
     tr.appendChild(getTh("ボーカル"));
     let vocal_list = [];
     for (let v of m.vocals) {
-        if (Object.keys(vocalTypes).includes(v.type)) {
+        if (Object.keys(Vocal.type).includes(v.type)) {
             vocal_list.push(v);
         }
     }
@@ -236,9 +236,7 @@ const getVocalTr = (m) => {
     for (let v of vocal_list) {
         const tr_sub = getTr();
         const th_sub = getTh("", "align-middle text-center");
-        const icon = getIcon(vocalTypes[v.type].icon);
-        icon.title = vocalTypes[v.type].fullName;
-        th_sub.appendChild(icon);
+        th_sub.appendChild(Vocal.getIcon(v.type));
         tr_sub.appendChild(th_sub);
         if (v.type == "april") {
             const td = getTd();

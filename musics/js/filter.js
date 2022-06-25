@@ -5,14 +5,14 @@ const initFilter = () => {
     const area = document.getElementById("checkbox_area_chara");
     let prev_unit_name = null;
     let prev_unit_arr = [];
-    for (const i in characters_vocal) {
-        const c = characters_vocal[i];
+    for (const i in Character.characters_vocal) {
+        const c = Character.characters_vocal[i];
         if (prev_unit_name != c.unit) {
             if (prev_unit_arr.indexOf(c.unit) >= 0) {
-                area.appendChild(getDiv("その他 (" + units[c.unit].fullName + ")", "form-text"));
+                area.appendChild(getDiv("その他 (" + Unit.units[c.unit].fullName + ")", "form-text"));
             }
             else {
-                area.appendChild(getDiv(units[c.unit].fullName, "form-text"));
+                area.appendChild(getDiv(Unit.units[c.unit].fullName, "form-text"));
                 prev_unit_arr.push(c.unit);
             }
             prev_unit_name = c.unit;

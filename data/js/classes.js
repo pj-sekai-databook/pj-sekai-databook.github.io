@@ -1,3 +1,77 @@
+class Unit {
+    constructor(fullName, shortName, color) {
+        this.fullName = fullName;
+        this.shortName = shortName;
+        this.color = color;
+    }
+    static units = {
+        "virtual": new Unit("VIRTUAL SINGER", "バチャシン", "white"),
+        "leo": new Unit("Leo/need", "レオニ", "dodgerblue"),
+        "more": new Unit("MORE MORE JUMP！", "モモジャン", "lightgreen"),
+        "vivid": new Unit("Vivid BAD SQUAD", "ビビバス", "red"),
+        "wonder": new Unit("ワンダーランズ×ショウタイム", "ワンダショ", "orange"),
+        "night": new Unit("25時、ナイトコードで。", "ニーゴ", "darkgray")
+    }
+}
+class Character {
+    constructor(fullName, shortName, unit) {
+        this.fullName = fullName;
+        this.shortName = shortName;
+        this.unit = unit;
+    };
+    static characters = {
+        "miku": new Character("初音ミク", "ミク", "virtual"),
+        "rin": new Character("鏡音リン", "リン", "virtual"),
+        "len": new Character("鏡音レン", "レン", "virtual"),
+        "luka": new Character("巡音ルカ", "ルカ", "virtual"),
+        "meiko": new Character("MEIKO", "MEIKO", "virtual"),
+        "kaito": new Character("KAITO", "KAITO", "virtual"),
+        "ichika": new Character("星乃一歌", "一歌", "leo"),
+        "saki": new Character("天馬咲希", "咲希", "leo"),
+        "honami": new Character("望月穂波", "穂波", "leo"),
+        "shiho": new Character("日野森志歩", "志歩", "leo"),
+        "minori": new Character("花里みのり", "みのり", "more"),
+        "haruka": new Character("桐谷遥", "遥", "more"),
+        "airi": new Character("桃井愛莉", "愛莉", "more"),
+        "shizuku": new Character("日野森雫", "雫", "more"),
+        "kohane": new Character("小豆沢こはね", "こはね", "vivid"),
+        "an": new Character("白石杏", "杏", "vivid"),
+        "akito": new Character("東雲彰人", "彰人", "vivid"),
+        "toya": new Character("青柳冬弥", "冬弥", "vivid"),
+        "tsukasa": new Character("天馬司", "司", "wonder"),
+        "emu": new Character("鳳えむ", "えむ", "wonder"),
+        "nene": new Character("草薙寧々", "寧々", "wonder"),
+        "rui": new Character("神代類", "類", "wonder"),
+        "kanade": new Character("宵崎奏", "奏", "night"),
+        "mafuyu": new Character("朝比奈まふゆ", "まふゆ", "night"),
+        "ena": new Character("東雲絵名", "絵名", "night"),
+        "mizuki": new Character("暁山瑞希", "瑞希", "night")
+    };
+    static characters_mv = {
+        ...Character.characters,
+        "miku_leo": new Character("初音ミク(Leo/need)", "ミク(レオニ)", "leo"),
+        "miku_more": new Character("初音ミク(MORE MORE JUMP！)", "ミク(モモジャン)", "more"),
+        "miku_vivid": new Character("初音ミク(Vivid BAD SQUAD)", "ミク(ビビバス)", "vivid"),
+        "miku_wonder": new Character("初音ミク(ワンダーランズ×ショウタイム)", "ミク(ワンダショ)", "wonder"),
+        "miku_night": new Character("初音ミク(25時、ナイトコードで。)", "ミク(ニーゴ)", "night")
+    };
+    static characters_2dmv = {
+        ...Character.characters_mv,
+        "mikudayo": new Character("ミクダヨー", "ミクダヨー", "virtual"),
+        "nenerobo": new Character("ネネロボ", "ネネロボ", "wonder")
+    }
+    static characters_vocal = {
+        ...Character.characters,
+        "gumi": new Character("GUMI", "GUMI", "virtual"),
+        "flower": new Character("flower", "flower", "virtual"),
+        "ia": new Character("IA", "IA", "virtual"),
+        "vy2v3": new Character("VY2V3", "VY2V3", "virtual"),
+        "una": new Character("音街ウナ", "ウナ", "virtual"),
+        "yuki": new Character("歌愛ユキ", "ユキ", "virtual"),
+        "mikudayo": new Character("ミクダヨー", "ミクダヨー", "virtual"),
+        "nenerobo": new Character("ネネロボ", "ネネロボ", "wonder")
+    };
+}
 class Music {
     static cnt = 0;
     constructor(title, creators, vocals, date_posted, date_implemented, urls, diff, note) {
@@ -25,7 +99,7 @@ class Music {
             const item = this.note.find(x => x.match(/^newlyWritten_/));
             if (typeof item != "undefined") {
                 const tmp_unit = item.replace(/^.*_/, "");
-                if (Object.keys(units).includes(tmp_unit)) {
+                if (Object.keys(Unit.units).includes(tmp_unit)) {
                     return tmp_unit;
                 }
                 else {
@@ -54,6 +128,7 @@ class Music {
                         if (!tmp_units.includes("inst")) {
                             tmp_units.push("inst");
                         }
+                        break;
                     default:
                         break;
                 }
@@ -61,6 +136,12 @@ class Music {
             if (tmp_unit_note != null && (!tmp_units.includes(tmp_unit_note))) {
                 tmp_units.push(tmp_unit_note);
             }
+
+            //ユニット「VIRTUAL SINGER」と他ユニットは共存しないようになった。
+            if (tmp_units.includes("virtual") && tmp_units.length >= 2) {
+                tmp_units = tmp_units.filter(x => x != "virtual")
+            }
+
             return tmp_units;
         })();
 
@@ -97,7 +178,7 @@ class Vocal {
         }
         else {
             for (let m of members) {
-                let unit = characters_vocal[m].unit;
+                let unit = Character.characters_vocal[m].unit;
                 if (!(units.includes(unit) || unit == "virtual")) {
                     units.push(unit);
                 }
@@ -110,7 +191,7 @@ class Vocal {
             this.str = "Inst ver.";
         }
         else {
-            this.str = members.map(m => characters_vocal[m].fullName ?? m).join(", ");
+            this.str = members.map(m => Character.characters_vocal[m].fullName ?? m).join(", ");
         }
     }
     is_theme_song_sekai_ver = false;
@@ -120,6 +201,22 @@ class Vocal {
         if (this.type == Vocal.type.sekai) {
             this.units = ["other"];
             this.is_theme_song_sekai_ver = true;
+        }
+    }
+    static getIcon(type) {
+        switch (type) {
+            case Vocal.type.virtual:
+                return getIcon("keyboard", "バーチャル・シンガーVer.");
+            case Vocal.type.sekai:
+                return getIcon("globe", "セカイVer.");
+            case Vocal.type.another:
+                return getIcon("user-plus", "アナザーボーカルVer.");
+            case Vocal.type.inst:
+                return getIcon("headphones-alt", "Inst Ver.");
+            case Vocal.type.april:
+                return getIcon("face-grin-wide", "エイプリルフールVer.");
+            default:
+                throw new RangeError("undefined vocaltype");
         }
     }
 };

@@ -1,18 +1,3 @@
-const Unit = (fullName, shortName, color) => {
-    return {
-        fullName, shortName, color
-    };
-};
-const Character = (fullName, shortName, unit) => {
-    return {
-        fullName, shortName, unit
-    };
-};
-const VocalType = (fullName, shortName, icon) => {
-    return {
-        fullName, shortName, icon
-    };
-};
 const mDate = (y, m, d, h = 0, mi = 0) => {
     return new Date(y, m - 1, d, h, mi);
 };
@@ -56,11 +41,6 @@ const getStrFromDiff = (diff) => {
 const isValidDiff = (diff) => {
     return !diff.some(x => x == 0);
 }
-const Thumbnail = (url, characters = null, src = null) => {
-    return {
-        url, characters, src
-    };
-};
 const Result = (easy, normal, hard, expert, master) => {
     return [easy, normal, hard, expert, master];
 }

@@ -98,7 +98,7 @@ const getCharactersConvJson = (base_json) => {
     return json;
 }
 const getUnitConvJson = () => {
-    let json = getCharactersConvJson(units);
+    let json = getCharactersConvJson(Unit.units);
     json["other"] = "その他(混合、インスト)";
     return json;
 }
@@ -114,7 +114,7 @@ const getCreatorsConvJson = () => {
 const setStatResult = (mode) => {
     switch (mode) {
         case "vocal_ranking":
-            stat.initKey(getCharactersConvJson(characters_vocal), "count");
+            stat.initKey(getCharactersConvJson(Character.characters_vocal), "count");
             for (let m of musics) {
                 for (let v of m.vocals) {
                     switch (v.type) {
@@ -122,14 +122,14 @@ const setStatResult = (mode) => {
                         case "sekai":
                         case "another":
                             for (let c of v.members) {
-                                stat.addValue(c, `${m.title}(${vocalTypes[v.type].fullName})`);
+                                stat.addValue(c, `${m.title}(${v.type})`);
                             }
                     }
                 }
             }
             break;
         case "another_vocal_ranking":
-            stat.initKey(getCharactersConvJson(characters), "count");
+            stat.initKey(getCharactersConvJson(Character.characters), "count");
             for (let m of musics) {
                 for (let v of m.vocals) {
                     switch (v.type) {
@@ -137,7 +137,7 @@ const setStatResult = (mode) => {
                             for (let c of v.members) {
                                 let value = "";
                                 if (v.members.length > 1) {
-                                    value = `(${v.members.filter(x => x != c).map(x => characters[x].shortName).join(",")})`;
+                                    value = `(${v.members.filter(x => x != c).map(x => Character.characters[x].shortName).join(",")})`;
                                 }
                                 stat.addValue(c, `${m.title}${value}`);
                             }
@@ -149,14 +149,10 @@ const setStatResult = (mode) => {
         case "2dmv_ranking":
             let d = Number(mode[0]);
             if (d == 3) {
-                stat.initKey(getCharactersConvJson(characters_mv), "count");
+                stat.initKey(getCharactersConvJson(Character.characters_mv), "count");
             }
             else if (d == 2) {
-                stat.initKey(getCharactersConvJson({
-                    ...characters_mv,
-                    "mikudayo": Character("ミクダヨー", "ミクダヨー", "virtual"),
-                    "nenerobo": Character("ネネロボ", "ネネロボ", "wonder")
-                }), "count");
+                stat.initKey(getCharactersConvJson(Character.characters_2dmv), "count");
             }
             for (let m of musics) {
                 for (let u of m.urls) {
