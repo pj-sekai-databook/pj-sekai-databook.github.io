@@ -3549,9 +3549,11 @@ const musics = [
         [
             new Vocal("sekai", ["mafuyu", "len", "kanade", "ena", "mizuki"])
         ],
-        null,
+        mDate(2022, 6, 25),
         mDate(2022, 6, 10),
         [
+            new Link("原曲", "https://www.youtube.com/watch?v=FkO8ub83wss"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40676162"),
             new MV(2, "https://www.youtube.com/watch?v=2Ii7UBMxWVw", mDate(2022, 6, 18), ["mafuyu", "len", "kanade", "ena", "mizuki"])
         ],
         Diff(9, 13, 19, 26, 32),
