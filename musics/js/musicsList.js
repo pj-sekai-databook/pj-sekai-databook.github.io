@@ -165,16 +165,12 @@ const getUrlTr = (m) => {
     return tr;
 }
 const getNewCreatorTr = (m) => {
-    if (m.creators.findIndex(c => c.isLyricist || c.isComposer || c.isArranger) < 0) {
-        //作詞・作曲・編曲が定義されていないので、今まで通りの出力とする
+    if (m.creators.some(c => !c.hasRole)) {
+        //ロールがなにも定義されていないクリエイターが1人でもいる場合、単純にリンクのみ並べる
         let tr = getTr();
         tr.appendChild(getTh("クリエイター"));
         let td = getTd();
-        let creator_list = [];
-        for (let c of m.creators) {
-            creator_list.push(getAFromCreator(c));
-        }
-        td.appendChild(concatElms(creator_list, getBr()));
+        td.appendChild(concatElms(m.creators.map(c => c.getAnchorTag()), getBr()));
         tr.appendChild(td);
         return tr;
     }
@@ -185,7 +181,7 @@ const getNewCreatorTr = (m) => {
         const th_sub = getTh(title, "align-middle text-center");
         tr_sub.appendChild(th_sub);
         const td_sub = getTd();
-        td_sub.appendChild(arr.length ? concatElms(arr.map(c => getAFromCreator(c, false)), getBr()) : getSpan("-"));
+        td_sub.appendChild(arr.length ? concatElms(arr.map(c => c.getAnchorTag()), getBr()) : getSpan("-"));
         tr_sub.appendChild(td_sub);
         return tr_sub;
     }
@@ -274,7 +270,7 @@ const getRelatedMusicsTr = (m) => {
         let flag = false;
         for (let c of m.creators) {
             for (let c2 of m2.creators) {
-                if (isSameCreator(c.name, c2.name)) {
+                if (Creator.isSame(c, c2)) {
                     let a = document.createElement("a");
                     a.innerText = m2.title;
                     a.classList.add("jump", "disabled");

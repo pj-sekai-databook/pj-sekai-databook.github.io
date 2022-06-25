@@ -104,9 +104,9 @@ const getUnitConvJson = () => {
 }
 const getCreatorsConvJson = () => {
     let json = {};
-    for (let i in creatorLinks) {
-        if (typeof json[creatorLinks[i]] == "undefined") {
-            json[creatorLinks[i]] = i;
+    for (let i in Creator.links) {
+        if (typeof json[Creator.links[i]] == "undefined") {
+            json[Creator.links[i]] = i;
         }
     }
     return json;
@@ -185,7 +185,7 @@ const setStatResult = (mode) => {
             for (let m of musics) {
                 let arr = [];
                 for (let c of m.creators) {
-                    let l = creatorLinks[c.name];
+                    let l = Creator.links[c.name];
                     if (typeof l != "undefined" && !arr.includes(l) && isValidDiff(m.diff)) {
                         arr.push(l);
                         stat.addValue(l, m.diff[4], `${m.title}(Lv.${m.diff[4]})`);

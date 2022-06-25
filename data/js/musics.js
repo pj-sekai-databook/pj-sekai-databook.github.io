@@ -1,7 +1,7 @@
 const musics = [
     new Music("Tell Your World",
         [
-            Creator("kz", "ttt")
+            new Creator("kz", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -16,7 +16,7 @@ const musics = [
     ),
     new Music("ネクストネスト",
         [
-            Creator("さつき が てんこもり", "ttf")
+            new Creator("さつき が てんこもり", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -31,7 +31,7 @@ const musics = [
     ),
     new Music("メルト",
         [
-            Creator("ryo", "ttt")
+            new Creator("ryo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -46,7 +46,7 @@ const musics = [
     ),
     new Music("初音ミクの消失",
         [
-            Creator("cosMo@暴走P", "ttf")
+            new Creator("cosMo@暴走P", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -61,7 +61,7 @@ const musics = [
     ),
     new Music("Blessing",
         [
-            Creator("halyosy", "ttf")
+            new Creator("halyosy", "ttf")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"])
@@ -76,7 +76,7 @@ const musics = [
     ),
     new Music("alive",
         [
-            Creator("市瀬るぽ", "ttf")
+            new Creator("市瀬るぽ", "ttf")
         ],
         [
             new Vocal("virtual", ["rin"])
@@ -92,7 +92,7 @@ const musics = [
     ),
     new Music("ロキ",
         [
-            Creator("みきとP", "ttt")
+            new Creator("みきとP", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -110,8 +110,8 @@ const musics = [
     ),
     new Music("テオ",
         [
-            Creator("Sakurai", "tff"),
-            Creator("Omoi", "ftt")
+            new Creator("Sakurai", "tff"),
+            new Creator("Omoi", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -131,8 +131,8 @@ const musics = [
     ),
     new Music("ヒバナ -Reloaded-",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -152,7 +152,7 @@ const musics = [
     ),
     new Music("ハッピーシンセサイザ",
         [
-            Creator("EasyPop", "ttf")
+            new Creator("EasyPop", "ttf")
         ],
         [
             new Vocal("virtual", ["luka", "gumi"]),
@@ -175,7 +175,7 @@ const musics = [
     ),
     new Music("Nostalogic",
         [
-            Creator("yuukiss", "ttf")
+            new Creator("yuukiss", "ttf")
         ],
         [
             new Vocal("virtual", ["meiko"]),
@@ -192,7 +192,7 @@ const musics = [
     ),
     new Music("ツギハギスタッカート",
         [
-            Creator("とあ", "ttt")
+            new Creator("とあ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -210,8 +210,8 @@ const musics = [
     ),
     new Music("劣等上等",
         [
-            Creator("Reol", "tff"),
-            Creator("Giga", "ftt")
+            new Creator("Reol", "tff"),
+            new Creator("Giga", "ftt")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -230,7 +230,7 @@ const musics = [
     ),
     new Music("ドクター＝ファンクビート",
         [
-            Creator("nyanyannya", "ttf")
+            new Creator("nyanyannya", "ttf")
         ],
         [
             new Vocal("virtual", ["kaito"]),
@@ -247,7 +247,7 @@ const musics = [
     ),
     new Music("フラジール",
         [
-            Creator("ぬゆり", "ttt")
+            new Creator("ぬゆり", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"]),
@@ -268,7 +268,7 @@ const musics = [
     ),
     new Music("ブリキノダンス",
         [
-            Creator("日向電工", "ttt")
+            new Creator("日向電工", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -286,7 +286,7 @@ const musics = [
     ),
     new Music("スイートマジック",
         [
-            Creator("Junky", "ttf")
+            new Creator("Junky", "ttf")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -307,7 +307,7 @@ const musics = [
     ),
     new Music("ぼうけんのしょがきえました！",
         [
-            Creator("じーざす", "ttf")
+            new Creator("じーざす", "ttf")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -324,7 +324,7 @@ const musics = [
     ),
     new Music("シャルル",
         [
-            Creator("バルーン", "ttt")
+            new Creator("バルーン", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -344,7 +344,7 @@ const musics = [
     ),
     new Music("ハロ／ハワユ",
         [
-            Creator("ナノウ", "ttf")
+            new Creator("ナノウ", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -360,7 +360,7 @@ const musics = [
     ),
     new Music("自傷無色",
         [
-            Creator("ササノマリイ", "ttf")
+            new Creator("ササノマリイ", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -377,8 +377,8 @@ const musics = [
     ),
     new Music("needLe",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -398,7 +398,7 @@ const musics = [
     ),
     new Music("アイドル新鋭隊",
         [
-            Creator("Mitchie M", "ttt")
+            new Creator("Mitchie M", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "luka", "meiko"]),
@@ -415,8 +415,8 @@ const musics = [
     ),
     new Music("Ready Steady",
         [
-            Creator("q*Left", "tff"),
-            Creator("Giga", "ftt")
+            new Creator("q*Left", "tff"),
+            new Creator("Giga", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "len"]),
@@ -434,7 +434,7 @@ const musics = [
     ),
     new Music("セカイはまだ始まってすらいない",
         [
-            Creator("ピノキオピー", "ttt")
+            new Creator("ピノキオピー", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -454,7 +454,7 @@ const musics = [
     ),
     new Music("悔やむと書いてミライ",
         [
-            Creator("まふまふ", "ttt")
+            new Creator("まふまふ", "ttt")
         ],
         [
             new Vocal("sekai", ["kanade", "mafuyu", "ena", "mizuki", "miku"]),
@@ -475,9 +475,9 @@ const musics = [
     ),
     new Music("セカイ",
         [
-            Creator("DECO*27", "tff"),
-            Creator("堀江昌太(kemu)", "ftf"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "tff"),
+            new Creator("堀江昌太(kemu)", "ftf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -494,8 +494,8 @@ const musics = [
     ),
     new Music("ワーワーワールド",
         [
-            Creator("Mitchie M", "ttf"),
-            Creator("Giga", "ftt")
+            new Creator("Mitchie M", "ttf"),
+            new Creator("Giga", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "rin"]),
@@ -513,8 +513,8 @@ const musics = [
     ),
     new Music("アスノヨゾラ哨戒班",
         [
-            Creator("Orangestar", "ttf"),
-            Creator("Rockwell", "fft")
+            new Creator("Orangestar", "ttf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("sekai", ["ichika"])
@@ -529,8 +529,8 @@ const musics = [
     ),
     new Music("ニア",
         [
-            Creator("夏代孝明", "ttf"),
-            Creator("渡辺拓也", "fft")
+            new Creator("夏代孝明", "ttf"),
+            new Creator("渡辺拓也", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -548,7 +548,7 @@ const musics = [
     ),
     new Music("Just Be Friends",
         [
-            Creator("Dixie Flatline", "ttf")
+            new Creator("Dixie Flatline", "ttf")
         ],
         [
             new Vocal("virtual", ["luka"]),
@@ -566,7 +566,7 @@ const musics = [
     ),
     new Music("脱法ロック",
         [
-            Creator("Neru", "ttf")
+            new Creator("Neru", "ttf")
         ],
         [
             new Vocal("virtual", ["len"]),
@@ -583,7 +583,7 @@ const musics = [
     ),
     new Music("命に嫌われている",
         [
-            Creator("カンザキイオリ", "ttt")
+            new Creator("カンザキイオリ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -604,7 +604,7 @@ const musics = [
     ),
     new Music("ワールドイズマイン",
         [
-            Creator("ryo", "ttt")
+            new Creator("ryo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -618,7 +618,7 @@ const musics = [
     ),
     new Music("ダンスロボットダンス",
         [
-            Creator("ナユタン星人", "ttt")
+            new Creator("ナユタン星人", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -637,7 +637,7 @@ const musics = [
     ),
     new Music("Hand in Hand",
         [
-            Creator("kz", "ttt")
+            new Creator("kz", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -653,7 +653,7 @@ const musics = [
     ),
     new Music("夜咄ディセイブ",
         [
-            Creator("じん", "ttt")
+            new Creator("じん", "ttt")
         ],
         [
             new Vocal("virtual", ["ia"]),
@@ -672,9 +672,9 @@ const musics = [
     ),
     new Music("Gimme×Gimme",
         [
-            Creator("q*Left", "tff"),
-            Creator("八王子P", "ftt"),
-            Creator("Giga", "ftt")
+            new Creator("q*Left", "tff"),
+            new Creator("八王子P", "ftt"),
+            new Creator("Giga", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "rin"])
@@ -689,7 +689,7 @@ const musics = [
     ),
     new Music("ビバハピ",
         [
-            Creator("Mitchie M", "ttt")
+            new Creator("Mitchie M", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -707,7 +707,7 @@ const musics = [
     ),
     new Music("ジャンキーナイトタウンオーケストラ",
         [
-            Creator("すりぃ", "ttf")
+            new Creator("すりぃ", "ttf")
         ],
         [
             new Vocal("virtual", ["len"])
@@ -722,7 +722,7 @@ const musics = [
     ),
     new Music("ミラクルペイント",
         [
-            Creator("OSTER project", "ttt")
+            new Creator("OSTER project", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -739,7 +739,7 @@ const musics = [
     ),
     new Music("on the rocks",
         [
-            Creator("OSTER project", "ttt")
+            new Creator("OSTER project", "ttt")
         ],
         [
             new Vocal("virtual", ["meiko", "kaito"])
@@ -754,7 +754,7 @@ const musics = [
     ),
     new Music("携帯恋話",
         [
-            Creator("まふまふ", "ttt")
+            new Creator("まふまふ", "ttt")
         ],
         [
             new Vocal("sekai", ["ena", "mizuki", "miku"]),
@@ -772,7 +772,7 @@ const musics = [
     ),
     new Music("39みゅーじっく！",
         [
-            Creator("みきとP", "ttf")
+            new Creator("みきとP", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -787,7 +787,7 @@ const musics = [
     ),
     new Music("青く駆けろ！",
         [
-            Creator("まらしぃ", "ttf")
+            new Creator("まらしぃ", "ttf")
         ],
         [
             new Vocal("sekai", ["miku", "ichika"]),
@@ -805,7 +805,7 @@ const musics = [
     ),
     new Music("ステラ",
         [
-            Creator("じん", "ttf")
+            new Creator("じん", "ttf")
         ],
         [
             new Vocal("sekai", ["saki", "miku", "honami", "ichika", "shiho"]),
@@ -824,7 +824,7 @@ const musics = [
     ),
     new Music("Leia - Remind",
         [
-            Creator("ゆよゆっぺ", "ttt")
+            new Creator("ゆよゆっぺ", "ttt")
         ],
         [
             new Vocal("virtual", ["luka"]),
@@ -839,7 +839,7 @@ const musics = [
     ),
     new Music("ジャックポットサッドガール",
         [
-            Creator("syudou", "ttt")
+            new Creator("syudou", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -858,7 +858,7 @@ const musics = [
     ),
     new Music("メルティランドナイトメア",
         [
-            Creator("はるまきごはん", "ttt")
+            new Creator("はるまきごはん", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -875,9 +875,9 @@ const musics = [
     ),
     new Music("乙女解剖",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("emon(Tes.)", "fft"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("emon(Tes.)", "fft"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -896,7 +896,7 @@ const musics = [
     ),
     new Music("potatoになっていく",
         [
-            Creator("Neru", "ttt")
+            new Creator("Neru", "ttt")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -915,7 +915,7 @@ const musics = [
     ),
     new Music("ローリンガール",
         [
-            Creator("wowaka", "ttt")
+            new Creator("wowaka", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -930,7 +930,7 @@ const musics = [
     ),
     new Music("モア！ジャンプ！モア！",
         [
-            Creator("ナユタン星人", "ttt")
+            new Creator("ナユタン星人", "ttt")
         ],
         [
             new Vocal("sekai", ["airi", "miku", "minori", "haruka", "shizuku"]),
@@ -946,7 +946,7 @@ const musics = [
     ),
     new Music("裏表ラバーズ",
         [
-            Creator("wowaka", "ttt")
+            new Creator("wowaka", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -961,7 +961,7 @@ const musics = [
     ),
     new Music("アンノウン・マザーグース",
         [
-            Creator("wowaka", "ttt")
+            new Creator("wowaka", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -976,7 +976,7 @@ const musics = [
     ),
     new Music("愛されなくても君がいる",
         [
-            Creator("ピノキオピー", "ttt")
+            new Creator("ピノキオピー", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -991,7 +991,7 @@ const musics = [
     ),
     new Music("ウミユリ海底譚",
         [
-            Creator("n-buna", "ttt")
+            new Creator("n-buna", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1009,7 +1009,7 @@ const musics = [
     ),
     new Music("Forward",
         [
-            Creator("R Sound Design", "ttt")
+            new Creator("R Sound Design", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1029,7 +1029,7 @@ const musics = [
     ),
     new Music("独りんぼエンヴィー",
         [
-            Creator("koyori", "ttt")
+            new Creator("koyori", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1049,7 +1049,7 @@ const musics = [
     ),
     new Music("ニジイロストーリーズ",
         [
-            Creator("OSTER project", "ttt")
+            new Creator("OSTER project", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "len", "luka", "meiko", "kaito"]),
@@ -1070,7 +1070,7 @@ const musics = [
     ),
     new Music("ODDS & ENDS",
         [
-            Creator("ryo", "ttt")
+            new Creator("ryo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1085,8 +1085,8 @@ const musics = [
     ),
     new Music("ドラマツルギー",
         [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1103,8 +1103,8 @@ const musics = [
     ),
     new Music("グリーンライツ・セレナーデ",
         [
-            Creator("Sakurai", "tff"),
-            Creator("Omoi", "ftt")
+            new Creator("Sakurai", "tff"),
+            new Creator("Omoi", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1121,7 +1121,7 @@ const musics = [
     ),
     new Music("恋愛裁判",
         [
-            Creator("40mP", "ttt")
+            new Creator("40mP", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1140,7 +1140,7 @@ const musics = [
     ),
     new Music("＊ハロー、プラネット。",
         [
-            Creator("sasakure.UK", "ttt")
+            new Creator("sasakure.UK", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1156,7 +1156,7 @@ const musics = [
     ),
     new Music("千本桜",
         [
-            Creator("黒うさ", "ttt")
+            new Creator("黒うさ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1171,7 +1171,7 @@ const musics = [
     ),
     new Music("ECHO",
         [
-            Creator("Crusher P", "ttf")
+            new Creator("Crusher P", "ttf")
         ],
         [
             new Vocal("virtual", ["gumi"]),
@@ -1190,7 +1190,7 @@ const musics = [
     ),
     new Music("チュルリラ・チュルリラ・ダッダッダ！",
         [
-            Creator("和田たけあき(くらげP)", "ttt")
+            new Creator("和田たけあき(くらげP)", "ttt")
         ],
         [
             new Vocal("sekai", ["tsukasa", "emu", "nene", "rui"]),
@@ -1209,7 +1209,7 @@ const musics = [
     ),
     new Music("ブレス・ユア・ブレス",
         [
-            Creator("和田たけあき", "ttt")
+            new Creator("和田たけあき", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1226,7 +1226,7 @@ const musics = [
     ),
     new Music("とても痛い痛がりたい",
         [
-            Creator("EZFG", "ttt")
+            new Creator("EZFG", "ttt")
         ],
         [
             new Vocal("virtual", ["vy2v3"]),
@@ -1242,7 +1242,7 @@ const musics = [
     ),
     new Music("霽れを待つ",
         [
-            Creator("Orangestar", "ttt")
+            new Creator("Orangestar", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1262,7 +1262,7 @@ const musics = [
     ),
     new Music("ワールズエンド・ダンスホール",
         [
-            Creator("wowaka", "ttt")
+            new Creator("wowaka", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "luka"])
@@ -1277,8 +1277,8 @@ const musics = [
     ),
     new Music("ヒビカセ",
         [
-            Creator("れをる", "tff"),
-            Creator("ギガ", "ftt")
+            new Creator("れをる", "tff"),
+            new Creator("ギガ", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1293,7 +1293,7 @@ const musics = [
     ),
     new Music("Color of Drops",
         [
-            Creator("40mP", "ttt")
+            new Creator("40mP", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1313,8 +1313,8 @@ const musics = [
     ),
     new Music("RAD DOGS",
         [
-            Creator("q*Left", "tff"),
-            Creator("八王子P", "ftt")
+            new Creator("q*Left", "tff"),
+            new Creator("八王子P", "ftt")
         ],
         [
             new Vocal("sekai", ["toya", "akito", "kohane", "an", "miku"]),
@@ -1331,7 +1331,7 @@ const musics = [
     ),
     new Music("ミルククラウン・オン・ソーネチカ",
         [
-            Creator("ユジー", "ttt")
+            new Creator("ユジー", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1350,9 +1350,9 @@ const musics = [
     ),
     new Music("タイムマシン",
         [
-            Creator("164", "tff"),
-            Creator("40mP", "ftf"),
-            Creator("1640mP", "fft")
+            new Creator("164", "tff"),
+            new Creator("40mP", "ftf"),
+            new Creator("1640mP", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1372,8 +1372,8 @@ const musics = [
     ),
     new Music("drop pop candy",
         [
-            Creator("れをる", "tff"),
-            Creator("ギガ", "ftt")
+            new Creator("れをる", "tff"),
+            new Creator("ギガ", "ftt")
         ],
         [
             new Vocal("virtual", ["rin", "luka"]),
@@ -1390,7 +1390,7 @@ const musics = [
     ),
     new Music("ポジティブ☆ダンスタイム",
         [
-            Creator("キノシタ", "ttt")
+            new Creator("キノシタ", "ttt")
         ],
         [
             new Vocal("virtual", ["una", "rin"]),
@@ -1411,7 +1411,7 @@ const musics = [
     ),
     new Music("Brand New Day",
         [
-            Creator("いるかアイス", "ttt")
+            new Creator("いるかアイス", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1427,7 +1427,7 @@ const musics = [
     ),
     new Music("限りなく灰色へ",
         [
-            Creator("すりぃ", "ttt")
+            new Creator("すりぃ", "ttt")
         ],
         [
             new Vocal("virtual", ["len"]),
@@ -1447,7 +1447,7 @@ const musics = [
     ),
     new Music("ワンスアポンアドリーム",
         [
-            Creator("YASUHIRO(康寛)", "ttt"),
+            new Creator("YASUHIRO(康寛)", "ttt"),
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -1466,7 +1466,7 @@ const musics = [
     ),
     new Music("ボッカデラベリタ",
         [
-            Creator("柊キライ", "ttt"),
+            new Creator("柊キライ", "ttt"),
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -1483,7 +1483,7 @@ const musics = [
     ),
     new Music("みくみくにしてあげる♪【してやんよ】",
         [
-            Creator("ika_mo", "ttt")
+            new Creator("ika_mo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1497,7 +1497,7 @@ const musics = [
     ),
     new Music("威風堂々",
         [
-            Creator("梅とら", "ttt")
+            new Creator("梅とら", "ttt")
         ],
         [
             new Vocal("virtual", ["luka", "miku", "gumi", "ia", "rin"]),
@@ -1520,7 +1520,7 @@ const musics = [
     ),
     new Music("from Y to Y",
         [
-            Creator("ジミーサムP", "ttf")
+            new Creator("ジミーサムP", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1537,8 +1537,8 @@ const musics = [
     ),
     new Music("初音ミクの激唱",
         [
-            Creator("GAiA", "tff"),
-            Creator("cosMo@暴走P", "ftt")
+            new Creator("GAiA", "tff"),
+            new Creator("cosMo@暴走P", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1553,7 +1553,7 @@ const musics = [
     ),
     new Music("天使のクローバー",
         [
-            Creator("DIVELA", "ttt")
+            new Creator("DIVELA", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -1573,8 +1573,8 @@ const musics = [
     ),
     new Music("お気に召すまま",
         [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1592,7 +1592,7 @@ const musics = [
     ),
     new Music("どりーみんチュチュ",
         [
-            Creator("emon(Tes.)", "ttt")
+            new Creator("emon(Tes.)", "ttt")
         ],
         [
             new Vocal("virtual", ["luka"]),
@@ -1611,7 +1611,7 @@ const musics = [
     ),
     new Music("アイディスマイル",
         [
-            Creator("とあ", "ttt")
+            new Creator("とあ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin"]),
@@ -1633,7 +1633,7 @@ const musics = [
     ),
     new Music("「１」",
         [
-            Creator("164", "ttt")
+            new Creator("164", "ttt")
         ],
         [
             new Vocal("virtual", ["luka"]),
@@ -1654,7 +1654,7 @@ const musics = [
     ),
     new Music("花を唄う",
         [
-            Creator("シノ", "ttt")
+            new Creator("シノ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1670,7 +1670,7 @@ const musics = [
     ),
     new Music("夜に駆ける",
         [
-            Creator("Ayase", "ttt")
+            new Creator("Ayase", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1692,7 +1692,7 @@ const musics = [
     ),
     new Music("幽霊東京",
         [
-            Creator("Ayase", "ttt")
+            new Creator("Ayase", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1712,7 +1712,7 @@ const musics = [
     ),
     new Music("シネマ",
         [
-            Creator("Ayase", "ttt")
+            new Creator("Ayase", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1732,7 +1732,7 @@ const musics = [
     ),
     new Music("KING",
         [
-            Creator("Kanaria", "ttf")
+            new Creator("Kanaria", "ttf")
         ],
         [
             new Vocal("virtual", ["gumi"]),
@@ -1751,7 +1751,7 @@ const musics = [
     ),
     new Music("アイノマテリアル",
         [
-            Creator("Junky", "ttt")
+            new Creator("Junky", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin"]),
@@ -1769,7 +1769,7 @@ const musics = [
     ),
     new Music("いかないで",
         [
-            Creator("想太", "ttf")
+            new Creator("想太", "ttf")
         ],
         [
             new Vocal("virtual", ["yuki"]),
@@ -1787,7 +1787,7 @@ const musics = [
     ),
     new Music("ロミオとシンデレラ",
         [
-            Creator("doriko", "ttt")
+            new Creator("doriko", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1806,7 +1806,7 @@ const musics = [
     ),
     new Music("泡沫未来",
         [
-            Creator("加賀(ネギシャワーP)", "ttt")
+            new Creator("加賀(ネギシャワーP)", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -1822,8 +1822,8 @@ const musics = [
     ),
     new Music("トンデモワンダーズ",
         [
-            Creator("sasakure.UK", "ttt"),
-            Creator("岸田勇気(有形ランペイジ)", "fff", "Key")
+            new Creator("sasakure.UK", "ttt"),
+            new Creator("岸田勇気(有形ランペイジ)", "fff", "Key")
         ],
         [
             new Vocal("virtual", ["miku", "kaito"]),
@@ -1845,7 +1845,7 @@ const musics = [
     ),
     new Music("カナデトモスソラ",
         [
-            Creator("Sasanomaly", "ttt")
+            new Creator("Sasanomaly", "ttt")
         ],
         [
             new Vocal("sekai", ["kanade", "luka", "mafuyu", "ena", "mizuki"]),
@@ -1865,7 +1865,7 @@ const musics = [
     ),
     new Music("トラフィック・ジャム",
         [
-            Creator("煮ル果実", "ttt")
+            new Creator("煮ル果実", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -1884,8 +1884,8 @@ const musics = [
     ),
     new Music("フロムトーキョー",
         [
-            Creator("夏代孝明", "ttf"),
-            Creator("渡辺拓也", "ftt")
+            new Creator("夏代孝明", "ttf"),
+            new Creator("渡辺拓也", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1906,7 +1906,7 @@ const musics = [
     ),
     new Music("Beat Eater",
         [
-            Creator("ポリスピカデリー", "ttt")
+            new Creator("ポリスピカデリー", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1926,7 +1926,7 @@ const musics = [
     ),
     new Music("六兆年と一夜物語",
         [
-            Creator("kemu", "ttt")
+            new Creator("kemu", "ttt")
         ],
         [
             new Vocal("virtual", ["ia"]),
@@ -1945,7 +1945,7 @@ const musics = [
     ),
     new Music("地球最後の告白を",
         [
-            Creator("kemu", "ttt")
+            new Creator("kemu", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"]),
@@ -1964,7 +1964,7 @@ const musics = [
     ),
     new Music("ビターチョコデコレーション",
         [
-            Creator("syudou", "ttt")
+            new Creator("syudou", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -1984,7 +1984,7 @@ const musics = [
     ),
     new Music("そうだった！",
         [
-            Creator("タケノコ少年", "ttt")
+            new Creator("タケノコ少年", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2000,7 +2000,7 @@ const musics = [
     ),
     new Music("カゲロウデイズ",
         [
-            Creator("じん", "ttt")
+            new Creator("じん", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2020,7 +2020,7 @@ const musics = [
     ),
     new Music("アイスドロップ",
         [
-            Creator("aqu3ra", "ttt")
+            new Creator("aqu3ra", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2038,7 +2038,7 @@ const musics = [
     ),
     new Music("Glory Steady Go!",
         [
-            Creator("キノシタ", "ttt")
+            new Creator("キノシタ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2056,7 +2056,7 @@ const musics = [
     ),
     new Music("チルドレンレコード",
         [
-            Creator("じん", "ttt")
+            new Creator("じん", "ttt")
         ],
         [
             new Vocal("virtual", ["ia"]),
@@ -2076,8 +2076,8 @@ const musics = [
     ),
     new Music("magic number",
         [
-            Creator("伊東健人", "ttf"),
-            Creator("OSTER project", "fft")
+            new Creator("伊東健人", "ttf"),
+            new Creator("OSTER project", "fft")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2093,7 +2093,7 @@ const musics = [
 
     new Music("流星のパルス",
         [
-            Creator("*Luna", "ttt")
+            new Creator("*Luna", "ttt")
         ],
         [
             new Vocal("virtual", ["len", "miku", "rin", "luka", "meiko", "kaito"]),
@@ -2110,7 +2110,7 @@ const musics = [
     ),
     new Music("カトラリー",
         [
-            Creator("有機酸", "ttt")
+            new Creator("有機酸", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2128,7 +2128,7 @@ const musics = [
     ),
     new Music("再生",
         [
-            Creator("Picon", "ttt")
+            new Creator("Picon", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2148,8 +2148,8 @@ const musics = [
     ),
     new Music("群青讃歌",
         [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2173,8 +2173,8 @@ const musics = [
     ),
     new Music("炉心融解",
         [
-            Creator("kuma(alfred)", "tff"),
-            Creator("iroha(sasaki)", "ftf")
+            new Creator("kuma(alfred)", "tff"),
+            new Creator("iroha(sasaki)", "ftf")
         ],
         [
             new Vocal("virtual", ["rin"])
@@ -2189,7 +2189,7 @@ const musics = [
     ),
     new Music("ロストワンの号哭",
         [
-            Creator("Neru", "ttf")
+            new Creator("Neru", "ttf")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -2210,7 +2210,7 @@ const musics = [
     ),
     new Music("マシンガンポエムドール",
         [
-            Creator("cosMo@暴走P", "ttt")
+            new Creator("cosMo@暴走P", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2226,7 +2226,7 @@ const musics = [
     ),
     new Music("ベノム",
         [
-            Creator("かいりきベア", "ttf")
+            new Creator("かいりきベア", "ttf")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2246,7 +2246,7 @@ const musics = [
     ),
     new Music("拝啓ドッペルゲンガー",
         [
-            Creator("kemu", "ttt")
+            new Creator("kemu", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"])
@@ -2261,7 +2261,7 @@ const musics = [
     ),
     new Music("テレキャスタービーボーイ",
         [
-            Creator("すりぃ", "ttt")
+            new Creator("すりぃ", "ttt")
         ],
         [
             new Vocal("virtual", ["len"]),
@@ -2281,7 +2281,7 @@ const musics = [
     ),
     new Music("トキヲ・ファンカ",
         [
-            Creator("takamatt", "ttt")
+            new Creator("takamatt", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"])
@@ -2296,7 +2296,7 @@ const musics = [
     ),
     new Music("悪魔の踊り方",
         [
-            Creator("キタニタツヤ", "ttf")
+            new Creator("キタニタツヤ", "ttf")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -2313,7 +2313,7 @@ const musics = [
     ),
     new Music("だれかの心臓になれたなら",
         [
-            Creator("ユリイ・カノン", "ttt")
+            new Creator("ユリイ・カノン", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"])
@@ -2328,7 +2328,7 @@ const musics = [
     ),
     new Music("マシュマリー",
         [
-            Creator("MIMI", "ttt")
+            new Creator("MIMI", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2345,8 +2345,8 @@ const musics = [
     ),
     new Music("右肩の蝶",
         [
-            Creator("水野悠良", "tff"),
-            Creator("のりぴー", "ftt")
+            new Creator("水野悠良", "tff"),
+            new Creator("のりぴー", "ftt")
         ],
         [
             new Vocal("virtual", ["len"])
@@ -2363,7 +2363,7 @@ const musics = [
     ),
     new Music("ray",
         [
-            Creator("藤原基央", "ttf")
+            new Creator("藤原基央", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2380,7 +2380,7 @@ const musics = [
     ),
     new Music("Hello,world!",
         [
-            Creator("藤原基央", "ttf")
+            new Creator("藤原基央", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2396,7 +2396,7 @@ const musics = [
     ),
     new Music("しっくおぶはうす！",
         [
-            Creator("オゾン", "ttt")
+            new Creator("オゾン", "ttt")
         ],
         [
             new Vocal("virtual", ["rin", "len"])
@@ -2412,7 +2412,7 @@ const musics = [
     ),
     new Music("ショウタイム・ルーラー",
         [
-            Creator("烏屋茶房", "ttt")
+            new Creator("烏屋茶房", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -2431,7 +2431,7 @@ const musics = [
     ),
     new Music("Happy Halloween",
         [
-            Creator("Junky", "ttt")
+            new Creator("Junky", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -2449,7 +2449,7 @@ const musics = [
     ),
     new Music("ロウワー",
         [
-            Creator("ぬゆり", "ttt")
+            new Creator("ぬゆり", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2470,7 +2470,7 @@ const musics = [
     ),
     new Music("初音天地開闢神話",
         [
-            Creator("cosMo@暴走P", "ttt")
+            new Creator("cosMo@暴走P", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2485,7 +2485,7 @@ const musics = [
     ),
     new Music("オルターエゴ",
         [
-            Creator("Misumi", "ttt")
+            new Creator("Misumi", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2501,8 +2501,8 @@ const musics = [
     ),
     new Music("STAGE OF SEKAI",
         [
-            Creator("針原翼(はりーP)", "ttf"),
-            Creator("棚橋 EDDY テルアキ", "fft")
+            new Creator("針原翼(はりーP)", "ttf"),
+            new Creator("棚橋 EDDY テルアキ", "fft")
         ],
         [
             new Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"])
@@ -2519,7 +2519,7 @@ const musics = [
     ),
     new Music("からくりピエロ",
         [
-            Creator("40mP", "ttt")
+            new Creator("40mP", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2538,7 +2538,7 @@ const musics = [
     ),
     new Music("ワールドワイドワンダー",
         [
-            Creator("TOKOTOKO", "ttt")
+            new Creator("TOKOTOKO", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2556,7 +2556,7 @@ const musics = [
     ),
     new Music("悪ノ娘",
         [
-            Creator("mothy", "ttt")
+            new Creator("mothy", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"])
@@ -2572,7 +2572,7 @@ const musics = [
     ),
     new Music("悪ノ召使",
         [
-            Creator("mothy", "ttt")
+            new Creator("mothy", "ttt")
         ],
         [
             new Vocal("virtual", ["len"])
@@ -2588,7 +2588,7 @@ const musics = [
     ),
     new Music("去り人達のワルツ",
         [
-            Creator("mothy", "ttt")
+            new Creator("mothy", "ttt")
         ],
         [
             new Vocal("virtual", ["rin"])
@@ -2603,7 +2603,7 @@ const musics = [
     ),
     new Music("ラストスコア",
         [
-            Creator("せきこみごはん", "ttt")
+            new Creator("せきこみごはん", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2619,7 +2619,7 @@ const musics = [
     ),
     new Music("フィクサー",
         [
-            Creator("ぬゆり", "ttt")
+            new Creator("ぬゆり", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2637,7 +2637,7 @@ const musics = [
     ),
     new Music("ミライ",
         [
-            Creator("有機酸", "ttt")
+            new Creator("有機酸", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2657,8 +2657,8 @@ const musics = [
     ),
     new Music("ゴーストルール",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("Naoki Itai(MUSIC FOR MUSIC)", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("Naoki Itai(MUSIC FOR MUSIC)", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2676,7 +2676,7 @@ const musics = [
     ),
     new Music("ヴィラン",
         [
-            Creator("てにをは", "ttt")
+            new Creator("てにをは", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2695,8 +2695,8 @@ const musics = [
     ),
     new Music("サンドリヨン 10th Anniversary",
         [
-            Creator("orange", "tff"),
-            Creator("Dios/シグナルP", "ftt")
+            new Creator("orange", "tff"),
+            new Creator("Dios/シグナルP", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "kaito"])
@@ -2712,7 +2712,7 @@ const musics = [
     ),
     new Music("少女レイ",
         [
-            Creator("みきとP", "ttf")
+            new Creator("みきとP", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2729,7 +2729,7 @@ const musics = [
     ),
     new Music("ガランド",
         [
-            Creator("ピコン", "ttt")
+            new Creator("ピコン", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2746,7 +2746,7 @@ const musics = [
 
     new Music("エンドマークに希望と涙を添えて",
         [
-            Creator("cosMo@暴走P", "ftt")
+            new Creator("cosMo@暴走P", "ftt")
         ],
         [
             new Vocal("inst")
@@ -2762,7 +2762,7 @@ const musics = [
     ),
     new Music("the EmpErroR",
         [
-            Creator("sasakure.UK", "ftt")
+            new Creator("sasakure.UK", "ftt")
         ],
         [
             new Vocal("inst")
@@ -2777,7 +2777,7 @@ const musics = [
     ),
     new Music("Don't Fight The Music",
         [
-            Creator("黒魔", "ftt")
+            new Creator("黒魔", "ftt")
         ],
         [
             new Vocal("inst")
@@ -2792,8 +2792,8 @@ const musics = [
     ),
     new Music("にっこり^^調査隊のテーマ",
         [
-            Creator("じーざす", "ttf"),
-            Creator("ワンダフル☆オポチュニティ！", "fft")
+            new Creator("じーざす", "ttf"),
+            new Creator("ワンダフル☆オポチュニティ！", "fft")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -2811,7 +2811,7 @@ const musics = [
     ),
     new Music("トリコロージュ",
         [
-            Creator("煮ル果実", "ttt")
+            new Creator("煮ル果実", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2831,7 +2831,7 @@ const musics = [
     ),
     new Music("心拍数♯0822",
         [
-            Creator("蝶々P", "ttt")
+            new Creator("蝶々P", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2849,7 +2849,7 @@ const musics = [
     ),
     new Music("うっせぇわ",
         [
-            Creator("syudou", "ttt")
+            new Creator("syudou", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2869,9 +2869,9 @@ const musics = [
     ),
     new Music("踊",
         [
-            Creator("Giga", "ftt"),
-            Creator("TeddyLoid", "ftt"),
-            Creator("DECO*27", "tff")
+            new Creator("Giga", "ftt"),
+            new Creator("TeddyLoid", "ftt"),
+            new Creator("DECO*27", "tff")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -2891,7 +2891,7 @@ const musics = [
     ),
     new Music("君色マリンスノウ",
         [
-            Creator("カルロス袴田(サイゼP)", "ttt")
+            new Creator("カルロス袴田(サイゼP)", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -2907,7 +2907,7 @@ const musics = [
     ),
     new Music("愛して愛して愛して",
         [
-            Creator("きくお", "ttt")
+            new Creator("きくお", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2924,7 +2924,7 @@ const musics = [
     ),
     new Music("Flyer!",
         [
-            Creator("Chinozo", "ttt")
+            new Creator("Chinozo", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -2943,7 +2943,7 @@ const musics = [
     ),
     new Music("Peaky Peaky",
         [
-            Creator("みきとP", "ttt")
+            new Creator("みきとP", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin"]),
@@ -2960,7 +2960,7 @@ const musics = [
     ),
     new Music("ジウダス",
         [
-            Creator("すこやか大聖堂", "ttt")
+            new Creator("すこやか大聖堂", "ttt")
         ],
         [
             new Vocal("virtual", ["kaito"])
@@ -2976,8 +2976,8 @@ const musics = [
     ),
     new Music("ナンセンス文学",
         [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -2997,9 +2997,9 @@ const musics = [
     ),
     new Music("心予報",
         [
-            Creator("Eve", "ttf"),
-            Creator("TAKU INOUE", "fft"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("TAKU INOUE", "fft"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3018,8 +3018,8 @@ const musics = [
     ),
     new Music("僕らまだアンダーグラウンド",
         [
-            Creator("Eve", "ttf"),
-            Creator("Numa", "fft")
+            new Creator("Eve", "ttf"),
+            new Creator("Numa", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3037,12 +3037,12 @@ const musics = [
     ),
     new Music("Miku",
         [
-            Creator("Peter B", "tff"),
-            Creator("Ary W", "tff"),
-            Creator("Josh K", "tff"),
-            Creator("David M", "tff"),
-            Creator("Stella M", "tff"),
-            Creator("Anamanaguchi", "ftt")
+            new Creator("Peter B", "tff"),
+            new Creator("Ary W", "tff"),
+            new Creator("Josh K", "tff"),
+            new Creator("David M", "tff"),
+            new Creator("Stella M", "tff"),
+            new Creator("Anamanaguchi", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3057,8 +3057,8 @@ const musics = [
     ),
     new Music("メタモリボン",
         [
-            Creator("emon(Tes.)", "ttt"),
-            Creator("Tudiken", "tff")
+            new Creator("emon(Tes.)", "ttt"),
+            new Creator("Tudiken", "tff")
         ],
         [
             new Vocal("virtual", ["rin"]),
@@ -3076,7 +3076,7 @@ const musics = [
     ),
     new Music("いーあるふぁんくらぶ",
         [
-            Creator("みきとP", "ttt")
+            new Creator("みきとP", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi", "rin"]),
@@ -3094,7 +3094,7 @@ const musics = [
     ),
     new Music("雨とペトラ",
         [
-            Creator("バルーン", "ttt")
+            new Creator("バルーン", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -3110,7 +3110,7 @@ const musics = [
     ),
     new Music("ノマド",
         [
-            Creator("バルーン", "ttt")
+            new Creator("バルーン", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -3131,7 +3131,7 @@ const musics = [
 
     new Music("マトリョシカ",
         [
-            Creator("ハチ", "ttt")
+            new Creator("ハチ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "gumi"])
@@ -3146,7 +3146,7 @@ const musics = [
     ),
     new Music("ドーナツホール",
         [
-            Creator("ハチ", "ttt")
+            new Creator("ハチ", "ttt")
         ],
         [
             new Vocal("virtual", ["gumi"])
@@ -3162,7 +3162,7 @@ const musics = [
 
     new Music("砂の惑星",
         [
-            Creator("ハチ", "ttt")
+            new Creator("ハチ", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3177,7 +3177,7 @@ const musics = [
     ),
     new Music("ルカルカ★ナイトフィーバー",
         [
-            Creator("SAM(samfree)", "ttt")
+            new Creator("SAM(samfree)", "ttt")
         ],
         [
             new Vocal("virtual", ["luka"])
@@ -3191,7 +3191,7 @@ const musics = [
     ),
     new Music("ピアノ×フォルテ×スキャンダル",
         [
-            Creator("OSTER project", "ttt")
+            new Creator("OSTER project", "ttt")
         ],
         [
             new Vocal("virtual", ["meiko"])
@@ -3206,7 +3206,7 @@ const musics = [
     ),
     new Music("千年の独奏歌",
         [
-            Creator("yanagi", "ttt")
+            new Creator("yanagi", "ttt")
         ],
         [
             new Vocal("virtual", ["kaito"])
@@ -3220,8 +3220,8 @@ const musics = [
     ),
     new Music("88☆彡",
         [
-            Creator("まらしぃ", "ttf"),
-            Creator("堀江昌太(kemu)", "ftt")
+            new Creator("まらしぃ", "ttf"),
+            new Creator("堀江昌太(kemu)", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "kaito"]),
@@ -3239,7 +3239,7 @@ const musics = [
     ),
     new Music("ONESELF",
         [
-            Creator("Twinfield", "ttt")
+            new Creator("Twinfield", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3255,8 +3255,8 @@ const musics = [
     ),
     new Music("PaⅢ.SENSATION",
         [
-            Creator("牛肉", "tff"),
-            Creator("雄之助", "ftt")
+            new Creator("牛肉", "tff"),
+            new Creator("雄之助", "ftt")
         ],
         [
             new Vocal("virtual", ["miku", "gumi", "rin"]),
@@ -3273,7 +3273,7 @@ const musics = [
     ),
     new Music("ダーリンダンス",
         [
-            Creator("かいりきベア", "ttf")
+            new Creator("かいりきベア", "ttf")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3289,8 +3289,8 @@ const musics = [
     ),
     new Music("オーダーメイド",
         [
-            Creator("傘村トータ(LIVE LAB.)", "ttf"),
-            Creator("村田祐一(LIVE LAB.)", "fft")
+            new Creator("傘村トータ(LIVE LAB.)", "ttf"),
+            new Creator("村田祐一(LIVE LAB.)", "fft")
         ],
         [
             new Vocal("sekai", ["ichika", "luka", "saki", "honami", "shiho"])
@@ -3306,7 +3306,7 @@ const musics = [
     ),
     new Music("アイデンティティ",
         [
-            Creator("Kanaria", "ttf")
+            new Creator("Kanaria", "ttf")
         ],
         [
             new Vocal("virtual", ["miku", "gumi"]),
@@ -3323,7 +3323,7 @@ const musics = [
     ),
     new Music("青色絵具",
         [
-            Creator("くじら", "ttt")
+            new Creator("くじら", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "luka", "meiko"]),
@@ -3340,7 +3340,7 @@ const musics = [
     ),
     new Music("コスモスパイス",
         [
-            Creator("ピノキオピー", "ttt")
+            new Creator("ピノキオピー", "ttt")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "len"]),
@@ -3358,7 +3358,7 @@ const musics = [
     ),
     new Music("徳川カップヌードル禁止令",
         [
-            Creator("Mitchie M", "ttt")
+            new Creator("Mitchie M", "ttt")
         ],
         [
             new Vocal("sekai", ["len", "kaito", "nene", "nenerobo", "mikudayo"], false)
@@ -3373,8 +3373,8 @@ const musics = [
     ),
     new Music("サラマンダー",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3391,8 +3391,8 @@ const musics = [
     ),
     new Music("イフ",
         [
-            Creator("ユリイ・カノン", "ttf"),
-            Creator("月詠み", "fft")
+            new Creator("ユリイ・カノン", "ttf"),
+            new Creator("月詠み", "fft")
         ],
         [
             new Vocal("sekai", ["haruka", "miku", "minori", "airi", "shizuku"])
@@ -3409,7 +3409,7 @@ const musics = [
     ),
     new Music("ブラック★ロックシューター",
         [
-            Creator("ryo", "ttt")
+            new Creator("ryo", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3424,8 +3424,8 @@ const musics = [
     ),
     new Music("妄想感傷代償連盟",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("emon(Tes.)", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("emon(Tes.)", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3441,8 +3441,8 @@ const musics = [
     ),
     new Music("リモコン",
         [
-            Creator("じーざす", "ttf"),
-            Creator("ワンダフル☆オポチュニティ！", "fft")
+            new Creator("じーざす", "ttf"),
+            new Creator("ワンダフル☆オポチュニティ！", "fft")
         ],
         [
             new Vocal("virtual", ["rin", "len"]),
@@ -3458,8 +3458,8 @@ const musics = [
     ),
     new Music("月光",
         [
-            Creator("キタニタツヤ", "ttt"),
-            Creator("はるまきごはん", "ttt")
+            new Creator("キタニタツヤ", "ttt"),
+            new Creator("はるまきごはん", "ttt")
         ],
         [
             new Vocal("sekai", ["akito", "meiko", "kohane", "an", "toya"])
@@ -3476,7 +3476,7 @@ const musics = [
     ),
     new Music("アサガオの散る頃に",
         [
-            Creator("ぷす(fromツユ)", "ttt")
+            new Creator("ぷす(fromツユ)", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3492,7 +3492,7 @@ const musics = [
     ),
     new Music("神のまにまに",
         [
-            Creator("れるりり", "ttf")
+            new Creator("れるりり", "ttf")
         ],
         [
             new Vocal("virtual", ["miku", "rin", "gumi"]),
@@ -3509,8 +3509,8 @@ const musics = [
     ),
     new Music("Awake Now",
         [
-            Creator("牛肉", "tff"),
-            Creator("雄之助", "ftt")
+            new Creator("牛肉", "tff"),
+            new Creator("雄之助", "ftt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3528,7 +3528,7 @@ const musics = [
     ),
     new Music("阿吽のビーツ",
         [
-            Creator("羽生まゐご", "ttt")
+            new Creator("羽生まゐご", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -3544,7 +3544,7 @@ const musics = [
     ),
     new Music("バグ",
         [
-            Creator("かいりきベア", "ttf")
+            new Creator("かいりきベア", "ttf")
         ],
         [
             new Vocal("sekai", ["mafuyu", "len", "kanade", "ena", "mizuki"])
@@ -3559,7 +3559,7 @@ const musics = [
     ),
     new Music("グッバイ宣言",
         [
-            Creator("Chinozo", "ttt")
+            new Creator("Chinozo", "ttt")
         ],
         [
             new Vocal("virtual", ["flower"]),
@@ -3576,8 +3576,8 @@ const musics = [
     ),
     new Music("ヴァンパイア",
         [
-            Creator("DECO*27", "ttf"),
-            Creator("Rockwell", "fft")
+            new Creator("DECO*27", "ttf"),
+            new Creator("Rockwell", "fft")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3594,7 +3594,7 @@ const musics = [
     ),
     new Music("未完成讃歌",
         [
-            Creator("しゃいと", "fff")
+            new Creator("しゃいと", "fff")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3612,7 +3612,7 @@ const musics = [
 const future_musics = [
     new Music("脳漿炸裂ガール",
         [
-            Creator("れるりり", "ttt")
+            new Creator("れるりり", "ttt")
         ],
         [
         ],
@@ -3626,7 +3626,7 @@ const future_musics = [
     ),
     new Music("書き下ろし楽曲(ぽりふぉ)",
         [
-            Creator("ぽりふぉ", "fff")
+            new Creator("ぽりふぉ", "fff")
         ],
         [
         ],
@@ -3639,7 +3639,7 @@ const future_musics = [
     ),
     new Music("それでもいいんだよ",
         [
-            Creator("Ponchi♪", "fff")
+            new Creator("Ponchi♪", "fff")
         ],
         [
             new Vocal("virtual", ["miku"])
@@ -3655,9 +3655,9 @@ const future_musics = [
     ),
     new Music("ぼくらの16bit戦争",
         [
-            Creator("sasakure.UK", "ttt"),
-            Creator("佐々木秀尚", "fff", "Gt"),
-            Creator("二家元亮介", "fff", "Ba")
+            new Creator("sasakure.UK", "ttt"),
+            new Creator("佐々木秀尚", "fff", "Gt"),
+            new Creator("二家元亮介", "fff", "Ba")
         ],
         [
             new Vocal("virtual", ["gumi"])
@@ -3672,7 +3672,7 @@ const future_musics = [
     ),
     new Music("メリュー",
         [
-            Creator("n-buna", "ttt")
+            new Creator("n-buna", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3688,7 +3688,7 @@ const future_musics = [
     ),
     new Music("エイリアンエイリアン",
         [
-            Creator("ナユタン星人", "ttt")
+            new Creator("ナユタン星人", "ttt")
         ],
         [
             new Vocal("virtual", ["miku"]),
@@ -3705,7 +3705,7 @@ const future_musics = [
 
     new Music("書き下ろし楽曲(jon-YAKITORY)",
         [
-            Creator("jon-YAKITORY", "fff")
+            new Creator("jon-YAKITORY", "fff")
         ],
         [
         ],
@@ -3718,7 +3718,7 @@ const future_musics = [
     ),
     new Music("書き下ろし楽曲(和田たけあき)",
         [
-            Creator("和田たけあき", "fff")
+            new Creator("和田たけあき", "fff")
         ],
         [
         ],
