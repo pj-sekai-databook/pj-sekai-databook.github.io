@@ -9,22 +9,21 @@ class Creator {
         this.hasRole = this.isLyricist || this.isComposer || this.isArranger || this.note != null;
     }
     getAnchorTag() {
-        let span = document.createElement("span");
-        if (this.href != undefined) {
-            let a = this.href != undefined ? getA(this.name, this.href, true) : getSpan(this.name);
-            span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${Link.getDomain(this.href)}`));
-            span.appendChild(a);
+        if (!PjUtil.isEmpty(this.href)) {
+            const span = PjElm.getSpan();
+            span.appendChild(PjElm.getFavicon(Link.getDomain(this.href)));
+            span.appendChild(PjElm.getA(this.name, this.href));
+            return span;
         }
         else {
-            span.appendChild(getSpan(this.name));
+            return PjElm.getSpan(this.name);
         }
-        return span;
     }
     static isSame(c1, c2) {
         if (c1.name == c2.name) {
             return true;
         }
-        if (c1.href == c2.href && c1.href != undefined) {
+        if (c1.href == c2.href && !PjUtil.isEmpty(c1.href)) {
             return true;
         }
         return false;

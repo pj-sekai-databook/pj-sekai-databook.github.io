@@ -85,7 +85,7 @@ class Stat {
 let stat = new Stat();
 
 const applySelectVal = () => {
-    resetElement("content");
+    PjElm.reset("content");
     let mode = document.getElementById("select_stat").value;
     setStatResult(mode);
     document.getElementById("content").appendChild(stat.getRankingTable());

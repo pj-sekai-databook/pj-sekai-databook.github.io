@@ -8,6 +8,9 @@ class PjLoader {
         const base_list = [
             `${base_dir}/js/header.js`,
             `${base_dir}/js/funcs.js`,
+            `${base_dir}/js/PjUtil.js`,
+            `${base_dir}/js/PjDate.js`,
+            `${base_dir}/js/PjElm.js`,
             `${base_dir}/js/constructors.js`,
             `${base_dir}/js/Creator.js`,
             `${base_dir}/js/classes.js`,

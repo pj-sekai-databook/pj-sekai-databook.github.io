@@ -1,25 +1,4 @@
-const mDate = (y, m, d, h = 0, mi = 0) => {
-    return new Date(y, m - 1, d, h, mi);
-};
-const compareDate = (a, b, isAsc = true) => {
-    if (a == null) {
-        if (b == null) {
-            return 0;
-        }
-        else {
-            return 1;
-        }
-    }
-    else {
-        if (b == null) {
-            return -1;
-        }
-        else {
-            const dig = isAsc ? 1 : -1;
-            return dig * (a.getTime() - b.getTime());
-        }
-    }
-};
+
 const DiffParam = {
     EASY: 0,
     NORMAL: 1,

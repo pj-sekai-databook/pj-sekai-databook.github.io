@@ -25,9 +25,7 @@ const getColFromLoadedJson = (json, card_class) => {
     }
     img_outer.appendChild(img);
     card_inner.appendChild(img_outer);
-    const text_outer = document.createElement("div");
-    text_outer.classList.add("text-start");
-    text_outer.appendChild(Link.getAnchorTag(json.title, json.link));
+    const text_outer = PjElm.getDiv(Link.getAnchorTag(json.title, json.link), "text-start");
     card_inner.appendChild(text_outer);
     card.appendChild(card_inner);
     col.appendChild(card);
@@ -42,13 +40,12 @@ const switchDispRow = (parent_id, child_id) => {
         return false;
     }
     const info = row_info_list[child_id];
-    resetElement("content_one_area");
+    PjElm.reset("content_one_area");
     const area = document.getElementById("content_one_area");
     const h3 = document.createElement("h3");
     h3.innerText = info.title;
     area.appendChild(h3);
-    const row = document.createElement("div");
-    row.classList.add("row", "flex-row", "w-auto", "row_posts");
+    const row = PjElm.getDiv("", "row flex-row w-auto row_posts");
     const card_class = info.card_class;
     const json_arr = info.fixed_arr != null ? info.fixed_arr : PjContents.getContents(child_id);
     if (typeof json_arr != "undefined") {
@@ -57,7 +54,7 @@ const switchDispRow = (parent_id, child_id) => {
         }
     }
     else {
-        row.appendChild(getDiv("※データが見つかりませんでした※", "text-muted text-center"));
+        row.appendChild(PjElm.getDiv("※データが見つかりませんでした※", "text-muted text-center"));
     }
     area.appendChild(row);
 }
@@ -84,7 +81,7 @@ const switchTab = (parent_id, child_id) => {
     }
 }
 const initTabPosts = () => {
-    resetElement("tab_posts");
+    PjElm.reset("tab_posts");
     const tab_posts = document.getElementById("tab_posts");
     for (let x in parented_row_info_list) {
         const row_info_list = parented_row_info_list[x];
@@ -120,24 +117,3 @@ const initTabPosts = () => {
         }
     };
 }
-const compareDateString = (a, b, isAsc = true) => {
-    if (a == b) {
-        return 0;
-    }
-    if (a == null) {
-        if (b == null) {
-            return 0;
-        }
-        else {
-            return 1;
-        }
-    }
-    else {
-        if (b == null) {
-            return -1;
-        }
-        else {
-            return (isAsc ? 1 : -1) * (new Date(a).getTime() < new Date(b).getTime() ? 1 : -1);
-        }
-    }
-};

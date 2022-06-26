@@ -20,41 +20,43 @@ const initAllCards = () => {
     modal_area.appendChild(getModal());
 }
 const getCardCol = (m, is_normal = false) => {
-    const col = getDiv("", "col px-1 py-3 d-flex justify-content-center align-items-center" + (is_normal ? " sort_item" : ""));
-    col.appendChild(getCard(m));
+    const col = PjElm.getDiv(getCard(m), "col px-1 py-3 d-flex justify-content-center align-items-center");
+    if (is_normal) {
+        col.classList.add("sort_item");
+    }
     col.setAttribute("data-implemented-order", m.id);
     const index = musics.findIndex((m_base) => { return m_base.id == m.id });
     col.setAttribute("data-musics-index", index);
     return col;
 }
 const getCard = (m) => {
-    const card = getDiv("", "card card_music");
+    const card = PjElm.getDiv("", "card card_music");
     //header
-    const card_header = getDiv(m.title, "card-header d-flex justify-content-between align-items-center");
+    const card_header = PjElm.getDiv(m.title, "card-header d-flex justify-content-between align-items-center");
     card_header.appendChild(getModalButton(m));
     card.appendChild(card_header);
     //body
-    const card_body = getDiv("", "card-body text-center");
-    const img_wrap = getDiv("", "img_wrap");
+    const card_body = PjElm.getDiv("", "card-body text-center");
+    const img_wrap = PjElm.getDiv("", "img_wrap");
     let img = null;
     for (let u of m.urls) {
         if (u instanceof PlayingMovie) {
-            img = getImg(u.thumb_src, "imgYouTube");
+            img = PjElm.getImg(u.thumb_src, "imgYouTube");
             //img_wrap.classList.add("playing_movie");
             break;
         }
         if (u instanceof Link) {
             if (u.domain == Link.domain.youtube) {
-                img = getImg(u.thumb_src, "imgYouTube");
+                img = PjElm.getImg(u.thumb_src, "imgYouTube");
                 break;
             }
             else if (u.domain == Link.domain.niconico) {
                 if (u.thumb_src.startsWith(Link.thumb_info.niconico.hq_head)) {
-                    img = getImg(u.thumb_src, "imgYouTube");
+                    img = PjElm.getImg(u.thumb_src, "imgYouTube");
                     break;
                 }
                 else {
-                    img = getImg(u.thumb_src, "imgYouTube");
+                    img = PjElm.getImg(u.thumb_src, "imgYouTube");
                     img_wrap.classList.add("niconico");
                     break;
                 }
@@ -62,37 +64,33 @@ const getCard = (m) => {
         }
     }
     if (img == null) {
-        img = getImg("./img/img_not_found.png", "imgYouTube");
+        img = PjElm.getImg("./img/img_not_found.png", "imgYouTube");
     }
     img_wrap.appendChild(img);
     const note_text = getNoteText(m.note);
     if (note_text.length) {
-        const note_tag = document.createElement("div");
-        note_tag.innerText = note_text;
-        note_tag.classList.add("note");
-        img_wrap.appendChild(note_tag);
+        img_wrap.appendChild(PjElm.getDiv(note_text, "note"));
     }
-    img_wrap.appendChild(getDiv("", "cover"));
+    img_wrap.appendChild(PjElm.getDiv("", "cover"));
     card_body.appendChild(img_wrap);
     card.appendChild(card_body);
     //footer
-    const card_footer = getDiv("", "card-footer small d-flex justify-content-between align-items-center");
-    card_footer.appendChild(getDiv("#" + m.id, "text-muted small"));
-    const text_footer = getDiv("", "text-muted text-end small");
+    const card_footer = PjElm.getDiv("", "card-footer small d-flex justify-content-between align-items-center");
+    card_footer.appendChild(PjElm.getDiv("#" + m.id, "text-muted small"));
+    const text_footer = PjElm.getDiv("", "text-muted text-end small");
     text_footer.id = card_id.footer.replace("{id}", m.id);
     card_footer.appendChild(text_footer);
     card.appendChild(card_footer);
     return card;
 }
 const getModal = () => {
-    const modal = getDiv("", "modal fade");
+    const modal = PjElm.getDiv("", "modal fade");
     modal.id = modal_music_id.main;
     modal.tabindex = -1;
     modal.setAttribute("aria-hidden", true);
-    const modal_dialog = getDiv("", "modal-dialog modal-dialog-scrollable");
-    const modal_content = getDiv("", "modal-content");
-    const modal_header = getDiv("", "modal-header");
-    const modal_title = getElm("h5", "{title}", "modal-title");
+    const modal_content = PjElm.getDiv("", "modal-content");
+    const modal_header = PjElm.getDiv("", "modal-header");
+    const modal_title = PjElm.getElm("h5", "{title}", "modal-title");
     modal_title.id = modal_music_id.title;
     modal_header.appendChild(modal_title);
     const modal_close_button = document.createElement("button");
@@ -101,15 +99,14 @@ const getModal = () => {
     modal_close_button.setAttribute("aria-label", "Close");
     modal_header.appendChild(modal_close_button);
     modal_content.appendChild(modal_header);
-    const modal_body = getDiv("{body}", "modal-body");
+    const modal_body = PjElm.getDiv("{body}", "modal-body");
     modal_body.id = modal_music_id.body;
     modal_content.appendChild(modal_body);
-    modal_dialog.appendChild(modal_content);
-    modal.appendChild(modal_dialog);
+    modal.appendChild(PjElm.getDiv(modal_content, "modal-dialog modal-dialog-scrollable"));
     return modal;
 }
 const getModalButton = (m) => {
-    const button = getIcon("circle-info");
+    const button = PjElm.getIcon("circle-info");
     button.addEventListener("click", () => {
         showModal(m.id);
     })
@@ -127,7 +124,7 @@ const showModal = (() => {
         }, time, () => {
             const m = [...musics, ...future_musics].find((m) => { return m.id == id });
             document.getElementById(modal_music_id.title).innerText = m.title;
-            resetElement(modal_music_id.body);
+            PjElm.reset(modal_music_id.body);
             document.getElementById(modal_music_id.body).appendChild(getDetailTable(m));
             $(`#${modal_music_id.title},#${modal_music_id.body}`).animate({ opacity: 1 }, time);
             modal.show();
@@ -150,39 +147,37 @@ const getDetailTable = (m) => {
     return table;
 }
 const getSimpleTr = (title, text) => {
-    let tr = getTr();
-    tr.appendChild(getTh(title, "th_detail"));
-    tr.appendChild(getTd(text));
+    let tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh(title, "th_detail"));
+    tr.appendChild(PjElm.getTd(text));
     return tr;
 }
 const getUrlTr = (m) => {
-    let tr = getTr();
-    tr.appendChild(getTh("URL"));
-    let td = getTd();
-    let url_list = m.urls.map(u => u.getAnchorTag());
-    td.appendChild(concatElms(url_list, getBr()));
-    tr.appendChild(td);
+    let tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh("URL"));
+    tr.appendChild(PjElm.getTd(PjElm.concat(m.urls.map(u => u.getAnchorTag()), PjElm.getBr())));
     return tr;
 }
 const getNewCreatorTr = (m) => {
     if (m.creators.some(c => !c.hasRole)) {
         //ロールがなにも定義されていないクリエイターが1人でもいる場合、単純にリンクのみ並べる
-        let tr = getTr();
-        tr.appendChild(getTh("クリエイター"));
-        let td = getTd();
-        td.appendChild(concatElms(m.creators.map(c => c.getAnchorTag()), getBr()));
-        tr.appendChild(td);
+        let tr = PjElm.getTr();
+        tr.appendChild(PjElm.getTh("クリエイター"));
+        tr.appendChild(PjElm.getTd(PjElm.concat(m.creators.map(c => c.getAnchorTag()), PjElm.getBr())));
         return tr;
     }
-    let tr = getTr();
-    tr.appendChild(getTh("クリエイター"));
+    const tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh("クリエイター"));
     const getSubTr = (title, arr) => {
-        const tr_sub = getTr();
-        const th_sub = getTh(title, "align-middle text-center");
+        const tr_sub = PjElm.getTr();
+        const th_sub = PjElm.getTh(title, "align-middle text-center");
         tr_sub.appendChild(th_sub);
-        const td_sub = getTd();
-        td_sub.appendChild(arr.length ? concatElms(arr.map(c => c.getAnchorTag()), getBr()) : getSpan("-"));
-        tr_sub.appendChild(td_sub);
+        if (arr.length > 0) {
+            tr_sub.appendChild(PjElm.getTd(PjElm.concat(arr.map(c => c.getAnchorTag()), PjElm.getBr())));
+        }
+        else {
+            tr_sub.appendChild(PjElm.getTd("-"));
+        }
         return tr_sub;
     }
     const table = document.createElement("table");
@@ -197,69 +192,59 @@ const getNewCreatorTr = (m) => {
         }
     }
     table.appendChild(tbody);
-    const td = getTd("", "my-0 py-0");
+    const td = PjElm.getTd("", "my-0 py-0");
     td.appendChild(table);
     tr.appendChild(td);
     return tr;
 }
 const getMainUnitTr = (m) => {
-    let tr = getTr();
-    tr.appendChild(getTh("ユニット"));
+    const tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh("ユニット"));
     switch (m.main_unit) {
         case "other":
-            tr.appendChild(getTd("その他"));
+            tr.appendChild(PjElm.getTd("その他"));
             break;
         case "inst":
-            tr.appendChild(getTd("その他"));
+            tr.appendChild(PjElm.getTd("その他"));
             break;
         case "unclassified":
-            tr.appendChild(getTd("???"));
+            tr.appendChild(PjElm.getTd("???"));
             break;
         default:
-            tr.appendChild(getTd(Unit.units[m.main_unit].fullName));
+            tr.appendChild(PjElm.getTd(Unit.units[m.main_unit].fullName));
             break;
     }
     return tr;
 }
 const getVocalTr = (m) => {
-    let tr = getTr();
-    tr.appendChild(getTh("ボーカル"));
-    let vocal_list = [];
-    for (let v of m.vocals) {
-        if (Object.keys(Vocal.type).includes(v.type)) {
-            vocal_list.push(v);
-        }
-    }
+    const tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh("ボーカル"));
     const table = document.createElement("table");
     table.className = "table table-sm my-0 table_sub";
     const tbody = document.createElement("tbody");
-    for (let v of vocal_list) {
-        const tr_sub = getTr();
-        const th_sub = getTh("", "align-middle text-center");
-        th_sub.appendChild(Vocal.getIcon(v.type));
-        tr_sub.appendChild(th_sub);
+    for (let v of m.vocals) {
+        const tr_sub = PjElm.getTr();
+        tr_sub.appendChild(PjElm.getTh(Vocal.getIcon(v.type), "align-middle text-center"));
         if (v.type == "april") {
-            const td = getTd();
+            const td = PjElm.getTd();
             const s = document.createElement("s");
             s.innerText = v.str;
             td.appendChild(s);
             tr_sub.appendChild(td);
         }
         else {
-            tr_sub.appendChild(getTd(v.str));
+            tr_sub.appendChild(PjElm.getTd(v.str));
         }
         tbody.appendChild(tr_sub);
     }
     table.appendChild(tbody);
-    const td = getTd("", "my-0 py-0");
-    td.appendChild(table);
+    const td = PjElm.getTd(table, "my-0 py-0");
     tr.appendChild(td);
-    //tr.appendChild(getTd(vocal_list.join("\n")));
     return tr;
 }
 const getRelatedMusicsTr = (m) => {
-    let tr = getTr();
-    tr.appendChild(getTh("同クリエイターの\n収録楽曲"));
+    let tr = PjElm.getTr();
+    tr.appendChild(PjElm.getTh("同クリエイターの\n収録楽曲"));
     let related_music_list = [];
     for (let m2 of musics) {
         if (m.id == m2.id) {
@@ -269,7 +254,7 @@ const getRelatedMusicsTr = (m) => {
         for (let c of m.creators) {
             for (let c2 of m2.creators) {
                 if (Creator.isSame(c, c2)) {
-                    let a = document.createElement("a");
+                    const a = document.createElement("a");
                     a.innerText = m2.title;
                     a.classList.add("jump", "disabled");
                     a.onclick = () => {
@@ -286,12 +271,10 @@ const getRelatedMusicsTr = (m) => {
         }
     }
     if (related_music_list.length > 0) {
-        let td = getTd("");
-        td.appendChild(concatElms(related_music_list, getBr()));
-        tr.appendChild(td);
+        tr.appendChild(PjElm.getTd(PjElm.concat(related_music_list, PjElm.getBr())));
     }
     else {
-        tr.appendChild(getTd("なし"));
+        tr.appendChild(PjElm.getTd("なし"));
     }
     return tr;
 }

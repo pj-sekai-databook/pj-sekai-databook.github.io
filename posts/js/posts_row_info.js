@@ -37,7 +37,7 @@ const parented_row_info_list = (() => {
             }
         }
         return arr.sort((a, b) => {
-            return compareDate(a.posted_date, b.posted_date, false);
+            return PjDate.compare(a.posted_date, b.posted_date, false);
         });
     };
     return {

@@ -10,7 +10,7 @@ const getSortFunc = (type, is_asc) => {
             return (a, b) => {
                 const ma = musics[a.getAttribute("data-musics-index")];
                 const mb = musics[b.getAttribute("data-musics-index")];
-                const comp = compareDate(ma.date_posted, mb.date_posted, is_asc);
+                const comp = PjDate.compare(ma.date_posted, mb.date_posted, is_asc);
                 if (comp == 0) {
                     return (getSortFunc("implemented", is_asc))(a, b);
                 }

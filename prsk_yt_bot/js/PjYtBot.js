@@ -1,6 +1,6 @@
 class PjYtBot {
     static sort_func = {
-        date: (a, b) => { return compareDate(a.date, b.date, false) },
+        date: (a, b) => { return PjDate.compare(a.date, b.date, false) },
         view: (a, b) => { return b.view - a.view }
     }
     static getJson = (() => {
@@ -36,8 +36,8 @@ class PjYtBot {
     }
 }
 const createYtTable = (sort_func) => {
-    resetElement("div_calc_date");
-    resetElement("table_json");
+    PjElm.reset("div_calc_date");
+    PjElm.reset("table_json");
     if (PjYtBot.calc_date == null) {
         document.getElementById("div_calc_date").innerText = "※データの取得に失敗しました";
         return;
@@ -46,43 +46,41 @@ const createYtTable = (sort_func) => {
     const table = document.getElementById("table_json");
     const thead = document.createElement("thead");
     thead.classList.add("text-center");
-    const tr_head = getTr();
-    tr_head.appendChild(getTh("動画"));
+    const tr_head = PjElm.getTr();
+    tr_head.appendChild(PjElm.getTh("動画"));
     tr_head.appendChild(getSortTh("再生数", PjYtBot.sort_func.view));
     tr_head.appendChild(getSortTh("投稿日", PjYtBot.sort_func.date));
     thead.appendChild(tr_head);
     table.appendChild(thead);
     const tbody = document.createElement("tbody");
     for (let item of PjYtBot.contents.sort(sort_func)) {
-        const tr = getTr();
-        const td_video = getTd();
-        td_video.appendChild(Link.getAnchorTag(item.title, item.link));
-        tr.appendChild(td_video);
-        tr.appendChild(getTd(item.view.toLocaleString(), "text-end"));
-        tr.appendChild(getTd(item.date_str));
+        const tr = PjElm.getTr();
+        tr.appendChild(PjElm.getTd((Link.getAnchorTag(item.title, item.link))));
+        tr.appendChild(PjElm.getTd(item.view.toLocaleString(), "text-end"));
+        tr.appendChild(PjElm.getTd(item.date_str));
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
 }
 const getSortTh = (text, func) => {
-    const th = getTh(text, "sortable");
+    const th = PjElm.getTh(text, "sortable");
     th.onclick = () => createYtTable(func);
     return th;
 }
 const createHistTable = () => {
-    resetElement("table_hist");
+    PjElm.reset("table_hist");
     const table = document.getElementById("table_hist");
     const thead = document.createElement("thead");
-    const tr_head = getTr();
-    tr_head.appendChild(getTh("更新日"));
-    tr_head.appendChild(getTh("更新内容"));
+    const tr_head = PjElm.getTr();
+    tr_head.appendChild(PjElm.getTh("更新日"));
+    tr_head.appendChild(PjElm.getTh("更新内容"));
     thead.appendChild(tr_head);
     table.appendChild(thead);
     const tbody = document.createElement("tbody");
     for (let item of hist) {
-        const tr = getTr();
-        tr.appendChild(getTd(item.date));
-        const td_detail = getTd();
+        const tr = PjElm.getTr();
+        tr.appendChild(PjElm.getTd(item.date));
+        const td_detail = PjElm.getTd();
         td_detail.innerHTML = item.html;
         tr.appendChild(td_detail);
         tbody.appendChild(tr);

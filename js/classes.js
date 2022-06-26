@@ -91,10 +91,6 @@ class Music {
         }
 
         const tmp_unit_note = (() => {
-            //カップヌードルタイアップ曲には「その他」ユニットを追加する
-            if (this.note.includes("cupnoodle")) {
-                return "other";
-            }
             //書き下ろし楽曲のユニット指定があれば追加する
             const item = this.note.find(x => x.match(/^newlyWritten_/));
             if (typeof item != "undefined") {
@@ -112,6 +108,11 @@ class Music {
         })();
 
         this.units = (() => {
+            //カップヌードル曲は無条件で「その他」のみになったので、最初に処理しておく。
+            if (this.note.includes("cupnoodle")) {
+                return ["other"];
+            }
+
             let tmp_units = [];
             for (let v of vocals) {
                 switch (v.type) {
@@ -145,19 +146,16 @@ class Music {
             return tmp_units;
         })();
 
-        this.main_unit = Music.getMainUnit(this);
-    }
-    static getMainUnit = (() => {
-        const prior_list = ["inst", "other", "leo", "more", "vivid", "wonder", "night", "virtual"];
-        return (m) => {
+        this.main_unit = (() => {
+            const prior_list = ["inst", "other", "leo", "more", "vivid", "wonder", "night", "virtual"];
             for (const p of prior_list) {
-                if (m.units.includes(p)) {
+                if (this.units.includes(p)) {
                     return p;
                 }
             }
             return "unclassified";
-        }
-    })();
+        })();
+    }
 }
 class Vocal {
     static type = {
@@ -206,15 +204,15 @@ class Vocal {
     static getIcon(type) {
         switch (type) {
             case Vocal.type.virtual:
-                return getIcon("keyboard", "バーチャル・シンガーVer.");
+                return PjElm.getIcon("keyboard", "バーチャル・シンガーVer.");
             case Vocal.type.sekai:
-                return getIcon("globe", "セカイVer.");
+                return PjElm.getIcon("globe", "セカイVer.");
             case Vocal.type.another:
-                return getIcon("user-plus", "アナザーボーカルVer.");
+                return PjElm.getIcon("user-plus", "アナザーボーカルVer.");
             case Vocal.type.inst:
-                return getIcon("headphones-alt", "Inst Ver.");
+                return PjElm.getIcon("headphones-alt", "Inst Ver.");
             case Vocal.type.april:
-                return getIcon("face-grin-wide", "エイプリルフールVer.");
+                return PjElm.getIcon("face-grin-wide", "エイプリルフールVer.");
             default:
                 throw new RangeError("undefined vocaltype");
         }
@@ -262,16 +260,15 @@ class Link {
         }
     }
     static getAnchorTag(title, link, domain = null) {
-        if (domain == null) {
+        if (PjUtil.isEmpty(domain)) {
             domain = Link.getDomain(link);
         }
         if (domain == "youtu.be") {
             domain = Link.domain.youtube;
         }
-        let span = document.createElement("span");
-        let a = getA(title, link, true);
-        span.appendChild(getImg(`https://www.google.com/s2/favicons?domain=${domain}`));
-        span.appendChild(a);
+        const span = PjElm.getSpan();
+        span.appendChild(PjElm.getFavicon(domain));
+        span.appendChild(PjElm.getA(title, link));
         return span;
     }
     static getThumbnailSrc(link, domain = null, href_id = null) {

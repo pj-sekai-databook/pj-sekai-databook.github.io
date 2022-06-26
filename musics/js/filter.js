@@ -9,10 +9,10 @@ const initFilter = () => {
         const c = Character.characters_vocal[i];
         if (prev_unit_name != c.unit) {
             if (prev_unit_arr.indexOf(c.unit) >= 0) {
-                area.appendChild(getDiv("その他 (" + Unit.units[c.unit].fullName + ")", "form-text"));
+                area.appendChild(PjElm.getDiv("その他 (" + Unit.units[c.unit].fullName + ")", "form-text"));
             }
             else {
-                area.appendChild(getDiv(Unit.units[c.unit].fullName, "form-text"));
+                area.appendChild(PjElm.getDiv(Unit.units[c.unit].fullName, "form-text"));
                 prev_unit_arr.push(c.unit);
             }
             prev_unit_name = c.unit;
@@ -33,7 +33,7 @@ const initFilter = () => {
         area.appendChild(label);
     }
     if (Object.keys(filter_etc).length > 0) {
-        area.appendChild(getDiv("その他", "form-text"));
+        area.appendChild(PjElm.getDiv("その他", "form-text"));
         for (const i in filter_etc) {
             const checkbox = document.createElement("input");
             checkbox.type = "checkbox";
