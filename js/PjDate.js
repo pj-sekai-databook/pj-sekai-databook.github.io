@@ -21,4 +21,18 @@ class PjDate {
             }
         }
     }
+    static format(date, format) {
+        if (date instanceof Date) {
+            return format
+                .replace("yyyy", PjUtil.zeroPad(date.getFullYear(), 4))
+                .replace("MM", PjUtil.zeroPad(date.getMonth() + 1, 2))
+                .replace("dd", PjUtil.zeroPad(date.getDate(), 2))
+                .replace("HH", PjUtil.zeroPad(date.getHours(), 2))
+                .replace("mm", PjUtil.zeroPad(date.getMinutes(), 2))
+                .replace("ss", PjUtil.zeroPad(date.getSeconds(), 2));
+        }
+        else {
+            return format.replace(/[yMdHms]/g, "-");
+        }
+    }
 }

@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
     PjContents.initJson();
     document.getElementById("div_created_date").innerText
-        = `最終更新日: ${formatDateTime(PjContents.getCreatedDate())}`;
+        = `最終更新日: ${PjDate.format(PjContents.getCreatedDate(), "yyyy/MM/dd HH:mm")}`;
     initTabPosts();
     const query = getQueryParameters();
     if (typeof query.type != "undefined") {

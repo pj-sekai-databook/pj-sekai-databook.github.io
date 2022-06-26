@@ -135,8 +135,8 @@ const getDetailTable = (m) => {
     const table = document.createElement("table");
     table.className = "table table-border small align-middle";
     const tbody = document.createElement("tbody");
-    tbody.appendChild(getSimpleTr("楽曲投稿日", formatDate(m.date_posted)));
-    tbody.appendChild(getSimpleTr("ゲーム収録日", formatDate(m.date_implemented)));
+    tbody.appendChild(getSimpleTr("楽曲投稿日", PjDate.format(m.date_posted, "yyyy/MM/dd")));
+    tbody.appendChild(getSimpleTr("ゲーム収録日", PjDate.format(m.date_implemented, "yyyy/MM/dd")));
     tbody.appendChild(getNewCreatorTr(m));
     tbody.appendChild(getMainUnitTr(m));
     tbody.appendChild(getVocalTr(m));

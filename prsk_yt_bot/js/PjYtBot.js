@@ -8,17 +8,17 @@ class PjYtBot {
         return () => {
             if (json == null) {
                 $.ajax({
-                    url: `https://pj-sekai-databook.github.io/prsk_yt_bot_json/prsk_yt_bot.json?${formatDateTimeSecond(new Date()).replace(/[^0-9]/g, "")}`,
+                    url: `https://pj-sekai-databook.github.io/prsk_yt_bot_json/prsk_yt_bot.json?${new Date().getTime()}`,
                     type: "GET",
                     dataType: "json",
                     async: false
                 }).done((e) => {
                     json = e;
-                    json.date = formatDateTime(new Date(json.date));
+                    json.date = PjDate.format(new Date(json.date), "yyyy/MM/dd HH:mm");
                     for (let i = 0; i < json.contents.length; ++i) {
                         json.contents[i].view = Number(json.contents[i].view);
                         json.contents[i].date = new Date(json.contents[i].date);
-                        json.contents[i].date_str = formatDate(json.contents[i].date);
+                        json.contents[i].date_str = PjDate.format(json.contents[i].date, "yyyy/MM/dd");
                     }
                 }).fail((e) => {
                     window.alert(e);

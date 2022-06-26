@@ -21,4 +21,7 @@ class PjUtil {
             }
         }
     }
+    static zeroPad(val, len) {
+        return String(val).padStart(len, "0");
+    }
 }
