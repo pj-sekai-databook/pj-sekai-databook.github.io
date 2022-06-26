@@ -7,7 +7,6 @@ class PjLoader {
         const base_dir = depth > 1 ? ".." + "/..".repeat(depth - 2) : ".";
         const base_list = [
             `${base_dir}/js/header.js`,
-            `${base_dir}/js/funcs.js`,
             `${base_dir}/js/PjUtil.js`,
             `${base_dir}/js/PjDate.js`,
             `${base_dir}/js/PjElm.js`,

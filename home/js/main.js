@@ -12,7 +12,7 @@ const initSlider = () => {
     addLinkFromMusics(2, "www.youtube.com");
     addLinkFromMusics(3, "www.youtube.com");
     addLinkFromMusics(2, "www.youtube.com");
-    link_obj_list = shuffleArr(link_obj_list);
+    link_obj_list = PjUtil.shuffleArr(link_obj_list);
     for (let i = 0; i < link_obj_list.length; ++i) {
         let d = getSliderDiv(link_obj_list[i], s, "youtube");
         document.getElementById("slick-body").appendChild(d);
@@ -91,7 +91,7 @@ const addLinkFromMusics = (d, domain) => {
     }
 }
 const findLinkFromMusics = (d, domain) => {
-    let m = musics[randomInt(musics.length)];
+    let m = musics[PjUtil.randomInt(musics.length)];
     for (let u of m.urls) {
 
         if (u instanceof MV && u.d == d && u.domain == domain) {
@@ -106,18 +106,18 @@ const addLinkObj = (type) => {
     switch (type) {
         case "2dmv":
         case "four_frame":
-            thumbnail = fourFrameList[randomInt(fourFrameList.length)];
+            thumbnail = fourFrameList[PjUtil.randomInt(fourFrameList.length)];
             text = "【セカイの4コマ】" + thumbnail.url.title;
             break;
         case "after_talk":
-            thumbnail = afterTalkList[randomInt(afterTalkList.length)];
+            thumbnail = afterTalkList[PjUtil.randomInt(afterTalkList.length)];
             text = "【アフタートーク】" + thumbnail.url.title;
             break;
     }
     link_obj_list.push({ type, thumbnail, link: thumbnail.url.link, text });
 }
 const addLinkFromFourFrames = () => {
-    const t = fourFrameList[randomInt(fourFrameList.length)];
+    const t = fourFrameList[PjUtil.randomInt(fourFrameList.length)];
     link_obj_list.push({ type: "four_frame", thumbnail: t, link: t.url.link, text: "【セカイの4コマ】" + t.url.title });
 }
 const getSizeInfo = () => {
