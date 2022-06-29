@@ -10,7 +10,6 @@ class PjLoader {
             `${base_dir}/js/PjUtil.js`,
             `${base_dir}/js/PjDate.js`,
             `${base_dir}/js/PjElm.js`,
-            `${base_dir}/js/constructors.js`,
             `${base_dir}/js/Creator.js`,
             `${base_dir}/js/classes.js`,
             `${base_dir}/js/musics.js`

@@ -3,7 +3,7 @@ class PjContents {
     static initJson = () => {
         const is_develop = PjUtil.getQueryParameters().mode == "develop";
         $.ajax({
-            url: "https://pj-sekai-databook.github.io/json/posts" + (is_develop ? "_dev" : "") + ".json",
+            url: `https://pj-sekai-databook.github.io/json/posts${is_develop ? "_dev" : ""}.json`,
             type: "GET",
             dataType: "json",
             async: false

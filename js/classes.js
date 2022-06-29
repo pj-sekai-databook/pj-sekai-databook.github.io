@@ -318,8 +318,8 @@ class MV extends Link {
 class PlayingMovie extends Link {
     constructor(diff_param, href, date) {
         let title = null;
-        for (let k in DiffParam) {
-            if (DiffParam[k] == diff_param) {
+        for (let k in Diff.param) {
+            if (Diff.param[k] == diff_param) {
                 title = `プレイ動画(${k})`;
                 break;
             }
@@ -329,5 +329,25 @@ class PlayingMovie extends Link {
         }
         super(title, href, date);
         this.diff_param = diff_param;
+    }
+}
+class Diff {
+    constructor(easy, normal, hard, expert, master) {
+        this.val = [
+            easy ?? 0,
+            normal ?? 0,
+            hard ?? 0,
+            expert ?? 0,
+            master ?? 0
+        ];
+        this.str = this.val.map(x => x == 0 ? "--" : x).join(" / ");
+        this.isValid = this.val.every(x => x > 0);
+    }
+    static param = {
+        EASY: 0,
+        NORMAL: 1,
+        HARD: 2,
+        EXPERT: 3,
+        MASTER: 4
     }
 }

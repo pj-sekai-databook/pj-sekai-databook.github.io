@@ -171,8 +171,8 @@ const setStatResult = (mode) => {
                 if (main_unit == "inst") {
                     main_unit = "other";
                 }
-                if (isValidDiff(m.diff)) {
-                    stat.addValue(main_unit, m.diff[4], `${m.title}(Lv.${m.diff[4]})`);
+                if (m.diff.isValid) {
+                    stat.addValue(main_unit, m.diff.val[4], `${m.title}(Lv.${m.diff.val[4]})`);
                 }
             }
             break;
@@ -182,9 +182,9 @@ const setStatResult = (mode) => {
                 let arr = [];
                 for (let c of m.creators) {
                     let l = Creator.links[c.name];
-                    if (typeof l != "undefined" && !arr.includes(l) && isValidDiff(m.diff)) {
+                    if (typeof l != "undefined" && !arr.includes(l) && m.diff.isValid) {
                         arr.push(l);
-                        stat.addValue(l, m.diff[4], `${m.title}(Lv.${m.diff[4]})`);
+                        stat.addValue(l, m.diff.val[4], `${m.title}(Lv.${m.diff.val[4]})`);
                     }
                 }
             }

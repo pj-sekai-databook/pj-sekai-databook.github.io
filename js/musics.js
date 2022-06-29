@@ -12,7 +12,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=PqJNc9KVIZE"),
             new MV(3, "https://www.youtube.com/watch?v=UUaVUWCPv_Y", mDate(2020, 12, 9), ["miku"])
         ],
-        Diff(5, 10, 16, 22, 26)
+        new Diff(5, 10, 16, 22, 26)
     ),
     new Music("ネクストネスト",
         [
@@ -27,7 +27,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=ajlDAQeWQKE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23881953")
         ],
-        Diff(6, 13, 18, 27, 29)
+        new Diff(6, 13, 18, 27, 29)
     ),
     new Music("メルト",
         [
@@ -42,7 +42,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm1715919"),
             new Link("10th ANNIVERSARY MIX", "https://www.youtube.com/watch?v=4YHUamjfJ0k")
         ],
-        Diff(7, 12, 17, 25, 28)
+        new Diff(7, 12, 17, 25, 28)
     ),
     new Music("初音ミクの消失",
         [
@@ -57,7 +57,7 @@ const musics = [
             new Link("10周年リメイク", "https://www.youtube.com/watch?v=VWVtIg5cdDU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm2937784")
         ],
-        Diff(9, 15, 22, 30, 35)
+        new Diff(9, 15, 22, 30, 35)
     ),
     new Music("Blessing",
         [
@@ -72,7 +72,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=E4tIHBx7bqc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23304692")
         ],
-        Diff(5, 11, 16, 23, 27)
+        new Diff(5, 11, 16, 23, 27)
     ),
     new Music("alive",
         [
@@ -87,7 +87,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=y7RfoyBJxCg"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37597218")
         ],
-        Diff(6, 11, 16, 23, 26),
+        new Diff(6, 11, 16, 23, 26),
         "contest"
     ),
     new Music("ロキ",
@@ -106,7 +106,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32798041"),
             new MV(3, "https://www.youtube.com/watch?v=PD8PHqWuSUI", mDate(2020, 12, 25), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(7, 11, 17, 24, 28)
+        new Diff(7, 11, 17, 24, 28)
     ),
     new Music("テオ",
         [
@@ -127,7 +127,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31533883"),
             new MV(3, "https://www.youtube.com/watch?v=RCULeLioEnc", mDate(2021, 1, 18), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(9, 14, 19, 27, 32)
+        new Diff(9, 14, 19, 27, 32)
     ),
     new Music("ヒバナ -Reloaded-",
         [
@@ -148,7 +148,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31685272"),
             new MV(2, "https://www.youtube.com/watch?v=i16qWEUjd4o", mDate(2021, 2, 20), ["miku_leo", "ichika"])
         ],
-        Diff(9, 14, 19, 28, 32)
+        new Diff(9, 14, 19, 28, 32)
     ),
     new Music("ハッピーシンセサイザ",
         [
@@ -171,7 +171,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=xD3amnjfxac", mDate(2021, 3, 19), ["minori", "haruka", "airi", "shizuku"]),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1RkUmg_BgFw")
         ],
-        Diff(6, 11, 18, 24, 28)
+        new Diff(6, 11, 18, 24, 28)
     ),
     new Music("Nostalogic",
         [
@@ -188,7 +188,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24848610")
         ],
-        Diff(6, 12, 17, 23, 28)
+        new Diff(6, 12, 17, 23, 28)
     ),
     new Music("ツギハギスタッカート",
         [
@@ -206,7 +206,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23762151"),
             new MV(3, "https://www.youtube.com/watch?v=6iwD9hM9ND4", mDate(2021, 1, 20), ["airi", "shizuku", "miku_more"])
         ],
-        Diff(6, 11, 16, 24, 27)
+        new Diff(6, 11, 16, 24, 27)
     ),
     new Music("劣等上等",
         [
@@ -226,7 +226,7 @@ const musics = [
             new Link("マジカルミライ2018", "https://www.youtube.com/watch?v=T7-AXotDMDE"),
             new Link("マジカルミライ2018", "https://www.nicovideo.jp/watch/so33838374")
         ],
-        Diff(7, 12, 18, 25, 30)
+        new Diff(7, 12, 18, 25, 30)
     ),
     new Music("ドクター＝ファンクビート",
         [
@@ -243,7 +243,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=CPxxurEcGTw"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm26470008")
         ],
-        Diff(8, 13, 19, 27, 32)
+        new Diff(8, 13, 19, 27, 32)
     ),
     new Music("フラジール",
         [
@@ -264,7 +264,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=WDWgBLrw-Jg", mDate(2021, 1, 22), ["akito", "toya"]),
             new MV(2, "https://www.youtube.com/watch?v=9kZ6MPqj9Tg", mDate(2020, 12, 3), ["akito", "toya"])
         ],
-        Diff(6, 11, 17, 24, 27)
+        new Diff(6, 11, 17, 24, 27)
     ),
     new Music("ブリキノダンス",
         [
@@ -282,7 +282,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm20296308"),
             new MV(3, "https://www.youtube.com/watch?v=msnpPsYN2oM", mDate(2021, 1, 25), ["len", "rui", "tsukasa"])
         ],
-        Diff(8, 13, 18, 25, 29)
+        new Diff(8, 13, 18, 25, 29)
     ),
     new Music("スイートマジック",
         [
@@ -303,7 +303,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=gPimbh-jxCo", mDate(2021, 1, 11), ["rin", "tsukasa", "emu", "nene", "rui"]),
             new MV(2, "https://www.youtube.com/watch?v=nNe6o3ivrXA", mDate(2021, 6, 4), ["rin", "tsukasa", "emu", "nene", "rui"])
         ],
-        Diff(5, 12, 18, 24, 27)
+        new Diff(5, 12, 18, 24, 27)
     ),
     new Music("ぼうけんのしょがきえました！",
         [
@@ -320,7 +320,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24909819"),
             new MV(2, "https://www.youtube.com/watch?v=_oe2F3tgKIk", mDate(2022, 6, 23), ["tsukasa", "emu", "rin", "len"])
         ],
-        Diff(8, 13, 19, 26, 31)
+        new Diff(8, 13, 19, 26, 31)
     ),
     new Music("シャルル",
         [
@@ -340,7 +340,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm29854242"),
             new MV(3, "https://www.youtube.com/watch?v=diTjDNKgjLE", mDate(2021, 1, 27), ["ena", "mizuki"])
         ],
-        Diff(6, 11, 17, 23, 27)
+        new Diff(6, 11, 17, 23, 27)
     ),
     new Music("ハロ／ハワユ",
         [
@@ -356,7 +356,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=-M4sAQYi6r4"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm11448603")
         ],
-        Diff(5, 10, 15, 22, 26)
+        new Diff(5, 10, 15, 22, 26)
     ),
     new Music("自傷無色",
         [
@@ -373,7 +373,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=LEEyYKrEvvk", mDate(2021, 1, 15), ["miku_night", "kanade", "mafuyu"]),
             new MV(2, "https://www.youtube.com/watch?v=n7ZmBBf5-7g", mDate(2021, 6, 15), ["miku_night", "kanade", "mafuyu"])
         ],
-        Diff(5, 10, 17, 22, 26)
+        new Diff(5, 10, 17, 22, 26)
     ),
     new Music("needLe",
         [
@@ -393,7 +393,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=buoYwfZG4vQ"),
             new MV(3, "https://www.youtube.com/watch?v=kXGtXnq1iF8", mDate(2020, 12, 11), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(7, 12, 17, 25, 29),
+        new Diff(7, 12, 17, 25, 29),
         "newlyWritten"
     ),
     new Music("アイドル新鋭隊",
@@ -410,7 +410,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=4QL9tLfVFJg"),
             new MV(3, "https://www.youtube.com/watch?v=3yQWZcYXcgg", mDate(2020, 12, 14), ["miku_more", "airi", "haruka", "minori", "shizuku"])
         ],
-        Diff(8, 12, 17, 24, 28),
+        new Diff(8, 12, 17, 24, 28),
         "newlyWritten"
     ),
     new Music("Ready Steady",
@@ -429,7 +429,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37601066"),
             new MV(3, "https://www.youtube.com/watch?v=cj3y6DBjyvs", mDate(2020, 12, 16), ["miku_vivid", "kohane", "akito", "toya", "an"])
         ],
-        Diff(5, 10, 16, 25, 29),
+        new Diff(5, 10, 16, 25, 29),
         "newlyWritten"
     ),
     new Music("セカイはまだ始まってすらいない",
@@ -449,7 +449,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36685972"),
             new MV(3, "https://www.youtube.com/watch?v=cFExVIRuGso", mDate(2020, 12, 18), ["miku_wonder", "tsukasa", "nene", "emu", "rui"])
         ],
-        Diff(6, 13, 16, 24, 29),
+        new Diff(6, 13, 16, 24, 29),
         "newlyWritten"
     ),
     new Music("悔やむと書いてミライ",
@@ -470,7 +470,7 @@ const musics = [
             new Link("セルフカバー", "https://www.nicovideo.jp/watch/sm36723146"),
             new MV(3, "https://www.youtube.com/watch?v=an_gDTrVdHo", mDate(2020, 12, 21), ["miku_night", "mizuki", "kanade", "mafuyu", "ena"])
         ],
-        Diff(8, 13, 17, 26, 30),
+        new Diff(8, 13, 17, 26, 30),
         "newlyWritten"
     ),
     new Music("セカイ",
@@ -489,7 +489,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=9vyIPWBeRes"),
             new MV(3, "https://www.youtube.com/watch?v=jxP2_vihhpM", mDate(2020, 12, 4), ["ichika", "tsukasa", "kanade", "miku"])
         ],
-        Diff(6, 12, 18, 23, 27),
+        new Diff(6, 12, 18, 23, 27),
         "newlyWritten,theme"
     ),
     new Music("ワーワーワールド",
@@ -508,7 +508,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37301259"),
             new MV(3, "https://www.youtube.com/watch?v=GJbEn1srk3Y", mDate(2020, 12, 7), ["miku", "kohane", "minori"])
         ],
-        Diff(7, 12, 17, 24, 28),
+        new Diff(7, 12, 17, 24, 28),
         "newlyWritten,theme"
     ),
     new Music("アスノヨゾラ哨戒班",
@@ -525,7 +525,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=XogSflwXgpw"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24276234")
         ],
-        Diff(8, 12, 17, 25, 28)
+        new Diff(8, 12, 17, 25, 28)
     ),
     new Music("ニア",
         [
@@ -544,7 +544,7 @@ const musics = [
             new Link("セルフカバー", "https://www.youtube.com/watch?v=7uacnNTk7I8"),
             new MV(3, "https://www.youtube.com/watch?v=mzZOoZqDly4", mDate(2021, 2, 1), ["minori", "haruka", "miku_more"])
         ],
-        Diff(6, 11, 16, 22, 26)
+        new Diff(6, 11, 16, 22, 26)
     ),
     new Music("Just Be Friends",
         [
@@ -562,7 +562,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm7528841"),
             new MV(2, "https://www.youtube.com/watch?v=esaV1kjzg_Q", mDate(2020, 10, 3), ["luka"])
         ],
-        Diff(6, 11, 17, 23, 27)
+        new Diff(6, 11, 17, 23, 27)
     ),
     new Music("脱法ロック",
         [
@@ -579,7 +579,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=u5mHVUwDf_0"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm29081909")
         ],
-        Diff(7, 13, 18, 26, 31)
+        new Diff(7, 13, 18, 26, 31)
     ),
     new Music("命に嫌われている",
         [
@@ -600,7 +600,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=F7iqxHOth58", mDate(2020, 9, 26, 0), ["miku_night", "kanade"]),
             new MV(2, "https://www.youtube.com/watch?v=wNxrGUf6G0A", mDate(2020, 9, 26, 1), ["kanade"], "アナザー")
         ],
-        Diff(9, 14, 18, 26, 29)
+        new Diff(9, 14, 18, 26, 29)
     ),
     new Music("ワールドイズマイン",
         [
@@ -614,7 +614,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3504435")
         ],
-        Diff(7, 13, 17, 24, 28)
+        new Diff(7, 13, 17, 24, 28)
     ),
     new Music("ダンスロボットダンス",
         [
@@ -633,7 +633,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm30177801"),
             new MV(3, "https://www.youtube.com/watch?v=rLt45Ylw5Ks", mDate(2022, 1, 1), ["miku_wonder", "emu", "nene"])
         ],
-        Diff(8, 13, 18, 26, 29)
+        new Diff(8, 13, 18, 26, 29)
     ),
     new Music("Hand in Hand",
         [
@@ -649,7 +649,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/so26654381"),
             new Link("マジカルミライ2015", "https://www.youtube.com/watch?v=s7h9tkfc7Eg")
         ],
-        Diff(6, 13, 16, 23, 27)
+        new Diff(6, 13, 16, 23, 27)
     ),
     new Music("夜咄ディセイブ",
         [
@@ -668,7 +668,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=aPDaFGqMX4I"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm20116702")
         ],
-        Diff(8, 14, 19, 26, 30)
+        new Diff(8, 14, 19, 26, 30)
     ),
     new Music("Gimme×Gimme",
         [
@@ -685,7 +685,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=ERo-sPa1a5g"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm35866152")
         ],
-        Diff(6, 11, 18, 26, 29)
+        new Diff(6, 11, 18, 26, 29)
     ),
     new Music("ビバハピ",
         [
@@ -703,7 +703,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm21443197"),
             new MV(2, "https://www.youtube.com/watch?v=zAkqd6iw-lo", mDate(2020, 10, 11), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
-        Diff(6, 12, 17, 24, 28)
+        new Diff(6, 12, 17, 24, 28)
     ),
     new Music("ジャンキーナイトタウンオーケストラ",
         [
@@ -718,7 +718,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=E1PGiyRjqkU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36109943")
         ],
-        Diff(6, 13, 18, 26, 31)
+        new Diff(6, 13, 18, 26, 31)
     ),
     new Music("ミラクルペイント",
         [
@@ -735,7 +735,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm1588476"),
             new MV(2, "https://www.youtube.com/watch?v=kU4Rth300FM", mDate(2020, 11, 2), ["miku_wonder", "tsukasa", "emu", "nene", "rui"])
         ],
-        Diff(9, 12, 18, 25, 29)
+        new Diff(9, 12, 18, 25, 29)
     ),
     new Music("on the rocks",
         [
@@ -750,7 +750,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=hk1L0ZV2bVc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23954284")
         ],
-        Diff(7, 11, 16, 23, 27)
+        new Diff(7, 11, 16, 23, 27)
     ),
     new Music("携帯恋話",
         [
@@ -767,7 +767,7 @@ const musics = [
             new Link("セルフカバー", "https://www.nicovideo.jp/watch/sm36903498"),
             new MV(2, "https://www.youtube.com/watch?v=kNLyqES4fC8", mDate(2020, 10, 15), ["miku_night", "ena", "mizuki"])
         ],
-        Diff(8, 12, 18, 25, 29),
+        new Diff(8, 12, 18, 25, 29),
         "newlyWritten"
     ),
     new Music("39みゅーじっく！",
@@ -783,7 +783,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=OuLZlZ18APQ"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm29145868")
         ],
-        Diff(6, 11, 16, 23, 28)
+        new Diff(6, 11, 16, 23, 28)
     ),
     new Music("青く駆けろ！",
         [
@@ -801,7 +801,7 @@ const musics = [
             new Link("WEBムービー", "https://www.youtube.com/watch?v=w3VTDaAYvmQ"),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=1ddmm-WEXSE")
         ],
-        Diff(8, 13, 17, 24, 27)
+        new Diff(8, 13, 17, 24, 27)
     ),
     new Music("ステラ",
         [
@@ -819,7 +819,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37828296"),
             new MV(3, "https://www.youtube.com/watch?v=oo2s6w-l1jQ", mDate(2021, 2, 5), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(8, 13, 17, 26, 30),
+        new Diff(8, 13, 17, 26, 30),
         "newlyWritten"
     ),
     new Music("Leia - Remind",
@@ -835,7 +835,7 @@ const musics = [
             new Link("原曲(Remind)", "https://www.youtube.com/watch?v=e0ddGWxyhUQ"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm13185918")
         ],
-        Diff(9, 13, 18, 25, 28)
+        new Diff(9, 13, 18, 25, 28)
     ),
     new Music("ジャックポットサッドガール",
         [
@@ -853,7 +853,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37716686"),
             new MV(2, "https://www.youtube.com/watch?v=J9kD9rYR088", mDate(2021, 8, 2), ["mafuyu", "miku_night", "kanade", "ena", "mizuki"])
         ],
-        Diff(9, 13, 18, 26, 29),
+        new Diff(9, 13, 18, 26, 29),
         "newlyWritten"
     ),
     new Music("メルティランドナイトメア",
@@ -871,7 +871,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32748202"),
             new MV(3, "https://www.youtube.com/watch?v=ZKbnmy82DZE", mDate(2021, 2, 3), ["minori", "shizuku", "haruka", "airi", "miku_more"])
         ],
-        Diff(6, 12, 17, 24, 26)
+        new Diff(6, 12, 17, 24, 26)
     ),
     new Music("乙女解剖",
         [
@@ -892,7 +892,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm34470195"),
             new MV(2, "https://www.youtube.com/watch?v=JluOv0KD9Wc", mDate(2022, 1, 14), ["mafuyu", "mizuki", "miku_night"])
         ],
-        Diff(5, 12, 16, 24, 27)
+        new Diff(5, 12, 16, 24, 27)
     ),
     new Music("potatoになっていく",
         [
@@ -910,7 +910,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36594334"),
             new MV(3, "https://www.youtube.com/watch?v=h_h1uJcLsAE", mDate(2021, 2, 8), ["miku_wonder", "emu", "rui", "tsukasa", "nene"])
         ],
-        Diff(5, 11, 17, 24, 28),
+        new Diff(5, 11, 17, 24, 28),
         "newlyWritten"
     ),
     new Music("ローリンガール",
@@ -926,7 +926,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=vnw8zURAxkU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm9714351"),
         ],
-        Diff(8, 12, 18, 26, 31)
+        new Diff(8, 12, 18, 26, 31)
     ),
     new Music("モア！ジャンプ！モア！",
         [
@@ -941,7 +941,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=SKbutknpQ_I", mDate(2021, 6, 21), ["airi", "miku_more", "minori", "haruka", "shizuku"]),
             new MV(2, "https://www.youtube.com/watch?v=vjCfKbwD17c", mDate(2020, 11, 19), ["airi", "miku_more", "minori", "haruka", "shizuku"], "ゲームサイズ")
         ],
-        Diff(9, 13, 18, 26, 31),
+        new Diff(9, 13, 18, 26, 31),
         "newlyWritten"
     ),
     new Music("裏表ラバーズ",
@@ -957,7 +957,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=b_cuMcDWwsI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm8082467")
         ],
-        Diff(8, 12, 18, 26, 30)
+        new Diff(8, 12, 18, 26, 30)
     ),
     new Music("アンノウン・マザーグース",
         [
@@ -972,7 +972,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=P_CSdxSGfaA"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31791630")
         ],
-        Diff(8, 12, 17, 26, 29)
+        new Diff(8, 12, 17, 26, 29)
     ),
     new Music("愛されなくても君がいる",
         [
@@ -987,7 +987,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=ygY2qObZv24"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37223770")
         ],
-        Diff(7, 12, 16, 23, 27)
+        new Diff(7, 12, 16, 23, 27)
     ),
     new Music("ウミユリ海底譚",
         [
@@ -1005,7 +1005,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm22960446"),
             new MV(3, "https://www.youtube.com/watch?v=7y8ufRaaZC4", mDate(2022, 1, 1), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(6, 13, 17, 23, 27)
+        new Diff(6, 13, 17, 23, 27)
     ),
     new Music("Forward",
         [
@@ -1024,7 +1024,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37937383"),
             new MV(3, "https://www.youtube.com/watch?v=t7hnsVAsWCo", mDate(2020, 12, 8), ["miku_vivid", "an", "akito", "toya", "kohane"])
         ],
-        Diff(6, 11, 16, 24, 28),
+        new Diff(6, 11, 16, 24, 28),
         "newlyWritten"
     ),
     new Music("独りんぼエンヴィー",
@@ -1045,7 +1045,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19466301"),
             new MV(3, "https://www.youtube.com/watch?v=luujC_Y4Wsw", mDate(2020, 12, 14), ["miku_night", "mizuki", "kanade"])
         ],
-        Diff(6, 11, 16, 22, 26)
+        new Diff(6, 11, 16, 22, 26)
     ),
     new Music("ニジイロストーリーズ",
         [
@@ -1065,7 +1065,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=eLIUBridZsw", mDate(2022, 3, 14), ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"]),
             new MV(2, "https://www.youtube.com/watch?v=EIUO-fPrkSo", mDate(2020, 12, 20), ["nene", "rui", "meiko", "kaito", "tsukasa", "emu"], "ゲームサイズ")
         ],
-        Diff(9, 13, 18, 25, 29),
+        new Diff(9, 13, 18, 25, 29),
         "newlyWritten"
     ),
     new Music("ODDS & ENDS",
@@ -1078,10 +1078,10 @@ const musics = [
         null,
         mDate(2020, 12, 24),
         [
-            new PlayingMovie(DiffParam.HARD, "https://www.youtube.com/watch?v=onaipOwQ_Ek"),
+            new PlayingMovie(Diff.param.HARD, "https://www.youtube.com/watch?v=onaipOwQ_Ek"),
             new Link("マジカルミライ2013", "https://www.youtube.com/watch?v=5kEoYWYnIIw")
         ],
-        Diff(8, 12, 18, 24, 29)
+        new Diff(8, 12, 18, 24, 29)
     ),
     new Music("ドラマツルギー",
         [
@@ -1099,7 +1099,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32076378"),
             new Link("Eve ver.", "https://www.youtube.com/watch?v=jJzw1h5CR-I")
         ],
-        Diff(7, 12, 17, 25, 28)
+        new Diff(7, 12, 17, 25, 28)
     ),
     new Music("グリーンライツ・セレナーデ",
         [
@@ -1117,7 +1117,7 @@ const musics = [
             new Link("マジカルミライ2018", "https://www.nicovideo.jp/watch/so33838432"),
             new Link("マジカルミライ2018", "https://www.youtube.com/watch?v=U1oeOZVtA84")
         ],
-        Diff(9, 14, 19, 27, 31)
+        new Diff(9, 14, 19, 27, 31)
     ),
     new Music("恋愛裁判",
         [
@@ -1136,7 +1136,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23750267"),
             new MV(2, "https://www.youtube.com/watch?v=mqrp4SfMJwk", mDate(2021, 8, 26), ["airi", "miku_more", "minori"])
         ],
-        Diff(6, 12, 17, 22, 27)
+        new Diff(6, 12, 17, 22, 27)
     ),
     new Music("＊ハロー、プラネット。",
         [
@@ -1152,7 +1152,7 @@ const musics = [
             new Link("10周年記念アレンジ", "https://www.youtube.com/watch?v=9IwAL4fCJzg"),
             new Link("10周年記念アレンジ", "https://www.nicovideo.jp/watch/sm35168447")
         ],
-        Diff(6, 10, 17, 24, 28)
+        new Diff(6, 10, 17, 24, 28)
     ),
     new Music("千本桜",
         [
@@ -1167,7 +1167,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm15630734")
         ],
-        Diff(7, 14, 20, 26, 32)
+        new Diff(7, 14, 20, 26, 32)
     ),
     new Music("ECHO",
         [
@@ -1186,7 +1186,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24643818"),
             new MV(2, "https://www.youtube.com/watch?v=4z9Mg8sbFeU", mDate(2021, 5, 4), ["luka", "kohane", "an", "akito", "toya"])
         ],
-        Diff(6, 12, 16, 23, 26)
+        new Diff(6, 12, 16, 23, 26)
     ),
     new Music("チュルリラ・チュルリラ・ダッダッダ！",
         [
@@ -1205,7 +1205,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=ZiZkXbivmh4", mDate(2022, 1, 26), ["emu", "nene", "tsukasa", "rui"]),
             new Link("セルフカバー", "https://www.youtube.com/watch?v=t2iQNmVfhGY")
         ],
-        Diff(9, 13, 18, 26, 31)
+        new Diff(9, 13, 18, 26, 31)
     ),
     new Music("ブレス・ユア・ブレス",
         [
@@ -1222,7 +1222,7 @@ const musics = [
             new Link("マジカルミライ2019", "https://www.youtube.com/watch?v=7EEUU-yIN5c"),
             new Link("マジカルミライ2019", "https://www.nicovideo.jp/watch/so35671517")
         ],
-        Diff(7, 13, 17, 24, 28)
+        new Diff(7, 13, 17, 24, 28)
     ),
     new Music("とても痛い痛がりたい",
         [
@@ -1238,7 +1238,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=dBa8emykxEo"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19037197")
         ],
-        Diff(6, 13, 18, 23, 28)
+        new Diff(6, 13, 18, 23, 28)
     ),
     new Music("霽れを待つ",
         [
@@ -1257,7 +1257,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38099931"),
             new MV(2, "https://www.youtube.com/watch?v=70ZLvDTonqI", mDate(2021, 1, 10), ["miku_leo", "ichika", "saki", "honami", "shiho"])
         ],
-        Diff(7, 12, 17, 26, 30),
+        new Diff(7, 12, 17, 26, 30),
         "newlyWritten"
     ),
     new Music("ワールズエンド・ダンスホール",
@@ -1273,7 +1273,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=ZB75e7vzX0I"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm10759623")
         ],
-        Diff(7, 12, 18, 26, 30)
+        new Diff(7, 12, 18, 26, 30)
     ),
     new Music("ヒビカセ",
         [
@@ -1289,7 +1289,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=TkroHwQYpFE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24536934")
         ],
-        Diff(7, 12, 17, 25, 28)
+        new Diff(7, 12, 17, 25, 28)
     ),
     new Music("Color of Drops",
         [
@@ -1308,7 +1308,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=i5rl-NGSYoo"),
             new MV(3, "https://www.youtube.com/watch?v=vU-tfn7yyrQ", mDate(2021, 1, 29), ["shizuku", "minori", "haruka", "airi", "luka"])
         ],
-        Diff(6, 12, 16, 23, 27),
+        new Diff(6, 12, 16, 23, 27),
         "newlyWritten"
     ),
     new Music("RAD DOGS",
@@ -1326,7 +1326,7 @@ const musics = [
         [
             new MV(2, "https://www.youtube.com/watch?v=ZMbWDpC1N7s", mDate(2021, 2, 7), ["toya", "akito", "kohane", "an", "miku_vivid"])
         ],
-        Diff(6, 12, 18, 26, 30),
+        new Diff(6, 12, 18, 26, 30),
         "newlyWritten"
     ),
     new Music("ミルククラウン・オン・ソーネチカ",
@@ -1346,7 +1346,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm23404002"),
             new MV(2, "https://www.youtube.com/watch?v=xBVIHNosBTg", mDate(2022, 5, 24), ["minori", "shizuku", "miku_more"])
         ],
-        Diff(7, 13, 18, 26, 30)
+        new Diff(7, 13, 18, 26, 30)
     ),
     new Music("タイムマシン",
         [
@@ -1368,7 +1368,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=NHR3b9v_S0I", mDate(2021, 2, 10), ["ichika", "saki", "honami", "shiho", "miku_leo"]),
             new MV(2, "https://www.youtube.com/watch?v=s1yW2jPJiVE", mDate(2021, 7, 3), ["ichika", "saki", "miku_leo"])
         ],
-        Diff(6, 11, 16, 23, 26)
+        new Diff(6, 11, 16, 23, 26)
     ),
     new Music("drop pop candy",
         [
@@ -1386,7 +1386,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm24029703"),
             new MV(3, "https://www.youtube.com/watch?v=KxNII3csgw4", mDate(2021, 2, 15), ["kohane", "an", "rin", "luka"])
         ],
-        Diff(6, 12, 17, 25, 28)
+        new Diff(6, 12, 17, 25, 28)
     ),
     new Music("ポジティブ☆ダンスタイム",
         [
@@ -1407,7 +1407,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=BdTf_uKTqos", mDate(2021, 7, 20), ["rin", "emu", "nene"]),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=HBJ3HWq5c10")
         ],
-        Diff(9, 14, 18, 26, 31)
+        new Diff(9, 14, 18, 26, 31)
     ),
     new Music("Brand New Day",
         [
@@ -1422,7 +1422,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=2KrCmAWrrKI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37894731")
         ],
-        Diff(9, 14, 19, 28, 32),
+        new Diff(9, 14, 19, 28, 32),
         "next_1"
     ),
     new Music("限りなく灰色へ",
@@ -1442,7 +1442,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38335870"),
             new MV(3, "https://www.youtube.com/watch?v=qtJ6U4c0_fQ", mDate(2021, 4, 6), ["ena", "mizuki", "kanade", "rin", "mafuyu"])
         ],
-        Diff(6, 12, 18, 26, 30),
+        new Diff(6, 12, 18, 26, 30),
         "newlyWritten"
     ),
     new Music("ワンスアポンアドリーム",
@@ -1461,7 +1461,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38385642"),
             new MV(2, "https://www.youtube.com/watch?v=1RoDmN9n8xE", mDate(2021, 4, 21), ["emu", "len", "tsukasa", "nene", "rui"])
         ],
-        Diff(6, 11, 16, 22, 27),
+        new Diff(6, 11, 16, 22, 27),
         "newlyWritten"
     ),
     new Music("ボッカデラベリタ",
@@ -1479,7 +1479,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36731216"),
             new MV(2, "https://www.youtube.com/watch?v=ZjNUJUgyoOw", mDate(2021, 5, 27), ["mafuyu", "mizuki"])
         ],
-        Diff(7, 13, 18, 25, 28)
+        new Diff(7, 13, 18, 25, 28)
     ),
     new Music("みくみくにしてあげる♪【してやんよ】",
         [
@@ -1493,7 +1493,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm1097445")
         ],
-        Diff(7, 12, 17, 24, 28)
+        new Diff(7, 12, 17, 24, 28)
     ),
     new Music("威風堂々",
         [
@@ -1516,7 +1516,7 @@ const musics = [
             new MV(2, "https://www.youtube.com/watch?v=I36IQ3cEPAo", mDate(2022, 4, 26), ["kaito", "akito", "toya"]),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=6i79cbsbRrs")
         ],
-        Diff(6, 12, 17, 24, 28)
+        new Diff(6, 12, 17, 24, 28)
     ),
     new Music("from Y to Y",
         [
@@ -1533,7 +1533,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm6529016")
         ],
-        Diff(5, 11, 16, 24, 26)
+        new Diff(5, 11, 16, 24, 26)
     ),
     new Music("初音ミクの激唱",
         [
@@ -1549,7 +1549,7 @@ const musics = [
             new Link("原曲(2018Remake)", "https://www.youtube.com/watch?v=MFEaIgMkR_0"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm11328911")
         ],
-        Diff(9, 14, 20, 30, 33)
+        new Diff(9, 14, 20, 30, 33)
     ),
     new Music("天使のクローバー",
         [
@@ -1568,7 +1568,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38510568"),
             new MV(3, "https://www.youtube.com/watch?v=fYhFyk41rSw", mDate(2021, 3, 30), ["minori", "airi", "haruka", "shizuku", "rin"])
         ],
-        Diff(9, 13, 17, 27, 31),
+        new Diff(9, 13, 17, 27, 31),
         "newlyWritten"
     ),
     new Music("お気に召すまま",
@@ -1588,7 +1588,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32338124"),
             new MV(3, "https://www.youtube.com/watch?v=M_9lPZyS-eQ", mDate(2021, 4, 5), ["len", "emu", "tsukasa", "rui", "nene"])
         ],
-        Diff(6, 12, 18, 24, 28)
+        new Diff(6, 12, 18, 24, 28)
     ),
     new Music("どりーみんチュチュ",
         [
@@ -1607,7 +1607,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=WdHRGH1Qv70"),
             new MV(2, "https://www.youtube.com/watch?v=ZVnD_K972P8", mDate(2022, 2, 14), ["luka", "minori", "haruka", "airi", "shizuku"])
         ],
-        Diff(6, 13, 17, 23, 27)
+        new Diff(6, 13, 17, 23, 27)
     ),
     new Music("アイディスマイル",
         [
@@ -1628,7 +1628,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38667465"),
             new MV(3, "https://www.youtube.com/watch?v=QdYji4SVH3A", mDate(2021, 4, 19), ["mizuki", "ena", "kanade", "meiko", "mafuyu"])
         ],
-        Diff(7, 12, 17, 25, 28),
+        new Diff(7, 12, 17, 25, 28),
         "newlyWritten"
     ),
     new Music("「１」",
@@ -1649,7 +1649,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38662481"),
             new MV(2, "https://www.youtube.com/watch?v=_GdIO1AANg4", mDate(2021, 4, 28), ["shiho", "ichika", "luka", "saki", "honami"])
         ],
-        Diff(8, 13, 16, 23, 26),
+        new Diff(8, 13, 16, 23, 26),
         "newlyWritten"
     ),
     new Music("花を唄う",
@@ -1665,7 +1665,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=gmIcg1EHIac"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38186882")
         ],
-        Diff(6, 12, 19, 25, 30),
+        new Diff(6, 12, 19, 25, 30),
         "next_2"
     ),
     new Music("夜に駆ける",
@@ -1687,7 +1687,7 @@ const musics = [
             new Link("オリジナル", "https://www.youtube.com/watch?v=x8VYWazR5mE"),
             new Link("オリジナル", "https://www.nicovideo.jp/watch/sm35979548")
         ],
-        Diff(6, 11, 18, 25, 29),
+        new Diff(6, 11, 18, 25, 29),
         "tieup_Ayase"
     ),
     new Music("幽霊東京",
@@ -1707,7 +1707,7 @@ const musics = [
             new Link("セルフカバー", "https://www.youtube.com/watch?v=DtBoAqkIJzI"),
             new Link("セルフカバー", "https://www.nicovideo.jp/watch/sm36036629")
         ],
-        Diff(7, 13, 17, 24, 27),
+        new Diff(7, 13, 17, 24, 27),
         "tieup_Ayase"
     ),
     new Music("シネマ",
@@ -1727,7 +1727,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=mfYruS61p48", mDate(2021, 5, 8), ["kaito", "kohane", "toya", "akito", "an"]),
             new MV(2, "https://www.youtube.com/watch?v=8m1cUgLepmY", mDate(2021, 8, 17), ["akito", "kaito", "kohane", "an", "toya"])
         ],
-        Diff(6, 12, 18, 24, 29),
+        new Diff(6, 12, 18, 24, 29),
         "newlyWritten"
     ),
     new Music("KING",
@@ -1747,7 +1747,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37287661"),
             new MV(2, "https://www.youtube.com/watch?v=B45Q1AbiBWg", mDate(2021, 12, 23), ["tsukasa", "rui"])
         ],
-        Diff(7, 14, 19, 25, 29)
+        new Diff(7, 14, 19, 25, 29)
     ),
     new Music("アイノマテリアル",
         [
@@ -1764,7 +1764,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=YsVmtXmpGEI"),
             new MV(2, "https://www.youtube.com/watch?v=miLfbcfdqus", mDate(2021, 5, 29), ["haruka", "shizuku", "meiko", "minori", "airi"])
         ],
-        Diff(6, 11, 16, 22, 26),
+        new Diff(6, 11, 16, 22, 26),
         "newlyWritten"
     ),
     new Music("いかないで",
@@ -1783,7 +1783,7 @@ const musics = [
             new Link("原曲(remaster)", "https://www.youtube.com/watch?v=L0tcMxp8Iy8"),
             new MV(3, "https://www.youtube.com/watch?v=x7_chKm37m8", mDate(2021, 5, 28), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(8, 13, 18, 25, 29)
+        new Diff(8, 13, 18, 25, 29)
     ),
     new Music("ロミオとシンデレラ",
         [
@@ -1802,7 +1802,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm6666016"),
             new MV(3, "https://www.youtube.com/watch?v=mlTSkRO92S0", mDate(2021, 6, 7), ["miku_more", "airi", "shizuku"])
         ],
-        Diff(7, 12, 17, 24, 27)
+        new Diff(7, 12, 17, 24, 27)
     ),
     new Music("泡沫未来",
         [
@@ -1817,7 +1817,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=juOJFUVF12k"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38333228")
         ],
-        Diff(8, 12, 17, 25, 29),
+        new Diff(8, 12, 17, 25, 29),
         "next_3"
     ),
     new Music("トンデモワンダーズ",
@@ -1840,7 +1840,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38907008"),
             new MV(3, "https://www.youtube.com/watch?v=vI5xihka9hw", mDate(2021, 6, 19), ["kaito", "emu", "tsukasa", "nene", "rui"])
         ],
-        Diff(9, 14, 19, 27, 32),
+        new Diff(9, 14, 19, 27, 32),
         "newlyWritten"
     ),
     new Music("カナデトモスソラ",
@@ -1860,7 +1860,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40015219"),
             new MV(2, "https://www.youtube.com/watch?v=GTlQhMRHXIg", mDate(2021, 6, 28), ["kanade", "luka", "mafuyu", "ena", "mizuki"])
         ],
-        Diff(6, 11, 15, 22, 26),
+        new Diff(6, 11, 15, 22, 26),
         "newlyWritten"
     ),
     new Music("トラフィック・ジャム",
@@ -1880,7 +1880,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm35586514"),
             new MV(2, "https://www.youtube.com/watch?v=UyDytd1EZSk", mDate(2021, 12, 9), ["rin", "kohane", "an", "akito", "toya"])
         ],
-        Diff(6, 13, 18, 24, 28)
+        new Diff(6, 13, 18, 24, 28)
     ),
     new Music("フロムトーキョー",
         [
@@ -1901,7 +1901,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39105923"),
             new MV(3, "https://www.youtube.com/watch?v=ydf6PIlMuyE", mDate(2021, 7, 7), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(6, 12, 18, 24, 28),
+        new Diff(6, 12, 18, 24, 28),
         "newlyWritten"
     ),
     new Music("Beat Eater",
@@ -1921,7 +1921,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39046046"),
             new MV(2, "https://www.youtube.com/watch?v=DaWbq6KeJq4", mDate(2021, 7, 18), ["kohane", "len", "an", "akito", "toya"])
         ],
-        Diff(6, 11, 17, 25, 28),
+        new Diff(6, 11, 17, 25, 28),
         "newlyWritten"
     ),
     new Music("六兆年と一夜物語",
@@ -1941,7 +1941,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm17520775"),
             new MV(2, "https://www.youtube.com/watch?v=uDgikBUvIlQ", mDate(2021, 7, 12), ["miku_leo", "ichika"])
         ],
-        Diff(9, 14, 20, 29, 34)
+        new Diff(9, 14, 20, 29, 34)
     ),
     new Music("地球最後の告白を",
         [
@@ -1960,7 +1960,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm18198019"),
             new MV(2, "https://www.youtube.com/watch?v=jSwRwYVjRg8", mDate(2021, 7, 19), ["luka", "haruka", "shizuku"])
         ],
-        Diff(8, 13, 18, 25, 31)
+        new Diff(8, 13, 18, 25, 31)
     ),
     new Music("ビターチョコデコレーション",
         [
@@ -1980,7 +1980,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm34425299"),
             new MV(3, "https://www.youtube.com/watch?v=vnTW9sS-9P4", mDate(2021, 7, 28), ["miku_night", "mizuki", "mafuyu", "kanade", "ena"])
         ],
-        Diff(7, 12, 19, 25, 31)
+        new Diff(7, 12, 19, 25, 31)
     ),
     new Music("そうだった！",
         [
@@ -1995,7 +1995,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=gfdzYIPjhBU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38613334")
         ],
-        Diff(8, 14, 19, 27, 31),
+        new Diff(8, 14, 19, 27, 31),
         "next_4"
     ),
     new Music("カゲロウデイズ",
@@ -2016,7 +2016,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=EMGyiiTC7sg"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm15751190")
         ],
-        Diff(9, 14, 19, 27, 31)
+        new Diff(9, 14, 19, 27, 31)
     ),
     new Music("アイスドロップ",
         [
@@ -2033,7 +2033,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=WXvm5XfkXrk"),
             new MV(3, "https://www.youtube.com/watch?v=3_HXYLEP7aU", mDate(2021, 8, 18), ["len", "airi", "haruka", "shizuku", "minori"])
         ],
-        Diff(7, 12, 18, 24, 27),
+        new Diff(7, 12, 18, 24, 27),
         "newlyWritten"
     ),
     new Music("Glory Steady Go!",
@@ -2051,7 +2051,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39258986"),
             new MV(2, "https://www.youtube.com/watch?v=JoM4JGqQyCU", mDate(2021, 8, 28), ["nene", "luka", "tsukasa", "emu", "rui"])
         ],
-        Diff(7, 12, 18, 25, 30),
+        new Diff(7, 12, 18, 25, 30),
         "newlyWritten"
     ),
     new Music("チルドレンレコード",
@@ -2072,7 +2072,7 @@ const musics = [
             new Link("Re:boot", "https://www.youtube.com/watch?v=WEVgkh_7_0k"),
             new MV(3, "https://www.youtube.com/watch?v=jzecTyD0ljs", mDate(2021, 8, 23), ["len", "toya", "an", "akito", "kohane"])
         ],
-        Diff(9, 14, 19, 27, 32)
+        new Diff(9, 14, 19, 27, 32)
     ),
     new Music("magic number",
         [
@@ -2087,7 +2087,7 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=fzRWpcvPJYo")
         ],
-        Diff(6, 11, 18, 25, 29),
+        new Diff(6, 11, 18, 25, 29),
         "newlyWritten"
     ),
 
@@ -2105,7 +2105,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=8Zds1FvEtKw"),
             new MV(2, "https://www.youtube.com/watch?v=hZgbqUQI64E", mDate(2021, 9, 19), ["ichika", "meiko", "saki", "honami", "shiho"]),
         ],
-        Diff(8, 13, 17, 25, 30),
+        new Diff(8, 13, 17, 25, 30),
         "newlyWritten_leo"
     ),
     new Music("カトラリー",
@@ -2124,7 +2124,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=HHhFX9zUV2s"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32479585")
         ],
-        Diff(5, 12, 18, 25, 28)
+        new Diff(5, 12, 18, 25, 28)
     ),
     new Music("再生",
         [
@@ -2143,7 +2143,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39408553"),
             new MV(3, "https://www.youtube.com/watch?v=LLoHF639Jes", mDate(2021, 9, 29), ["mafuyu", "mizuki", "kanade", "ena", "rin"]),
         ],
-        Diff(5, 11, 15, 22, 26),
+        new Diff(5, 11, 15, 22, 26),
         "newlyWritten_night"
     ),
     new Music("群青讃歌",
@@ -2168,7 +2168,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=xs4RPTt4J0M", mDate(2021, 9, 30), ["ichika", "minori", "kohane", "tsukasa", "kanade", "miku"]),
             new Link("セカライ", "https://www.youtube.com/watch?v=xtLPqIeA07I")
         ],
-        Diff(7, 13, 17, 24, 27),
+        new Diff(7, 13, 17, 24, 27),
         "newlyWritten,theme"
     ),
     new Music("炉心融解",
@@ -2185,7 +2185,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=dSw8CucthGc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm8089993")
         ],
-        Diff(7, 12, 17, 24, 27)
+        new Diff(7, 12, 17, 24, 27)
     ),
     new Music("ロストワンの号哭",
         [
@@ -2206,7 +2206,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm20244918"),
             new MV(3, "https://www.youtube.com/watch?v=kIvTE89Yj2A", mDate(2021, 10, 2), ["ichika", "saki", "honami", "shiho", "rin"])
         ],
-        Diff(7, 14, 19, 26, 32)
+        new Diff(7, 14, 19, 26, 32)
     ),
     new Music("マシンガンポエムドール",
         [
@@ -2221,7 +2221,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=UgZFpO_Y6qo"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39426624")
         ],
-        Diff(9, 14, 23, 31, 34),
+        new Diff(9, 14, 23, 31, 34),
         "newlyWritten_virtual"
     ),
     new Music("ベノム",
@@ -2242,7 +2242,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33624822"),
             new Link("エイプリルフール2022", "https://www.youtube.com/watch?v=S3lC1oBfVNQ")
         ],
-        Diff(7, 13, 18, 26, 29)
+        new Diff(7, 13, 18, 26, 29)
     ),
     new Music("拝啓ドッペルゲンガー",
         [
@@ -2257,7 +2257,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=grdy6rLbQ-c"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31314079")
         ],
-        Diff(9, 13, 19, 28, 32)
+        new Diff(9, 13, 19, 28, 32)
     ),
     new Music("テレキャスタービーボーイ",
         [
@@ -2277,7 +2277,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=pWLhidOSYOs"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm34963198")
         ],
-        Diff(8, 13, 18, 25, 29)
+        new Diff(8, 13, 18, 25, 29)
     ),
     new Music("トキヲ・ファンカ",
         [
@@ -2292,7 +2292,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=bcLYdxMusHc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm20973557")
         ],
-        Diff(6, 11, 18, 25, 28)
+        new Diff(6, 11, 18, 25, 28)
     ),
     new Music("悪魔の踊り方",
         [
@@ -2309,7 +2309,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33141569"),
             new MV(3, "https://www.youtube.com/watch?v=lu0AF-JByA8", mDate(2021, 10, 8), ["rin", "kohane", "toya", "akito", "an"])
         ],
-        Diff(5, 12, 19, 26, 30)
+        new Diff(5, 12, 19, 26, 30)
     ),
     new Music("だれかの心臓になれたなら",
         [
@@ -2324,7 +2324,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=hZFBTnzKa54"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32727744")
         ],
-        Diff(7, 12, 18, 25, 29)
+        new Diff(7, 12, 18, 25, 29)
     ),
     new Music("マシュマリー",
         [
@@ -2341,7 +2341,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=qtuX4cHk-vE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm32528864")
         ],
-        Diff(8, 11, 18, 26, 29)
+        new Diff(8, 11, 18, 26, 29)
     ),
     new Music("右肩の蝶",
         [
@@ -2359,7 +2359,7 @@ const musics = [
             new Link("原曲(リンVer)", "https://www.youtube.com/watch?v=3b9fLkmgtdo"),
             new Link("原曲(リンVer)", "https://www.nicovideo.jp/watch/sm6609407"),
         ],
-        Diff(6, 12, 18, 25, 31)
+        new Diff(6, 12, 18, 25, 31)
     ),
     new Music("ray",
         [
@@ -2376,7 +2376,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=S-okMR4YUlo", mDate(2021, 10, 12), ["ichika", "saki", "honami", "shiho", "miku_leo"]),
             new MV(2, "https://www.youtube.com/watch?v=YkP0JMByjRM", mDate(2021, 10, 12), ["ichika", "miku_leo"])
         ],
-        Diff(6, 12, 16, 24, 26)
+        new Diff(6, 12, 16, 24, 26)
     ),
     new Music("Hello,world!",
         [
@@ -2392,7 +2392,7 @@ const musics = [
             new Link("オリジナル", "https://www.youtube.com/watch?v=rOU4YiuaxAM"),
             new MV(2, "https://www.youtube.com/watch?v=B1nUc7LfZYA", mDate(2021, 10, 14), ["ichika", "saki", "honami", "shiho", "miku_leo"])
         ],
-        Diff(9, 13, 17, 25, 29)
+        new Diff(9, 13, 17, 25, 29)
     ),
     new Music("しっくおぶはうす！",
         [
@@ -2407,7 +2407,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=B4A-edPIz-s"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39049587")
         ],
-        Diff(7, 13, 17, 26, 30),
+        new Diff(7, 13, 17, 26, 30),
         "next_5"
     ),
     new Music("ショウタイム・ルーラー",
@@ -2426,7 +2426,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=uDBVetc5JKo"),
             new MV(3, "https://www.youtube.com/watch?v=bKKxLK_1ae8", mDate(2021, 10, 29), ["rui", "tsukasa", "emu", "nene", "rin"])
         ],
-        Diff(9, 13, 19, 25, 31),
+        new Diff(9, 13, 19, 25, 31),
         "newlyWritten_wonder"
     ),
     new Music("Happy Halloween",
@@ -2445,7 +2445,7 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=1DcgczDzQPk")
         ],
-        Diff(5, 12, 16, 25, 30)
+        new Diff(5, 12, 16, 25, 30)
     ),
     new Music("ロウワー",
         [
@@ -2465,7 +2465,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39608927"),
             new MV(2, "https://www.youtube.com/watch?v=16M9oC-a5bY", mDate(2021, 11, 9), ["mizuki", "meiko", "kanade", "mafuyu", "ena"])
         ],
-        Diff(6, 12, 17, 26, 31),
+        new Diff(6, 12, 17, 26, 31),
         "newlyWritten_night"
     ),
     new Music("初音天地開闢神話",
@@ -2481,7 +2481,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=8J6SMoVd5BY"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39209934")
         ],
-        Diff(9, 14, 20, 28, 32)
+        new Diff(9, 14, 20, 28, 32)
     ),
     new Music("オルターエゴ",
         [
@@ -2497,7 +2497,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=DlIREQyaxu8"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm35546354")
         ],
-        Diff(8, 12, 17, 26, 31)
+        new Diff(8, 12, 17, 26, 31)
     ),
     new Music("STAGE OF SEKAI",
         [
@@ -2514,7 +2514,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39782705"),
             new MV(3, "https://www.youtube.com/watch?v=BNdJWYHa_xg", mDate(2021, 11, 18), ["ichika", "saki", "honami", "shiho", "len"])
         ],
-        Diff(8, 12, 17, 25, 30),
+        new Diff(8, 12, 17, 25, 30),
         "newlyWritten_leo"
     ),
     new Music("からくりピエロ",
@@ -2534,7 +2534,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm15022913"),
             new MV(3, "https://www.youtube.com/watch?v=R3CGPv9oeDk", mDate(2021, 11, 29), ["miku_more", "airi", "haruka", "minori", "shizuku"])
         ],
-        Diff(5, 11, 16, 23, 27)
+        new Diff(5, 11, 16, 23, 27)
     ),
     new Music("ワールドワイドワンダー",
         [
@@ -2551,7 +2551,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39771984"),
             new MV(2, "https://www.youtube.com/watch?v=aO_ZCaoojh4", mDate(2021, 12, 18), ["minori", "kaito", "haruka", "airi", "shizuku"])
         ],
-        Diff(6, 13, 18, 24, 28),
+        new Diff(6, 13, 18, 24, 28),
         "newlyWritten_more"
     ),
     new Music("悪ノ娘",
@@ -2567,7 +2567,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=W77q-kK8iA8"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm2916956")
         ],
-        Diff(6, 12, 17, 24, 27),
+        new Diff(6, 12, 17, 24, 27),
         "collab_悪ノ大罪"
     ),
     new Music("悪ノ召使",
@@ -2583,7 +2583,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=yzpNpaS0uLc"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3133304")
         ],
-        Diff(6, 12, 17, 24, 27),
+        new Diff(6, 12, 17, 24, 27),
         "collab_悪ノ大罪"
     ),
     new Music("去り人達のワルツ",
@@ -2598,7 +2598,7 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=jNBRyo54Tks")
         ],
-        Diff(8, 13, 17, 23, 28),
+        new Diff(8, 13, 17, 23, 28),
         "collab_悪ノ大罪, newlyWritten"
     ),
     new Music("ラストスコア",
@@ -2614,7 +2614,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=zAWu9BK_V5M"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39267476")
         ],
-        Diff(7, 13, 18, 26, 30),
+        new Diff(7, 13, 18, 26, 30),
         "next_6"
     ),
     new Music("フィクサー",
@@ -2633,7 +2633,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=srH34Tjjo9U"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm30868619")
         ],
-        Diff(6, 12, 19, 26, 31)
+        new Diff(6, 12, 19, 26, 31)
     ),
     new Music("ミライ",
         [
@@ -2652,7 +2652,7 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=7ub8n1J8ruY", mDate(2021, 12, 29), ["toya", "kohane", "an", "akito", "luka"]),
             new MV(2, "https://www.youtube.com/watch?v=X_u5UtcgrKw", mDate(2021, 12, 29), ["toya", "luka", "kohane", "an", "akito"])
         ],
-        Diff(6, 12, 18, 24, 28),
+        new Diff(6, 12, 18, 24, 28),
         "newlyWritten_vivid"
     ),
     new Music("ゴーストルール",
@@ -2672,7 +2672,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=KushW6zvazM"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm27965309")
         ],
-        Diff(9, 14, 19, 27, 32)
+        new Diff(9, 14, 19, 27, 32)
     ),
     new Music("ヴィラン",
         [
@@ -2691,7 +2691,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36332327"),
             new MV(3, "https://www.youtube.com/watch?v=gQD4GfgIqZA", mDate(2021, 12, 31), ["mizuki", "mafuyu"])
         ],
-        Diff(6, 13, 18, 25, 29)
+        new Diff(6, 13, 18, 25, 29)
     ),
     new Music("サンドリヨン 10th Anniversary",
         [
@@ -2708,7 +2708,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33759466"),
             new Link("原曲(無印)", "https://www.nicovideo.jp/watch/sm4410647")
         ],
-        Diff(6, 12, 17, 25, 28)
+        new Diff(6, 12, 17, 25, 28)
     ),
     new Music("少女レイ",
         [
@@ -2725,7 +2725,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33546451"),
             new MV(3, "https://www.youtube.com/watch?v=NpOR2QwvjPk", mDate(2022, 1, 2), ["miku_more", "haruka", "shizuku"])
         ],
-        Diff(7, 14, 17, 24, 27)
+        new Diff(7, 14, 17, 24, 27)
     ),
     new Music("ガランド",
         [
@@ -2741,7 +2741,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=SXC2wO1XdMI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33189938")
         ],
-        Diff(7, 13, 18, 24, 28),
+        new Diff(7, 13, 18, 24, 28),
     ),
 
     new Music("エンドマークに希望と涙を添えて",
@@ -2757,7 +2757,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=r3FFOl-LAM8"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm27724530")
         ],
-        Diff(9, 15, 23, 31, 35),
+        new Diff(9, 15, 23, 31, 35),
         "performai"
     ),
     new Music("the EmpErroR",
@@ -2772,7 +2772,7 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=eImN9Ov-tJg"),
         ],
-        Diff(9, 15, 23, 31, 36),
+        new Diff(9, 15, 23, 31, 36),
         "performai"
     ),
     new Music("Don't Fight The Music",
@@ -2785,9 +2785,9 @@ const musics = [
         null,
         mDate(2022, 1, 10),
         [
-            new PlayingMovie(DiffParam.MASTER, "https://www.youtube.com/watch?v=yyBsUVFFSKA")
+            new PlayingMovie(Diff.param.MASTER, "https://www.youtube.com/watch?v=yyBsUVFFSKA")
         ],
-        Diff(9, 15, 23, 30, 36),
+        new Diff(9, 15, 23, 30, 36),
         "performai"
     ),
     new Music("にっこり^^調査隊のテーマ",
@@ -2806,7 +2806,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39919568"),
             new MV(3, "https://www.youtube.com/watch?v=v7SYWS2jarw", mDate(2022, 1, 19), ["emu", "tsukasa", "nene", "miku_wonder", "rui"])
         ],
-        Diff(8, 12, 18, 27, 31),
+        new Diff(8, 12, 18, 27, 31),
         "newlyWritten_wonder"
     ),
     new Music("トリコロージュ",
@@ -2826,7 +2826,7 @@ const musics = [
             new Link("バーチャル・シンガーver(ミク)", "https://www.nicovideo.jp/watch/sm40094958"),
             new MV(2, "https://www.youtube.com/watch?v=M_ijFuoASt0", mDate(2022, 1, 29), ["kanade", "miku_night", "mafuyu", "ena", "mizuki"])
         ],
-        Diff(7, 13, 18, 24, 28),
+        new Diff(7, 13, 18, 24, 28),
         "newlyWritten_night"
     ),
     new Music("心拍数♯0822",
@@ -2845,7 +2845,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm11834233"),
             new MV(2, "https://www.youtube.com/watch?v=g6hGN-WNig0", mDate(2022, 6, 9), ["miku_leo", "ichika", "honami"])
         ],
-        Diff(5, 11, 16, 23, 26)
+        new Diff(5, 11, 16, 23, 26)
     ),
     new Music("うっせぇわ",
         [
@@ -2864,7 +2864,7 @@ const musics = [
             new Link("Ado ver.", "https://www.youtube.com/watch?v=Qp3b-RXtz4w"),
             new Link("Ado ver.", "https://www.nicovideo.jp/watch/sm37761910")
         ],
-        Diff(8, 12, 17, 24, 28),
+        new Diff(8, 12, 17, 24, 28),
         "tieup_Ado"
     ),
     new Music("踊",
@@ -2886,7 +2886,7 @@ const musics = [
             new Link("Ado ver.", "https://www.youtube.com/watch?v=YnSW8ian29w"),
             new Link("Ado ver.", "https://www.nicovideo.jp/watch/sm38668379")
         ],
-        Diff(6, 13, 18, 26, 29),
+        new Diff(6, 13, 18, 26, 29),
         "tieup_Ado"
     ),
     new Music("君色マリンスノウ",
@@ -2902,7 +2902,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=NwSriMki_UA"),
             new Link("原曲", "https://www.nicovideo.jp/watch/so39817429")
         ],
-        Diff(9, 14, 19, 28, 31),
+        new Diff(9, 14, 19, 28, 31),
         "collab_SNOW MIKU2022"
     ),
     new Music("愛して愛して愛して",
@@ -2920,7 +2920,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm25724827"),
             new MV(3, "https://www.youtube.com/watch?v=DsFlCC96EgU", mDate(2022, 2, 7), ["miku_night", "ena", "mafuyu"])
         ],
-        Diff(5, 12, 16, 25, 28)
+        new Diff(5, 12, 16, 25, 28)
     ),
     new Music("Flyer!",
         [
@@ -2938,7 +2938,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40047025"),
             new MV(3, "https://www.youtube.com/watch?v=5fQRNjyRuSY", mDate(2022, 2, 16), ["kohane", "toya", "an", "akito", "len"])
         ],
-        Diff(9, 12, 18, 24, 29),
+        new Diff(9, 12, 18, 24, 29),
         "newlyWritten_vivid"
     ),
     new Music("Peaky Peaky",
@@ -2955,7 +2955,7 @@ const musics = [
             new Link("バーチャル・シンガーver", "https://www.youtube.com/watch?v=GWuI8LXceYc"),
             new MV(2, "https://www.youtube.com/watch?v=IPIwkhKdQxM", mDate(2022, 2, 26), ["shiho", "ichika", "kaito", "saki", "honami"])
         ],
-        Diff(6, 12, 18, 25, 28),
+        new Diff(6, 12, 18, 25, 28),
         "newlyWritten_leo"
     ),
     new Music("ジウダス",
@@ -2971,7 +2971,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=3pl9alka_-A"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39675720")
         ],
-        Diff(7, 12, 18, 25, 28),
+        new Diff(7, 12, 18, 25, 28),
         "next_7"
     ),
     new Music("ナンセンス文学",
@@ -2992,7 +2992,7 @@ const musics = [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=OskXF3s0UT8"),
             new MV(2, "https://www.youtube.com/watch?v=aFx6y9HxDt0", mDate(2022, 2, 24), ["len", "tsukasa", "rui"])
         ],
-        Diff(7, 11, 18, 25, 29),
+        new Diff(7, 11, 18, 25, 29),
         "tieup_Eve"
     ),
     new Music("心予報",
@@ -3013,7 +3013,7 @@ const musics = [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=dJf4wCdLU18"),
             new MV(2, "https://www.youtube.com/watch?v=t5c8D1xbXtw", mDate(2022, 4, 7), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
-        Diff(6, 12, 18, 24, 28),
+        new Diff(6, 12, 18, 24, 28),
         "tieup_Eve"
     ),
     new Music("僕らまだアンダーグラウンド",
@@ -3032,7 +3032,7 @@ const musics = [
             new Link("Eve ver.", "https://www.youtube.com/watch?v=nBteO-bU78Y"),
             new MV(2, "https://www.youtube.com/watch?v=eb46opRRyLc", mDate(2022, 3, 4), ["miku_leo", "ichika", "shiho"])
         ],
-        Diff(7, 12, 18, 25, 28),
+        new Diff(7, 12, 18, 25, 28),
         "tieup_Eve"
     ),
     new Music("Miku",
@@ -3053,7 +3053,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=NocXEwsJGOQ"),
             new MV(3, "https://www.youtube.com/watch?v=Z21UcyNdXSQ", mDate(2022, 3, 9), ["minori", "kanade", "tsukasa", "kohane", "ichika", "miku"])
         ],
-        Diff(6, 12, 17, 24, 28)
+        new Diff(6, 12, 17, 24, 28)
     ),
     new Music("メタモリボン",
         [
@@ -3071,7 +3071,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=PulLO9CgBE0"),
             new MV(2, "https://www.youtube.com/watch?v=0BHY0Gs0ZZM", mDate(2022, 3, 18), ["shizuku", "rin", "minori", "haruka", "airi"])
         ],
-        Diff(5, 11, 16, 23, 26),
+        new Diff(5, 11, 16, 23, 26),
         "newlyWritten_more"
     ),
     new Music("いーあるふぁんくらぶ",
@@ -3090,7 +3090,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm18623327"),
             new MV(3, "https://www.youtube.com/watch?v=v_VDb-gxF5Y", mDate(2022, 3, 14), ["rin", "tsukasa", "nene", "emu", "rui"])
         ],
-        Diff(6, 12, 17, 24, 28)
+        new Diff(6, 12, 17, 24, 28)
     ),
     new Music("雨とペトラ",
         [
@@ -3106,7 +3106,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=PdfdOhYVU40"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm30789907")
         ],
-        Diff(9, 12, 18, 25, 29)
+        new Diff(9, 12, 18, 25, 29)
     ),
     new Music("ノマド",
         [
@@ -3125,7 +3125,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40227712"),
             new MV(3, "https://www.youtube.com/watch?v=GcuRzFt7juI", mDate(2022, 3, 29), ["ena", "rin", "mizuki", "mafuyu", "kanade"])
         ],
-        Diff(5, 11, 16, 23, 26),
+        new Diff(5, 11, 16, 23, 26),
         "newlyWritten_night"
     ),
 
@@ -3142,7 +3142,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=HOz-9FzIDf0"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm11809611")
         ],
-        Diff(9, 13, 18, 25, 30)
+        new Diff(9, 13, 18, 25, 30)
     ),
     new Music("ドーナツホール",
         [
@@ -3157,7 +3157,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=qnX2CdOBcDI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm22138447")
         ],
-        Diff(9, 14, 18, 25, 29)
+        new Diff(9, 14, 18, 25, 29)
     ),
 
     new Music("砂の惑星",
@@ -3173,7 +3173,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=AS4q9yaWJkI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31606995")
         ],
-        Diff(5, 11, 16, 23, 27)
+        new Diff(5, 11, 16, 23, 27)
     ),
     new Music("ルカルカ★ナイトフィーバー",
         [
@@ -3187,7 +3187,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm6119955")
         ],
-        Diff(7, 13, 18, 25, 29)
+        new Diff(7, 13, 18, 25, 29)
     ),
     new Music("ピアノ×フォルテ×スキャンダル",
         [
@@ -3202,7 +3202,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm5597663"),
             new Link("原曲", "https://www.youtube.com/watch?v=JQTl7IvOX0E")
         ],
-        Diff(6, 11, 18, 26, 30)
+        new Diff(6, 11, 18, 26, 30)
     ),
     new Music("千年の独奏歌",
         [
@@ -3216,7 +3216,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3122624")
         ],
-        Diff(5, 11, 16, 23, 27)
+        new Diff(5, 11, 16, 23, 27)
     ),
     new Music("88☆彡",
         [
@@ -3234,7 +3234,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40350149"),
             new MV(2, "https://www.youtube.com/watch?v=giOsLry_orw", mDate(2022, 4, 19), ["tsukasa", "kaito", "emu", "nene", "rui"])
         ],
-        Diff(9, 13, 18, 26, 29),
+        new Diff(9, 13, 18, 26, 29),
         "newlyWritten_wonder"
     ),
     new Music("ONESELF",
@@ -3250,7 +3250,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=0ahJ3_4hcL0"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39972552")
         ],
-        Diff(7, 14, 18, 27, 30),
+        new Diff(7, 14, 18, 27, 30),
         "next_8"
     ),
     new Music("PaⅢ.SENSATION",
@@ -3269,7 +3269,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm29648328"),
             new MV(3, "https://www.youtube.com/watch?v=VgRSxoqClkw", mDate(2022, 4, 18), ["miku_vivid", "an", "rin", "kohane"])
         ],
-        Diff(8, 12, 17, 24, 29)
+        new Diff(8, 12, 17, 24, 29)
     ),
     new Music("ダーリンダンス",
         [
@@ -3285,7 +3285,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=Rkrm5foi188"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm37441963")
         ],
-        Diff(7, 12, 17, 25, 30)
+        new Diff(7, 12, 17, 25, 30)
     ),
     new Music("オーダーメイド",
         [
@@ -3301,7 +3301,7 @@ const musics = [
             new Link("傘村家のボカロたちver.", "https://www.youtube.com/watch?v=sHXrqptOU2s"),
             new MV(3, "https://www.youtube.com/watch?v=eEs1PD_33EM", mDate(2022, 4, 29), ["ichika", "saki", "honami", "shiho", "luka"])
         ],
-        Diff(5, 11, 16, 21, 26),
+        new Diff(5, 11, 16, 21, 26),
         "newlyWritten_leo"
     ),
     new Music("アイデンティティ",
@@ -3318,7 +3318,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=M9moY0hEJRE"),
             new MV(2, "https://www.youtube.com/watch?v=YsSShYaKOvk", mDate(2022, 1, 10), ["miku_night", "kanade"])
         ],
-        Diff(9, 13, 18, 26, 31),
+        new Diff(9, 13, 18, 26, 31),
         "cupnoodle"
     ),
     new Music("青色絵具",
@@ -3335,7 +3335,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=_j5rd9kZIZw"),
             new MV(2, "https://www.youtube.com/watch?v=a-Xnb5Iw6Is", mDate(2022, 1, 21), ["miku", "shiho", "shizuku"])
         ],
-        Diff(6, 12, 16, 24, 27),
+        new Diff(6, 12, 16, 24, 27),
         "cupnoodle"
     ),
     new Music("コスモスパイス",
@@ -3353,7 +3353,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm39948783"),
             new MV(2, "https://www.youtube.com/watch?v=0qb27SBWZ38", mDate(2022, 2, 1), ["miku", "saki", "tsukasa"])
         ],
-        Diff(7, 12, 17, 25, 30),
+        new Diff(7, 12, 17, 25, 30),
         "cupnoodle"
     ),
     new Music("徳川カップヌードル禁止令",
@@ -3368,7 +3368,7 @@ const musics = [
         [
             new MV(2, "https://www.youtube.com/watch?v=jPXAgWkqbo4", mDate(2022, 2, 16), ["nene", "nenerobo", "mikudayo", "len", "kaito"])
         ],
-        Diff(8, 13, 19, 27, 31),
+        new Diff(8, 13, 19, 27, 31),
         "cupnoodle"
     ),
     new Music("サラマンダー",
@@ -3386,7 +3386,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=-H2PCK7DJsQ"),
             new MV(2, "https://www.youtube.com/watch?v=babaG-xuBQM", mDate(2022, 3, 12), ["miku", "akito", "ena"])
         ],
-        Diff(8, 12, 18, 25, 30),
+        new Diff(8, 12, 18, 25, 30),
         "cupnoodle"
     ),
     new Music("イフ",
@@ -3404,7 +3404,7 @@ const musics = [
             new Link("月詠みver.", "https://www.youtube.com/watch?v=Xt1x1s2eAno"),
             new MV(3, "https://www.youtube.com/watch?v=VsfcS_-b4j8", mDate(2022, 5, 8), ["haruka", "airi", "shizuku", "minori", "miku_more"])
         ],
-        Diff(6, 12, 18, 23, 27),
+        new Diff(6, 12, 18, 23, 27),
         "newlyWritten_more"
     ),
     new Music("ブラック★ロックシューター",
@@ -3419,7 +3419,7 @@ const musics = [
         [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm3645817")
         ],
-        Diff(7, 12, 16, 24, 27),
+        new Diff(7, 12, 16, 24, 27),
         "brsDF"
     ),
     new Music("妄想感傷代償連盟",
@@ -3437,7 +3437,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=8pGRdRhjX3o"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm30067009")
         ],
-        Diff(7, 12, 16, 23, 27)
+        new Diff(7, 12, 16, 23, 27)
     ),
     new Music("リモコン",
         [
@@ -3454,7 +3454,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=1st0XSY0VKQ"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm13612500")
         ],
-        Diff(7, 12, 17, 24, 29)
+        new Diff(7, 12, 17, 24, 29)
     ),
     new Music("月光",
         [
@@ -3471,7 +3471,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40545552"),
             new MV(2, "https://www.youtube.com/watch?v=E5Wu8Ir6kdQ", mDate(2022, 5, 29), ["akito", "meiko", "kohane", "an", "toya"])
         ],
-        Diff(5, 12, 18, 25, 29),
+        new Diff(5, 12, 18, 25, 29),
         "newlyWritten_vivid"
     ),
     new Music("アサガオの散る頃に",
@@ -3488,7 +3488,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=ugs4oVUNZ-o"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm25793676")
         ],
-        Diff(6, 12, 16, 21, 26)
+        new Diff(6, 12, 16, 21, 26)
     ),
     new Music("神のまにまに",
         [
@@ -3505,7 +3505,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm22831329"),
             new MV(3, "https://www.youtube.com/watch?v=cb1s5_U0wd0", mDate(2022, 5, 30), ["miku_wonder", "rui", "emu", "tsukasa", "nene"])
         ],
-        Diff(6, 13, 18, 25, 29)
+        new Diff(6, 13, 18, 25, 29)
     ),
     new Music("Awake Now",
         [
@@ -3523,7 +3523,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40550223"),
             new MV(2, "https://www.youtube.com/watch?v=BUyrhLRzAwU", mDate(2022, 6, 1), ["an", "miku_vivid", "kohane", "akito", "toya"])
         ],
-        Diff(6, 12, 17, 24, 30),
+        new Diff(6, 12, 17, 24, 30),
         "newlyWritten_vivid"
     ),
     new Music("阿吽のビーツ",
@@ -3540,7 +3540,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=SiqjnFhLq2U"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm31775813")
         ],
-        Diff(6, 13, 18, 23, 28)
+        new Diff(6, 13, 18, 23, 28)
     ),
     new Music("バグ",
         [
@@ -3556,7 +3556,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40676162"),
             new MV(2, "https://www.youtube.com/watch?v=2Ii7UBMxWVw", mDate(2022, 6, 18), ["mafuyu", "len", "kanade", "ena", "mizuki"])
         ],
-        Diff(9, 13, 19, 26, 32),
+        new Diff(9, 13, 19, 26, 32),
         "newlyWritten_night"
     ),
     new Music("グッバイ宣言",
@@ -3574,7 +3574,7 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=dHXC_ahjtEE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm36668789")
         ],
-        Diff(7, 12, 17, 26, 30)
+        new Diff(7, 12, 17, 26, 30)
     ),
     new Music("ヴァンパイア",
         [
@@ -3592,7 +3592,7 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm38387707"),
             new MV(3, "https://www.youtube.com/watch?v=8q-iWdjIbB0", mDate(2022, 6, 20), ["miku_more", "minori", "haruka", "airi", "shizuku"])
         ],
-        Diff(7, 12, 18, 25, 29)
+        new Diff(7, 12, 18, 25, 29)
     ),
     new Music("未完成讃歌",
         [
@@ -3607,9 +3607,28 @@ const musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=PmRtXlhzgAU"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40244309")
         ],
-        Diff(8, 12, 18, 27, 31),
+        new Diff(8, 12, 18, 27, 31),
         "next_9"
-    )
+    ),
+    new Music("星空のメロディー",
+        [
+            new Creator("ぽりふぉ", "ttt")
+        ],
+        [
+            new Vocal("sekai", ["nene", "meiko", "tsukasa", "emu", "rui"]),
+            new Vocal("another", ["emu"]),
+            new Vocal("another", ["nene"])
+        ],
+        mDate(2022, 6, 28),
+        mDate(2022, 6, 28),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=VznMASce0CM"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm40691459"),
+            new MV(3, "https://www.youtube.com/watch?v=22x2JzhqKnI", mDate(2022, 6, 28), ["nene", "rui", "tsukasa", "emu", "meiko"])
+        ],
+        new Diff(5, 11, 16, 24, 27),
+        "newlyWritten_wonder"
+    ),
 ];
 const future_musics = [
     new Music("脳漿炸裂ガール",
@@ -3624,20 +3643,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
         ],
-        Diff(0, 0, 0, 0, 32)
-    ),
-    new Music("書き下ろし楽曲(ぽりふぉ)",
-        [
-            new Creator("ぽりふぉ", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        Diff(),
-        "newlyWritten_wonder"
+        new Diff(0, 0, 0, 0, 32)
     ),
     new Music("それでもいいんだよ",
         [
@@ -3652,7 +3658,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=1AS0Mve80jQ"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm40524295")
         ],
-        Diff(),
+        new Diff(),
         "next_10"
     ),
     new Music("ぼくらの16bit戦争",
@@ -3670,7 +3676,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=XKTDNQ2sTvM"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm7610111")
         ],
-        Diff(0, 0, 0, 0, 33)
+        new Diff(0, 0, 0, 0, 33)
     ),
     new Music("メリュー",
         [
@@ -3686,7 +3692,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=Jak2qiq_jJo"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm26238908")
         ],
-        Diff()
+        new Diff()
     ),
     new Music("エイリアンエイリアン",
         [
@@ -3702,7 +3708,7 @@ const future_musics = [
             new Link("原曲", "https://www.youtube.com/watch?v=2t1NMRse6aI"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm28576299")
         ],
-        Diff()
+        new Diff()
     ),
 
     new Music("書き下ろし楽曲(jon-YAKITORY)",
@@ -3715,7 +3721,7 @@ const future_musics = [
         null,
         [
         ],
-        Diff(),
+        new Diff(),
         "newlyWritten_vivid"
     ),
     new Music("書き下ろし楽曲(和田たけあき)",
@@ -3728,7 +3734,7 @@ const future_musics = [
         null,
         [
         ],
-        Diff(),
+        new Diff(),
         "newlyWritten_leo"
     )
 ];
@@ -3742,7 +3748,7 @@ const future_musics = [
         null,
         [
         ],
-        Diff(),
+        new Diff(),
         ""
     ),
     */

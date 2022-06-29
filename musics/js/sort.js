@@ -27,8 +27,8 @@ const getSortFunc = (type, is_asc) => {
                 const ma = musics[a.getAttribute("data-musics-index")];
                 const mb = musics[b.getAttribute("data-musics-index")];
                 const index = type.slice(-1);
-                if (ma.diff == null) {
-                    if (mb.diff == null) {
+                if (!ma.diff.isValid) {
+                    if (!mb.diff.isValid) {
                         return (getSortFunc("implemented", is_asc))(a, b);
                     }
                     else {
@@ -36,11 +36,11 @@ const getSortFunc = (type, is_asc) => {
                     }
                 }
                 else {
-                    if (mb.diff == null) {
+                    if (!mb.diff.isValid) {
                         return -1;
                     }
                     else {
-                        const comp = (is_asc ? 1 : -1) * (ma.diff[index] - mb.diff[index]);
+                        const comp = (is_asc ? 1 : -1) * (ma.diff.val[index] - mb.diff.val[index]);
                         if (comp == 0) {
                             return (getSortFunc("implemented", is_asc))(a, b);
                         }
@@ -82,7 +82,7 @@ const updateFooter = (type) => {
                 text = PjDate.format(m.date_posted, "yyyy/MM/dd") + " 公開";
                 break;
             case "diff-4":
-                text = "MASTER Lv." + ((m.diff != null && m.diff[4] > 0) ? m.diff[4] : "--");
+                text = "MASTER Lv." + ((m.diff.isValid && m.diff.val[4] > 0) ? m.diff.val[4] : "--");
                 break;
         }
         document.getElementById(card_id.footer.replace("{id}", m.id)).innerText = text;

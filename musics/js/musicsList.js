@@ -141,7 +141,7 @@ const getDetailTable = (m) => {
     tbody.appendChild(getMainUnitTr(m));
     tbody.appendChild(getVocalTr(m));
     tbody.appendChild(getUrlTr(m));
-    tbody.appendChild(getSimpleTr("楽曲Lv.", getStrFromDiff(m.diff)));
+    tbody.appendChild(getSimpleTr("楽曲Lv.", m.diff.str));
     tbody.appendChild(getRelatedMusicsTr(m));
     table.appendChild(tbody);
     return table;
