@@ -1378,6 +1378,8 @@ const musics = [
         [
             new Vocal("virtual", ["rin", "luka"]),
             new Vocal("sekai", ["rin", "luka", "kohane", "an"]),
+            new Vocal("another", ["kohane"]),
+            new Vocal("another", ["an"])
         ],
         mDate(2014, 7, 18),
         mDate(2021, 2, 15),
@@ -2505,6 +2507,7 @@ const musics = [
             new Creator("棚橋 EDDY テルアキ", "fft")
         ],
         [
+            new Vocal("virtual", ["miku"]),
             new Vocal("sekai", ["honami", "ichika", "len", "saki", "shiho"])
         ],
         mDate(2021, 12, 22),
@@ -3629,22 +3632,23 @@ const musics = [
         new Diff(5, 11, 16, 24, 27),
         "newlyWritten_wonder"
     ),
-];
-const future_musics = [
     new Music("脳漿炸裂ガール",
         [
             new Creator("れるりり", "ttt")
         ],
         [
+            new Vocal("virtual", ["miku", "gumi"])
         ],
         mDate(2012, 10, 19),
-        null,
+        mDate(2022, 6, 30),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=Ey_NHZNYTeE"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
         ],
-        new Diff(0, 0, 0, 0, 32)
-    ),
+        new Diff(7, 13, 18, 28, 32)
+    )
+];
+const future_musics = [
     new Music("それでもいいんだよ",
         [
             new Creator("Ponchi♪", "fff")
