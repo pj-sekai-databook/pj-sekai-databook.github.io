@@ -3646,7 +3646,25 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm19133907")
         ],
         new Diff(7, 13, 18, 28, 32)
-    )
+    ),
+    new Music("ぼくらの16bit戦争",
+        [
+            new Creator("sasakure.UK", "ttt"),
+            new Creator("佐々木秀尚(有形ランペイジ)", "fff", "Gt"),
+            new Creator("二家元亮介(有形ランペイジ)", "fff", "Ba")
+        ],
+        [
+            new Vocal("virtual", ["gumi"])
+        ],
+        mDate(2009, 7, 12),
+        mDate(2022, 7, 1),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=XKTDNQ2sTvM"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm7610111"),
+            new Link("Remaster Ver", "https://www.youtube.com/watch?v=dHa5U03ebak")
+        ],
+        new Diff(6, 13, 17, 28, 33)
+    ),
 ];
 const future_musics = [
     new Music("それでもいいんだよ",
@@ -3664,23 +3682,6 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    ),
-    new Music("ぼくらの16bit戦争",
-        [
-            new Creator("sasakure.UK", "ttt"),
-            new Creator("佐々木秀尚", "fff", "Gt"),
-            new Creator("二家元亮介", "fff", "Ba")
-        ],
-        [
-            new Vocal("virtual", ["gumi"])
-        ],
-        mDate(2009, 7, 12),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=XKTDNQ2sTvM"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm7610111")
-        ],
-        new Diff(0, 0, 0, 0, 33)
     ),
     new Music("メリュー",
         [
