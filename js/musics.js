@@ -3665,6 +3665,23 @@ const musics = [
         ],
         new Diff(6, 13, 17, 28, 33)
     ),
+    new Music("メリュー",
+        [
+            new Creator("n-buna", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kanade", "mafuyu"])
+        ],
+        mDate(2015, 5, 12),
+        mDate(2022, 7, 4),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=Jak2qiq_jJo"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm26238908"),
+            new MV(3, "https://www.youtube.com/watch?v=JsORTuF4438", mDate(2022, 7, 4), ["miku_night", "kanade", "mafuyu"])
+        ],
+        new Diff(6, 11, 15, 22, 26)
+    )
 ];
 const future_musics = [
     new Music("それでもいいんだよ",
@@ -3682,22 +3699,6 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    ),
-    new Music("メリュー",
-        [
-            new Creator("n-buna", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "kanade", "mafuyu"])
-        ],
-        mDate(2015, 5, 12),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=Jak2qiq_jJo"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm26238908")
-        ],
-        new Diff()
     ),
     new Music("エイリアンエイリアン",
         [
