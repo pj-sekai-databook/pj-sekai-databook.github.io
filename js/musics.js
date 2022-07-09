@@ -241,7 +241,8 @@ const musics = [
         mDate(2020, 9, 30),
         [
             new Link("原曲", "https://www.youtube.com/watch?v=CPxxurEcGTw"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm26470008")
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm26470008"),
+            new MV(2, "https://www.youtube.com/watch?v=t1XM0ECUqTE", mDate(2022, 7, 6), ["kaito", "akito", "toya"])
         ],
         new Diff(8, 13, 19, 27, 32)
     ),

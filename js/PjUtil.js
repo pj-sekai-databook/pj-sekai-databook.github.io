@@ -1,6 +1,6 @@
 class PjUtil {
     static isEmpty(x) {
-        return typeof x == "undefined" || x == null || String(x).length == 0;
+        return String(x ?? "").length == 0;
     }
     static zeroPad(val, len) {
         return String(val).padStart(len, "0");
