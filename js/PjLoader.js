@@ -16,15 +16,17 @@ class PjLoader {
             `${base_dir}/js/musics.js`
         ];
         for (const src of [...base_list, ...list]) {
-            let request = new XMLHttpRequest();
-            request.open("GET", `${src}?v=${stamp}`, false);
-            request.send(null);
-            if (request.status == 200) {
+            $.ajax({
+                url: `${src}?v=${stamp}`,
+                type: "GET",
+                dataType: "text",
+                async: false
+            }).done((text) => {
                 const script = document.createElement("script");
                 script.setAttribute("data-depth", depth);
-                script.text = request.responseText;
+                script.text = text;
                 document.head.appendChild(script);
-            }
+            });
         }
     }
 }
