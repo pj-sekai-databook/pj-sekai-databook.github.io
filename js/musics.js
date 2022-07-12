@@ -2951,7 +2951,10 @@ const musics = [
         ],
         [
             new Vocal("virtual", ["miku", "rin"]),
-            new Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"])
+            new Vocal("sekai", ["shiho", "ichika", "kaito", "saki", "honami"]),
+            new Vocal("another", ["saki"]),
+            new Vocal("another", ["honami"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2022, 2, 26),
         mDate(2022, 2, 18),
@@ -3102,7 +3105,10 @@ const musics = [
         ],
         [
             new Vocal("virtual", ["flower"]),
-            new Vocal("sekai", ["len", "akito", "toya"])
+            new Vocal("sekai", ["len", "akito", "toya"]),
+            new Vocal("another", ["toya"]),
+            new Vocal("another", ["luka"]),
+            new Vocal("another", ["meiko"])
         ],
         mDate(2017, 3, 9),
         mDate(2022, 3, 22),
@@ -3682,6 +3688,22 @@ const musics = [
             new MV(3, "https://www.youtube.com/watch?v=JsORTuF4438", mDate(2022, 7, 4), ["miku_night", "kanade", "mafuyu"])
         ],
         new Diff(6, 11, 15, 22, 26)
+    ),
+    new Music("エイリアンエイリアン",
+        [
+            new Creator("ナユタン星人", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "emu", "nene"])
+        ],
+        mDate(2016, 4, 5),
+        mDate(2022, 7, 11),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=2t1NMRse6aI"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm28576299")
+        ],
+        new Diff(7, 12, 18, 25, 29)
     )
 ];
 const future_musics = [
@@ -3701,23 +3723,6 @@ const future_musics = [
         new Diff(),
         "next_10"
     ),
-    new Music("エイリアンエイリアン",
-        [
-            new Creator("ナユタン星人", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["miku"]),
-            new Vocal("sekai", ["miku", "emu", "nene"])
-        ],
-        mDate(2016, 4, 5),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=2t1NMRse6aI"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm28576299")
-        ],
-        new Diff()
-    ),
-
     new Music("書き下ろし楽曲(jon-YAKITORY)",
         [
             new Creator("jon-YAKITORY", "fff")
