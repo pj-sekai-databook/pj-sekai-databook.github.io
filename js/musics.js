@@ -2727,7 +2727,8 @@ const musics = [
         [
             new Link("原曲", "https://www.youtube.com/watch?v=JW3N-HvU0MA"),
             new Link("原曲", "https://www.nicovideo.jp/watch/sm33546451"),
-            new MV(3, "https://www.youtube.com/watch?v=NpOR2QwvjPk", mDate(2022, 1, 2), ["miku_more", "haruka", "shizuku"])
+            new MV(3, "https://www.youtube.com/watch?v=NpOR2QwvjPk", mDate(2022, 1, 2), ["miku_more", "haruka", "shizuku"]),
+            new MV(2, "https://www.youtube.com/watch?v=3VT85q-E-UU", mDate(2022, 7, 18), ["miku_more", "haruka", "shizuku"])
         ],
         new Diff(7, 14, 17, 24, 27)
     ),
