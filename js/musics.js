@@ -3705,6 +3705,23 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm28576299")
         ],
         new Diff(7, 12, 18, 25, 29)
+    ),
+    new Music("街",
+        [
+            new Creator("jon-YAKITORY", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["an", "rin", "kohane", "akito", "toya"]),
+            new Vocal("another", ["an"])
+        ],
+        null,
+        mDate(2022, 7, 19),
+        [
+            new MV(3, "https://www.youtube.com/watch?v=YF3cVIzd0oc", mDate(2022, 7, 19), ["an", "akito", "kohane", "rin", "toya"])
+        ],
+        new Diff(6, 12, 16, 23, 27),
+        "newlyWritten_vivid"
     )
 ];
 const future_musics = [
@@ -3723,19 +3740,6 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    ),
-    new Music("書き下ろし楽曲(jon-YAKITORY)",
-        [
-            new Creator("jon-YAKITORY", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        new Diff(),
-        "newlyWritten_vivid"
     ),
     new Music("書き下ろし楽曲(和田たけあき)",
         [
