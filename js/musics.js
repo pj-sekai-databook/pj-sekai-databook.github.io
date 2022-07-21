@@ -809,6 +809,7 @@ const musics = [
             new Creator("じん", "ttf")
         ],
         [
+            new Vocal("virtual", ["miku"]),
             new Vocal("sekai", ["saki", "miku", "honami", "ichika", "shiho"]),
             new Vocal("another", ["honami"]),
             new Vocal("another", ["shiho"])
@@ -2101,6 +2102,8 @@ const musics = [
         [
             new Vocal("virtual", ["len", "miku", "rin", "luka", "meiko", "kaito"]),
             new Vocal("sekai", ["ichika", "meiko", "saki", "honami", "shiho"]),
+            new Vocal("another", ["ichika"]),
+            new Vocal("another", ["shiho"])
         ],
         mDate(2021, 9, 19),
         mDate(2021, 9, 10),
@@ -3722,6 +3725,21 @@ const musics = [
         ],
         new Diff(6, 12, 16, 23, 27),
         "newlyWritten_vivid"
+    ),
+    new Music("てらてら",
+        [
+            new Creator("和田たけあき", "ttt")
+        ],
+        [
+            new Vocal("sekai", ["saki", "miku", "ichika", "honami", "shiho"])
+        ],
+        null,
+        mDate(2022, 7, 21),
+        [
+            new MV(2, "https://www.youtube.com/watch?v=diDsFjpV8yw", mDate(2022, 7, 29), ["saki", "miku_leo", "ichika", "honami", "shiho"])
+        ],
+        new Diff(8, 13, 18, 24, 30),
+        "newlyWritten_leo"
     )
 ];
 const future_musics = [
@@ -3740,19 +3758,6 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    ),
-    new Music("書き下ろし楽曲(和田たけあき)",
-        [
-            new Creator("和田たけあき", "fff")
-        ],
-        [
-        ],
-        null,
-        null,
-        [
-        ],
-        new Diff(),
-        "newlyWritten_leo"
     )
 ];
 /*
