@@ -164,6 +164,11 @@ class Creator {
         "羽生まゐご": "https://twitter.com/maigo_hanyuu",
         "ぽりふぉ": "https://twitter.com/Tomoya_PB",
         "Ponchi♪": "https://twitter.com/ponchi_pop",
-        "jon-YAKITORY": "https://twitter.com/jon_408"
+        "jon-YAKITORY": "https://twitter.com/jon_408",
+        "有形ランペイジ": "https://twitter.com/UKRampage_info",
+        "23.exe": "https://twitter.com/23_twt",
+        "ナナホシ管弦楽団": "https://twitter.com/sosite_iwamikun",
+        "古川本舗": "https://twitter.com/fullkawa_ryo",
+        "HoneyWorks": "https://twitter.com/HoneyWorks_828"
     }
 }

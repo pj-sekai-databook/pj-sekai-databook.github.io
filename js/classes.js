@@ -109,7 +109,8 @@ class Music {
 
         this.units = (() => {
             //カップヌードル曲は無条件で「その他」のみになったので、最初に処理しておく。
-            if (this.note.includes("cupnoodle")) {
+            //ポカリスエットもおそらく「その他」
+            if (this.note.includes("cupnoodle") || this.note.includes("pocari")) {
                 return ["other"];
             }
 

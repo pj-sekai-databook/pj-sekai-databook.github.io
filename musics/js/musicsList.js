@@ -19,7 +19,7 @@ const initAllCards = () => {
     updateFooter("implemented");
     modal_area.appendChild(getModal());
 }
-const getCardCol = (m, is_normal = false) => {
+const getCardCol = (m, is_normal) => {
     const col = PjElm.getDiv(getCard(m), "col px-1 py-3 d-flex justify-content-center align-items-center");
     if (is_normal) {
         col.classList.add("sort_item");
@@ -282,31 +282,32 @@ const getRelatedMusicsTr = (m) => {
 const getNoteText = (note) => {
     let text_list = [];
     for (let n of note) {
-        switch (true) {
-            case /^contest/.test(n):
-                text_list.push("楽曲コンテスト採用曲");
-                break;
-            case /^next_[0-9]+$/.test(n):
-                text_list.push(`第${n.replace(/^next_/, "")}回プロセカNEXT採用曲`)
-                break;
-            case /^newlyWritten/.test(n):
-                text_list.push("書き下ろし楽曲");
-                break;
-            case /^performai/.test(n):
-                text_list.push("ゲキ！チュウマイコラボ");
-                break;
-            case /^cupnoodle/.test(n):
-                text_list.push("カップヌードルタイアップ");
-                break;
-            case /^collab_.+/.test(n):
-                text_list.push(`${n.replace(/^collab_/, "")}コラボ`);
-                break;
-            case /^tieup_.+/.test(n):
-                text_list.push(`${n.replace(/^tieup_/, "")}タイアップ`);
-                break;
-            case /^brsDF/.test(n):
-                text_list.push("アニメ放送記念タイアップ");
-                break;
+        if (n == "contest") {
+            text_list.push("楽曲コンテスト採用曲");
+        }
+        if (n.match(/^next_\d+$/)) {
+            text_list.push(`第${n.replace(/^next_/, "")}回プロセカNEXT採用曲`);
+        }
+        if (n.match(/^newlyWritten/)) {
+            text_list.push("書き下ろし楽曲");
+        }
+        if (n == "performai") {
+            text_list.push("ゲキ！チュウマイコラボ");
+        }
+        if (n == "brsDF") {
+            text_list.push("アニメ放送記念タイアップ");
+        }
+        if (n == "cupnoodle") {
+            text_list.push("カップヌードルタイアップ");
+        }
+        if (n == "pocari") {
+            text_list.push("ポカリスエットコラボ");
+        }
+        if (n.match(/^collab_.+/)) {
+            text_list.push(`${n.replace(/^collab_/, "")}コラボ`);
+        }
+        if (n.match(/^tieup_.+/)) {
+            text_list.push(`${n.replace(/^tieup_/, "")}タイアップ`);
         }
     }
     return text_list.join(",");

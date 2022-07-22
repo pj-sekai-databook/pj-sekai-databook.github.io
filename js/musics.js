@@ -3758,7 +3758,111 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    )
+    ),
+    new Music("フロイライン＝ビブリォチカ",
+        [
+            new Creator("nyanyannya", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["meiko"])
+        ],
+        mDate(2015, 3, 11),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=t4gP6cC55p0"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm25763619")
+        ],
+        new Diff(),
+    ),
+    new Music("踊れオーケストラ",
+        [
+            new Creator("YASUHIRO(康寛)", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["ia"]),
+            new Vocal("sekai", ["luka", "tsukasa", "emu", "nene", "rui"])
+        ],
+        mDate(2016, 4, 23),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=5XcRbKUKSdY"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm28694937")
+        ],
+        new Diff()
+    ),
+    new Music("ロストエンファウンド",
+        [
+            new Creator("sasakure.UK", "ttf"),
+            new Creator("有形ランペイジ", "fft")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "ichika", "saki", "honami", "shiho"])
+        ],
+        mDate(2010, 7, 9),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=l7tqkjBKjkw"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm11323864")
+        ],
+        new Diff()
+    ),
+    new Music("YY",
+        [
+            new Creator("23.exe", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["miku"]),
+            new Vocal("sekai", ["miku", "kohane", "an", "akito", "toya"])
+        ],
+        mDate(2019, 10, 9),
+        null,
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=TcHvEFxk_78"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm35791694")
+        ],
+        new Diff()
+    ),
+    new Music("書き下ろし楽曲(ナナホシ管弦楽団)",
+        [
+            new Creator("ナナホシ管弦楽団", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        new Diff(),
+        "newlyWritten_more"
+    ),
+    new Music("書き下ろし楽曲(古川本舗)",
+        [
+            new Creator("古川本舗", "fff")
+        ],
+        [
+        ],
+        null,
+        null,
+        [
+        ],
+        new Diff(),
+        "newlyWritten_night"
+    ),
+    new Music("ポカリコラボ楽曲(HoneyWorks)",
+        [
+            new Creator("HoneyWorks", "fff")
+        ],
+        [
+            new Vocal("sekai", ["miku", "ichika", "shiho"])
+        ],
+        null,
+        null,
+        [
+        ],
+        new Diff(),
+        "pocari"
+    ),
 ];
 /*
     new Music("",
