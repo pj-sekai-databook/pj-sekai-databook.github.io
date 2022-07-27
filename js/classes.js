@@ -343,6 +343,7 @@ class Diff {
         ];
         this.str = this.val.map(x => x == 0 ? "--" : x).join(" / ");
         this.isValid = this.val.every(x => x > 0);
+        this.isEmpty = this.val.every(x => x == 0);
     }
     static param = {
         EASY: 0,

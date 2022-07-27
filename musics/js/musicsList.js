@@ -136,12 +136,16 @@ const getDetailTable = (m) => {
     table.className = "table table-border small align-middle";
     const tbody = document.createElement("tbody");
     tbody.appendChild(getSimpleTr("楽曲投稿日", PjDate.format(m.date_posted, "yyyy/MM/dd")));
-    tbody.appendChild(getSimpleTr("ゲーム収録日", PjDate.format(m.date_implemented, "yyyy/MM/dd")));
+    if (m.date_implemented instanceof Date) {
+        tbody.appendChild(getSimpleTr("ゲーム収録日", PjDate.format(m.date_implemented, "yyyy/MM/dd")));
+    }
     tbody.appendChild(getNewCreatorTr(m));
     tbody.appendChild(getMainUnitTr(m));
     tbody.appendChild(getVocalTr(m));
     tbody.appendChild(getUrlTr(m));
-    tbody.appendChild(getSimpleTr("楽曲Lv.", m.diff.str));
+    if (!m.diff.isEmpty) {
+        tbody.appendChild(getSimpleTr("楽曲Lv.", m.diff.str));
+    }
     tbody.appendChild(getRelatedMusicsTr(m));
     table.appendChild(tbody);
     return table;
