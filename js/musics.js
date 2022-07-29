@@ -3733,9 +3733,11 @@ const musics = [
         [
             new Vocal("sekai", ["saki", "miku", "ichika", "honami", "shiho"])
         ],
-        null,
+        mDate(2022, 7, 29),
         mDate(2022, 7, 21),
         [
+            new Link("原曲", "https://www.youtube.com/watch?v=03IyS_9Dt0g"),
+            new Link("和田たけあきver.", "https://www.youtube.com/watch?v=dDuyz3Mw720"),
             new MV(2, "https://www.youtube.com/watch?v=diDsFjpV8yw", mDate(2022, 7, 29), ["saki", "miku_leo", "ichika", "honami", "shiho"])
         ],
         new Diff(8, 13, 18, 24, 30),
