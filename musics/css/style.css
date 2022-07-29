@@ -71,11 +71,12 @@
 }
 
 .img_wrap.playing_movie img {
-    width: 350%;
-    top: 72%;
+    width: 255%;
+    top: 40.5%;
+    left: 118.5%;
 }
 
-.img_wrap .note {
+.note {
     position: absolute;
     top: 0;
     left: 0;

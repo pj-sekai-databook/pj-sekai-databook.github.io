@@ -3,8 +3,7 @@ class PjLoader {
         if (depth <= 0) {
             throw new RangeError("depth must be positive number");
         }
-        const stamp = sessionStorage.getItem("PjLoaderTimeStamp") ?? new Date().getTime();
-        sessionStorage.setItem("PjLoaderTimeStamp", stamp);
+        const stamp = new Date(document.lastModified).getTime();
         const base_dir = depth > 1 ? ".." + "/..".repeat(depth - 2) : ".";
         const base_list = [
             `${base_dir}/js/header.js`,

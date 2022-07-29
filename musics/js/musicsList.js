@@ -36,13 +36,17 @@ const getCard = (m) => {
     card_header.appendChild(getModalButton(m));
     card.appendChild(card_header);
     //body
-    const card_body = PjElm.getDiv("", "card-body text-center");
+    const card_body = PjElm.getDiv("", "card-body text-center position-relative");
+    const note_text = getNoteText(m.note);
+    if (note_text.length) {
+        card_body.appendChild(PjElm.getDiv(note_text, "note"));
+    }
     const img_wrap = PjElm.getDiv("", "img_wrap");
     let img = null;
     for (let u of m.urls) {
         if (u instanceof PlayingMovie) {
             img = PjElm.getImg(u.thumb_src, "imgYouTube");
-            //img_wrap.classList.add("playing_movie");
+            img_wrap.classList.add("playing_movie");
             break;
         }
         if (u instanceof Link) {
@@ -67,10 +71,6 @@ const getCard = (m) => {
         img = PjElm.getImg("./img/img_not_found.png", "imgYouTube");
     }
     img_wrap.appendChild(img);
-    const note_text = getNoteText(m.note);
-    if (note_text.length) {
-        img_wrap.appendChild(PjElm.getDiv(note_text, "note"));
-    }
     img_wrap.appendChild(PjElm.getDiv("", "cover"));
     card_body.appendChild(img_wrap);
     card.appendChild(card_body);

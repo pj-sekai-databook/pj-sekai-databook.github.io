@@ -3721,6 +3721,7 @@ const musics = [
         null,
         mDate(2022, 7, 19),
         [
+            new PlayingMovie(Diff.param.HARD, "https://www.youtube.com/watch?v=FdOCN-cLHtw"),
             new MV(3, "https://www.youtube.com/watch?v=YF3cVIzd0oc", mDate(2022, 7, 19), ["an", "akito", "kohane", "rin", "toya"])
         ],
         new Diff(6, 12, 16, 23, 27),
