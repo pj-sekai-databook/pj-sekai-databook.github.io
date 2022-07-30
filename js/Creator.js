@@ -45,7 +45,7 @@ class Creator {
         "とあ": "https://twitter.com/o0toa0o",
         "Reol": "https://twitter.com/RRReol",
         "Giga": "https://twitter.com/GigaMozuku",
-        "nyanyannya": "https://twitter.com/neko_nekokan",
+        "nyanyannya(大天才P)": "https://twitter.com/neko_nekokan",
         "ぬゆり": "https://twitter.com/nulut",
         "日向電工": "https://twitter.com/hinataEW",
         "Junky": "https://twitter.com/Junky_Box",

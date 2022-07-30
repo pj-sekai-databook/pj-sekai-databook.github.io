@@ -230,7 +230,7 @@ const musics = [
     ),
     new Music("ドクター＝ファンクビート",
         [
-            new Creator("nyanyannya", "ttf")
+            new Creator("nyanyannya(大天才P)", "ttf")
         ],
         [
             new Vocal("virtual", ["kaito"]),
@@ -1955,7 +1955,8 @@ const musics = [
             new Vocal("virtual", ["gumi"]),
             new Vocal("sekai", ["luka", "haruka", "shizuku"]),
             new Vocal("another", ["haruka"]),
-            new Vocal("another", ["luka"])
+            new Vocal("another", ["luka"]),
+            new Vocal("another", ["meiko"])
         ],
         mDate(2012, 6, 26),
         mDate(2021, 7, 19),
@@ -3476,6 +3477,7 @@ const musics = [
             new Creator("はるまきごはん", "ttt")
         ],
         [
+            new Vocal("virtual", ["miku", "rin"]),
             new Vocal("sekai", ["akito", "meiko", "kohane", "an", "toya"])
         ],
         mDate(2022, 5, 30),
@@ -3764,7 +3766,7 @@ const future_musics = [
     ),
     new Music("フロイライン＝ビブリォチカ",
         [
-            new Creator("nyanyannya", "ttt")
+            new Creator("nyanyannya(大天才P)", "ttt")
         ],
         [
             new Vocal("virtual", ["meiko"])
