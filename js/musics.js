@@ -3745,6 +3745,21 @@ const musics = [
         ],
         new Diff(8, 13, 18, 24, 30),
         "newlyWritten_leo"
+    ),
+    new Music("フロイライン＝ビブリォチカ", "フロイラインビブリォチカ",
+        [
+            new Creator("nyanyannya(大天才P)", "ttt")
+        ],
+        [
+            new Vocal("virtual", ["meiko"])
+        ],
+        mDate(2015, 3, 11),
+        mDate(2022, 7, 30),
+        [
+            new Link("原曲", "https://www.youtube.com/watch?v=t4gP6cC55p0"),
+            new Link("原曲", "https://www.nicovideo.jp/watch/sm25763619")
+        ],
+        new Diff(9, 14, 18, 27, 31),
     )
 ];
 const future_musics = [
@@ -3763,21 +3778,6 @@ const future_musics = [
         ],
         new Diff(),
         "next_10"
-    ),
-    new Music("フロイライン＝ビブリォチカ", "フロイラインビブリォチカ",
-        [
-            new Creator("nyanyannya(大天才P)", "ttt")
-        ],
-        [
-            new Vocal("virtual", ["meiko"])
-        ],
-        mDate(2015, 3, 11),
-        null,
-        [
-            new Link("原曲", "https://www.youtube.com/watch?v=t4gP6cC55p0"),
-            new Link("原曲", "https://www.nicovideo.jp/watch/sm25763619")
-        ],
-        new Diff(),
     ),
     new Music("踊れオーケストラ", "オドレオーケストラ",
         [
