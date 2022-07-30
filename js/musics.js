@@ -1,5 +1,5 @@
 const musics = [
-    new Music("Tell Your World",
+    new Music("Tell Your World", "テルユアワールド",
         [
             new Creator("kz", "ttt")
         ],
@@ -14,7 +14,7 @@ const musics = [
         ],
         new Diff(5, 10, 16, 22, 26)
     ),
-    new Music("ネクストネスト",
+    new Music("ネクストネスト", "ネクストネスト",
         [
             new Creator("さつき が てんこもり", "ttf")
         ],
@@ -29,7 +29,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 27, 29)
     ),
-    new Music("メルト",
+    new Music("メルト", "メルト",
         [
             new Creator("ryo", "ttt")
         ],
@@ -44,7 +44,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 25, 28)
     ),
-    new Music("初音ミクの消失",
+    new Music("初音ミクの消失", "ハツネミクノショウシツ",
         [
             new Creator("cosMo@暴走P", "ttf")
         ],
@@ -59,7 +59,7 @@ const musics = [
         ],
         new Diff(9, 15, 22, 30, 35)
     ),
-    new Music("Blessing",
+    new Music("Blessing", "ブレッシング",
         [
             new Creator("halyosy", "ttf")
         ],
@@ -74,7 +74,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 23, 27)
     ),
-    new Music("alive",
+    new Music("alive", "アライブ",
         [
             new Creator("市瀬るぽ", "ttf")
         ],
@@ -90,7 +90,7 @@ const musics = [
         new Diff(6, 11, 16, 23, 26),
         "contest"
     ),
-    new Music("ロキ",
+    new Music("ロキ", "ロキ",
         [
             new Creator("みきとP", "ttt")
         ],
@@ -108,7 +108,7 @@ const musics = [
         ],
         new Diff(7, 11, 17, 24, 28)
     ),
-    new Music("テオ",
+    new Music("テオ", "テオ",
         [
             new Creator("Sakurai", "tff"),
             new Creator("Omoi", "ftt")
@@ -129,7 +129,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 27, 32)
     ),
-    new Music("ヒバナ -Reloaded-",
+    new Music("ヒバナ -Reloaded-", "ヒバナリローデッド",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("Rockwell", "fft")
@@ -150,7 +150,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 28, 32)
     ),
-    new Music("ハッピーシンセサイザ",
+    new Music("ハッピーシンセサイザ", "ハッピーシンセサイザ",
         [
             new Creator("EasyPop", "ttf")
         ],
@@ -173,7 +173,7 @@ const musics = [
         ],
         new Diff(6, 11, 18, 24, 28)
     ),
-    new Music("Nostalogic",
+    new Music("Nostalogic", "ノスタロジック",
         [
             new Creator("yuukiss", "ttf")
         ],
@@ -190,7 +190,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 23, 28)
     ),
-    new Music("ツギハギスタッカート",
+    new Music("ツギハギスタッカート", "ツギハギスタッカート",
         [
             new Creator("とあ", "ttt")
         ],
@@ -208,7 +208,7 @@ const musics = [
         ],
         new Diff(6, 11, 16, 24, 27)
     ),
-    new Music("劣等上等",
+    new Music("劣等上等", "レットウジョウトウ",
         [
             new Creator("Reol", "tff"),
             new Creator("Giga", "ftt")
@@ -228,7 +228,7 @@ const musics = [
         ],
         new Diff(7, 12, 18, 25, 30)
     ),
-    new Music("ドクター＝ファンクビート",
+    new Music("ドクター＝ファンクビート", "ドクターファンクビート",
         [
             new Creator("nyanyannya(大天才P)", "ttf")
         ],
@@ -246,7 +246,7 @@ const musics = [
         ],
         new Diff(8, 13, 19, 27, 32)
     ),
-    new Music("フラジール",
+    new Music("フラジール", "フラジール",
         [
             new Creator("ぬゆり", "ttt")
         ],
@@ -267,7 +267,7 @@ const musics = [
         ],
         new Diff(6, 11, 17, 24, 27)
     ),
-    new Music("ブリキノダンス",
+    new Music("ブリキノダンス", "ブリキノダンス",
         [
             new Creator("日向電工", "ttt")
         ],
@@ -285,7 +285,7 @@ const musics = [
         ],
         new Diff(8, 13, 18, 25, 29)
     ),
-    new Music("スイートマジック",
+    new Music("スイートマジック", "スイートマジック",
         [
             new Creator("Junky", "ttf")
         ],
@@ -306,7 +306,7 @@ const musics = [
         ],
         new Diff(5, 12, 18, 24, 27)
     ),
-    new Music("ぼうけんのしょがきえました！",
+    new Music("ぼうけんのしょがきえました！", "ボウケンノショガキエマシタ",
         [
             new Creator("じーざす", "ttf")
         ],
@@ -323,7 +323,7 @@ const musics = [
         ],
         new Diff(8, 13, 19, 26, 31)
     ),
-    new Music("シャルル",
+    new Music("シャルル", "シャルル",
         [
             new Creator("バルーン", "ttt")
         ],
@@ -343,7 +343,7 @@ const musics = [
         ],
         new Diff(6, 11, 17, 23, 27)
     ),
-    new Music("ハロ／ハワユ",
+    new Music("ハロ／ハワユ", "ハロハワユ",
         [
             new Creator("ナノウ", "ttf")
         ],
@@ -359,7 +359,7 @@ const musics = [
         ],
         new Diff(5, 10, 15, 22, 26)
     ),
-    new Music("自傷無色",
+    new Music("自傷無色", "ジショウムショク",
         [
             new Creator("ササノマリイ", "ttf")
         ],
@@ -376,7 +376,7 @@ const musics = [
         ],
         new Diff(5, 10, 17, 22, 26)
     ),
-    new Music("needLe",
+    new Music("needLe", "ニードル",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("Rockwell", "fft")
@@ -397,7 +397,7 @@ const musics = [
         new Diff(7, 12, 17, 25, 29),
         "newlyWritten"
     ),
-    new Music("アイドル新鋭隊",
+    new Music("アイドル新鋭隊", "アイドルシンエイタイ",
         [
             new Creator("Mitchie M", "ttt")
         ],
@@ -414,7 +414,7 @@ const musics = [
         new Diff(8, 12, 17, 24, 28),
         "newlyWritten"
     ),
-    new Music("Ready Steady",
+    new Music("Ready Steady", "レディーステディ",
         [
             new Creator("q*Left", "tff"),
             new Creator("Giga", "ftt")
@@ -433,7 +433,7 @@ const musics = [
         new Diff(5, 10, 16, 25, 29),
         "newlyWritten"
     ),
-    new Music("セカイはまだ始まってすらいない",
+    new Music("セカイはまだ始まってすらいない", "セカイハマダハジマッテスライナイ",
         [
             new Creator("ピノキオピー", "ttt")
         ],
@@ -453,7 +453,7 @@ const musics = [
         new Diff(6, 13, 16, 24, 29),
         "newlyWritten"
     ),
-    new Music("悔やむと書いてミライ",
+    new Music("悔やむと書いてミライ", "クヤムトカイテミライ",
         [
             new Creator("まふまふ", "ttt")
         ],
@@ -474,7 +474,7 @@ const musics = [
         new Diff(8, 13, 17, 26, 30),
         "newlyWritten"
     ),
-    new Music("セカイ",
+    new Music("セカイ", "セカイ",
         [
             new Creator("DECO*27", "tff"),
             new Creator("堀江昌太(kemu)", "ftf"),
@@ -493,7 +493,7 @@ const musics = [
         new Diff(6, 12, 18, 23, 27),
         "newlyWritten,theme"
     ),
-    new Music("ワーワーワールド",
+    new Music("ワーワーワールド", "ワーワーワールド",
         [
             new Creator("Mitchie M", "ttf"),
             new Creator("Giga", "ftt")
@@ -512,7 +512,7 @@ const musics = [
         new Diff(7, 12, 17, 24, 28),
         "newlyWritten,theme"
     ),
-    new Music("アスノヨゾラ哨戒班",
+    new Music("アスノヨゾラ哨戒班", "アスノヨゾラショウカイハン",
         [
             new Creator("Orangestar", "ttf"),
             new Creator("Rockwell", "fft")
@@ -528,7 +528,7 @@ const musics = [
         ],
         new Diff(8, 12, 17, 25, 28)
     ),
-    new Music("ニア",
+    new Music("ニア", "ニア",
         [
             new Creator("夏代孝明", "ttf"),
             new Creator("渡辺拓也", "fft")
@@ -547,7 +547,7 @@ const musics = [
         ],
         new Diff(6, 11, 16, 22, 26)
     ),
-    new Music("Just Be Friends",
+    new Music("Just Be Friends", "ジャストビーフレンズ",
         [
             new Creator("Dixie Flatline", "ttf")
         ],
@@ -565,7 +565,7 @@ const musics = [
         ],
         new Diff(6, 11, 17, 23, 27)
     ),
-    new Music("脱法ロック",
+    new Music("脱法ロック", "ダッポウロック",
         [
             new Creator("Neru", "ttf")
         ],
@@ -582,7 +582,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 26, 31)
     ),
-    new Music("命に嫌われている",
+    new Music("命に嫌われている", "イノチニキラワレテイル",
         [
             new Creator("カンザキイオリ", "ttt")
         ],
@@ -603,7 +603,7 @@ const musics = [
         ],
         new Diff(9, 14, 18, 26, 29)
     ),
-    new Music("ワールドイズマイン",
+    new Music("ワールドイズマイン", "ワールドイズマイン",
         [
             new Creator("ryo", "ttt")
         ],
@@ -617,7 +617,7 @@ const musics = [
         ],
         new Diff(7, 13, 17, 24, 28)
     ),
-    new Music("ダンスロボットダンス",
+    new Music("ダンスロボットダンス", "ダンスロボットダンス",
         [
             new Creator("ナユタン星人", "ttt")
         ],
@@ -636,7 +636,7 @@ const musics = [
         ],
         new Diff(8, 13, 18, 26, 29)
     ),
-    new Music("Hand in Hand",
+    new Music("Hand in Hand", "ハンドインハンド",
         [
             new Creator("kz", "ttt")
         ],
@@ -652,7 +652,7 @@ const musics = [
         ],
         new Diff(6, 13, 16, 23, 27)
     ),
-    new Music("夜咄ディセイブ",
+    new Music("夜咄ディセイブ", "ヨバナシディセイブ",
         [
             new Creator("じん", "ttt")
         ],
@@ -671,7 +671,7 @@ const musics = [
         ],
         new Diff(8, 14, 19, 26, 30)
     ),
-    new Music("Gimme×Gimme",
+    new Music("Gimme×Gimme", "ギミギミ",
         [
             new Creator("q*Left", "tff"),
             new Creator("八王子P", "ftt"),
@@ -688,7 +688,7 @@ const musics = [
         ],
         new Diff(6, 11, 18, 26, 29)
     ),
-    new Music("ビバハピ",
+    new Music("ビバハピ", "ビバハピ",
         [
             new Creator("Mitchie M", "ttt")
         ],
@@ -706,7 +706,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 24, 28)
     ),
-    new Music("ジャンキーナイトタウンオーケストラ",
+    new Music("ジャンキーナイトタウンオーケストラ", "ジャンキーナイトタウンオーケストラ",
         [
             new Creator("すりぃ", "ttf")
         ],
@@ -721,7 +721,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 26, 31)
     ),
-    new Music("ミラクルペイント",
+    new Music("ミラクルペイント", "ミラクルペイント",
         [
             new Creator("OSTER project", "ttt")
         ],
@@ -738,7 +738,7 @@ const musics = [
         ],
         new Diff(9, 12, 18, 25, 29)
     ),
-    new Music("on the rocks",
+    new Music("on the rocks", "オンザロックス",
         [
             new Creator("OSTER project", "ttt")
         ],
@@ -753,7 +753,7 @@ const musics = [
         ],
         new Diff(7, 11, 16, 23, 27)
     ),
-    new Music("携帯恋話",
+    new Music("携帯恋話", "ケイタイレンワ",
         [
             new Creator("まふまふ", "ttt")
         ],
@@ -771,7 +771,7 @@ const musics = [
         new Diff(8, 12, 18, 25, 29),
         "newlyWritten"
     ),
-    new Music("39みゅーじっく！",
+    new Music("39みゅーじっく！", "サンキューミュージック",
         [
             new Creator("みきとP", "ttf")
         ],
@@ -786,7 +786,7 @@ const musics = [
         ],
         new Diff(6, 11, 16, 23, 28)
     ),
-    new Music("青く駆けろ！",
+    new Music("青く駆けろ！", "アオクカケロ",
         [
             new Creator("まらしぃ", "ttf")
         ],
@@ -804,7 +804,7 @@ const musics = [
         ],
         new Diff(8, 13, 17, 24, 27)
     ),
-    new Music("ステラ",
+    new Music("ステラ", "ステラ",
         [
             new Creator("じん", "ttf")
         ],
@@ -824,7 +824,7 @@ const musics = [
         new Diff(8, 13, 17, 26, 30),
         "newlyWritten"
     ),
-    new Music("Leia - Remind",
+    new Music("Leia - Remind", "レイアリマインド",
         [
             new Creator("ゆよゆっぺ", "ttt")
         ],
@@ -839,7 +839,7 @@ const musics = [
         ],
         new Diff(9, 13, 18, 25, 28)
     ),
-    new Music("ジャックポットサッドガール",
+    new Music("ジャックポットサッドガール", "ジャックポットサッドガール",
         [
             new Creator("syudou", "ttt")
         ],
@@ -858,7 +858,7 @@ const musics = [
         new Diff(9, 13, 18, 26, 29),
         "newlyWritten"
     ),
-    new Music("メルティランドナイトメア",
+    new Music("メルティランドナイトメア", "メルティランドナイトメア",
         [
             new Creator("はるまきごはん", "ttt")
         ],
@@ -875,7 +875,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 24, 26)
     ),
-    new Music("乙女解剖",
+    new Music("乙女解剖", "オトメカイボウ",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("emon(Tes.)", "fft"),
@@ -896,7 +896,7 @@ const musics = [
         ],
         new Diff(5, 12, 16, 24, 27)
     ),
-    new Music("potatoになっていく",
+    new Music("potatoになっていく", "ポテトニナッテイク",
         [
             new Creator("Neru", "ttt")
         ],
@@ -915,7 +915,7 @@ const musics = [
         new Diff(5, 11, 17, 24, 28),
         "newlyWritten"
     ),
-    new Music("ローリンガール",
+    new Music("ローリンガール", "ローリンガール",
         [
             new Creator("wowaka", "ttt")
         ],
@@ -930,7 +930,7 @@ const musics = [
         ],
         new Diff(8, 12, 18, 26, 31)
     ),
-    new Music("モア！ジャンプ！モア！",
+    new Music("モア！ジャンプ！モア！", "モアジャンプモア",
         [
             new Creator("ナユタン星人", "ttt")
         ],
@@ -946,7 +946,7 @@ const musics = [
         new Diff(9, 13, 18, 26, 31),
         "newlyWritten"
     ),
-    new Music("裏表ラバーズ",
+    new Music("裏表ラバーズ", "ウラオモテラバーズ",
         [
             new Creator("wowaka", "ttt")
         ],
@@ -961,7 +961,7 @@ const musics = [
         ],
         new Diff(8, 12, 18, 26, 30)
     ),
-    new Music("アンノウン・マザーグース",
+    new Music("アンノウン・マザーグース", "アンノウンマザーグース",
         [
             new Creator("wowaka", "ttt")
         ],
@@ -976,7 +976,7 @@ const musics = [
         ],
         new Diff(8, 12, 17, 26, 29)
     ),
-    new Music("愛されなくても君がいる",
+    new Music("愛されなくても君がいる", "アイサレナクテモキミガイル",
         [
             new Creator("ピノキオピー", "ttt")
         ],
@@ -991,7 +991,7 @@ const musics = [
         ],
         new Diff(7, 12, 16, 23, 27)
     ),
-    new Music("ウミユリ海底譚",
+    new Music("ウミユリ海底譚", "ウミユリカイテイタン",
         [
             new Creator("n-buna", "ttt")
         ],
@@ -1009,7 +1009,7 @@ const musics = [
         ],
         new Diff(6, 13, 17, 23, 27)
     ),
-    new Music("Forward",
+    new Music("Forward", "フォワード",
         [
             new Creator("R Sound Design", "ttt")
         ],
@@ -1029,7 +1029,7 @@ const musics = [
         new Diff(6, 11, 16, 24, 28),
         "newlyWritten"
     ),
-    new Music("独りんぼエンヴィー",
+    new Music("独りんぼエンヴィー", "ヒトリンボエンヴィー",
         [
             new Creator("koyori", "ttt")
         ],
@@ -1049,7 +1049,7 @@ const musics = [
         ],
         new Diff(6, 11, 16, 22, 26)
     ),
-    new Music("ニジイロストーリーズ",
+    new Music("ニジイロストーリーズ", "ニジイロストーリーズ",
         [
             new Creator("OSTER project", "ttt")
         ],
@@ -1070,7 +1070,7 @@ const musics = [
         new Diff(9, 13, 18, 25, 29),
         "newlyWritten"
     ),
-    new Music("ODDS & ENDS",
+    new Music("ODDS & ENDS", "オッズアンドエンズ",
         [
             new Creator("ryo", "ttt")
         ],
@@ -1085,7 +1085,7 @@ const musics = [
         ],
         new Diff(8, 12, 18, 24, 29)
     ),
-    new Music("ドラマツルギー",
+    new Music("ドラマツルギー", "ドラマツルギー",
         [
             new Creator("Eve", "ttf"),
             new Creator("Numa", "fft")
@@ -1103,7 +1103,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 25, 28)
     ),
-    new Music("グリーンライツ・セレナーデ",
+    new Music("グリーンライツ・セレナーデ", "グリーンライツセレナーデ",
         [
             new Creator("Sakurai", "tff"),
             new Creator("Omoi", "ftt")
@@ -1121,7 +1121,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 27, 31)
     ),
-    new Music("恋愛裁判",
+    new Music("恋愛裁判", "レンアイサイバン",
         [
             new Creator("40mP", "ttt")
         ],
@@ -1140,7 +1140,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 22, 27)
     ),
-    new Music("＊ハロー、プラネット。",
+    new Music("＊ハロー、プラネット。", "ハロープラネット",
         [
             new Creator("sasakure.UK", "ttt")
         ],
@@ -1156,7 +1156,7 @@ const musics = [
         ],
         new Diff(6, 10, 17, 24, 28)
     ),
-    new Music("千本桜",
+    new Music("千本桜", "センボンザクラ",
         [
             new Creator("黒うさ", "ttt")
         ],
@@ -1171,7 +1171,7 @@ const musics = [
         ],
         new Diff(7, 14, 20, 26, 32)
     ),
-    new Music("ECHO",
+    new Music("ECHO", "エコー",
         [
             new Creator("Crusher P", "ttf")
         ],
@@ -1190,7 +1190,7 @@ const musics = [
         ],
         new Diff(6, 12, 16, 23, 26)
     ),
-    new Music("チュルリラ・チュルリラ・ダッダッダ！",
+    new Music("チュルリラ・チュルリラ・ダッダッダ！", "チュルリラチュルリラダッダッダ",
         [
             new Creator("和田たけあき(くらげP)", "ttt")
         ],
@@ -1205,11 +1205,11 @@ const musics = [
             new Link("原曲", "https://www.nicovideo.jp/watch/sm28276238"),
             new MV(3, "https://www.youtube.com/watch?v=QOU2jkl30Vs", mDate(2021, 1, 3), ["emu", "nene", "tsukasa", "rui"]),
             new MV(2, "https://www.youtube.com/watch?v=ZiZkXbivmh4", mDate(2022, 1, 26), ["emu", "nene", "tsukasa", "rui"]),
-            new Link("セルフカバー", "https://www.youtube.com/watch?v=t2iQNmVfhGY")
+            new Link("和田たけあきver.", "https://www.youtube.com/watch?v=t2iQNmVfhGY")
         ],
         new Diff(9, 13, 18, 26, 31)
     ),
-    new Music("ブレス・ユア・ブレス",
+    new Music("ブレス・ユア・ブレス", "ブレスユアブレス",
         [
             new Creator("和田たけあき", "ttt")
         ],
@@ -1226,7 +1226,7 @@ const musics = [
         ],
         new Diff(7, 13, 17, 24, 28)
     ),
-    new Music("とても痛い痛がりたい",
+    new Music("とても痛い痛がりたい", "トテモイタイイタガリタイ",
         [
             new Creator("EZFG", "ttt")
         ],
@@ -1242,7 +1242,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 23, 28)
     ),
-    new Music("霽れを待つ",
+    new Music("霽れを待つ", "ハレヲマツ",
         [
             new Creator("Orangestar", "ttt")
         ],
@@ -1262,7 +1262,7 @@ const musics = [
         new Diff(7, 12, 17, 26, 30),
         "newlyWritten"
     ),
-    new Music("ワールズエンド・ダンスホール",
+    new Music("ワールズエンド・ダンスホール", "ワールズエンドダンスホール",
         [
             new Creator("wowaka", "ttt")
         ],
@@ -1277,7 +1277,7 @@ const musics = [
         ],
         new Diff(7, 12, 18, 26, 30)
     ),
-    new Music("ヒビカセ",
+    new Music("ヒビカセ", "ヒビカセ",
         [
             new Creator("れをる", "tff"),
             new Creator("ギガ", "ftt")
@@ -1293,7 +1293,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 25, 28)
     ),
-    new Music("Color of Drops",
+    new Music("Color of Drops", "カラーオブドロップス",
         [
             new Creator("40mP", "ttt")
         ],
@@ -1313,7 +1313,7 @@ const musics = [
         new Diff(6, 12, 16, 23, 27),
         "newlyWritten"
     ),
-    new Music("RAD DOGS",
+    new Music("RAD DOGS", "ラッドドッグス",
         [
             new Creator("q*Left", "tff"),
             new Creator("八王子P", "ftt")
@@ -1331,7 +1331,7 @@ const musics = [
         new Diff(6, 12, 18, 26, 30),
         "newlyWritten"
     ),
-    new Music("ミルククラウン・オン・ソーネチカ",
+    new Music("ミルククラウン・オン・ソーネチカ", "ミルククラウンオンソーネチカ",
         [
             new Creator("ユジー", "ttt")
         ],
@@ -1350,7 +1350,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 26, 30)
     ),
-    new Music("タイムマシン",
+    new Music("タイムマシン", "タイムマシン",
         [
             new Creator("164", "tff"),
             new Creator("40mP", "ftf"),
@@ -1372,7 +1372,7 @@ const musics = [
         ],
         new Diff(6, 11, 16, 23, 26)
     ),
-    new Music("drop pop candy",
+    new Music("drop pop candy", "ドロップポップキャンディー",
         [
             new Creator("れをる", "tff"),
             new Creator("ギガ", "ftt")
@@ -1392,7 +1392,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 25, 28)
     ),
-    new Music("ポジティブ☆ダンスタイム",
+    new Music("ポジティブ☆ダンスタイム", "ポジティブダンスタイム",
         [
             new Creator("キノシタ", "ttt")
         ],
@@ -1413,7 +1413,7 @@ const musics = [
         ],
         new Diff(9, 14, 18, 26, 31)
     ),
-    new Music("Brand New Day",
+    new Music("Brand New Day", "ブランドニューデイ",
         [
             new Creator("いるかアイス", "ttt")
         ],
@@ -1429,7 +1429,7 @@ const musics = [
         new Diff(9, 14, 19, 28, 32),
         "next_1"
     ),
-    new Music("限りなく灰色へ",
+    new Music("限りなく灰色へ", "カギリナクハイイロヘ",
         [
             new Creator("すりぃ", "ttt")
         ],
@@ -1449,7 +1449,7 @@ const musics = [
         new Diff(6, 12, 18, 26, 30),
         "newlyWritten"
     ),
-    new Music("ワンスアポンアドリーム",
+    new Music("ワンスアポンアドリーム", "ワンスアポンアドリーム",
         [
             new Creator("YASUHIRO(康寛)", "ttt"),
         ],
@@ -1468,7 +1468,7 @@ const musics = [
         new Diff(6, 11, 16, 22, 27),
         "newlyWritten"
     ),
-    new Music("ボッカデラベリタ",
+    new Music("ボッカデラベリタ", "ボッカデラベリタ",
         [
             new Creator("柊キライ", "ttt"),
         ],
@@ -1485,7 +1485,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 25, 28)
     ),
-    new Music("みくみくにしてあげる♪【してやんよ】",
+    new Music("みくみくにしてあげる♪【してやんよ】", "ミクミクニシテアゲルシテヤンヨ",
         [
             new Creator("ika_mo", "ttt")
         ],
@@ -1499,7 +1499,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 24, 28)
     ),
-    new Music("威風堂々",
+    new Music("威風堂々", "イフウドウドウ",
         [
             new Creator("梅とら", "ttt")
         ],
@@ -1522,7 +1522,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 24, 28)
     ),
-    new Music("from Y to Y",
+    new Music("from Y to Y", "フロムワイトゥーワイ",
         [
             new Creator("ジミーサムP", "ttf")
         ],
@@ -1539,7 +1539,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 24, 26)
     ),
-    new Music("初音ミクの激唱",
+    new Music("初音ミクの激唱", "ハツネミクノゲキショウ",
         [
             new Creator("GAiA", "tff"),
             new Creator("cosMo@暴走P", "ftt")
@@ -1555,7 +1555,7 @@ const musics = [
         ],
         new Diff(9, 14, 20, 30, 33)
     ),
-    new Music("天使のクローバー",
+    new Music("天使のクローバー", "テンシノクローバー",
         [
             new Creator("DIVELA", "ttt")
         ],
@@ -1575,7 +1575,7 @@ const musics = [
         new Diff(9, 13, 17, 27, 31),
         "newlyWritten"
     ),
-    new Music("お気に召すまま",
+    new Music("お気に召すまま", "オキニメスママ",
         [
             new Creator("Eve", "ttf"),
             new Creator("Numa", "fft")
@@ -1594,7 +1594,7 @@ const musics = [
         ],
         new Diff(6, 12, 18, 24, 28)
     ),
-    new Music("どりーみんチュチュ",
+    new Music("どりーみんチュチュ", "ドリーミンチュチュ",
         [
             new Creator("emon(Tes.)", "ttt")
         ],
@@ -1613,7 +1613,7 @@ const musics = [
         ],
         new Diff(6, 13, 17, 23, 27)
     ),
-    new Music("アイディスマイル",
+    new Music("アイディスマイル", "アイディスマイル",
         [
             new Creator("とあ", "ttt")
         ],
@@ -1635,7 +1635,7 @@ const musics = [
         new Diff(7, 12, 17, 25, 28),
         "newlyWritten"
     ),
-    new Music("「１」",
+    new Music("「１」", "イチ",
         [
             new Creator("164", "ttt")
         ],
@@ -1656,7 +1656,7 @@ const musics = [
         new Diff(8, 13, 16, 23, 26),
         "newlyWritten"
     ),
-    new Music("花を唄う",
+    new Music("花を唄う", "ハナヲウタウ",
         [
             new Creator("シノ", "ttt")
         ],
@@ -1672,7 +1672,7 @@ const musics = [
         new Diff(6, 12, 19, 25, 30),
         "next_2"
     ),
-    new Music("夜に駆ける",
+    new Music("夜に駆ける", "ヨルニカケル",
         [
             new Creator("Ayase", "ttt")
         ],
@@ -1694,7 +1694,7 @@ const musics = [
         new Diff(6, 11, 18, 25, 29),
         "tieup_Ayase"
     ),
-    new Music("幽霊東京",
+    new Music("幽霊東京", "ユウレイトウキョウ",
         [
             new Creator("Ayase", "ttt")
         ],
@@ -1714,7 +1714,7 @@ const musics = [
         new Diff(7, 13, 17, 24, 27),
         "tieup_Ayase"
     ),
-    new Music("シネマ",
+    new Music("シネマ", "シネマ",
         [
             new Creator("Ayase", "ttt")
         ],
@@ -1734,7 +1734,7 @@ const musics = [
         new Diff(6, 12, 18, 24, 29),
         "newlyWritten"
     ),
-    new Music("KING",
+    new Music("KING", "キング",
         [
             new Creator("Kanaria", "ttf")
         ],
@@ -1753,7 +1753,7 @@ const musics = [
         ],
         new Diff(7, 14, 19, 25, 29)
     ),
-    new Music("アイノマテリアル",
+    new Music("アイノマテリアル", "アイノマテリアル",
         [
             new Creator("Junky", "ttt")
         ],
@@ -1771,7 +1771,7 @@ const musics = [
         new Diff(6, 11, 16, 22, 26),
         "newlyWritten"
     ),
-    new Music("いかないで",
+    new Music("いかないで", "イカナイデ",
         [
             new Creator("想太", "ttf")
         ],
@@ -1789,7 +1789,7 @@ const musics = [
         ],
         new Diff(8, 13, 18, 25, 29)
     ),
-    new Music("ロミオとシンデレラ",
+    new Music("ロミオとシンデレラ", "ロミオトシンデレラ",
         [
             new Creator("doriko", "ttt")
         ],
@@ -1808,7 +1808,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 24, 27)
     ),
-    new Music("泡沫未来",
+    new Music("泡沫未来", "ウタカタミライ",
         [
             new Creator("加賀(ネギシャワーP)", "ttt")
         ],
@@ -1824,7 +1824,7 @@ const musics = [
         new Diff(8, 12, 17, 25, 29),
         "next_3"
     ),
-    new Music("トンデモワンダーズ",
+    new Music("トンデモワンダーズ", "トンデモワンダーズ",
         [
             new Creator("sasakure.UK", "ttt"),
             new Creator("岸田勇気(有形ランペイジ)", "fff", "Key")
@@ -1847,7 +1847,7 @@ const musics = [
         new Diff(9, 14, 19, 27, 32),
         "newlyWritten"
     ),
-    new Music("カナデトモスソラ",
+    new Music("カナデトモスソラ", "カナデトモスソラ",
         [
             new Creator("Sasanomaly", "ttt")
         ],
@@ -1867,7 +1867,7 @@ const musics = [
         new Diff(6, 11, 15, 22, 26),
         "newlyWritten"
     ),
-    new Music("トラフィック・ジャム",
+    new Music("トラフィック・ジャム", "トラフィックジャム",
         [
             new Creator("煮ル果実", "ttt")
         ],
@@ -1886,7 +1886,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 24, 28)
     ),
-    new Music("フロムトーキョー",
+    new Music("フロムトーキョー", "フロムトーキョー",
         [
             new Creator("夏代孝明", "ttf"),
             new Creator("渡辺拓也", "ftt")
@@ -1908,7 +1908,7 @@ const musics = [
         new Diff(6, 12, 18, 24, 28),
         "newlyWritten"
     ),
-    new Music("Beat Eater",
+    new Music("Beat Eater", "ビートイーター",
         [
             new Creator("ポリスピカデリー", "ttt")
         ],
@@ -1928,7 +1928,7 @@ const musics = [
         new Diff(6, 11, 17, 25, 28),
         "newlyWritten"
     ),
-    new Music("六兆年と一夜物語",
+    new Music("六兆年と一夜物語", "ロクチョウネントイチヤモノガタリ",
         [
             new Creator("kemu", "ttt")
         ],
@@ -1947,7 +1947,7 @@ const musics = [
         ],
         new Diff(9, 14, 20, 29, 34)
     ),
-    new Music("地球最後の告白を",
+    new Music("地球最後の告白を", "チキュウサイゴノコクハクヲ",
         [
             new Creator("kemu", "ttt")
         ],
@@ -1967,7 +1967,7 @@ const musics = [
         ],
         new Diff(8, 13, 18, 25, 31)
     ),
-    new Music("ビターチョコデコレーション",
+    new Music("ビターチョコデコレーション", "ビターチョコデコレーション",
         [
             new Creator("syudou", "ttt")
         ],
@@ -1987,7 +1987,7 @@ const musics = [
         ],
         new Diff(7, 12, 19, 25, 31)
     ),
-    new Music("そうだった！",
+    new Music("そうだった！", "ソウダッタ",
         [
             new Creator("タケノコ少年", "ttt")
         ],
@@ -2003,7 +2003,7 @@ const musics = [
         new Diff(8, 14, 19, 27, 31),
         "next_4"
     ),
-    new Music("カゲロウデイズ",
+    new Music("カゲロウデイズ", "カゲロウデイズ",
         [
             new Creator("じん", "ttt")
         ],
@@ -2023,7 +2023,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 27, 31)
     ),
-    new Music("アイスドロップ",
+    new Music("アイスドロップ", "アイスドロップ",
         [
             new Creator("aqu3ra", "ttt")
         ],
@@ -2041,7 +2041,7 @@ const musics = [
         new Diff(7, 12, 18, 24, 27),
         "newlyWritten"
     ),
-    new Music("Glory Steady Go!",
+    new Music("Glory Steady Go!", "グローリーステディーゴー",
         [
             new Creator("キノシタ", "ttt")
         ],
@@ -2059,7 +2059,7 @@ const musics = [
         new Diff(7, 12, 18, 25, 30),
         "newlyWritten"
     ),
-    new Music("チルドレンレコード",
+    new Music("チルドレンレコード", "チルドレンレコード",
         [
             new Creator("じん", "ttt")
         ],
@@ -2079,7 +2079,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 27, 32)
     ),
-    new Music("magic number",
+    new Music("magic number", "マジックナンバー",
         [
             new Creator("伊東健人", "ttf"),
             new Creator("OSTER project", "fft")
@@ -2096,7 +2096,7 @@ const musics = [
         "newlyWritten"
     ),
 
-    new Music("流星のパルス",
+    new Music("流星のパルス", "リュウセイノパルス",
         [
             new Creator("*Luna", "ttt")
         ],
@@ -2115,7 +2115,7 @@ const musics = [
         new Diff(8, 13, 17, 25, 30),
         "newlyWritten_leo"
     ),
-    new Music("カトラリー",
+    new Music("カトラリー", "カトラリー",
         [
             new Creator("有機酸", "ttt")
         ],
@@ -2133,7 +2133,7 @@ const musics = [
         ],
         new Diff(5, 12, 18, 25, 28)
     ),
-    new Music("再生",
+    new Music("再生", "サイセイ",
         [
             new Creator("Picon", "ttt")
         ],
@@ -2153,7 +2153,7 @@ const musics = [
         new Diff(5, 11, 15, 22, 26),
         "newlyWritten_night"
     ),
-    new Music("群青讃歌",
+    new Music("群青讃歌", "グンジョウサンカ",
         [
             new Creator("Eve", "ttf"),
             new Creator("Numa", "fft")
@@ -2178,7 +2178,7 @@ const musics = [
         new Diff(7, 13, 17, 24, 27),
         "newlyWritten,theme"
     ),
-    new Music("炉心融解",
+    new Music("炉心融解", "ロシンユウカイ",
         [
             new Creator("kuma(alfred)", "tff"),
             new Creator("iroha(sasaki)", "ftf")
@@ -2194,7 +2194,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 24, 27)
     ),
-    new Music("ロストワンの号哭",
+    new Music("ロストワンの号哭", "ロストワンノゴウコク",
         [
             new Creator("Neru", "ttf")
         ],
@@ -2215,7 +2215,7 @@ const musics = [
         ],
         new Diff(7, 14, 19, 26, 32)
     ),
-    new Music("マシンガンポエムドール",
+    new Music("マシンガンポエムドール", "マシンガンポエムドール",
         [
             new Creator("cosMo@暴走P", "ttt")
         ],
@@ -2231,7 +2231,7 @@ const musics = [
         new Diff(9, 14, 23, 31, 34),
         "newlyWritten_virtual"
     ),
-    new Music("ベノム",
+    new Music("ベノム", "ベノム",
         [
             new Creator("かいりきベア", "ttf")
         ],
@@ -2251,7 +2251,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 26, 29)
     ),
-    new Music("拝啓ドッペルゲンガー",
+    new Music("拝啓ドッペルゲンガー", "ハイケイドッペルゲンガー",
         [
             new Creator("kemu", "ttt")
         ],
@@ -2266,7 +2266,7 @@ const musics = [
         ],
         new Diff(9, 13, 19, 28, 32)
     ),
-    new Music("テレキャスタービーボーイ",
+    new Music("テレキャスタービーボーイ", "テレキャスタービーボーイ",
         [
             new Creator("すりぃ", "ttt")
         ],
@@ -2286,7 +2286,7 @@ const musics = [
         ],
         new Diff(8, 13, 18, 25, 29)
     ),
-    new Music("トキヲ・ファンカ",
+    new Music("トキヲ・ファンカ", "トキヲファンカ",
         [
             new Creator("takamatt", "ttt")
         ],
@@ -2301,7 +2301,7 @@ const musics = [
         ],
         new Diff(6, 11, 18, 25, 28)
     ),
-    new Music("悪魔の踊り方",
+    new Music("悪魔の踊り方", "アクマノオドリカタ",
         [
             new Creator("キタニタツヤ", "ttf")
         ],
@@ -2318,7 +2318,7 @@ const musics = [
         ],
         new Diff(5, 12, 19, 26, 30)
     ),
-    new Music("だれかの心臓になれたなら",
+    new Music("だれかの心臓になれたなら", "ダレカノシンゾウニナレタナラ",
         [
             new Creator("ユリイ・カノン", "ttt")
         ],
@@ -2333,7 +2333,7 @@ const musics = [
         ],
         new Diff(7, 12, 18, 25, 29)
     ),
-    new Music("マシュマリー",
+    new Music("マシュマリー", "マシュマリー",
         [
             new Creator("MIMI", "ttt")
         ],
@@ -2350,7 +2350,7 @@ const musics = [
         ],
         new Diff(8, 11, 18, 26, 29)
     ),
-    new Music("右肩の蝶",
+    new Music("右肩の蝶", "ミギカタノチョウ",
         [
             new Creator("水野悠良", "tff"),
             new Creator("のりぴー", "ftt")
@@ -2368,7 +2368,7 @@ const musics = [
         ],
         new Diff(6, 12, 18, 25, 31)
     ),
-    new Music("ray",
+    new Music("ray", "レイ",
         [
             new Creator("藤原基央", "ttf")
         ],
@@ -2385,7 +2385,7 @@ const musics = [
         ],
         new Diff(6, 12, 16, 24, 26)
     ),
-    new Music("Hello,world!",
+    new Music("Hello,world!", "ハローワールド",
         [
             new Creator("藤原基央", "ttf")
         ],
@@ -2401,7 +2401,7 @@ const musics = [
         ],
         new Diff(9, 13, 17, 25, 29)
     ),
-    new Music("しっくおぶはうす！",
+    new Music("しっくおぶはうす！", "シックオブハウス",
         [
             new Creator("オゾン", "ttt")
         ],
@@ -2417,7 +2417,7 @@ const musics = [
         new Diff(7, 13, 17, 26, 30),
         "next_5"
     ),
-    new Music("ショウタイム・ルーラー",
+    new Music("ショウタイム・ルーラー", "ショウタイムルーラー",
         [
             new Creator("烏屋茶房", "ttt")
         ],
@@ -2436,7 +2436,7 @@ const musics = [
         new Diff(9, 13, 19, 25, 31),
         "newlyWritten_wonder"
     ),
-    new Music("Happy Halloween",
+    new Music("Happy Halloween", "ハッピーハロウィン",
         [
             new Creator("Junky", "ttt")
         ],
@@ -2454,7 +2454,7 @@ const musics = [
         ],
         new Diff(5, 12, 16, 25, 30)
     ),
-    new Music("ロウワー",
+    new Music("ロウワー", "ロウワー",
         [
             new Creator("ぬゆり", "ttt")
         ],
@@ -2475,7 +2475,7 @@ const musics = [
         new Diff(6, 12, 17, 26, 31),
         "newlyWritten_night"
     ),
-    new Music("初音天地開闢神話",
+    new Music("初音天地開闢神話", "ハツネテンチカイビャクシンワ",
         [
             new Creator("cosMo@暴走P", "ttt")
         ],
@@ -2490,7 +2490,7 @@ const musics = [
         ],
         new Diff(9, 14, 20, 28, 32)
     ),
-    new Music("オルターエゴ",
+    new Music("オルターエゴ", "オルターエゴ",
         [
             new Creator("Misumi", "ttt")
         ],
@@ -2506,7 +2506,7 @@ const musics = [
         ],
         new Diff(8, 12, 17, 26, 31)
     ),
-    new Music("STAGE OF SEKAI",
+    new Music("STAGE OF SEKAI", "ステージオブセカイ",
         [
             new Creator("針原翼(はりーP)", "ttf"),
             new Creator("棚橋 EDDY テルアキ", "fft")
@@ -2525,7 +2525,7 @@ const musics = [
         new Diff(8, 12, 17, 25, 30),
         "newlyWritten_leo"
     ),
-    new Music("からくりピエロ",
+    new Music("からくりピエロ", "カラクリピエロ",
         [
             new Creator("40mP", "ttt")
         ],
@@ -2544,7 +2544,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 23, 27)
     ),
-    new Music("ワールドワイドワンダー",
+    new Music("ワールドワイドワンダー", "ワールドワイドワンダー",
         [
             new Creator("TOKOTOKO", "ttt")
         ],
@@ -2562,7 +2562,7 @@ const musics = [
         new Diff(6, 13, 18, 24, 28),
         "newlyWritten_more"
     ),
-    new Music("悪ノ娘",
+    new Music("悪ノ娘", "アクノムスメ",
         [
             new Creator("mothy", "ttt")
         ],
@@ -2578,7 +2578,7 @@ const musics = [
         new Diff(6, 12, 17, 24, 27),
         "collab_悪ノ大罪"
     ),
-    new Music("悪ノ召使",
+    new Music("悪ノ召使", "アクノメシツカイ",
         [
             new Creator("mothy", "ttt")
         ],
@@ -2594,7 +2594,7 @@ const musics = [
         new Diff(6, 12, 17, 24, 27),
         "collab_悪ノ大罪"
     ),
-    new Music("去り人達のワルツ",
+    new Music("去り人達のワルツ", "サリヒトタチノワルツ",
         [
             new Creator("mothy", "ttt")
         ],
@@ -2609,7 +2609,7 @@ const musics = [
         new Diff(8, 13, 17, 23, 28),
         "collab_悪ノ大罪, newlyWritten"
     ),
-    new Music("ラストスコア",
+    new Music("ラストスコア", "ラストスコア",
         [
             new Creator("せきこみごはん", "ttt")
         ],
@@ -2625,7 +2625,7 @@ const musics = [
         new Diff(7, 13, 18, 26, 30),
         "next_6"
     ),
-    new Music("フィクサー",
+    new Music("フィクサー", "フィクサー",
         [
             new Creator("ぬゆり", "ttt")
         ],
@@ -2643,7 +2643,7 @@ const musics = [
         ],
         new Diff(6, 12, 19, 26, 31)
     ),
-    new Music("ミライ",
+    new Music("ミライ", "ミライ",
         [
             new Creator("有機酸", "ttt")
         ],
@@ -2663,7 +2663,7 @@ const musics = [
         new Diff(6, 12, 18, 24, 28),
         "newlyWritten_vivid"
     ),
-    new Music("ゴーストルール",
+    new Music("ゴーストルール", "ゴーストルール",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("Naoki Itai(MUSIC FOR MUSIC)", "fft")
@@ -2682,7 +2682,7 @@ const musics = [
         ],
         new Diff(9, 14, 19, 27, 32)
     ),
-    new Music("ヴィラン",
+    new Music("ヴィラン", "ヴィラン",
         [
             new Creator("てにをは", "ttt")
         ],
@@ -2701,7 +2701,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 25, 29)
     ),
-    new Music("サンドリヨン 10th Anniversary",
+    new Music("サンドリヨン 10th Anniversary", "サンドリヨンテンスアニバーサリー",
         [
             new Creator("orange", "tff"),
             new Creator("Dios/シグナルP", "ftt")
@@ -2718,7 +2718,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 25, 28)
     ),
-    new Music("少女レイ",
+    new Music("少女レイ", "ショウジョレイ",
         [
             new Creator("みきとP", "ttf")
         ],
@@ -2736,7 +2736,7 @@ const musics = [
         ],
         new Diff(7, 14, 17, 24, 27)
     ),
-    new Music("ガランド",
+    new Music("ガランド", "ガランド",
         [
             new Creator("ピコン", "ttt")
         ],
@@ -2753,7 +2753,7 @@ const musics = [
         new Diff(7, 13, 18, 24, 28),
     ),
 
-    new Music("エンドマークに希望と涙を添えて",
+    new Music("エンドマークに希望と涙を添えて", "エンドマークニキボウトナミダヲソエテ",
         [
             new Creator("cosMo@暴走P", "ftt")
         ],
@@ -2769,7 +2769,7 @@ const musics = [
         new Diff(9, 15, 23, 31, 35),
         "performai"
     ),
-    new Music("the EmpErroR",
+    new Music("the EmpErroR", "ジエンペラー",
         [
             new Creator("sasakure.UK", "ftt")
         ],
@@ -2784,7 +2784,7 @@ const musics = [
         new Diff(9, 15, 23, 31, 36),
         "performai"
     ),
-    new Music("Don't Fight The Music",
+    new Music("Don't Fight The Music", "ドントファイトザミュージック",
         [
             new Creator("黒魔", "ftt")
         ],
@@ -2799,7 +2799,7 @@ const musics = [
         new Diff(9, 15, 23, 30, 36),
         "performai"
     ),
-    new Music("にっこり^^調査隊のテーマ",
+    new Music("にっこり^^調査隊のテーマ", "ニッコリチョウサタイノテーマ",
         [
             new Creator("じーざす", "ttf"),
             new Creator("ワンダフル☆オポチュニティ！", "fft")
@@ -2818,7 +2818,7 @@ const musics = [
         new Diff(8, 12, 18, 27, 31),
         "newlyWritten_wonder"
     ),
-    new Music("トリコロージュ",
+    new Music("トリコロージュ", "トリコロージュ",
         [
             new Creator("煮ル果実", "ttt")
         ],
@@ -2838,7 +2838,7 @@ const musics = [
         new Diff(7, 13, 18, 24, 28),
         "newlyWritten_night"
     ),
-    new Music("心拍数♯0822",
+    new Music("心拍数♯0822", "シンパクスウゼロハチニーニー",
         [
             new Creator("蝶々P", "ttt")
         ],
@@ -2856,7 +2856,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 23, 26)
     ),
-    new Music("うっせぇわ",
+    new Music("うっせぇわ", "ウッセェワ",
         [
             new Creator("syudou", "ttt")
         ],
@@ -2876,7 +2876,7 @@ const musics = [
         new Diff(8, 12, 17, 24, 28),
         "tieup_Ado"
     ),
-    new Music("踊",
+    new Music("踊", "オド",
         [
             new Creator("Giga", "ftt"),
             new Creator("TeddyLoid", "ftt"),
@@ -2898,7 +2898,7 @@ const musics = [
         new Diff(6, 13, 18, 26, 29),
         "tieup_Ado"
     ),
-    new Music("君色マリンスノウ",
+    new Music("君色マリンスノウ", "キミイロマリンスノウ",
         [
             new Creator("カルロス袴田(サイゼP)", "ttt")
         ],
@@ -2914,7 +2914,7 @@ const musics = [
         new Diff(9, 14, 19, 28, 31),
         "collab_SNOW MIKU2022"
     ),
-    new Music("愛して愛して愛して",
+    new Music("愛して愛して愛して", "アイシテアイシテアイシテ",
         [
             new Creator("きくお", "ttt")
         ],
@@ -2931,7 +2931,7 @@ const musics = [
         ],
         new Diff(5, 12, 16, 25, 28)
     ),
-    new Music("Flyer!",
+    new Music("Flyer!", "フライヤー",
         [
             new Creator("Chinozo", "ttt")
         ],
@@ -2950,7 +2950,7 @@ const musics = [
         new Diff(9, 12, 18, 24, 29),
         "newlyWritten_vivid"
     ),
-    new Music("Peaky Peaky",
+    new Music("Peaky Peaky", "ピーキーピーキー",
         [
             new Creator("みきとP", "ttt")
         ],
@@ -2970,7 +2970,7 @@ const musics = [
         new Diff(6, 12, 18, 25, 28),
         "newlyWritten_leo"
     ),
-    new Music("ジウダス",
+    new Music("ジウダス", "ジウダス",
         [
             new Creator("すこやか大聖堂", "ttt")
         ],
@@ -2986,7 +2986,7 @@ const musics = [
         new Diff(7, 12, 18, 25, 28),
         "next_7"
     ),
-    new Music("ナンセンス文学",
+    new Music("ナンセンス文学", "ナンセンスブンガク",
         [
             new Creator("Eve", "ttf"),
             new Creator("Numa", "fft")
@@ -3007,7 +3007,7 @@ const musics = [
         new Diff(7, 11, 18, 25, 29),
         "tieup_Eve"
     ),
-    new Music("心予報",
+    new Music("心予報", "ココロヨホウ",
         [
             new Creator("Eve", "ttf"),
             new Creator("TAKU INOUE", "fft"),
@@ -3028,7 +3028,7 @@ const musics = [
         new Diff(6, 12, 18, 24, 28),
         "tieup_Eve"
     ),
-    new Music("僕らまだアンダーグラウンド",
+    new Music("僕らまだアンダーグラウンド", "ボクラマダアンダーグラウンド",
         [
             new Creator("Eve", "ttf"),
             new Creator("Numa", "fft")
@@ -3047,7 +3047,7 @@ const musics = [
         new Diff(7, 12, 18, 25, 28),
         "tieup_Eve"
     ),
-    new Music("Miku",
+    new Music("Miku", "ミク",
         [
             new Creator("Peter B", "tff"),
             new Creator("Ary W", "tff"),
@@ -3067,7 +3067,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 24, 28)
     ),
-    new Music("メタモリボン",
+    new Music("メタモリボン", "メタモリボン",
         [
             new Creator("emon(Tes.)", "ttt"),
             new Creator("Tudiken", "tff")
@@ -3086,7 +3086,7 @@ const musics = [
         new Diff(5, 11, 16, 23, 26),
         "newlyWritten_more"
     ),
-    new Music("いーあるふぁんくらぶ",
+    new Music("いーあるふぁんくらぶ", "イーアルファンクラブ",
         [
             new Creator("みきとP", "ttt")
         ],
@@ -3104,7 +3104,7 @@ const musics = [
         ],
         new Diff(6, 12, 17, 24, 28)
     ),
-    new Music("雨とペトラ",
+    new Music("雨とペトラ", "アメトペトラ",
         [
             new Creator("バルーン", "ttt")
         ],
@@ -3123,7 +3123,7 @@ const musics = [
         ],
         new Diff(9, 12, 18, 25, 29)
     ),
-    new Music("ノマド",
+    new Music("ノマド", "ノマド",
         [
             new Creator("バルーン", "ttt")
         ],
@@ -3144,7 +3144,7 @@ const musics = [
         "newlyWritten_night"
     ),
 
-    new Music("マトリョシカ",
+    new Music("マトリョシカ", "マトリョシカ",
         [
             new Creator("ハチ", "ttt")
         ],
@@ -3159,7 +3159,7 @@ const musics = [
         ],
         new Diff(9, 13, 18, 25, 30)
     ),
-    new Music("ドーナツホール",
+    new Music("ドーナツホール", "ドーナツホール",
         [
             new Creator("ハチ", "ttt")
         ],
@@ -3175,7 +3175,7 @@ const musics = [
         new Diff(9, 14, 18, 25, 29)
     ),
 
-    new Music("砂の惑星",
+    new Music("砂の惑星", "スナノワクセイ",
         [
             new Creator("ハチ", "ttt")
         ],
@@ -3190,7 +3190,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 23, 27)
     ),
-    new Music("ルカルカ★ナイトフィーバー",
+    new Music("ルカルカ★ナイトフィーバー", "ルカルカナイトフィーバー",
         [
             new Creator("SAM(samfree)", "ttt")
         ],
@@ -3204,7 +3204,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 25, 29)
     ),
-    new Music("ピアノ×フォルテ×スキャンダル",
+    new Music("ピアノ×フォルテ×スキャンダル", "ピアノフォルテスキャンダル",
         [
             new Creator("OSTER project", "ttt")
         ],
@@ -3219,7 +3219,7 @@ const musics = [
         ],
         new Diff(6, 11, 18, 26, 30)
     ),
-    new Music("千年の独奏歌",
+    new Music("千年の独奏歌", "センネンノドクソウカ",
         [
             new Creator("yanagi", "ttt")
         ],
@@ -3233,7 +3233,7 @@ const musics = [
         ],
         new Diff(5, 11, 16, 23, 27)
     ),
-    new Music("88☆彡",
+    new Music("88☆彡", "ハチジュウハチ",
         [
             new Creator("まらしぃ", "ttf"),
             new Creator("堀江昌太(kemu)", "ftt")
@@ -3252,7 +3252,7 @@ const musics = [
         new Diff(9, 13, 18, 26, 29),
         "newlyWritten_wonder"
     ),
-    new Music("ONESELF",
+    new Music("ONESELF", "ワンセルフ",
         [
             new Creator("Twinfield", "ttt")
         ],
@@ -3268,7 +3268,7 @@ const musics = [
         new Diff(7, 14, 18, 27, 30),
         "next_8"
     ),
-    new Music("PaⅢ.SENSATION",
+    new Music("PaⅢ.SENSATION", "パッショネートスリードットセンセーション",
         [
             new Creator("牛肉", "tff"),
             new Creator("雄之助", "ftt")
@@ -3286,7 +3286,7 @@ const musics = [
         ],
         new Diff(8, 12, 17, 24, 29)
     ),
-    new Music("ダーリンダンス",
+    new Music("ダーリンダンス", "ダーリンダンス",
         [
             new Creator("かいりきベア", "ttf")
         ],
@@ -3302,7 +3302,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 25, 30)
     ),
-    new Music("オーダーメイド",
+    new Music("オーダーメイド", "オーダーメイド",
         [
             new Creator("傘村トータ(LIVE LAB.)", "ttf"),
             new Creator("村田祐一(LIVE LAB.)", "fft")
@@ -3319,7 +3319,7 @@ const musics = [
         new Diff(5, 11, 16, 21, 26),
         "newlyWritten_leo"
     ),
-    new Music("アイデンティティ",
+    new Music("アイデンティティ", "アイデンティティ",
         [
             new Creator("Kanaria", "ttf")
         ],
@@ -3336,7 +3336,7 @@ const musics = [
         new Diff(9, 13, 18, 26, 31),
         "cupnoodle"
     ),
-    new Music("青色絵具",
+    new Music("青色絵具", "アオイロエノグ",
         [
             new Creator("くじら", "ttt")
         ],
@@ -3353,7 +3353,7 @@ const musics = [
         new Diff(6, 12, 16, 24, 27),
         "cupnoodle"
     ),
-    new Music("コスモスパイス",
+    new Music("コスモスパイス", "コスモスパイス",
         [
             new Creator("ピノキオピー", "ttt")
         ],
@@ -3371,7 +3371,7 @@ const musics = [
         new Diff(7, 12, 17, 25, 30),
         "cupnoodle"
     ),
-    new Music("徳川カップヌードル禁止令",
+    new Music("徳川カップヌードル禁止令", "トクガワカップヌードルキンシレイ",
         [
             new Creator("Mitchie M", "ttt")
         ],
@@ -3386,7 +3386,7 @@ const musics = [
         new Diff(8, 13, 19, 27, 31),
         "cupnoodle"
     ),
-    new Music("サラマンダー",
+    new Music("サラマンダー", "サラマンダー",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("Rockwell", "fft")
@@ -3404,7 +3404,7 @@ const musics = [
         new Diff(8, 12, 18, 25, 30),
         "cupnoodle"
     ),
-    new Music("イフ",
+    new Music("イフ", "イフ",
         [
             new Creator("ユリイ・カノン", "ttf"),
             new Creator("月詠み", "fft")
@@ -3422,7 +3422,7 @@ const musics = [
         new Diff(6, 12, 18, 23, 27),
         "newlyWritten_more"
     ),
-    new Music("ブラック★ロックシューター",
+    new Music("ブラック★ロックシューター", "ブラックロックシューター",
         [
             new Creator("ryo", "ttt")
         ],
@@ -3437,7 +3437,7 @@ const musics = [
         new Diff(7, 12, 16, 24, 27),
         "brsDF"
     ),
-    new Music("妄想感傷代償連盟",
+    new Music("妄想感傷代償連盟", "モウソウカンショウダイショウレンメイ",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("emon(Tes.)", "fft")
@@ -3454,7 +3454,7 @@ const musics = [
         ],
         new Diff(7, 12, 16, 23, 27)
     ),
-    new Music("リモコン",
+    new Music("リモコン", "リモコン",
         [
             new Creator("じーざす", "ttf"),
             new Creator("ワンダフル☆オポチュニティ！", "fft")
@@ -3471,7 +3471,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 24, 29)
     ),
-    new Music("月光",
+    new Music("月光", "ゲッコウ",
         [
             new Creator("キタニタツヤ", "ttt"),
             new Creator("はるまきごはん", "ttt")
@@ -3490,7 +3490,7 @@ const musics = [
         new Diff(5, 12, 18, 25, 29),
         "newlyWritten_vivid"
     ),
-    new Music("アサガオの散る頃に",
+    new Music("アサガオの散る頃に", "アサガオノチルコロニ",
         [
             new Creator("ぷす(fromツユ)", "ttt")
         ],
@@ -3506,7 +3506,7 @@ const musics = [
         ],
         new Diff(6, 12, 16, 21, 26)
     ),
-    new Music("神のまにまに",
+    new Music("神のまにまに", "カミノマニマニ",
         [
             new Creator("れるりり", "ttf")
         ],
@@ -3523,7 +3523,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 25, 29)
     ),
-    new Music("Awake Now",
+    new Music("Awake Now", "アウェイクナウ",
         [
             new Creator("牛肉", "tff"),
             new Creator("雄之助", "ftt")
@@ -3542,7 +3542,7 @@ const musics = [
         new Diff(6, 12, 17, 24, 30),
         "newlyWritten_vivid"
     ),
-    new Music("阿吽のビーツ",
+    new Music("阿吽のビーツ", "アウンノビーツ",
         [
             new Creator("羽生まゐご", "ttt")
         ],
@@ -3558,7 +3558,7 @@ const musics = [
         ],
         new Diff(6, 13, 18, 23, 28)
     ),
-    new Music("バグ",
+    new Music("バグ", "バグ",
         [
             new Creator("かいりきベア", "ttf")
         ],
@@ -3575,7 +3575,7 @@ const musics = [
         new Diff(9, 13, 19, 26, 32),
         "newlyWritten_night"
     ),
-    new Music("グッバイ宣言",
+    new Music("グッバイ宣言", "グッバイセンゲン",
         [
             new Creator("Chinozo", "ttt")
         ],
@@ -3592,7 +3592,7 @@ const musics = [
         ],
         new Diff(7, 12, 17, 26, 30)
     ),
-    new Music("ヴァンパイア",
+    new Music("ヴァンパイア", "ヴァンパイア",
         [
             new Creator("DECO*27", "ttf"),
             new Creator("Rockwell", "fft")
@@ -3610,7 +3610,7 @@ const musics = [
         ],
         new Diff(7, 12, 18, 25, 29)
     ),
-    new Music("未完成讃歌",
+    new Music("未完成讃歌", "ミカンセイサンカ",
         [
             new Creator("しゃいと", "ttt")
         ],
@@ -3626,7 +3626,7 @@ const musics = [
         new Diff(8, 12, 18, 27, 31),
         "next_9"
     ),
-    new Music("星空のメロディー",
+    new Music("星空のメロディー", "ホシゾラノメロディー",
         [
             new Creator("ぽりふぉ", "ttt")
         ],
@@ -3645,7 +3645,7 @@ const musics = [
         new Diff(5, 11, 16, 24, 27),
         "newlyWritten_wonder"
     ),
-    new Music("脳漿炸裂ガール",
+    new Music("脳漿炸裂ガール", "ノウショウサクレツガール",
         [
             new Creator("れるりり", "ttt")
         ],
@@ -3660,7 +3660,7 @@ const musics = [
         ],
         new Diff(7, 13, 18, 28, 32)
     ),
-    new Music("ぼくらの16bit戦争",
+    new Music("ぼくらの16bit戦争", "ボクラノシックスティーンビットウォーズ",
         [
             new Creator("sasakure.UK", "ttt"),
             new Creator("佐々木秀尚(有形ランペイジ)", "fff", "Gt"),
@@ -3678,7 +3678,7 @@ const musics = [
         ],
         new Diff(6, 13, 17, 28, 33)
     ),
-    new Music("メリュー",
+    new Music("メリュー", "メリュー",
         [
             new Creator("n-buna", "ttt")
         ],
@@ -3695,7 +3695,7 @@ const musics = [
         ],
         new Diff(6, 11, 15, 22, 26)
     ),
-    new Music("エイリアンエイリアン",
+    new Music("エイリアンエイリアン", "エイリアンエイリアン",
         [
             new Creator("ナユタン星人", "ttt")
         ],
@@ -3711,7 +3711,7 @@ const musics = [
         ],
         new Diff(7, 12, 18, 25, 29)
     ),
-    new Music("街",
+    new Music("街", "マチ",
         [
             new Creator("jon-YAKITORY", "ttt")
         ],
@@ -3729,7 +3729,7 @@ const musics = [
         new Diff(6, 12, 16, 23, 27),
         "newlyWritten_vivid"
     ),
-    new Music("てらてら",
+    new Music("てらてら", "テラテラ",
         [
             new Creator("和田たけあき", "ttt")
         ],
@@ -3748,7 +3748,7 @@ const musics = [
     )
 ];
 const future_musics = [
-    new Music("それでもいいんだよ",
+    new Music("それでもいいんだよ", "ソレデモイインダヨ",
         [
             new Creator("Ponchi♪", "fff")
         ],
@@ -3764,7 +3764,7 @@ const future_musics = [
         new Diff(),
         "next_10"
     ),
-    new Music("フロイライン＝ビブリォチカ",
+    new Music("フロイライン＝ビブリォチカ", "フロイラインビブリォチカ",
         [
             new Creator("nyanyannya(大天才P)", "ttt")
         ],
@@ -3779,7 +3779,7 @@ const future_musics = [
         ],
         new Diff(),
     ),
-    new Music("踊れオーケストラ",
+    new Music("踊れオーケストラ", "オドレオーケストラ",
         [
             new Creator("YASUHIRO(康寛)", "ttt")
         ],
@@ -3795,7 +3795,7 @@ const future_musics = [
         ],
         new Diff()
     ),
-    new Music("ロストエンファウンド",
+    new Music("ロストエンファウンド", "ロストエンファウンド",
         [
             new Creator("sasakure.UK", "ttf"),
             new Creator("有形ランペイジ", "fft")
@@ -3812,7 +3812,7 @@ const future_musics = [
         ],
         new Diff()
     ),
-    new Music("YY",
+    new Music("YY", "ワイワイ",
         [
             new Creator("23.exe", "ttt")
         ],
@@ -3828,7 +3828,7 @@ const future_musics = [
         ],
         new Diff()
     ),
-    new Music("書き下ろし楽曲(ナナホシ管弦楽団)",
+    new Music("書き下ろし楽曲(ナナホシ管弦楽団)", "",
         [
             new Creator("ナナホシ管弦楽団", "fff")
         ],
@@ -3841,7 +3841,7 @@ const future_musics = [
         new Diff(),
         "newlyWritten_more"
     ),
-    new Music("書き下ろし楽曲(古川本舗)",
+    new Music("書き下ろし楽曲(古川本舗)", "",
         [
             new Creator("古川本舗", "fff")
         ],
@@ -3854,7 +3854,7 @@ const future_musics = [
         new Diff(),
         "newlyWritten_night"
     ),
-    new Music("ポカリコラボ楽曲(HoneyWorks)",
+    new Music("ポカリコラボ楽曲(HoneyWorks)", "",
         [
             new Creator("HoneyWorks", "fff")
         ],
@@ -3870,7 +3870,7 @@ const future_musics = [
     ),
 ];
 /*
-    new Music("",
+    new Music("", "",
         [
         ],
         [

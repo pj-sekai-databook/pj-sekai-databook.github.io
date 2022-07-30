@@ -55,4 +55,51 @@ class PjUtil {
     static randomInt(max) {
         return Math.floor(Math.random() * max);
     }
+    static compareStr(a, b, is_asc = true) {
+        if (a == b) {
+            return 0;
+        }
+        if (PjUtil.isEmpty(a)) {
+            if (PjUtil.isEmpty(b)) {
+                return 0;
+            }
+            else {
+                return 1;
+            }
+        }
+        else {
+            if (PjUtil.isEmpty(b)) {
+                return -1;
+            }
+            else {
+                return (is_asc ? 1 : -1) * (a < b ? -1 : 1);
+            }
+        }
+    }
+    static normalizeRuby(str) {
+        str = str.replace(/[\u3041-\u3096]/g, m => String.fromCharCode(m.charCodeAt(0) + 0x60));
+        str = str.split("").map(x => x.normalize("NFD")[0]).join("");
+        for (const a of [["ァ", "ア"], ["ィ", "イ"], ["ゥ", "ウ"], ["ェ", "エ"], ["ォ", "オ"], ["ッ", "ツ"], ["ャ", "ヤ"], ["ュ", "ユ"], ["ョ", "ヨ"]]) {
+            str = str.replaceAll(a[0], a[1]);
+        }
+        str = str.replace(/(.)ー/g, m => {
+            if ("アカサタナハマヤラワ".includes(m[0])) {
+                return m[0] + "ア";
+            }
+            if ("イキシチニヒミリ".includes(m[0])) {
+                return m[0] + "イ";
+            }
+            if ("ウクスツヌフムユル".includes(m[0])) {
+                return m[0] + "ウ";
+            }
+            if ("エケセテネヘメレ".includes(m[0])) {
+                return m[0] + "エ";
+            }
+            if ("オコソトノホモヨロヲ".includes(m[0])) {
+                return m[0] + "オ";
+            }
+            return m;
+        });
+        return str;
+    }
 }

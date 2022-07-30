@@ -74,9 +74,10 @@ class Character {
 }
 class Music {
     static cnt = 0;
-    constructor(title, creators, vocals, date_posted, date_implemented, urls, diff, note) {
+    constructor(title, ruby, creators, vocals, date_posted, date_implemented, urls, diff, note) {
         this.id = ++Music.cnt;
         this.title = title;
+        this.ruby = PjUtil.normalizeRuby(ruby);
         this.creators = creators;
         this.vocals = vocals;
         this.date_posted = date_posted;

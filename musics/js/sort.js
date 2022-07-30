@@ -50,6 +50,13 @@ const getSortFunc = (type, is_asc) => {
                     }
                 }
             }
+        case "ruby":
+            return (a, b) => {
+                const ma = musics[a.getAttribute("data-musics-index")];
+                const mb = musics[b.getAttribute("data-musics-index")];
+                const comp = PjUtil.compareStr(ma.ruby, mb.ruby, is_asc);
+                return comp != 0 ? comp : (getSortFunc("implemented", is_asc))(a, b);
+            }
     }
 }
 const sortCols = (type_order) => {
