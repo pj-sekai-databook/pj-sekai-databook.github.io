@@ -1852,6 +1852,7 @@ const musics = [
             new Creator("Sasanomaly", "ttt")
         ],
         [
+            new Vocal("virtual", ["miku"]),
             new Vocal("sekai", ["kanade", "luka", "mafuyu", "ena", "mizuki"]),
             new Vocal("another", ["kanade"]),
             new Vocal("another", ["mafuyu"]),

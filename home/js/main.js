@@ -93,9 +93,8 @@ const addLinkFromMusics = (d, domain) => {
 const findLinkFromMusics = (d, domain) => {
     let m = musics[PjUtil.randomInt(musics.length)];
     for (let u of m.urls) {
-
         if (u instanceof MV && u.d == d && u.domain == domain) {
-            return { id: m.id, type: "mv", link: "./musics/?id=" + m.id, src: u.thumb_src, text: `【${d}DMV】${m.title}` };
+            return { id: m.id, type: "mv", link: u.href, src: u.thumb_src, text: `【${d}DMV】${m.title}` };
         }
     }
     return null;
